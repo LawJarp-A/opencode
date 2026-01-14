@@ -41,13 +41,18 @@
     //   - hydrogen-mcp_cartCreate: Create shopping cart
     //   - hydrogen-mcp_getCart: Retrieve cart contents
     // Location: /tmp/HydrogenMCP (installed locally)
-    // Data source: https://hydrogen-preview.myshopify.com (Shopify's Hydrogen Demo Store)
+    // Data source: 
+    //  (Shopify's Hydrogen Demo Store)
     // Access Token: 3b580e70970c4528da70c98e097c2fa0
     "hydrogen-store": {
       "type": "local",
       "command": ["node", "/tmp/HydrogenMCP/dist/server.js"],
       "enabled": true,
       "timeout": 15000, // Increased for API latency
+      "environment": {
+        "SHOPIFY_STORE": "hydrogen-preview.myshopify.com",
+        "SHOPIFY_ACCESS_TOKEN": "3b580e70970c4528da70c98e097c2fa0"
+      }
     },
   },
   "tools": {

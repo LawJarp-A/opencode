@@ -49,8 +49,8 @@ ALWAYS create the Plan DAG as the final output.
 
 ## Phase 1: Research & Strategy
 
-1.  Load brand context with `get_brand_context`.
-2.  Analyze user intent.
+1.  Analyze user intent and determine if brand context is needed (optional - defaults to "nike" if not specified).
+2.  Load brand context with `get_brand_context` if needed for the specific request.
 3.  Spawn **Research Workers** (Analyst/Strategist) to:
     *   Query data (@analyst)
     *   Develop strategy (@strategist)
