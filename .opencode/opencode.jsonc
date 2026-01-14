@@ -65,10 +65,11 @@
     "amazon-mcp": {
       "type": "local",
       "command": [
-        "mcps/amazon-mcp/.venv/bin/python",
-        "mcps/amazon-mcp/server_v2.py"
+        "/tmp/AmazonMCP/.venv/bin/python",
+        "/tmp/AmazonMCP/server_v2.py"
       ],
-      "enabled": true,
+      "enabled": false,
+      "timeout": 15000,
     },
   },
   "tools": {
