@@ -5,7 +5,9 @@
   // "enterprise": {
   //   "url": "https://enterprise.dev.opencode.ai",
   // },
-  "instructions": ["STYLE_GUIDE.md"],
+  "instructions": [
+    "STYLE_GUIDE.md"
+  ],
   "provider": {
     "opencode": {
       "options": {},
@@ -27,7 +29,10 @@
     // Data source: https://mock.shop (Shopify's official demo GraphQL API)
     "shopify-mock": {
       "type": "local",
-      "command": ["node", "/tmp/ShopifyMockMCP/dist/server.js"],
+      "command": [
+        "node",
+        "/tmp/ShopifyMockMCP/dist/server.js"
+      ],
       "enabled": true,
       "timeout": 15000, // Increased for API latency
     },
@@ -46,13 +51,24 @@
     // Access Token: 3b580e70970c4528da70c98e097c2fa0
     "hydrogen-store": {
       "type": "local",
-      "command": ["node", "/tmp/HydrogenMCP/dist/server.js"],
+      "command": [
+        "node",
+        "/tmp/HydrogenMCP/dist/server.js"
+      ],
       "enabled": true,
       "timeout": 15000, // Increased for API latency
       "environment": {
         "SHOPIFY_STORE": "hydrogen-preview.myshopify.com",
         "SHOPIFY_ACCESS_TOKEN": "3b580e70970c4528da70c98e097c2fa0"
       }
+    },
+    "amazon-mcp": {
+      "type": "local",
+      "command": [
+        "mcps/amazon-mcp/.venv/bin/python",
+        "mcps/amazon-mcp/server_v2.py"
+      ],
+      "enabled": true,
     },
   },
   "tools": {
