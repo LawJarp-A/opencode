@@ -36,31 +36,39 @@
       "enabled": true,
       "timeout": 15000, // Increased for API latency
     },
-    // Hydrogen Demo Store MCP - Uses Shopify's Hydrogen preview store
-    // Public Storefront API token provided
+    // Shopify Dev MCP - Official Shopify development MCP server
+    // Provides access to Shopify documentation, API schemas, and development tools
     // Tools provided by MCP:
-    //   - hydrogen-mcp_findProducts: Search products (snowboards, apparel, accessories)
-    //   - hydrogen-mcp_getProductById: Get detailed product info by ID
-    //   - hydrogen-mcp_getCollectionById: Get collection details
-    //   - hydrogen-mcp_findCollections: Browse collections
-    //   - hydrogen-mcp_cartCreate: Create shopping cart
-    //   - hydrogen-mcp_getCart: Retrieve cart contents
-    // Location: /tmp/HydrogenMCP (installed locally)
-    // Data source: 
-    //  (Shopify's Hydrogen Demo Store)
-    // Access Token: 3b580e70970c4528da70c98e097c2fa0
-    "hydrogen-store": {
+    //   - Search Shopify documentation
+    //   - Explore API schemas (Admin API, Storefront API, Functions)
+    //   - Get up-to-date answers about Shopify APIs
+    //   - Build and test Shopify Functions
+    // Location: /tmp/shopify-dev-mcp (installed locally)
+    // No authentication required - public documentation access
+    "shopify-dev": {
       "type": "local",
       "command": [
         "node",
-        "/tmp/HydrogenMCP/dist/server.js"
+        "/tmp/shopify-dev-mcp/node_modules/@shopify/dev-mcp/dist/index.js"
       ],
       "enabled": true,
-      "timeout": 15000, // Increased for API latency
-      "environment": {
-        "SHOPIFY_STORE": "hydrogen-preview.myshopify.com",
-        "SHOPIFY_ACCESS_TOKEN": "3b580e70970c4528da70c98e097c2fa0"
-      }
+      "timeout": 30000
+    },
+    // Hydrogen Demo Store Storefront MCP - Direct connection to Shopify's Hydrogen preview store
+    // This is Shopify's official demo store with real Storefront MCP endpoint
+    // Tools provided by MCP:
+    //   - Browse products (snowboards, apparel, accessories)
+    //   - Get product details and variants
+    //   - Search collections
+    //   - Cart operations (create, add, update)
+    //   - Interactive UI components for commerce
+    // Data source: hydrogen-preview.myshopify.com (Shopify Hydrogen Demo Store)
+    // No authentication required - public Storefront MCP endpoint
+    "hydrogen-storefront": {
+      "type": "remote",
+      "url": "https://hydrogen-preview.myshopify.com/api/mcp",
+      "enabled": true,
+      "timeout": 30000
     },
     "amazon-mcp": {
       "type": "local",
@@ -68,7 +76,7 @@
         "/tmp/AmazonMCP/.venv/bin/python",
         "/tmp/AmazonMCP/server_v2.py"
       ],
-      "enabled": false,
+      "enabled": true,
       "timeout": 15000,
     },
   },

@@ -9,26 +9,31 @@ import { resolve } from "path"
       path: "/tmp/ShopifyMockMCP",
       repo: "https://github.com/ramakay/ShopifyMockMCP.git",
       description: "Mock.shop Storefront API MCP server",
-    type: "node",
+      type: "node",
     },
     {
-      name: "HydrogenMCP",
-      path: "/tmp/HydrogenMCP",
-      repo: "https://github.com/ramakay/ShopifyMockMCP.git",
-      description: "Hydrogen Demo Store MCP server",
-    type: "node",
-  },
-  {
-    name: "AmazonMCP",
-    path: "mcps/amazon-mcp",
-    repo: "", // Local server, no repo
-    description: "Amazon Products Scraper MCP server",
-    type: "python",
+      name: "ShopifyDevMCP",
+      path: "/tmp/shopify-dev-mcp",
+      repo: "", // NPM package, installed via npm
+      description: "Official Shopify Dev MCP server",
+      type: "npm",
+      package: "@shopify/dev-mcp@latest",
+    },
+    {
+      name: "AmazonMCP",
+      path: "mcps/amazon-mcp",
+      repo: "", // Local server, no repo
+      description: "Amazon Products Scraper MCP server",
+      type: "python",
     },
   ]
 
   async function setupMCPServer(server: typeof MCP_SERVERS[0]): Promise<boolean> {
-    const serverExists = existsSync(`${server.path}/dist/server.js`)
+    const serverExists = server.type === "node"
+      ? existsSync(`${server.path}/dist/server.js`)
+      : server.type === "npm"
+      ? existsSync(`${server.path}/node_modules`)
+      : existsSync(`${server.path}/.venv/bin/python`)
 
     if (serverExists) {
       console.log(`✓ ${server.name} already configured`)
@@ -39,42 +44,55 @@ import { resolve } from "path"
     console.log(`   ${server.description}`)
 
     try {
-      const dirExists = existsSync(server.path)
+      if (server.type === "node") {
+        const dirExists = existsSync(server.path)
 
-      if (!dirExists) {
-        console.log(`   → Cloning repository...`)
-        await $`git clone --depth 1 ${server.repo} ${server.path}`.quiet()
-      } else {
-        console.log(`   → Directory exists, skipping clone...`)
+        if (!dirExists) {
+          console.log(`   → Cloning repository...`)
+          await $`git clone --depth 1 ${server.repo} ${server.path}`.quiet()
+        } else {
+          console.log(`   → Directory exists, skipping clone...`)
+        }
+
+        console.log(`   → Installing dependencies...`)
+        await $`cd ${server.path} && npm install --silent`.quiet()
+
+        console.log(`   → Building server...`)
+        await $`cd ${server.path} && npm run build --silent`.quiet()
+
+        const built = existsSync(`${server.path}/dist/server.js`)
+        if (!built) {
+          throw new Error(`Build succeeded but dist/server.js not found`)
+        }
       }
 
-      console.log(`   → Installing dependencies...`)
-      await $`cd ${server.path} && npm install --silent`.quiet()
+      if (server.type === "npm" && "package" in server) {
+        console.log(`   → Installing npm package...`)
+        await $`npm install --prefix ${server.path} ${server.package}`.quiet()
 
-      console.log(`   → Building server...`)
-      await $`cd ${server.path} && npm run build --silent`.quiet()
-
-      const built = existsSync(`${serverPath}/dist/server.js`)
-      if (!built) {
-        throw new Error(`Build succeeded but dist/server.js not found`)
-      }
-    } else if (server.type === "python") {
-      console.log(`   → Setting up Python environment...`)
-
-      const venvPath = `${serverPath}/.venv`
-      if (!existsSync(venvPath)) {
-        console.log(`   → Creating virtual environment...`)
-        await $`cd ${serverPath} && python3 -m venv .venv`
+        const packageInstalled = existsSync(`${server.path}/node_modules`)
+        if (!packageInstalled) {
+          throw new Error(`Package installation failed`)
+        }
       }
 
-      console.log(`   → Installing requirements...`)
-      await $`${venvPath}/bin/pip install -r ${serverPath}/requirements.txt`
+      if (server.type === "python") {
+        console.log(`   → Setting up Python environment...`)
 
-      const pythonExists = existsSync(`${venvPath}/bin/python`)
-      if (!pythonExists) {
-        throw new Error(`Python executable not found in .venv`)
+        const venvPath = `${server.path}/.venv`
+        if (!existsSync(venvPath)) {
+          console.log(`   → Creating virtual environment...`)
+          await $`cd ${server.path} && python3 -m venv .venv`
+        }
+
+        console.log(`   → Installing requirements...`)
+        await $`${venvPath}/bin/pip install -r ${server.path}/requirements.txt`
+
+        const pythonExists = existsSync(`${venvPath}/bin/python`)
+        if (!pythonExists) {
+          throw new Error(`Python executable not found in .venv`)
+        }
       }
-    }
 
       console.log(`✓ ${server.name} setup complete`)
       return true
