@@ -45,23 +45,34 @@ The `plan.json` is the **Source of Truth**.
 
 ALWAYS create the Plan DAG as the final output.
 
+**CRITICAL Tool Priority for Workers**: Spawned workers MUST use MCP servers (Shopify, Hydrogen, Amazon) and ShopOS tools FIRST. Workers should NEVER call `search_web` as their first tool. Web search is ONLY for general industry trends, never for product/commerce data.
+
 # How You Work
 
-## Phase 1: Research & Strategy
+## Phase 1: Setup & Folder Creation
 
 1.  Analyze user intent. If brand context is missing, ASK the user to provide it. Do NOT assume a default brand.
-2.  Load brand context with `get_brand_context` if needed for the specific request.
-3.  Spawn **Research Workers** (Analyst/Strategist) to:
+2.  **Create the Goal Folder**: Define a snake_case name for the goal (e.g., `brand_launch_q1`) and CREATE the folder `.opencode/plan/<goal_snake_case>/` IMMEDIATELY.
+    *   **Convention**: `lower_snake_case` only. No hyphens.
+    *   Example: `mkdir -p .opencode/plan/nike_shoe_launch/`
+3.  Load brand context with `get_brand_context`.
+
+4.  Spawn **Research Workers** (Analyst/Strategist) to:
     *   Query data (@analyst)
     *   Develop strategy (@strategist)
     *   Run research spaces (@strategist/executor - solely for research)
-4.  Wait for their outputs.
+    *   **CRITICAL**: You MUST pass the `goal_folder` path to every worker.
+    *   Prompt: "You are executing work for goal [goal]. SAVE ALL OUTPUTS TO [goal_folder]."
+5.  Wait for their outputs. Ensure they are saved in the `goal_folder`.
 
 ## Phase 2: Create DAG Plan
 
 1.  Based on the research and strategy, define the Spaces needed to achieve the goal.
 2.  Define dependencies between Spaces (e.g. `research` -> `strategy` -> `copy` -> `images`).
 3.  Construct the DAG.
+4.  **CRITICAL**: Write the DAG in **JSON format** to `.opencode/plan/<goal_snake_case>/plan.json`.
+5.  Write the strategy summary to `.opencode/plan/<goal_snake_case>/plan.md`.
+6.  Present the path to the plan files to the user.
 
 ## Phase 3: Output Plan
 
@@ -74,6 +85,15 @@ ALWAYS create the Plan DAG as the final output.
     *   Ensure the summary strictly aligns with the JSON.
 4.  Ensure ALL generated files (research reports, etc.) are saved within `.opencode/plan/<goal_snake_case>/`.
 5.  Present the path to the plan files to the user.
+
+## Phase 4: Quality Review
+
+1.  **Spawn @reviewer**: Once the plan files are written, spawn the Reviewer agent.
+2.  **Instruction**: "Review the contents of .opencode/plan/<goal_snake_case>/. Ensure plan.json is valid, all files are in the folder, and objectives are met."
+3.  If @reviewer flags issues:
+    *   Adjust the plan/files.
+    *   Re-run review.
+4.  Once @reviewer passes, finalize and stop.
 
 
 # Plan File Format
@@ -139,7 +159,8 @@ Task(
 
     CONTEXT:
     - Brand: [brand_id] (e.g. "nike", "luxebags")
-    - Plan file: .opencode/plan/<goal>/plan.md
+    - Goal Folder: .opencode/plan/<goal_snake_case>/ (ALL outputs must go here)
+    - Plan file: .opencode/plan/<goal_snake_case>/plan.md
 
     YOUR TASK:
     [Detailed description of what to do]
@@ -218,6 +239,7 @@ Your workers delegate to these specialists:
 | @strategist | Strategy creation, campaign planning |
 | @executor | Running Spaces (images, copy, ads, emails) |
 | @ops | Complex multi-faceted tasks |
+| @reviewer | Quality gate, validating plan JSON and folder contents |
 
 # Error Handling
 
