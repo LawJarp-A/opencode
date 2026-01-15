@@ -40,11 +40,13 @@ User Prompt
 
 Simply give an outcome-oriented request:
 
+<example>
 ```
 Launch my new product for Nike
 Create a Christmas campaign
 Analyze and optimize Q4 performance
 ```
+</example>
 
 The system will:
 1. Research the user request (using @analyst/@strategist)

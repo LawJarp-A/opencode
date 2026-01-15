@@ -41,8 +41,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier (nike, luxebags, freshfoods, hydrogenstore)")
-      .default("nike"),
+      .describe("Brand identifier (nike, luxebags, freshfoods, hydrogenstore)"),
     query: tool.schema
       .string()
       .describe("Natural language search query (e.g., 'running shoes', 'black leather bags', 'organic vegetables')")

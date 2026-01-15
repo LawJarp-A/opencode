@@ -23,8 +23,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier (nike, luxebags, freshfoods)")
-      .default("nike"),
+      .describe("Brand identifier (nike, luxebags, freshfoods)"),
     query: tool.schema
       .string()
       .describe("Natural language query about policies or FAQs (e.g., 'shipping', 'returns', 'payment methods', 'warranty')")

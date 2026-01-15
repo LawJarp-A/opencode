@@ -10,18 +10,17 @@ function generateInventoryData(args: {
   category?: string
   region?: string
 }): InventoryData {
-  const seed = args.brand_id.length + (args.category?.length || 0)
+  const seed = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + (args.category?.length || 0)
+
+  // Generic categories if none specific, or specific
+  const defaultCategories = ["Category A", "Category B", "Category C", "Category D", "Category E"];
 
   const categories = args.category
     ? [args.category]
-    : args.brand_id === "nike"
-      ? ["Running Shoes", "Training Shoes", "Lifestyle", "Apparel", "Accessories"]
-      : args.brand_id === "luxebags"
-        ? ["Handbags", "Clutches", "Totes", "Backpacks", "Wallets"]
-        : ["Vegetables", "Fruits", "Dairy", "Snacks", "Beverages"]
+    : defaultCategories
 
   const skuData = categories.flatMap(category => {
-    const baseStock = args.brand_id === "luxebags" ? 150 : 500
+    const baseStock = 300 + (seed % 400); // 300-700 range
     const skuCount = 3 + (seed % 3)
 
     return Array.from({ length: skuCount }, (_, i) => {
@@ -94,8 +93,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier")
-      .default("nike"),
+      .describe("Brand identifier"),
     category: tool.schema
       .string()
       .describe("Product category filter. Omit for all categories.")

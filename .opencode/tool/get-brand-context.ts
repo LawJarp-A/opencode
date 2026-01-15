@@ -1,118 +1,12 @@
 /// <reference path="../env.d.ts" />
 import { tool } from "@opencode-ai/plugin"
+declare const require: any;
 
 const DESCRIPTION = `Load brand context and configuration for ShopOS operations.
 Returns available databases, enabled Spaces, brand preferences, and historical patterns.
 ALWAYS call this first before running queries or Spaces to understand what's available.`
 
-// Mock brand data - in production this would come from a database/API
-const BRANDS: Record<string, BrandContext> = {
-  nike: {
-    id: "nike",
-    name: "Nike India",
-    industry: "Footwear & Apparel",
-    databases: ["sales_db", "inventory_db", "campaigns_db", "customers_db"],
-    spaces: ["image_generation", "copy_generation", "ad_creation", "research", "email_generation"],
-    regions: ["Delhi-NCR", "Mumbai", "Bangalore", "Chennai", "Kolkata", "Hyderabad"],
-    preferences: {
-      voice: "Bold, athletic, inspirational",
-      colors: ["#000000", "#FFFFFF", "#FF6B00"],
-      avoid: ["discount messaging", "comparison to competitors"],
-    },
-    performance: {
-      avg_roas: 4.2,
-      top_region: "Mumbai",
-      top_category: "Running Shoes",
-      yoy_growth: 18.5,
-    },
-    shopify: {
-      store_url: "mock.shop",
-      mcp_endpoint: "local (ShopifyMockMCP)",
-      mcp_type: "storefront",
-      auth_required: false,
-      note: "Using Mock.shop via ShopifyMockMCP server. Free public API with sample commerce data. No credentials needed! See SHOPIFY_MCP_SETUP.md",
-    },
-  },
-  luxebags: {
-    id: "luxebags",
-    name: "LuxeBags",
-    industry: "Premium Accessories",
-    databases: ["sales_db", "inventory_db", "campaigns_db"],
-    spaces: ["image_generation", "copy_generation", "ad_creation", "research"],
-    regions: ["Delhi-NCR", "Mumbai", "Bangalore"],
-    preferences: {
-      voice: "Elegant, sophisticated, exclusive",
-      colors: ["#1A1A1A", "#D4AF37", "#FFFFFF"],
-      avoid: ["mass market language", "urgency tactics"],
-    },
-    performance: {
-      avg_roas: 3.8,
-      top_region: "Delhi-NCR",
-      top_category: "Handbags",
-      yoy_growth: 12.3,
-    },
-    shopify: {
-      store_url: "mock.shop",
-      mcp_endpoint: "local (ShopifyMockMCP)",
-      mcp_type: "storefront",
-      auth_required: false,
-      note: "Using Mock.shop via ShopifyMockMCP server. Free public API with sample commerce data. No credentials needed! See SHOPIFY_MCP_SETUP.md",
-    },
-  },
-  freshfoods: {
-    id: "freshfoods",
-    name: "FreshFoods Co",
-    industry: "Organic Food & Grocery",
-    databases: ["sales_db", "inventory_db"],
-    spaces: ["image_generation", "copy_generation", "email_generation"],
-    regions: ["Pan India"],
-    preferences: {
-      voice: "Fresh, healthy, trustworthy",
-      colors: ["#4CAF50", "#8BC34A", "#FFFFFF"],
-      avoid: ["artificial", "processed"],
-    },
-    performance: {
-      avg_roas: 2.9,
-      top_region: "Bangalore",
-      top_category: "Organic Vegetables",
-      yoy_growth: 45.2,
-    },
-    shopify: {
-      store_url: "mock.shop",
-      mcp_endpoint: "local (ShopifyMockMCP)",
-      mcp_type: "storefront",
-      auth_required: false,
-      note: "Using Mock.shop via ShopifyMockMCP server. Free public API with sample commerce data. No credentials needed! See SHOPIFY_MCP_SETUP.md",
-    },
-  },
-  hydrogenstore: {
-    id: "hydrogenstore",
-    name: "Hydrogen Demo Store",
-    industry: "Multi-category Retail",
-    databases: ["sales_db", "inventory_db", "campaigns_db"],
-    spaces: ["image_generation", "copy_generation", "ad_creation", "research", "email_generation"],
-    regions: ["North America", "Global"],
-    preferences: {
-      voice: "Modern, clean, innovative",
-      colors: ["#000000", "#FFFFFF", "#6366F1"],
-      avoid: ["outdated terminology", "overly technical jargon"],
-    },
-    performance: {
-      avg_roas: 3.5,
-      top_region: "North America",
-      top_category: "Snowboarding",
-      yoy_growth: 22.8,
-    },
-    shopify: {
-      store_url: "hydrogen-preview.myshopify.com",
-      mcp_endpoint: "direct (Shopify Storefront API)",
-      mcp_type: "storefront",
-      auth_required: true,
-      note: "Using Shopify's official Hydrogen demo store. Public Storefront API token: 3b580e70970c4528da70c98e097c2fa0",
-    },
-  },
-}
-
+// Brand configuration is loaded from .opencode/brands.json
 interface BrandContext {
   id: string
   name: string
@@ -137,23 +31,57 @@ interface BrandContext {
     mcp_type: "storefront" | "admin"
     auth_required: boolean
     note: string
+    token?: string // Optional token for real API access
   }
 }
+
+async function loadBrands(): Promise<Record<string, BrandContext>> {
+  try {
+    // In a real environment, this would read from the filesystem
+    // For this environment, we'll try to require it, or return empty if missing
+    // Note: In tool execution context, we might need FS access. 
+    // Since this is a specialized environment, we'll simulate reading the file we just created
+    // if we could. However, 'tool' definition is TS.
+    // We will assume the file exists relative to CWD or use a helper.
+    // For simplicity in this refactor, we will try to use `fs` if available or import.
+
+    // START TEMPORARY IMPLEMENTATION
+    // Since I cannot easily import 'fs' inside the tool sandbox without knowing the env permissions,
+    // I will use a direct relative import if possible, or fallback.
+    // However, the best practice here for the user's codebase is to use 'fs'.
+
+    const fs = require('fs');
+    const path = require('path');
+    const configPath = path.resolve('.opencode/brands.json');
+
+    if (fs.existsSync(configPath)) {
+      const content = fs.readFileSync(configPath, 'utf-8');
+      return JSON.parse(content);
+    }
+    return {};
+  } catch (e) {
+    console.error("Failed to load brands.json", e);
+    return {};
+  }
+}
+
 
 export default tool({
   description: DESCRIPTION,
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier (e.g., 'nike', 'luxebags', 'freshfoods', 'hydrogenstore')")
-      .default("nike"),
+      .describe("Brand identifier (must be configured in .opencode/brands.json)"),
   },
   async execute(args) {
-    const brand = BRANDS[args.brand_id.toLowerCase()]
+    const brands = await loadBrands();
+    const brand = brands[args.brand_id.toLowerCase()]
 
     if (!brand) {
-      const available = Object.keys(BRANDS).join(", ")
-      return `Brand '${args.brand_id}' not found. Available brands: ${available}`
+      const available = Object.keys(brands).join(", ")
+      return `Brand '${args.brand_id}' not found in configuration. 
+Please ensure '.opencode/brands.json' exists and contains your brand definition.
+Available brands: ${available || "None configured"}`
     }
 
     const shopifyInfo = brand.shopify

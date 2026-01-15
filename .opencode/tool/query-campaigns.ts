@@ -11,8 +11,10 @@ function generateCampaignData(args: {
   end_date: string
   channel?: string
 }): CampaignData {
-  const seed = args.brand_id.length + args.start_date.length
-  const baseSpend = args.brand_id === "luxebags" ? 500000 : 800000
+  const seedValue = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + args.start_date.length
+  const seed = seedValue;
+  // Generic base spend derivation
+  const baseSpend = 500000 + ((seedValue % 50) * 10000);
 
   const channels = args.channel
     ? [args.channel]
@@ -21,8 +23,8 @@ function generateCampaignData(args: {
   const channelData = channels.map(channel => {
     const channelMultiplier =
       channel === "Meta" ? 1.2 :
-      channel === "Google" ? 1.4 :
-      channel === "Instagram" ? 0.9 : 0.8
+        channel === "Google" ? 1.4 :
+          channel === "Instagram" ? 0.9 : 0.8
 
     const spend = Math.round(baseSpend * channelMultiplier * (0.8 + (seed % 40) / 100))
     const roas = Math.round((3 + (seed % 25) / 10) * channelMultiplier * 10) / 10
@@ -111,8 +113,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier")
-      .default("nike"),
+      .describe("Brand identifier"),
     start_date: tool.schema
       .string()
       .describe("Start date in YYYY-MM-DD format")
