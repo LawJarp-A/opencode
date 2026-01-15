@@ -64,6 +64,13 @@ interface PromptInputProps {
   ref?: (el: HTMLDivElement) => void
   newSessionWorktree?: string
   onNewSessionWorktreeReset?: () => void
+  contextChip?: {
+    label: string
+    icon: string
+    onClick?: () => void
+  }
+  submitLabel?: string
+  onSubmit?: () => void
 }
 
 const PLACEHOLDERS = [
@@ -784,7 +791,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
       .abort({
         sessionID: params.id!,
       })
-      .catch(() => {})
+      .catch(() => { })
 
   const addToHistory = (prompt: Prompt, mode: "normal" | "shell") => {
     const text = prompt
@@ -981,6 +988,11 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
 
     if (text.trim().length === 0 && images.length === 0) {
       if (working()) abort()
+      return
+    }
+
+    if (props.onSubmit) {
+      props.onSubmit()
       return
     }
 
@@ -1408,7 +1420,8 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
         classList={{
           "group/prompt-input": true,
           "bg-surface-raised-stronger-non-alpha shadow-xs-border relative": true,
-          "rounded-md overflow-clip focus-within:shadow-xs-border": true,
+          "rounded-[24px] overflow-clip focus-within:shadow-md transition-shadow duration-200": true,
+          "border border-[var(--border-weaker-base)] focus-within:border-[var(--border-base)]": true,
           "border-icon-info-active border-dashed": store.dragging,
           [props.class ?? ""]: !!props.class,
         }}
@@ -1558,78 +1571,80 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                 </div>
               </Match>
               <Match when={store.mode === "normal"}>
-                <TooltipKeybind placement="top" title="Cycle agent" keybind={command.keybind("agent.cycle")}>
-                  <Select
-                    options={local.agent.list().map((agent) => agent.name)}
-                    current={local.agent.current()?.name ?? ""}
-                    onSelect={local.agent.set}
-                    class="capitalize"
-                    variant="ghost"
-                  />
-                </TooltipKeybind>
-                <Show
-                  when={providers.paid().length > 0}
-                  fallback={
-                    <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
-                      <Button as="div" variant="ghost" onClick={() => dialog.show(() => <DialogSelectModelUnpaid />)}>
-                        <Show when={local.model.current()?.provider?.id}>
-                          <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
-                        </Show>
-                        {local.model.current()?.name ?? "Select model"}
-                        <Icon name="chevron-down" size="small" />
+                <Show when={!props.contextChip}>
+                  <TooltipKeybind placement="top" title="Cycle agent" keybind={command.keybind("agent.cycle")}>
+                    <Select
+                      options={local.agent.list().map((agent) => agent.name)}
+                      current={local.agent.current()?.name ?? ""}
+                      onSelect={local.agent.set}
+                      class="capitalize"
+                      variant="ghost"
+                    />
+                  </TooltipKeybind>
+                  <Show
+                    when={providers.paid().length > 0}
+                    fallback={
+                      <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
+                        <Button as="div" variant="ghost" onClick={() => dialog.show(() => <DialogSelectModelUnpaid />)}>
+                          <Show when={local.model.current()?.provider?.id}>
+                            <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
+                          </Show>
+                          {local.model.current()?.name ?? "Select model"}
+                          <Icon name="chevron-down" size="small" />
+                        </Button>
+                      </TooltipKeybind>
+                    }
+                  >
+                    <ModelSelectorPopover>
+                      <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
+                        <Button as="div" variant="ghost">
+                          <Show when={local.model.current()?.provider?.id}>
+                            <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
+                          </Show>
+                          {local.model.current()?.name ?? "Select model"}
+                          <Icon name="chevron-down" size="small" />
+                        </Button>
+                      </TooltipKeybind>
+                    </ModelSelectorPopover>
+                  </Show>
+                  <Show when={local.model.variant.list().length > 0}>
+                    <TooltipKeybind
+                      placement="top"
+                      title="Thinking effort"
+                      keybind={command.keybind("model.variant.cycle")}
+                    >
+                      <Button
+                        variant="ghost"
+                        class="text-text-base _hidden group-hover/prompt-input:inline-block capitalize text-12-regular"
+                        onClick={() => local.model.variant.cycle()}
+                      >
+                        {local.model.variant.current() ?? "Default"}
                       </Button>
                     </TooltipKeybind>
-                  }
-                >
-                  <ModelSelectorPopover>
-                    <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
-                      <Button as="div" variant="ghost">
-                        <Show when={local.model.current()?.provider?.id}>
-                          <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
-                        </Show>
-                        {local.model.current()?.name ?? "Select model"}
-                        <Icon name="chevron-down" size="small" />
+                  </Show>
+                  <Show when={permission.permissionsEnabled() && params.id}>
+                    <TooltipKeybind
+                      placement="top"
+                      title="Auto-accept edits"
+                      keybind={command.keybind("permissions.autoaccept")}
+                    >
+                      <Button
+                        variant="ghost"
+                        onClick={() => permission.toggleAutoAccept(params.id!, sdk.directory)}
+                        classList={{
+                          "_hidden group-hover/prompt-input:flex size-6 items-center justify-center": true,
+                          "text-text-base": !permission.isAutoAccepting(params.id!, sdk.directory),
+                          "hover:bg-surface-success-base": permission.isAutoAccepting(params.id!, sdk.directory),
+                        }}
+                      >
+                        <Icon
+                          name="chevron-double-right"
+                          size="small"
+                          classList={{ "text-icon-success-base": permission.isAutoAccepting(params.id!, sdk.directory) }}
+                        />
                       </Button>
                     </TooltipKeybind>
-                  </ModelSelectorPopover>
-                </Show>
-                <Show when={local.model.variant.list().length > 0}>
-                  <TooltipKeybind
-                    placement="top"
-                    title="Thinking effort"
-                    keybind={command.keybind("model.variant.cycle")}
-                  >
-                    <Button
-                      variant="ghost"
-                      class="text-text-base _hidden group-hover/prompt-input:inline-block capitalize text-12-regular"
-                      onClick={() => local.model.variant.cycle()}
-                    >
-                      {local.model.variant.current() ?? "Default"}
-                    </Button>
-                  </TooltipKeybind>
-                </Show>
-                <Show when={permission.permissionsEnabled() && params.id}>
-                  <TooltipKeybind
-                    placement="top"
-                    title="Auto-accept edits"
-                    keybind={command.keybind("permissions.autoaccept")}
-                  >
-                    <Button
-                      variant="ghost"
-                      onClick={() => permission.toggleAutoAccept(params.id!, sdk.directory)}
-                      classList={{
-                        "_hidden group-hover/prompt-input:flex size-6 items-center justify-center": true,
-                        "text-text-base": !permission.isAutoAccepting(params.id!, sdk.directory),
-                        "hover:bg-surface-success-base": permission.isAutoAccepting(params.id!, sdk.directory),
-                      }}
-                    >
-                      <Icon
-                        name="chevron-double-right"
-                        size="small"
-                        classList={{ "text-icon-success-base": permission.isAutoAccepting(params.id!, sdk.directory) }}
-                      />
-                    </Button>
-                  </TooltipKeybind>
+                  </Show>
                 </Show>
               </Match>
             </Switch>
@@ -1648,6 +1663,22 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
             />
             <div class="flex items-center gap-2">
               <SessionContextUsage />
+
+              <Show when={props.contextChip}>
+                <button
+                  type="button"
+                  onClick={() => props.contextChip?.onClick?.()}
+                  class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--surface-raised-base)] hover:bg-[var(--surface-raised-base-hover)] border border-[var(--border-weaker-base)] transition-colors group"
+                >
+                  <span class="text-[var(--text-weak)] group-hover:text-[var(--text-base)]">
+                    <Icon name={props.contextChip?.icon as any || "folder"} size="small" />
+                  </span>
+                  <span class="text-xs font-medium text-[var(--text-weak)] group-hover:text-[var(--text-base)]">
+                    {props.contextChip?.label}
+                  </span>
+                </button>
+              </Show>
+
               <Show when={store.mode === "normal"}>
                 <Tooltip placement="top" value="Attach file">
                   <Button type="button" variant="ghost" class="size-6" onClick={() => fileInputRef.click()}>
@@ -1670,7 +1701,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                   <Match when={true}>
                     <div class="flex items-center gap-2">
                       <span>Send</span>
-                      <Icon name="enter" size="small" class="text-icon-base" />
+                      <Icon name="arrow-left" size="small" class="text-icon-base" />
                     </div>
                   </Match>
                 </Switch>
@@ -1679,10 +1710,41 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
               <IconButton
                 type="submit"
                 disabled={!prompt.dirty() && !working()}
-                icon={working() ? "stop" : "arrow-up"}
+                {...((working() ? { icon: "stop" } : {}) as any)}
                 variant="primary"
-                class="h-6 w-4.5"
-              />
+                class={`
+                  transition-all duration-200
+                  ${props.contextChip
+                    ? 'h-10 w-10 rounded-full flex items-center justify-center'
+                    : props.submitLabel
+                      ? 'h-10 px-5 w-auto rounded-full flex items-center gap-2'
+                      : 'h-6 w-4.5'
+                  }
+                  ${!working() && prompt.dirty() && props.submitLabel
+                    ? 'bg-[var(--icon-warning-base)] text-white shadow-sm hover:opacity-90 active:scale-95'
+                    : ''
+                  }
+                  ${!working() && prompt.dirty() && props.contextChip
+                    ? 'bg-transparent hover:scale-105 active:scale-95'
+                    : ''
+                  }
+                  ${!working() && !prompt.dirty() && (props.submitLabel || props.contextChip)
+                    ? 'bg-[var(--surface-raised-base)] text-[var(--text-weaker)] cursor-default shadow-none pointer-events-none'
+                    : ''
+                  }
+                `}
+              >
+                <Show when={props.submitLabel}>
+                  <span class="font-medium">{props.submitLabel}</span>
+                  <Icon name={"arrow-right" as any} size="small" />
+                </Show>
+                <Show when={!props.submitLabel && props.contextChip && !working()}>
+                  <img src="/submit-arrow.png" alt="Execute" class="size-10 object-contain" />
+                </Show>
+                <Show when={!props.submitLabel && !props.contextChip && !working()}>
+                  <Icon name="arrow-up" size="small" class="text-black" />
+                </Show>
+              </IconButton>
             </Tooltip>
           </div>
         </div>
