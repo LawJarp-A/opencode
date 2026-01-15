@@ -22,7 +22,7 @@ import { resolve } from "path"
     {
       name: "AmazonMCP",
       path: "/tmp/AmazonMCP",
-      repo: "https://github.com/r123singh/amazon-mcp-server.git",
+      repo: "https://github.com/RegalArtifex/simple-amazon-mcp.git",
       description: "Amazon Products Scraper MCP server",
       type: "python",
     },
@@ -93,11 +93,11 @@ import { resolve } from "path"
         const venvPath = `${server.path}/.venv`
         if (!existsSync(venvPath)) {
           console.log(`   → Creating virtual environment...`)
-          await $`cd ${server.path} && python3 -m venv .venv`
+          await $`cd ${server.path} && uv venv`
         }
 
         console.log(`   → Installing requirements...`)
-        await $`${venvPath}/bin/pip install -r ${server.path}/requirements.txt`
+        await $`cd ${server.path} && uv sync`
 
         const pythonExists = existsSync(`${venvPath}/bin/python`)
         if (!pythonExists) {
