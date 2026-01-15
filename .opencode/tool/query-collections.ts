@@ -22,8 +22,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier (nike, luxebags, freshfoods)")
-      .default("nike"),
+      .describe("Brand identifier (nike, luxebags, freshfoods)"),
     collection_query: tool.schema
       .string()
       .describe("Collection name or theme to search for (e.g., 'shoes', 'bags', 'sale', 'new arrivals')")

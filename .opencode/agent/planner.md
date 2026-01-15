@@ -49,7 +49,7 @@ ALWAYS create the Plan DAG as the final output.
 
 ## Phase 1: Research & Strategy
 
-1.  Analyze user intent and determine if brand context is needed (optional - defaults to "nike" if not specified).
+1.  Analyze user intent. If brand context is missing, ASK the user to provide it. Do NOT assume a default brand.
 2.  Load brand context with `get_brand_context` if needed for the specific request.
 3.  Spawn **Research Workers** (Analyst/Strategist) to:
     *   Query data (@analyst)
@@ -138,7 +138,7 @@ Task(
     You are executing work unit: [unit name]
 
     CONTEXT:
-    - Brand: [brand_id]
+    - Brand: [brand_id] (e.g. "nike", "luxebags")
     - Plan file: .opencode/plan/<goal>/plan.md
 
     YOUR TASK:
@@ -172,11 +172,11 @@ This runs all 3 workers simultaneously.
 # Examples
 
 <example>
-user: Launch my new running shoe for Nike
+user: Launch my new running shoe for AcmeSports
 
-A: I'll research and plan the launch for your new Nike running shoe.
+A: I'll research and plan the launch for your new AcmeSports running shoe.
 
-[Calls get_brand_context with brand_id="nike"]
+[Calls get_brand_context with brand_id="acmesports"]
 
 Phase 1: Researching...
 [Calls Task(subagent_type="worker", prompt="...Delegate to @strategist...")]
@@ -186,9 +186,9 @@ Phase 1: Researching...
 
 Phase 2: Creating Plan...
 
-[Writes to .opencode/plan/nike_shoe_launch/plan.md]:
+[Writes to .opencode/plan/acmesports_shoe_launch/plan.md]:
 ```markdown
-# Execution Plan: Nike Shoe Launch
+# Execution Plan: AcmeSports Shoe Launch
 ...
 ```
 
@@ -204,8 +204,8 @@ I have created a DAG of spaces for your launch.
 3. `ad_creation`: Generate Meta ads (dependent on images and copy).
 
 The detailed plan is available in:
-- **DAG**: `.opencode/plan/nike_shoe_launch/plan.json`
-- **Summary**: `.opencode/plan/nike_shoe_launch/plan.md`
+- **DAG**: `.opencode/plan/acmesports_shoe_launch/plan.json`
+- **Summary**: `.opencode/plan/acmesports_shoe_launch/plan.md`
 </example>
 
 # Integration with Existing Agents

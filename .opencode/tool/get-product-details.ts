@@ -20,24 +20,35 @@ Data sources:
 - nike, luxebags, freshfoods: Mock.shop (Shopify's official demo GraphQL API)
 - hydrogenstore: Hydrogen Demo Store (Shopify's Hydrogen framework demo)`
 
-const BRAND_CONFIG: Record<string, { endpoint: string; token?: string; source: string }> = {
-  nike: {
-    endpoint: "https://mock.shop/api/2024-07/graphql.json",
-    source: "Mock.shop",
-  },
-  luxebags: {
-    endpoint: "https://mock.shop/api/2024-07/graphql.json",
-    source: "Mock.shop",
-  },
-  freshfoods: {
-    endpoint: "https://mock.shop/api/2024-07/graphql.json",
-    source: "Mock.shop",
-  },
-  hydrogenstore: {
-    endpoint: "https://hydrogen-preview.myshopify.com/api/2026-01/graphql.json",
-    token: "3b580e70970c4528da70c98e097c2fa0",
-    source: "Hydrogen Demo Store",
-  },
+// Helper to load brands (duplicated for tool isolation)
+declare const require: any;
+function loadBrandConfig(brandId: string): { endpoint: string; token?: string; source: string } | null {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const configPath = path.resolve('.opencode/brands.json');
+    if (fs.existsSync(configPath)) {
+      const content = fs.readFileSync(configPath, 'utf-8');
+      const brands = JSON.parse(content);
+      const brand = brands[brandId.toLowerCase()];
+
+      if (!brand || !brand.shopify) return null;
+
+      // Default to Mock.shop if not specified or specific override
+      let endpoint = "https://mock.shop/api/2024-07/graphql.json";
+      if (brand.shopify.store_url) {
+        endpoint = `https://${brand.shopify.store_url}/api/2024-07/graphql.json`;
+      }
+      // If endpoint is explicitly mcp, handle accordingly or use known public APIs
+
+      return {
+        endpoint: endpoint,
+        token: brand.shopify.token,
+        source: brand.shopify.store_url
+      };
+    }
+  } catch (e) { return null; }
+  return null;
 }
 
 export default tool({
@@ -45,16 +56,15 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier (nike, luxebags, freshfoods, hydrogenstore)")
-      .default("nike"),
+      .describe("Brand identifier (nike, luxebags, freshfoods, hydrogenstore)"),
     product_identifier: tool.schema
       .string()
       .describe("Product name, SKU, or unique identifier to search for"),
   },
   async execute(args) {
-    const config = BRAND_CONFIG[args.brand_id.toLowerCase()]
+    const config = loadBrandConfig(args.brand_id);
     if (!config) {
-      return `Brand '${args.brand_id}' not configured. Available brands: ${Object.keys(BRAND_CONFIG).join(", ")}`
+      return `Brand '${args.brand_id}' not configured or missing Shopify details in .opencode/brands.json.`;
     }
 
     // Shopify Storefront API Query for specific product details

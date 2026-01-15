@@ -10,10 +10,10 @@ You are executing a product recommendation workflow. This skill leverages real S
 ## Required Inputs
 
 Before starting, collect:
-1. **Brand**: Which brand to analyze? (nike, luxebags, freshfoods)
-2. **Context**: What's the use case? (customer inquiry, campaign planning, collection curation, upsell opportunity)
-3. **Criteria**: What filters to apply? (price range, category, availability, customer segment)
-4. **Goal**: What's the objective? (increase AOV, drive discovery, seasonal promotion, inventory clearance)
+1. **Brand**: Which brand to analyze? (Ask user if not available)
+2. **Context**: What's the use case? (Examples: customer inquiry, campaign planning, collection curation, upsell opportunity)
+3. **Criteria**: What filters to apply? (Examples: price range, category, availability, customer segment)
+4. **Goal**: What's the objective? (Examples: increase AOV, drive discovery, seasonal promotion, inventory clearance)
 
 ## Execution Steps
 
@@ -132,8 +132,8 @@ Provide:
 
 **Workflow**:
 ```
-1. get_brand_context(brand_id="nike")
-2. query_products(brand_id="nike", query="running shoes beginners", limit=5)
+1. get_brand_context(brand_id="demo_brand")
+2. query_products(brand_id="demo_brand", query="running shoes beginners", limit=5)
 3. Analyze results → Filter by price (entry-level)
 4. Create recommendation with 3-5 options
 5. Suggest complementary products (socks, shorts)
@@ -144,9 +144,9 @@ Provide:
 
 **Workflow**:
 ```
-1. get_brand_context(brand_id="luxebags")
-2. query_collections(brand_id="luxebags", collection_query="gift")
-3. query_products(brand_id="luxebags", category="accessories", max_price=15000)
+1. get_brand_context(brand_id="demo_brand")
+2. query_collections(brand_id="demo_brand", collection_query="gift")
+3. query_products(brand_id="demo_brand", category="accessories", max_price=15000)
 4. Curate 10-15 "Gift-worthy" products
 5. Create gift guide structure (by price tier, recipient type)
 ```
@@ -156,8 +156,8 @@ Provide:
 
 **Workflow**:
 ```
-1. get_product_details(brand_id="luxebags", product_identifier="tote bag")
-2. query_products(brand_id="luxebags", category="handbags", min_price=[current_price])
+1. get_product_details(brand_id="demo_brand", product_identifier="tote bag")
+2. query_products(brand_id="demo_brand", category="handbags", min_price=[current_price])
 3. Identify 2-3 premium alternatives
 4. Create comparison table (features, benefits, price difference)
 ```
@@ -167,8 +167,8 @@ Provide:
 
 **Workflow**:
 ```
-1. get_brand_context(brand_id="freshfoods")
-2. query_products(brand_id="freshfoods", category="seasonal", available_only=true)
+1. get_brand_context(brand_id="demo_brand")
+2. query_products(brand_id="demo_brand", category="seasonal", available_only=true)
 3. query_sales → Identify slow movers (if sales data available)
 4. Create "Limited Time" campaign recommendations
 5. Suggest bundling with fast-movers
