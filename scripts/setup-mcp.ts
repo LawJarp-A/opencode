@@ -21,8 +21,8 @@ import { resolve } from "path"
     },
     {
       name: "AmazonMCP",
-      path: "mcps/amazon-mcp",
-      repo: "", // Local server, no repo
+      path: "/tmp/AmazonMCP",
+      repo: "https://github.com/r123singh/amazon-mcp-server.git",
       description: "Amazon Products Scraper MCP server",
       type: "python",
     },
@@ -77,6 +77,17 @@ import { resolve } from "path"
       }
 
       if (server.type === "python") {
+        const dirExists = existsSync(server.path)
+
+        if (!dirExists && server.repo) {
+          console.log(`   → Cloning repository...`)
+          await $`git clone --depth 1 ${server.repo} ${server.path}`.quiet()
+        } else if (!dirExists) {
+          throw new Error(`Directory ${server.path} does not exist and no repo provided`)
+        } else {
+          console.log(`   → Directory exists, skipping clone...`)
+        }
+
         console.log(`   → Setting up Python environment...`)
 
         const venvPath = `${server.path}/.venv`

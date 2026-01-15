@@ -74,7 +74,7 @@
       "type": "local",
       "command": [
         "/tmp/AmazonMCP/.venv/bin/python",
-        "/tmp/AmazonMCP/server_v2.py"
+        "/tmp/AmazonMCP/server.py"
       ],
       "enabled": true,
       "timeout": 15000,
