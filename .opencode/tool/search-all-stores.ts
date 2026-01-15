@@ -2,7 +2,7 @@
 import { tool } from "@opencode-ai/plugin"
 
 const DESCRIPTION = `Search for products across ALL connected stores simultaneously.
-Orchestrates queries to multiple MCPs (Shopify Mock, Hydrogen Storefront, Amazon) to provide comprehensive product search results.
+Orchestrates queries to multiple MCPs (Shopify Mock, Hydrogen Storefront, Amazon, Flipkart) to provide comprehensive product search results.
 
 Use this when you need to:
 - Compare products across different marketplaces
@@ -14,6 +14,7 @@ Searches these stores in parallel:
 - Shopify Mock Store (shopify-mock MCP)
 - Hydrogen Demo Store (hydrogen-storefront MCP)
 - Amazon Products (amazon-mcp MCP)
+- Flipkart Products (flipkart-mcp MCP)
 `
 
 export default tool({
@@ -67,11 +68,20 @@ Parameters: {
 }
 \`\`\`
 
+## 4. Flipkart Products 🛒
+\`\`\`
+Tool: flipkart-mcp_search_products
+Parameters: {
+  "query": "${args.query}",
+  "max_results": ${args.limit_per_store}
+}
+\`\`\`
+
 ---
 
 ## Instructions for Agent
 
-1. **Call all 3 tools in parallel** (single message with 3 tool calls)
+1. **Call all 4 tools in parallel** (single message with 4 tool calls)
 2. **Aggregate results** into a unified format
 3. **Compare across stores**: pricing, availability, features
 4. **Provide recommendations** based on:
@@ -95,18 +105,21 @@ Parameters: {
 ## 📦 Amazon
 [Results from amazon-mcp MCP]
 
+## 🛒 Flipkart
+[Results from flipkart-mcp MCP]
+
 ## 📊 Comparison Summary
 
-| Product | Shopify Mock | Hydrogen | Amazon | Best Deal |
-|---------|--------------|----------|--------|-----------|
-| [Product 1] | $X | $Y | $Z | ⭐ Shopify |
-| [Product 2] | $X | $Y | $Z | ⭐ Amazon |
+| Product | Shopify Mock | Hydrogen | Amazon | Flipkart | Best Deal |
+|---------|--------------|----------|--------|----------|-----------|
+| [Product 1] | $X | $Y | $Z | ₹W | ⭐ Flipkart |
+| [Product 2] | $X | $Y | $Z | ₹W | ⭐ Amazon |
 
 ## 🎯 Recommendations
 
-1. **Best Value**: [Product] at [Store] ($[Price])
-2. **Premium Option**: [Product] at [Store] ($[Price])
-3. **Budget Pick**: [Product] at [Store] ($[Price])
+1. **Best Value**: [Product] at [Store] ($[Price] / ₹[Price])
+2. **Premium Option**: [Product] at [Store] ($[Price] / ₹[Price])
+3. **Budget Pick**: [Product] at [Store] ($[Price] / ₹[Price])
 \`\`\`
 
 ---

@@ -171,7 +171,7 @@ assistant: I'll create a product launch strategy for the LuxeBags evening collec
 ## Product Launch Strategy: LuxeBags - Evening Collection
 
 ### Objective
-Launch evening collection across Shopify, Amazon, and Instagram with target ROAS of 5x and 500 units sold in first 30 days.
+Launch evening collection across Shopify, Amazon, Flipkart, and Instagram with target ROAS of 5x and 500 units sold in first 30 days.
 
 ### Current State
 - Average collection launch: 320 units/30 days
@@ -180,7 +180,7 @@ Launch evening collection across Shopify, Amazon, and Instagram with target ROAS
 - Audience: 28-45 females, urban metros
 
 ### Strategy Overview
-Position as premium evening wear for festive occasions. Lead with Instagram for awareness, convert via Shopify, expand to Amazon for reach. Emphasize exclusivity and limited availability.
+Position as premium evening wear for festive occasions. Lead with Instagram for awareness, convert via Shopify, expand to Amazon and Flipkart for reach. Emphasize exclusivity and limited availability.
 
 ### Required Inputs
 - [ ] Product images (hero + lifestyle shots)

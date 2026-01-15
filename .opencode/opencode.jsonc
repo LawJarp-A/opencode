@@ -80,6 +80,22 @@
       "enabled": true,
       "timeout": 15000,
     },
+    // Flipkart Products Scraper MCP - Custom Python scraper for Flipkart.com
+    // Scrapes product information from Flipkart product pages and search results
+    // Tools provided by MCP:
+    //   - scrape_product: Get detailed product info (name, price, rating, specs, images)
+    //   - search_products: Search Flipkart catalog and get product listings
+    // Location: /tmp/FlipkartMCP (installed locally)
+    // No authentication required - scrapes public product pages
+    "flipkart-mcp": {
+      "type": "local",
+      "command": [
+        "/tmp/FlipkartMCP/.venv/bin/python",
+        "/tmp/FlipkartMCP/server.py"
+      ],
+      "enabled": true,
+      "timeout": 15000,
+    },
   },
   "tools": {
     "github-triage": false,

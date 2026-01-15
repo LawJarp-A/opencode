@@ -126,7 +126,7 @@ Use these when you need comprehensive product search across ALL marketplaces:
 |------|---------|------------|
 | `search_all_stores` | **Search ALL stores simultaneously** | `query`, `limit_per_store?`, `context?` |
 
-**When to use**: Default choice for product searches. Queries Shopify Mock, Hydrogen Storefront, and Amazon in parallel and aggregates results. Use this unless you specifically need data from ONE store only.
+**When to use**: Default choice for product searches. Queries Shopify Mock, Hydrogen Storefront, Amazon, and Flipkart in parallel and aggregates results. Use this unless you specifically need data from ONE store only.
 
 ### ShopOS Shopify Wrapper Tools (Single-Store Queries)
 
@@ -140,7 +140,7 @@ Use these for brand-specific or detailed queries:
 | `get_store_policies` | Retrieve policies, FAQs, shipping info | `brand_id`, `query` |
 
 **When to use each tool**:
-- `search_all_stores` - **DEFAULT**: Compare products across all marketplaces (Amazon + Shopify stores)
+- `search_all_stores` - **DEFAULT**: Compare products across all marketplaces (Amazon + Flipkart + Shopify stores)
 - `query_products` - Brand-specific searches (when you know the brand_id)
 - `get_product_details` - Get comprehensive info about a specific product
 - `query_collections` - Explore product organization, category analysis
@@ -148,7 +148,9 @@ Use these for brand-specific or detailed queries:
 
 ### MCP Direct Tools (Advanced)
 
-These are the raw MCP tools (auto-prefixed with `shopify-mock_`):
+These are the raw MCP tools - use them directly for store-specific queries:
+
+**Shopify MCPs** (auto-prefixed with `shopify-mock_` or `hydrogen-storefront_`):
 
 | Tool | Purpose | Parameters | Data Source |
 |------|---------|------------|-------------|
@@ -156,6 +158,15 @@ These are the raw MCP tools (auto-prefixed with `shopify-mock_`):
 | `shopify-mock_search_shop_policies_and_faqs` | Query store policies and FAQs | `query` (string) | Mock.shop Storefront API |
 | `shopify-mock_get_cart` | Retrieve cart contents | `cart_id` (string) | Mock.shop Storefront API |
 | `shopify-mock_update_cart` | Modify cart (add/update/remove) | `cart_id?` (string), `lines` (array) | Mock.shop Storefront API |
+
+**Marketplace MCPs** (auto-prefixed with `amazon-mcp_` or `flipkart-mcp_`):
+
+| Tool | Purpose | Parameters | Data Source |
+|------|---------|------------|-------------|
+| `amazon-mcp_search_products` | Search Amazon catalog | `query` (string), `max_results?` (number) | Amazon.com (web scraping) |
+| `amazon-mcp_scrape_product` | Get detailed product info from Amazon | `product_url` (string) | Amazon.com (web scraping) |
+| `flipkart-mcp_search_products` | Search Flipkart catalog | `query` (string), `max_results?` (number) | Flipkart.com (web scraping) |
+| `flipkart-mcp_scrape_product` | Get detailed product info from Flipkart | `product_url` (string) | Flipkart.com (web scraping) |
 
 **Important**:
 - Shopify tools return REAL data from Mock.shop (Shopify's official demo API - NO authentication!)
@@ -332,21 +343,30 @@ Found 5 products:
 - Saucony Triumph 20 - $135.00
 - Mizuno Wave Rider 26 - $125.00 (Prime)
 
-**Search Summary**: Successfully queried 3/3 stores
+### 🛒 Flipkart
+Found 5 products:
+- Puma Velocity Nitro - ₹8,999 (In Stock) [$108]
+- Adidas Supernova 2.0 - ₹6,499 (In Stock) [$78]
+- Reebok Floatride Energy - ₹5,499 (In Stock) [$66]
+- Nike Revolution 6 - ₹4,999 (In Stock) [$60]
+- Asics Jolt 3 - ₹3,999 (In Stock) [$48]
+
+**Search Summary**: Successfully queried 4/4 stores
 
 **Key Findings**:
-1. Amazon offers widest selection (5 models) with Prime shipping
-2. Shopify Mock has competitive pricing ($129-179 range)
-3. Hydrogen Store has entry-level option at $99.95
-4. Best value: Athletic Performance Runner at $99.95 (Hydrogen)
-5. Premium option: Adidas Ultraboost at $179.99 (Shopify Mock)
+1. Flipkart offers best value pricing (₹3,999-8,999 / $48-108)
+2. Amazon offers widest US selection (5 models) with Prime shipping
+3. Shopify Mock has competitive mid-range pricing ($129-179)
+4. Hydrogen Store has budget entry option at $99.95
+5. Best overall value: Asics Jolt 3 from Flipkart (₹3,999 / $48)
 
 **Recommended Actions**:
-- Budget-conscious: Hydrogen's Athletic Performance Runner ($99.95)
+- Budget-conscious (India): Flipkart's Asics Jolt 3 (₹3,999)
+- Budget-conscious (US): Hydrogen's Athletic Performance Runner ($99.95)
 - Prime member: Amazon's Mizuno Wave Rider 26 ($125 with Prime)
 - Performance: Adidas Ultraboost from Shopify Mock ($179.99)
 
-*Data sources: Shopify Mock (Mock.shop), Hydrogen Demo Store, Amazon Products (live scraping)*
+*Data sources: Shopify Mock (Mock.shop), Hydrogen Demo Store, Amazon Products (live scraping), Flipkart Products (live scraping)*
 </example>
 
 <example>

@@ -26,6 +26,13 @@ import { resolve } from "path"
       description: "Amazon Products Scraper MCP server",
       type: "python",
     },
+    {
+      name: "FlipkartMCP",
+      path: "/tmp/FlipkartMCP",
+      repo: "https://github.com/Gokul2678/FlipkartMCP.git",
+      description: "Flipkart Products Scraper MCP server",
+      type: "python",
+    },
   ]
 
   async function setupMCPServer(server: typeof MCP_SERVERS[0]): Promise<boolean> {
@@ -97,7 +104,18 @@ import { resolve } from "path"
         }
 
         console.log(`   → Installing requirements...`)
-        await $`cd ${server.path} && uv sync`
+
+        // Check if project uses pyproject.toml or requirements.txt
+        const hasPyprojectToml = existsSync(`${server.path}/pyproject.toml`)
+        const hasRequirementsTxt = existsSync(`${server.path}/requirements.txt`)
+
+        if (hasPyprojectToml) {
+          await $`cd ${server.path} && uv sync`
+        } else if (hasRequirementsTxt) {
+          await $`cd ${server.path} && uv pip install -r requirements.txt`
+        } else {
+          throw new Error(`No pyproject.toml or requirements.txt found`)
+        }
 
         const pythonExists = existsSync(`${venvPath}/bin/python`)
         if (!pythonExists) {
