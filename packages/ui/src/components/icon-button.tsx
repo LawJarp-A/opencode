@@ -1,5 +1,5 @@
 import { Button as Kobalte } from "@kobalte/core/button"
-import { type ComponentProps, splitProps } from "solid-js"
+import { type ComponentProps, splitProps, Show } from "solid-js"
 import { Icon, IconProps } from "./icon"
 
 export interface IconButtonProps extends ComponentProps<typeof Kobalte> {
@@ -10,7 +10,7 @@ export interface IconButtonProps extends ComponentProps<typeof Kobalte> {
 }
 
 export function IconButton(props: ComponentProps<"button"> & IconButtonProps) {
-  const [split, rest] = splitProps(props, ["variant", "size", "iconSize", "class", "classList"])
+  const [split, rest] = splitProps(props, ["variant", "size", "iconSize", "class", "classList", "icon", "children"])
   return (
     <Kobalte
       {...rest}
@@ -22,7 +22,10 @@ export function IconButton(props: ComponentProps<"button"> & IconButtonProps) {
         [split.class ?? ""]: !!split.class,
       }}
     >
-      <Icon name={props.icon} size={split.iconSize ?? (split.size === "large" ? "normal" : "small")} />
+      <Show when={split.icon}>
+        <Icon name={split.icon!} size={split.iconSize ?? (split.size === "large" ? "normal" : "small")} />
+      </Show>
+      {split.children}
     </Kobalte>
   )
 }

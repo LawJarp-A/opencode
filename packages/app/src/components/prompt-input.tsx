@@ -1701,7 +1701,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                   <Match when={true}>
                     <div class="flex items-center gap-2">
                       <span>Send</span>
-                      <Icon name="arrow-left" size="small" class="text-icon-base" />
+                      <Icon name="arrow-right" size="small" class="text-icon-base" />
                     </div>
                   </Match>
                 </Switch>
@@ -1709,6 +1709,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
             >
               <IconButton
                 type="submit"
+
                 disabled={!prompt.dirty() && !working()}
                 {...((working() ? { icon: "stop" } : {}) as any)}
                 variant="primary"
@@ -1739,10 +1740,11 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                   <Icon name={"arrow-right" as any} size="small" />
                 </Show>
                 <Show when={!props.submitLabel && props.contextChip && !working()}>
-                  <img src="/submit-arrow.png" alt="Execute" class="size-10 object-contain" />
+                  {/* <img src="/submit-arrow.png" alt="Execute" class="size-10 object-contain" /> */}
+                  <Icon name="arrow-up" size="small" style="color: black !important; transform: rotate(90deg)" />
                 </Show>
                 <Show when={!props.submitLabel && !props.contextChip && !working()}>
-                  <Icon name="arrow-up" size="small" class="text-black" />
+                  <Icon name="arrow-up" size="small" style="color: black !important; transform: rotate(90deg)" />
                 </Show>
               </IconButton>
             </Tooltip>
