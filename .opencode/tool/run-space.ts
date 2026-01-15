@@ -268,8 +268,7 @@ export default tool({
       .describe("The Space to execute"),
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier for context")
-      .default("nike"),
+      .describe("Brand identifier for context"),
     inputs: tool.schema
       .record(tool.schema.unknown())
       .describe("Space-specific inputs (prompt, style, type, platform, topic, etc.)")

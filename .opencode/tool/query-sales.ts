@@ -3,7 +3,16 @@ import { tool } from "@opencode-ai/plugin"
 
 const DESCRIPTION = `Query sales and revenue data from the brand's database.
 Returns sales figures, units sold, AOV, and breakdowns by region/product/time.
-Use this for ROI calculations, trend analysis, and performance reporting.`
+Use this for ROI calculations, trend analysis, and performance reporting.
+
+NOTE: This tool currently returns MOCK/DEMO data for demonstration purposes.
+To integrate with real Shopify data:
+1. Ensure Shopify MCP server is connected (check with 'shopify_get_product_list' tool)
+2. Call 'shopify_get_product_list' to get real product data
+3. Transform Shopify data format to match this tool's output format
+4. Fall back to mock data if Shopify is unavailable
+
+See SHOPIFY_MCP_SETUP.md for integration instructions.`
 
 // Mock sales data generator
 function generateSalesData(args: {
@@ -14,20 +23,29 @@ function generateSalesData(args: {
   category?: string
 }): SalesData {
   // Deterministic "random" based on inputs for consistent demo results
-  const seed = args.brand_id.length + (args.region?.length || 0) + args.start_date.length
-  const multiplier = args.brand_id === "nike" ? 1.5 : args.brand_id === "luxebags" ? 2.2 : 1.0
+  const seed = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + (args.region?.length || 0) + args.start_date.length
+
+  // Generic multiplier derived from brand name hash instead of hardcoded names
+  const brandValue = (seed % 100) / 100; // 0.0 to 1.0
+  const multiplier = 1.0 + brandValue; // 1.0 to 2.0 range
 
   const baseRevenue = 1000000 * multiplier
   const variance = (seed % 30) / 100
 
   const regions = args.region
     ? [args.region]
-    : ["Delhi-NCR", "Mumbai", "Bangalore", "Chennai", "Kolkata"]
+    : ["North", "South", "East", "West", "Central"] // Generic regions
 
-  const regionData = regions.map(region => {
-    const regionMultiplier = region === "Mumbai" ? 1.3 : region === "Delhi-NCR" ? 1.2 : 1.0
+  const regionData = regions.map((region, idx) => {
+    // Deterministic variance per region
+    const regionHash = region.split("").reduce((a, b) => a + b.charCodeAt(0), 0);
+    const regionMultiplier = 0.8 + ((regionHash % 50) / 100); // 0.8 to 1.3
+
     const revenue = Math.round(baseRevenue * regionMultiplier * (1 + variance))
-    const units = Math.round(revenue / (args.brand_id === "luxebags" ? 5000 : 2500))
+    // AOV (Average Order Value) derived from hash
+    const targetAOV = 2000 + ((seed % 50) * 100);
+    const units = Math.round(revenue / targetAOV)
+
     return {
       region,
       revenue,
@@ -90,8 +108,7 @@ export default tool({
   args: {
     brand_id: tool.schema
       .string()
-      .describe("Brand identifier")
-      .default("nike"),
+      .describe("Brand identifier"),
     region: tool.schema
       .string()
       .describe("Region filter (e.g., 'Delhi-NCR', 'Mumbai'). Omit for all regions.")
