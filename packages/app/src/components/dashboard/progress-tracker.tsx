@@ -4,7 +4,7 @@ import { Icon } from "@opencode-ai/ui/icon"
 export interface Task {
     id: string
     label: string
-    status: "pending" | "in-progress" | "completed"
+    status: "pending" | "in-progress" | "completed" | "failed"
 }
 
 interface ProgressTrackerProps {

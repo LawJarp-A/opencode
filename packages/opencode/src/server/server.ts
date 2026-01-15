@@ -890,6 +890,93 @@ export namespace Server {
             return c.json(session)
           },
         )
+        // NEW: Frontend integration endpoints
+        .post(
+          "/api/session/create",
+          describeRoute({
+            summary: "Create session from UI",
+            description: "Create a new OpenCode session from frontend UI intent and start execution.",
+            operationId: "api.session.create",
+            responses: {
+              200: {
+                description: "Session created and execution started",
+                content: {
+                  "application/json": {
+                    schema: resolver(z.object({
+                      sessionID: z.string(),
+                      status: z.literal("created")
+                    })),
+                  },
+                },
+              },
+              ...errors(400),
+            },
+          }),
+          async (c) => {
+            const { createSessionEndpoint, CreateSessionInput } = await import("./session-api")
+            const body = await c.req.json()
+            const result = await createSessionEndpoint(body as any)
+            return c.json(result)
+          },
+        )
+        .get(
+          "/api/session/:sessionID/events",
+          describeRoute({
+            summary: "Stream session events",
+            description: "Subscribe to real-time execution events for a session via WebSocket.",
+            operationId: "api.session.events",
+            responses: {
+              200: {
+                description: "WebSocket connection established",
+              },
+              ...errors(404),
+            },
+          }),
+          upgradeWebSocket((c) => {
+            const sessionID = c.req.param("sessionID")
+            return {
+              async onOpen(_event, ws) {
+                const { streamSessionEvents } = await import("./session-api")
+                streamSessionEvents(sessionID, ws)
+              },
+              onMessage(_event) {
+                // No incoming messages expected for event streaming
+              },
+              onClose() {
+                log.info(`Event stream closed for session ${sessionID}`)
+              },
+            }
+          }),
+        )
+        .get(
+          "/api/session/:sessionID/messages",
+          describeRoute({
+            summary: "Get session messages",
+            description: "Fetch all assistant messages from a session for results display.",
+            operationId: "api.session.messages",
+            responses: {
+              200: {
+                description: "Session messages retrieved",
+                content: {
+                  "application/json": {
+                    schema: resolver(z.array(z.object({
+                      id: z.string(),
+                      content: z.string(),
+                      timestamp: z.number()
+                    }))),
+                  },
+                },
+              },
+              ...errors(404),
+            },
+          }),
+          async (c) => {
+            const sessionID = c.req.param("sessionID")
+            const { getSessionMessages } = await import("./session-api")
+            const messages = await getSessionMessages(sessionID)
+            return c.json(messages)
+          },
+        )
         .delete(
           "/session/:sessionID",
           describeRoute({

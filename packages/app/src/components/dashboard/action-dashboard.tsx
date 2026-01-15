@@ -1,6 +1,8 @@
 import { Icon } from "@opencode-ai/ui/icon"
 import { ActionCard } from "./action-card"
 import { usePrompt } from "@/context/prompt"
+import { client } from "@/services/opencode-client"
+import { useExecution } from "@/context/execution-context"
 
 import { createSignal, createMemo, Switch, Match, createEffect, onCleanup, Show } from "solid-js"
 import { createStore, produce } from "solid-js/store"
@@ -136,6 +138,7 @@ const DEFAULT_MAPPING = {
 
 export function ActionDashboard() {
     const prompt = usePrompt()
+    const execution = useExecution()
     const [selectedActionIndex, setSelectedActionIndex] = createSignal<number | null>(null)
     // Updated flow state to include 'preview', 'executing', and 'result'
     const [flowState, setFlowState] = createSignal<"input" | "loading" | "preview" | "executing" | "result">("input")
@@ -164,11 +167,41 @@ export function ActionDashboard() {
         if (flowState() !== "input") return
         setFlowState("loading")
 
-        // Wait for 2 seconds to simulate loading/thinking
-        setTimeout(() => {
-            setFlowState("preview")
-        }, 2000)
+        try {
+            // Extract text from prompt array
+            const promptText = prompt.current()
+                .filter(part => part.type === "text")
+                .map(part => part.content)
+                .join(" ")
+                .trim()
+
+            // Create session with real OpenCode backend
+            const sessionID = await client.createSession({
+                actionType: currentAction()?.title || "Unknown action",
+                prompt: promptText,
+                context: {}
+            })
+
+            console.log("[ActionDashboard] Session created:", sessionID)
+            execution.setSessionID(sessionID)
+            setFlowState("executing")
+        } catch (error) {
+            console.error("[ActionDashboard] Failed to create session:", error)
+            // TODO: Show error to user
+            setFlowState("input")
+        }
     }
+
+    // Listen for execution completion and transition to result state
+    createEffect(() => {
+        const exec = execution
+
+        // Auto-transition to result when execution completes
+        if (exec.isCompleted() && flowState() === "executing") {
+            console.log("[ActionDashboard] Execution completed, transitioning to result state")
+            setFlowState("result")
+        }
+    })
 
     const handleStartExecution = () => {
         setFlowState("executing")
@@ -181,47 +214,20 @@ export function ActionDashboard() {
         prompt.set([])
     }
 
-    // Simulation Effect - ONLY runs when in "executing" state
+    // Real execution event handling - Update tasks from backend events
     createEffect(() => {
-        if (flowState() === "executing") {
-            const content = responseContent()
-            if (!content.options) return
-
-            // Initialize tasks if empty (or reset)
-            setTasks(content.options.map((label, i) => ({
-                id: i.toString(),
-                label,
-                status: i === 0 ? "in-progress" : "pending"
+        const steps = execution.steps()
+        if (steps.length > 0) {
+            setTasks(steps.map((step) => ({
+                id: step.id,
+                label: step.description,
+                status: step.status
             })))
+        }
 
-            let currentStep = 0
-            const totalSteps = content.options.length
-
-            // Speed up simulation for demo purposes
-            const interval = setInterval(() => {
-                setTasks(produce((draft) => {
-                    if (currentStep < totalSteps) {
-                        // Mark current as completed
-                        draft[currentStep].status = "completed"
-
-                        // Start next if available
-                        if (currentStep + 1 < totalSteps) {
-                            draft[currentStep + 1].status = "in-progress"
-                        }
-                        currentStep++
-                    }
-                }))
-
-                if (currentStep >= totalSteps) {
-                    clearInterval(interval)
-                    // Auto-transition to results after short delay
-                    setTimeout(() => {
-                        setFlowState("result")
-                    }, 1200)
-                }
-            }, 1500) // Faster pace for better demo flow (1.5s per step)
-
-            onCleanup(() => clearInterval(interval))
+        // Auto-transition to results when execution completes
+        if (execution.isCompleted()) {
+            setFlowState("result")
         }
     })
 
@@ -320,70 +326,7 @@ export function ActionDashboard() {
                     </div>
                 </Match>
 
-                {/* 3. PREVIEW STATE (Options List + Buttons) */}
-                <Match when={flowState() === "preview"}>
-                    <div class="z-10 w-full max-w-2xl flex flex-col items-center gap-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
-                        {/* Apple-Grade Preview Card */}
-                        <button
-                            onClick={handleStartExecution}
-                            class="w-full bg-white/70 backdrop-blur-2xl rounded-[32px] p-8 shadow-[0_20px_40px_-12px_rgba(0,0,0,0.06)] hover:bg-white/90 hover:shadow-[0_40px_80px_-12px_rgba(0,0,0,0.08)] hover:scale-[1.005] transition-all duration-500 group cursor-pointer text-left ring-1 ring-black/5"
-                        >
-                            <div class="flex flex-col items-center gap-10">
-                                {/* Header */}
-                                <div class="flex flex-col items-center gap-4 text-center">
-                                    <div class="size-16 rounded-2xl bg-gradient-to-br from-[#F2F2F7] to-[#E5E5EA] flex items-center justify-center text-[#1C1C1E] shadow-inner">
-                                        <Icon name={currentAction()?.icon as any || "branch"} size="large" />
-                                    </div>
-                                    <div class="space-y-2">
-                                        <h1 class="text-2xl font-semibold text-[#1C1C1E] tracking-tight">
-                                            {responseContent().headline}
-                                        </h1>
-                                        <p class="text-[17px] text-[#8E8E93] leading-relaxed max-w-md">
-                                            {responseContent().subtext}
-                                        </p>
-                                    </div>
-                                </div>
 
-                                {/* Inset Grouped List */}
-                                <div class="w-full bg-[#F5F5F7]/50 rounded-[20px] p-2 ring-1 ring-black/5">
-                                    <div class="flex flex-col bg-white rounded-[16px] shadow-sm divide-y divide-[#E5E5EA] overflow-hidden">
-                                        <Show when={responseContent().options}>
-                                            {responseContent().options!.map((option, idx) => (
-                                                <div class="px-5 py-4 flex items-center gap-4 hover:bg-[#F2F2F7] transition-colors duration-200">
-                                                    <div class="size-6 rounded-full bg-[#E5E5EA] flex items-center justify-center shrink-0">
-                                                        <span class="text-[12px] font-semibold text-[#8E8E93] font-mono">{idx + 1}</span>
-                                                    </div>
-                                                    <span class="text-[15px] text-[#1C1C1E] font-medium tracking-tight truncate">{option}</span>
-                                                    {/* Subtle arrow implies flow/drilldown */}
-                                                    <div class="ml-auto text-[#C7C7CC]">
-                                                        <Icon name="chevron-right" size="small" />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </Show>
-                                    </div>
-                                </div>
-
-                                {/* Unlock/Action Hint */}
-                                <div class="h-8 flex items-center gap-2 text-[#007AFF] font-medium opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-75">
-                                    <span class="text-[15px]">Tap to Start</span>
-                                    <Icon name="chevron-right" size="small" />
-                                </div>
-                            </div>
-                        </button>
-
-                        <button
-                            type="button"
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                handleStartExecution();
-                            }}
-                            class="text-[15px] text-[#8E8E93] hover:text-[#1C1C1E] transition-colors font-medium px-4 py-2"
-                        >
-                            Skip & Continue
-                        </button>
-                    </div>
-                </Match>
 
                 {/* 4. EXECUTING STATE (Progress Tracker) */}
                 <Match when={flowState() === "executing"}>
@@ -406,7 +349,13 @@ export function ActionDashboard() {
 
                             {/* Progress Tracker (Live Execution) */}
                             <div class="w-full">
-                                <ProgressTracker tasks={tasks} />
+                                <ProgressTracker tasks={
+                                    execution.steps().map((step) => ({
+                                        id: step.id,
+                                        label: step.description,
+                                        status: step.status
+                                    }))
+                                } />
                             </div>
                         </div>
                     </div>
@@ -463,7 +412,7 @@ export function ActionDashboard() {
                                         </label>
                                         <div class="relative group">
                                             <PromptInput
-                                                onSubmit={() => { /* Handle continuation */ }}
+                                                onSubmit={() => setFlowState("loading")}
                                                 submitLabel="Send"
                                                 class="shadow-sm border border-black/10 bg-white hover:border-black/20 focus-within:border-[#007AFF] focus-within:ring-1 focus-within:ring-[#007AFF]/20 transition-all"
                                                 placeholder="Ask a follow-up ("
@@ -535,7 +484,13 @@ export function ActionDashboard() {
                                         <span class="text-[11px] font-medium text-[#8E8E93] bg-black/5 px-2 py-0.5 rounded-full">Completed</span>
                                     </div>
                                     <div class="overflow-y-auto pr-2 no-scrollbar">
-                                        <ProgressTracker tasks={tasks} />
+                                        <ProgressTracker tasks={
+                                            execution.steps().map((step) => ({
+                                                id: step.id,
+                                                label: step.description,
+                                                status: step.status
+                                            }))
+                                        } />
                                     </div>
                                 </section>
 

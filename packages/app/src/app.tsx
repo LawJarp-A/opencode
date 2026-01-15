@@ -21,6 +21,7 @@ import { AgentFlowProvider } from "@/context/agent-flow"
 import { NotificationProvider } from "@/context/notification"
 import { DialogProvider } from "@opencode-ai/ui/context/dialog"
 import { CommandProvider } from "@/context/command"
+import { ExecutionProvider } from "@/context/execution-context"
 import { Logo } from "@opencode-ai/ui/logo"
 import Layout from "@/pages/layout"
 import DirectoryLayout from "@/pages/directory-layout"
@@ -38,6 +39,8 @@ declare global {
   }
 }
 
+import { LogViewer } from "@/components/log-viewer"
+
 export function AppBaseProviders(props: ParentProps) {
   return (
     <MetaProvider>
@@ -47,7 +50,10 @@ export function AppBaseProviders(props: ParentProps) {
           <DialogProvider>
             <MarkedProvider>
               <DiffComponentProvider component={Diff}>
-                <CodeComponentProvider component={Code}>{props.children}</CodeComponentProvider>
+                <CodeComponentProvider component={Code}>
+                  {props.children}
+                  <LogViewer />
+                </CodeComponentProvider>
               </DiffComponentProvider>
             </MarkedProvider>
           </DialogProvider>
@@ -81,47 +87,49 @@ export function AppInterface(props: { defaultUrl?: string }) {
       <ServerKey>
         <GlobalSDKProvider>
           <GlobalSyncProvider>
-            <Router
-              root={(props) => (
-                <PermissionProvider>
-                  <LayoutProvider>
-                    <NotificationProvider>
-                      <CommandProvider>
-                        <Layout>{props.children}</Layout>
-                      </CommandProvider>
-                    </NotificationProvider>
-                  </LayoutProvider>
-                </PermissionProvider>
-              )}
-            >
-              <Route
-                path="/"
-                component={() => (
-                  <Suspense fallback={<Loading />}>
-                    <Home />
-                  </Suspense>
+            <ExecutionProvider>
+              <Router
+                root={(props) => (
+                  <PermissionProvider>
+                    <LayoutProvider>
+                      <NotificationProvider>
+                        <CommandProvider>
+                          <Layout>{props.children}</Layout>
+                        </CommandProvider>
+                      </NotificationProvider>
+                    </LayoutProvider>
+                  </PermissionProvider>
                 )}
-              />
-              <Route path="/:dir" component={DirectoryLayout}>
-                <Route path="/" component={() => <Navigate href="session" />} />
+              >
                 <Route
-                  path="/session/:id?"
+                  path="/"
                   component={() => (
-                    <AgentFlowProvider>
-                      <TerminalProvider>
-                        <FileProvider>
-                          <PromptProvider>
-                            <Suspense fallback={<Loading />}>
-                              <Session />
-                            </Suspense>
-                          </PromptProvider>
-                        </FileProvider>
-                      </TerminalProvider>
-                    </AgentFlowProvider>
+                    <Suspense fallback={<Loading />}>
+                      <Home />
+                    </Suspense>
                   )}
                 />
-              </Route>
-            </Router>
+                <Route path="/:dir" component={DirectoryLayout}>
+                  <Route path="/" component={() => <Navigate href="session" />} />
+                  <Route
+                    path="/session/:id?"
+                    component={() => (
+                      <AgentFlowProvider>
+                        <TerminalProvider>
+                          <FileProvider>
+                            <PromptProvider>
+                              <Suspense fallback={<Loading />}>
+                                <Session />
+                              </Suspense>
+                            </PromptProvider>
+                          </FileProvider>
+                        </TerminalProvider>
+                      </AgentFlowProvider>
+                    )}
+                  />
+                </Route>
+              </Router>
+            </ExecutionProvider>
           </GlobalSyncProvider>
         </GlobalSDKProvider>
       </ServerKey>
