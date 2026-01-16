@@ -73,7 +73,7 @@ export function SessionHeader() {
               <Select
                 options={worktrees()}
                 current={sync.project?.worktree ?? projectDirectory()}
-                label={(x) => getFilename(x)}
+                label={(x) => (getFilename(x) === "opencode" ? "Luis Vuitton" : getFilename(x))}
                 onSelect={(x) => (x ? navigateToProject(x) : undefined)}
                 class="text-14-regular text-text-base"
                 variant="ghost"
@@ -82,7 +82,7 @@ export function SessionHeader() {
                 {(i) => (
                   <div class="flex items-center gap-2">
                     <Icon name="folder" size="small" />
-                    <div class="text-text-strong">{getFilename(i)}</div>
+                    <div class="text-text-strong">{getFilename(i) === "opencode" ? "Luis Vuitton" : getFilename(i)}</div>
                   </div>
                 )}
               </Select>

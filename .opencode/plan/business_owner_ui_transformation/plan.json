@@ -1,0 +1,290 @@
+{
+  "goal": "Business Owner UI Transformation",
+  "description": "Transform OpenCode from developer-centric to business-owner-friendly web application with 5-page user flow",
+  "brand_id": "opencode",
+  "status": "ready_for_execution",
+  "spaces": [
+    {
+      "id": "create_business_context_provider",
+      "type": "component_creation",
+      "inputs": {
+        "name": "BusinessContextProvider",
+        "path": "packages/app/src/context/business.tsx",
+        "description": "New context provider for business user state management",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_action_grid_component",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ActionGrid",
+        "path": "packages/app/src/components/business/action-grid.tsx",
+        "description": "2x3 action card grid for Page 1: Business Owner Home",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_context_chips_component",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ContextChips",
+        "path": "packages/app/src/components/business/context-chips.tsx",
+        "description": "Context selection chips component for Page 1",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_business_home_page",
+      "type": "page_creation",
+      "inputs": {
+        "name": "BusinessHomePage",
+        "path": "packages/app/src/pages/business-home.tsx",
+        "description": "New Page 1: Business Owner Home with Action Grid and Prompt Input",
+        "dependencies": ["create_action_grid_component", "create_context_chips_component"]
+      }
+    },
+    {
+      "id": "create_loading_planning_page",
+      "type": "page_creation",
+      "inputs": {
+        "name": "LoadingPlanningPage",
+        "path": "packages/app/src/pages/loading-planning.tsx",
+        "description": "New Page 2: Planning/Loading state with calm animation",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_plan_preview_page",
+      "type": "page_creation",
+      "inputs": {
+        "name": "PlanPreviewPage",
+        "path": "packages/app/src/pages/plan-preview.tsx",
+        "description": "New Page 3: Plan Preview with headline and step confirmation",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_execution_tracker_page",
+      "type": "page_creation",
+      "inputs": {
+        "name": "ExecutionTrackerPage",
+        "path": "packages/app/src/pages/execution-tracker.tsx",
+        "description": "New Page 4: Execution Progress Tracker with step states",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_results_page",
+      "type": "page_creation",
+      "inputs": {
+        "name": "ResultsPage",
+        "path": "packages/app/src/pages/results.tsx",
+        "description": "New Page 5: Final Results with 3-column coworker layout",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_api_service_layer",
+      "type": "service_creation",
+      "inputs": {
+        "name": "BusinessAPIService",
+        "path": "packages/app/src/services/business-api.ts",
+        "description": "New API service layer for business flow endpoints",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_sse_service",
+      "type": "service_creation",
+      "inputs": {
+        "name": "BusinessSSEClient",
+        "path": "packages/app/src/services/business-sse.ts",
+        "description": "SSE client for real-time business flow events",
+        "dependencies": ["create_api_service_layer"]
+      }
+    },
+    {
+      "id": "modify_routing_configuration",
+      "type": "file_edit",
+      "inputs": {
+        "file": "packages/app/src/app.tsx",
+        "changes": [
+          "Add new routes for business flow pages",
+          "Add BusinessLayout wrapper",
+          "Update root route to use BusinessHomePage"
+        ]
+      },
+      "dependencies": ["create_business_home_page"]
+    },
+    {
+      "id": "modify_layout_provider",
+      "type": "file_edit",
+      "inputs": {
+        "file": "packages/app/src/context/layout.tsx",
+        "changes": [
+          "Add business flow state management",
+          "Add page state (IDLE, SUBMITTED, PLANNING, PLAN_READY, EXECUTING, COMPLETE, RESULTS_VIEW)",
+          "Add intent state management"
+        ]
+      },
+      "dependencies": ["create_business_context_provider"]
+    },
+    {
+      "id": "create_business_prompt_input",
+      "type": "component_creation",
+      "inputs": {
+        "name": "BusinessPromptInput",
+        "path": "packages/app/src/components/business/prompt-input.tsx",
+        "description": "Simplified prompt input for business users",
+        "dependencies": ["create_business_context_provider"]
+      }
+    },
+    {
+      "id": "create_step_card_component",
+      "type": "component_creation",
+      "inputs": {
+        "name": "StepCard",
+        "path": "packages/app/src/components/business/step-card.tsx",
+        "description": "Reusable step card with pending/in-progress/done/failed states",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_results_center_panel",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ResultsCenterPanel",
+        "path": "packages/app/src/components/business/results-center.tsx",
+        "description": "Center panel component for Page 5 results view",
+        "dependencies": ["create_results_page"]
+      }
+    },
+    {
+      "id": "create_results_left_panel",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ResultsLeftPanel",
+        "path": "packages/app/src/components/business/results-left.tsx",
+        "description": "Left panel: Summary + Continuation Chat for Page 5",
+        "dependencies": ["create_results_page"]
+      }
+    },
+    {
+      "id": "create_results_right_panel",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ResultsRightPanel",
+        "path": "packages/app/src/components/business/results-right.tsx",
+        "description": "Right panel: Progress + Artifacts + Context for Page 5",
+        "dependencies": ["create_results_page"]
+      }
+    },
+    {
+      "id": "create_animation_components",
+      "type": "component_creation",
+      "inputs": {
+        "name": "BusinessAnimations",
+        "path": "packages/app/src/components/business/animations.tsx",
+        "description": "Calm animations, motion indicators, completion animations",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_retry_service",
+      "type": "service_creation",
+      "inputs": {
+        "name": "RetryService",
+        "path": "packages/app/src/services/retry.ts",
+        "description": "Retry logic service for failed steps",
+        "dependencies": ["create_api_service_layer"]
+      }
+    },
+    {
+      "id": "update_global_styles",
+      "type": "file_edit",
+      "inputs": {
+        "file": "packages/app/src/index.css",
+        "changes": [
+          "Add business theme CSS variables",
+          "Add animation keyframes",
+          "Add 3-column layout grid styles"
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "id": "create_types_definitions",
+      "type": "type_creation",
+      "inputs": {
+        "name": "BusinessTypes",
+        "path": "packages/app/src/types/business.ts",
+        "description": "TypeScript types for business flow state, intent, steps, results",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_artifact_service",
+      "type": "service_creation",
+      "inputs": {
+        "name": "ArtifactService",
+        "path": "packages/app/src/services/artifact.ts",
+        "description": "Service for managing result artifacts (download, view, inspect)",
+        "dependencies": []
+      }
+    },
+    {
+      "id": "create_continuation_chat",
+      "type": "component_creation",
+      "inputs": {
+        "name": "ContinuationChat",
+        "path": "packages/app/src/components/business/continuation-chat.tsx",
+        "description": "Chat component for follow-up prompts in results page",
+        "dependencies": ["create_results_left_panel"]
+      }
+    },
+    {
+      "id": "modify_prompt_context",
+      "type": "file_edit",
+      "inputs": {
+        "file": "packages/app/src/context/prompt.tsx",
+        "changes": [
+          "Extend to support business intent state",
+          "Add context attachment handling",
+          "Add attachment/folder selection integration"
+        ]
+      },
+      "dependencies": ["create_business_context_provider"]
+    },
+    {
+      "id": "create_file_folder_picker",
+      "type": "component_creation",
+      "inputs": {
+        "name": "FileFolderPicker",
+        "path": "packages/app/src/components/business/file-folder-picker.tsx",
+        "description": "Simplified file/folder picker for context attachments",
+        "dependencies": ["create_context_chips_component"]
+      }
+    },
+    {
+      "id": "create_business_sidebar",
+      "type": "component_creation",
+      "inputs": {
+        "name": "BusinessSidebar",
+        "path": "packages/app/src/components/business/sidebar.tsx",
+        "description": "Simplified sidebar for business flow",
+        "dependencies": ["create_business_home_page"]
+      }
+    },
+    {
+      "id": "create_header_component",
+      "type": "component_creation",
+      "inputs": {
+        "name": "BusinessHeader",
+        "path": "packages/app/src/components/business/header.tsx",
+        "description": "Header component with action type display",
+        "dependencies": ["create_business_home_page"]
+      }
+    }
+  ]
+}
