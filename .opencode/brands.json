@@ -1,0 +1,45 @@
+{
+    "demo_brand": {
+        "id": "demo_brand",
+        "name": "Demo Brand",
+        "industry": "Retail",
+        "databases": [
+            "sales_db",
+            "inventory_db",
+            "campaigns_db"
+        ],
+        "spaces": [
+            "image_generation",
+            "copy_generation",
+            "ad_creation",
+            "research"
+        ],
+        "regions": [
+            "Region A",
+            "Region B"
+        ],
+        "preferences": {
+            "voice": "Professional, clean",
+            "colors": [
+                "#000000",
+                "#FFFFFF"
+            ],
+            "avoid": [
+                "slang"
+            ]
+        },
+        "performance": {
+            "avg_roas": 3.0,
+            "top_region": "Region A",
+            "top_category": "General",
+            "yoy_growth": 10.0
+        },
+        "shopify": {
+            "store_url": "mock.shop",
+            "mcp_endpoint": "local",
+            "mcp_type": "storefront",
+            "auth_required": false,
+            "note": "Demo configuration"
+        }
+    }
+}

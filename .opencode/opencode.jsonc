@@ -5,7 +5,9 @@
   // "enterprise": {
   //   "url": "https://enterprise.dev.opencode.ai",
   // },
-  "instructions": ["STYLE_GUIDE.md"],
+  "instructions": [
+    "STYLE_GUIDE.md"
+  ],
   "provider": {
     "opencode": {
       "options": {},
@@ -15,6 +17,84 @@
     "context7": {
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
+    },
+    // Shopify Storefront MCP - Uses Mock.shop free public API
+    // No authentication required - uses Shopify's official mock product data
+    // Tools provided by MCP:
+    //   - shopify-mock_search_shop_catalog: Search products by keyword, category, filters
+    //   - shopify-mock_search_shop_policies_and_faqs: Query store policies, FAQs, shipping info
+    //   - shopify-mock_get_cart: Retrieve cart contents
+    //   - shopify-mock_update_cart: Modify cart (add/update/remove items)
+    // Location: /tmp/ShopifyMockMCP (installed locally)
+    // Data source: https://mock.shop (Shopify's official demo GraphQL API)
+    "shopify-mock": {
+      "type": "local",
+      "command": [
+        "node",
+        "/tmp/ShopifyMockMCP/dist/server.js"
+      ],
+      "enabled": true,
+      "timeout": 15000, // Increased for API latency
+    },
+    // Shopify Dev MCP - Official Shopify development MCP server
+    // Provides access to Shopify documentation, API schemas, and development tools
+    // Tools provided by MCP:
+    //   - Search Shopify documentation
+    //   - Explore API schemas (Admin API, Storefront API, Functions)
+    //   - Get up-to-date answers about Shopify APIs
+    //   - Build and test Shopify Functions
+    // Location: /tmp/shopify-dev-mcp (installed locally)
+    // No authentication required - public documentation access
+    "shopify-dev": {
+      "type": "local",
+      "command": [
+        "node",
+        "/tmp/shopify-dev-mcp/node_modules/@shopify/dev-mcp/dist/index.js"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    },
+    // Hydrogen Demo Store Storefront MCP - Direct connection to Shopify's Hydrogen preview store
+    // This is Shopify's official demo store with real Storefront MCP endpoint
+    // Tools provided by MCP:
+    //   - Browse products (snowboards, apparel, accessories)
+    //   - Get product details and variants
+    //   - Search collections
+    //   - Cart operations (create, add, update)
+    //   - Interactive UI components for commerce
+    // Data source: hydrogen-preview.myshopify.com (Shopify Hydrogen Demo Store)
+    // No authentication required - public Storefront MCP endpoint
+    "hydrogen-storefront": {
+      "type": "remote",
+      "url": "https://hydrogen-preview.myshopify.com/api/mcp",
+      "enabled": true,
+      "timeout": 30000
+    },
+    "amazon-mcp": {
+      "type": "local",
+      "command": [
+        "/tmp/AmazonMCP/.venv/bin/python",
+	"-m",
+        "simple_amazon_mcp.server"
+      ],
+      "enabled": true,
+      "timeout": 15000,
+    },
+    // Flipkart Products Scraper MCP - Custom Python scraper for Flipkart.com
+    // Scrapes product information from Flipkart product pages and search results
+    // Tools provided by MCP:
+    //   - scrape_product: Get detailed product info (name, price, rating, specs, images)
+    //   - search_products: Search Flipkart catalog and get product listings
+    // Location: /tmp/FlipkartMCP (installed locally)
+    // No authentication required - scrapes public product pages
+    "flipkart-mcp": {
+      "type": "local",
+      "command": [
+        "/tmp/FlipkartMCP/.venv/bin/python",
+        "/tmp/FlipkartMCP/server.py"
+      ],
+      "enabled": true,
+      "timeout": 15000,
     },
   },
   "tools": {
