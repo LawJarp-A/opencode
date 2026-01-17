@@ -128,6 +128,9 @@ export default tool({
       .optional(),
   },
   async execute(args) {
+    if (!args.brand_id) {
+      return "Error: brand_id argument is required.";
+    }
     const data = generateCampaignData({
       brand_id: args.brand_id,
       start_date: args.start_date,
@@ -138,6 +141,28 @@ export default tool({
     const channelRows = data.by_channel
       .map(c => `| ${c.channel} | ${formatCurrency(c.spend)} | ${formatCurrency(c.revenue)} | ${c.roas}x | ${formatNumber(c.impressions)} | ${c.ctr}% | ${c.conversions} | ${formatCurrency(c.cpa)} |`)
       .join("\n")
+
+    const chartData = {
+      type: "bar",
+      title: "ROAS by Channel",
+      subtitle: `Blended ROAS: ${data.summary.blended_roas}x`,
+      data: data.by_channel.map(c => ({
+        label: c.channel,
+        value: c.roas,
+        meta: `${c.roas}x`,
+        color: "var(--accent-blue)"
+      })).sort((a, b) => b.value - a.value)
+    }
+
+    const modalData = {
+      type: "result_modal",
+      title: "Campaign Review",
+      chips: ["Optimize Underperforming Channels", "Increase Budget on Top Channels", "Compare vs Last Year"],
+      workflows: [
+        { id: "adjust-bids", label: "Adjust Ad Bids" },
+        { id: "pause-campaign", label: "Pause Low ROAS Ads" }
+      ]
+    }
 
     return `# Campaign Performance: ${args.brand_id.toUpperCase()}
 
@@ -154,6 +179,10 @@ export default tool({
 | Total Conversions | ${data.summary.total_conversions.toLocaleString()} |
 | Average CPA | ${formatCurrency(data.summary.avg_cpa)} |
 
+\`\`\`chart
+${JSON.stringify(chartData)}
+\`\`\`
+
 ## Breakdown by Channel
 | Channel | Spend | Revenue | ROAS | Impressions | CTR | Conversions | CPA |
 |---------|-------|---------|------|-------------|-----|-------------|-----|
@@ -164,6 +193,10 @@ ${channelRows}
 - **Attributed Revenue**: ${formatCurrency(data.summary.total_revenue)}
 - **Net Return**: ${formatCurrency(data.summary.total_revenue - data.summary.total_spend)}
 - **ROI**: ${Math.round((data.summary.total_revenue - data.summary.total_spend) / data.summary.total_spend * 100)}%
+
+\`\`\`json result
+${JSON.stringify(modalData)}
+\`\`\`
 
 ---
 *Data source: campaigns_db | Query executed at ${new Date().toISOString()}*`

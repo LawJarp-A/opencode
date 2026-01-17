@@ -568,6 +568,7 @@ export namespace SessionPrompt {
       }
 
       const sessionMessages = clone(msgs)
+      await hydrateFiles(sessionMessages)
 
       // Ephemerally wrap queued user messages with a reminder to stay on track
       if (step > 1 && lastFinished) {
@@ -600,11 +601,11 @@ export namespace SessionPrompt {
           ...MessageV2.toModelMessage(sessionMessages),
           ...(isLastStep
             ? [
-                {
-                  role: "assistant" as const,
-                  content: MAX_STEPS,
-                },
-              ]
+              {
+                role: "assistant" as const,
+                content: MAX_STEPS,
+              },
+            ]
             : []),
         ],
         tools,
@@ -632,6 +633,49 @@ export namespace SessionPrompt {
     }
     throw new Error("Impossible")
   })
+
+  export async function hydrateFiles(messages: MessageV2.WithParts[]) {
+    for (const msg of messages) {
+      if (msg.info.role !== "user") continue
+
+      const parts = await Promise.all(
+        msg.parts.map(async (part) => {
+          if (part.type !== "file" || part.mime !== "text/plain") return part
+
+          try {
+            const url = new URL(part.url)
+            let content = ""
+
+            if (url.protocol === "file:") {
+              const filepath = fileURLToPath(part.url)
+              const file = Bun.file(filepath)
+              if (await file.exists()) {
+                content = await file.text()
+              }
+            } else if (url.protocol === "data:") {
+              const base64 = part.url.split(",")[1]
+              if (base64) {
+                content = Buffer.from(base64, "base64").toString("utf-8")
+              }
+            }
+
+            if (content) {
+              return {
+                ...part,
+                type: "text",
+                text: `[File: ${part.filename}]\n${content}\n`,
+                synthetic: true,
+              } as MessageV2.TextPart
+            }
+          } catch (error) {
+            log.error("failed to hydrate file", { error })
+          }
+          return part
+        }),
+      )
+      msg.parts = parts
+    }
+  }
 
   async function lastModel(sessionID: string) {
     for await (const item of MessageV2.stream(sessionID)) {
@@ -1007,8 +1051,8 @@ export namespace SessionPrompt {
                       agent: input.agent!,
                       messageID: info.id,
                       extra: { bypassCwdCheck: true, model },
-                      metadata: async () => {},
-                      ask: async () => {},
+                      metadata: async () => { },
+                      ask: async () => { },
                     }
                     const result = await t.execute(args, readCtx)
                     pieces.push({
@@ -1068,8 +1112,8 @@ export namespace SessionPrompt {
                   agent: input.agent!,
                   messageID: info.id,
                   extra: { bypassCwdCheck: true },
-                  metadata: async () => {},
-                  ask: async () => {},
+                  metadata: async () => { },
+                  ask: async () => { },
                 }
                 const result = await ListTool.init().then((t) => t.execute(args, listCtx))
                 return [
@@ -1677,15 +1721,15 @@ NOTE: At any point in time through this workflow you should feel free to ask the
     const parts =
       (agent.mode === "subagent" && command.subtask !== false) || command.subtask === true
         ? [
-            {
-              type: "subtask" as const,
-              agent: agent.name,
-              description: command.description ?? "",
-              command: input.command,
-              // TODO: how can we make task tool accept a more complex input?
-              prompt: templateParts.find((y) => y.type === "text")?.text ?? "",
-            },
-          ]
+          {
+            type: "subtask" as const,
+            agent: agent.name,
+            description: command.description ?? "",
+            command: input.command,
+            // TODO: how can we make task tool accept a more complex input?
+            prompt: templateParts.find((y) => y.type === "text")?.text ?? "",
+          },
+        ]
         : [...templateParts, ...(input.parts ?? [])]
 
     const result = (await prompt({

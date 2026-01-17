@@ -44,6 +44,8 @@ import { ImagePreview } from "@opencode-ai/ui/image-preview"
 import { ModelSelectorPopover } from "@/components/dialog-select-model"
 import { DialogSelectModelUnpaid } from "@/components/dialog-select-model-unpaid"
 import { useProviders } from "@/hooks/use-providers"
+import { DropdownMenu } from "@opencode-ai/ui/dropdown-menu"
+import { DialogAttachFile } from "@/components/dialog-attach-file"
 import { useCommand } from "@/context/command"
 import { Persist, persisted } from "@/utils/persist"
 import { Identifier } from "@/utils/id"
@@ -786,7 +788,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
       .abort({
         sessionID: params.id!,
       })
-      .catch(() => {})
+      .catch(() => { })
 
   const addToHistory = (prompt: Prompt, mode: "normal" | "shell") => {
     const text = prompt
@@ -1651,11 +1653,37 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
             <div class="flex items-center gap-2">
               <SessionContextUsage />
               <Show when={store.mode === "normal"}>
-                <Tooltip placement="top" value="Attach file">
-                  <Button type="button" variant="ghost" class="size-6" onClick={() => fileInputRef.click()}>
-                    <Icon name="photo" class="size-4.5" />
-                  </Button>
-                </Tooltip>
+                <DropdownMenu placement="top-start">
+                  <DropdownMenu.Trigger
+                    as={(props: any) => (
+                      <Button {...props} type="button" variant="ghost" class="size-6">
+                        <Icon name="plus" class="size-4.5" />
+                      </Button>
+                    )}
+                  />
+                  <DropdownMenu.Portal>
+                    <DropdownMenu.Content class="w-48">
+                      <DropdownMenu.Item onClick={() => fileInputRef.click()}>
+                        <Icon name="photo" class="mr-2 size-4" />
+                        Upload from computer
+                      </DropdownMenu.Item>
+                      <DropdownMenu.Item
+                        onClick={() =>
+                          dialog.show(() => (
+                            <DialogAttachFile
+                              onSelect={(path) =>
+                                addPart({ type: "file", path, content: "@" + path, start: 0, end: 0 })
+                              }
+                            />
+                          ))
+                        }
+                      >
+                        <Icon name="folder" class="mr-2 size-4" />
+                        Select from workspace
+                      </DropdownMenu.Item>
+                    </DropdownMenu.Content>
+                  </DropdownMenu.Portal>
+                </DropdownMenu>
               </Show>
             </div>
             <Tooltip

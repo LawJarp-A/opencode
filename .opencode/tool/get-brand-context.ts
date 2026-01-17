@@ -75,6 +75,11 @@ export default tool({
   },
   async execute(args) {
     const brands = await loadBrands();
+
+    if (!args.brand_id) {
+      return "Error: brand_id argument is required. Please provide a valid brand identifier.";
+    }
+
     const brand = brands[args.brand_id.toLowerCase()]
 
     if (!brand) {

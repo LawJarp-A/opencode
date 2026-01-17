@@ -29,6 +29,7 @@ export interface SessionReviewProps {
   actions?: JSX.Element
   diffs: (FileDiff & { preloaded?: PreloadMultiFileDiffResult<any> })[]
   onViewFile?: (file: string) => void
+  onClose?: () => void
 }
 
 export const SessionReview = (props: SessionReviewProps) => {
@@ -85,6 +86,14 @@ export const SessionReview = (props: SessionReviewProps) => {
               <Match when={true}>Expand all</Match>
             </Switch>
           </Button>
+          <Show when={props.onClose}>
+            <Button
+              size="normal"
+              icon="close"
+              onClick={props.onClose}
+              title="Close review panel"
+            />
+          </Show>
           {props.actions}
         </div>
       </div>
