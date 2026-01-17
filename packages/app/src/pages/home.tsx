@@ -83,7 +83,7 @@ export default function Home() {
             variant="primary"
             class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white shadow-lg shadow-blue-500/30 transition-all duration-300 transform hover:scale-105 px-8 py-6 text-lg rounded-xl border-none"
             onClick={() => {
-              const path = `${homedir()}/opencode`
+              const path = `${homedir()}/shopos`
               openProject(path)
             }}
           >
