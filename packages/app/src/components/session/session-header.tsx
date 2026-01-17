@@ -123,17 +123,7 @@ export function SessionHeader() {
                   variant="ghost"
                 />
                 <div class="text-text-weaker">/</div>
-                <div class="flex items-center gap-1.5 min-w-0">
-                  <Tooltip value="Back to parent session">
-                    <button
-                      type="button"
-                      class="flex items-center justify-center gap-1 p-1 rounded hover:bg-surface-raised-base-hover active:bg-surface-raised-base-active transition-colors flex-shrink-0"
-                      onClick={() => navigateToSession(parentSession())}
-                    >
-                      <Icon name="arrow-left" size="small" class="text-icon-base" />
-                    </button>
-                  </Tooltip>
-                </div>
+
               </div>
             </Show>
           </div>

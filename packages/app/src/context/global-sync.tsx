@@ -585,3 +585,7 @@ export function useGlobalSync() {
   if (!context) throw new Error("useGlobalSync must be used within GlobalSyncProvider")
   return context
 }
+
+
+
+

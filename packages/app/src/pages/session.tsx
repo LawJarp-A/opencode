@@ -1107,6 +1107,25 @@ export default function Page() {
                             class="pointer-events-auto"
                           />
                         </div>
+
+                        {/* Persistent Back to Parent Button */}
+                        <Show when={(() => {
+                          const current = sync.data.session.find((s) => s.id === params.id)
+                          return current?.parentID ? sync.data.session.find((s) => s.id === current.parentID) : undefined
+                        })()}>
+                          {(parent) => (
+                            <div class="absolute top-4 left-4 z-20 pointer-events-auto">
+                              <Tooltip value={`Back to ${parent().title}`} placement="right">
+                                <button
+                                  class="flex items-center justify-center size-10 rounded-full bg-surface-base border border-border-weak-base shadow-sm hover:bg-surface-raised-base-hover hover:scale-105 active:scale-95 transition-all"
+                                  onClick={() => navigate(`/${params.dir}/session/${parent().id}`)}
+                                >
+                                  <Icon name="arrow-left" size="normal" class="text-text-base" />
+                                </button>
+                              </Tooltip>
+                            </div>
+                          )}
+                        </Show>
                       </Show>
                       <div
                         ref={setScrollRef}
