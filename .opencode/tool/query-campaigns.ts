@@ -10,7 +10,13 @@ function generateCampaignData(args: {
   start_date: string
   end_date: string
   channel?: string
+  campaign_type?: "social" | "email" | "influencer" | "paid_search" | "all"
 }): CampaignData {
+  // Validate required parameters
+  if (!args.brand_id || !args.start_date) {
+    throw new Error("Missing required parameters: brand_id and start_date are required")
+  }
+
   const seedValue = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + args.start_date.length
   const seed = seedValue;
   // Generic base spend derivation
@@ -128,13 +134,15 @@ export default tool({
       .optional(),
   },
   async execute(args) {
-    if (!args.brand_id) {
-      return "Error: brand_id argument is required.";
-    }
+    // Provide sensible defaults if parameters are missing
+    const brand_id = args.brand_id || "unknown"
+    const start_date = args.start_date || new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
+    const end_date = args.end_date || new Date().toISOString().split('T')[0]
+
     const data = generateCampaignData({
-      brand_id: args.brand_id,
-      start_date: args.start_date,
-      end_date: args.end_date,
+      brand_id,
+      start_date,
+      end_date,
       channel: args.channel,
     })
 
@@ -164,7 +172,7 @@ export default tool({
       ]
     }
 
-    return `# Campaign Performance: ${args.brand_id.toUpperCase()}
+    return `# Campaign Performance: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Query Parameters
 - **Period**: ${data.query.period}

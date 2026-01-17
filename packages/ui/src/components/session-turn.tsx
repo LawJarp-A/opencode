@@ -35,6 +35,8 @@ import { Spinner } from "./spinner"
 import { createStore } from "solid-js/store"
 import { DateTime, DurationUnit, Interval } from "luxon"
 import { createAutoScroll } from "../hooks"
+import { InlineAgentActivity } from "./inline-agent-activity"
+import type { AgentFlowNode } from "./agent-flow-graph"
 
 function computeStatusFromPart(part: PartType | undefined): string | undefined {
   if (!part) return undefined
@@ -91,6 +93,7 @@ export function SessionTurn(
     stepsExpanded?: boolean
     onStepsExpandedToggle?: () => void
     onUserInteracted?: () => void
+    agentNodes?: () => AgentFlowNode[]
     classes?: {
       root?: string
       content?: string
@@ -542,11 +545,15 @@ export function SessionTurn(
                     <div data-slot="session-turn-message-content">
                       <Message message={msg()} parts={parts()} />
                     </div>
-                    {/* Agent Dialogue (Always visible if there's activity) */}
-                    <Show when={assistantMessages().length > 0 || working()}>
+
+                    {/* Thinking animation - Premium subtle style matching ShopOS theme */}
+
+                    {/* Agent Dialogue - Shows both agent thinking AND response */}
+                    <Show when={assistantMessages().length > 0 || working() || (props.agentNodes && props.agentNodes().length > 0)}>
                       <AgentDialogue
                         messages={assistantMessages()}
                         working={working()}
+                        agentNodes={props.agentNodes?.() ?? []}
                         classes={{ root: "mb-2" }}
                       />
                     </Show>
@@ -562,130 +569,113 @@ export function SessionTurn(
                         Let's assume AgentDialogue renders the tool parts which contain the permission request.
                     */}
 
-                    {/* Response */}
+                    {/* Response - Always visible, no header/close button */}
                     <Show when={!working() && (displayResponse() || hasDiffs())}>
                       <div data-slot="session-turn-summary-section">
-                        <div data-slot="session-turn-summary-header">
-                          <div class="flex items-center justify-between w-full">
-                            <h2 data-slot="session-turn-summary-title">Response</h2>
-                            <div class="flex items-center gap-2">
-                              {/* Minimized Result Button */}
-                              <Show when={modalState() === "minimized"}>
-                                <button
-                                  onClick={() => setModalState("open")}
-                                  class="
-                                        flex items-center gap-2 px-3 py-1.5 text-xs font-medium 
-                                        text-accent-blue bg-accent-blue/10 rounded-full 
-                                        hover:bg-accent-blue/20 transition-colors animate-in fade-in zoom-in
-                                    "
-                                >
-                                  <Icon name="branch" class="size-3" />
-                                  View Analysis Result
-                                </button>
-                              </Show>
-
-                              <Show when={store.summaryExpanded}>
-                                <div data-slot="session-turn-summary-copy">
-                                  <Tooltip value={responseCopied() ? "Copied!" : "Copy"} placement="top" gutter={8}>
-                                    <IconButton
-                                      icon={responseCopied() ? "check" : "copy"}
-                                      variant="secondary"
-                                      onClick={handleCopyResponse}
-                                    />
-                                  </Tooltip>
-                                </div>
-                              </Show>
-                              <Button
-                                variant="ghost"
-                                size="small"
-                                onClick={() => setStore("summaryExpanded", !store.summaryExpanded)}
-                              >
-                                {store.summaryExpanded ? "Close" : "Show Response"}
-                              </Button>
-                            </div>
-                          </div>
-                          <Show when={store.summaryExpanded}>
-                            <Markdown
-                              data-slot="session-turn-markdown"
-                              data-diffs={hasDiffs()}
-                              text={displayResponse() ?? ""}
-                              cacheKey={responsePartId()}
-                            />
-                          </Show>
-                        </div>
-                        <Show when={store.summaryExpanded}>
-                          <Accordion
-                            data-slot="session-turn-accordion"
-                            multiple
-                            value={store.diffsOpen}
-                            onChange={(value) => {
-                              if (!Array.isArray(value)) return
-                              setStore("diffsOpen", value)
-                            }}
+                        {/* Minimized Result Button */}
+                        <Show when={modalState() === "minimized"}>
+                          <button
+                            onClick={() => setModalState("open")}
+                            class="
+                                      flex items-center gap-2 px-3 py-1.5 text-xs font-medium 
+                                      text-accent-blue bg-accent-blue/10 rounded-full 
+                                      hover:bg-accent-blue/20 transition-colors animate-in fade-in zoom-in
+                                  "
                           >
-                            <For each={(msg().summary?.diffs ?? []).slice(0, store.diffLimit)}>
-                              {(diff) => (
-                                <Accordion.Item value={diff.file}>
-                                  <StickyAccordionHeader>
-                                    <Accordion.Trigger>
-                                      <div data-slot="session-turn-accordion-trigger-content">
-                                        <div data-slot="session-turn-file-info">
-                                          <FileIcon
-                                            node={{ path: diff.file, type: "file" }}
-                                            data-slot="session-turn-file-icon"
-                                          />
-                                          <div data-slot="session-turn-file-path">
-                                            <Show when={diff.file.includes("/")}>
-                                              <span data-slot="session-turn-directory">
-                                                {getDirectory(diff.file)}&lrm;
-                                              </span>
-                                            </Show>
-                                            <span data-slot="session-turn-filename">{getFilename(diff.file)}</span>
-                                          </div>
-                                        </div>
-                                        <div data-slot="session-turn-accordion-actions">
-                                          <DiffChanges changes={diff} />
-                                          <Icon name="chevron-grabber-vertical" size="small" />
+                            <Icon name="branch" class="size-3" />
+                            View Analysis Result
+                          </button>
+                        </Show>
+
+                        {/* Response markdown - always shown */}
+                        <div data-slot="session-turn-summary-copy">
+                          <Tooltip value={responseCopied() ? "Copied!" : "Copy"} placement="top" gutter={8}>
+                            <IconButton
+                              icon={responseCopied() ? "check" : "copy"}
+                              variant="secondary"
+                              onClick={handleCopyResponse}
+                            />
+                          </Tooltip>
+                        </div>
+                        <Markdown
+                          data-slot="session-turn-markdown"
+                          data-diffs={hasDiffs()}
+                          text={displayResponse() ?? ""}
+                          cacheKey={responsePartId()}
+                        />
+
+                        {/* Diffs accordion */}
+                        <Accordion
+                          data-slot="session-turn-accordion"
+                          multiple
+                          value={store.diffsOpen}
+                          onChange={(value) => {
+                            if (!Array.isArray(value)) return
+                            setStore("diffsOpen", value)
+                          }}
+                        >
+                          <For each={(msg().summary?.diffs ?? []).slice(0, store.diffLimit)}>
+                            {(diff) => (
+                              <Accordion.Item value={diff.file}>
+                                <StickyAccordionHeader>
+                                  <Accordion.Trigger>
+                                    <div data-slot="session-turn-accordion-trigger-content">
+                                      <div data-slot="session-turn-file-info">
+                                        <FileIcon
+                                          node={{ path: diff.file, type: "file" }}
+                                          data-slot="session-turn-file-icon"
+                                        />
+                                        <div data-slot="session-turn-file-path">
+                                          <Show when={diff.file.includes("/")}>
+                                            <span data-slot="session-turn-directory">
+                                              {getDirectory(diff.file)}&lrm;
+                                            </span>
+                                          </Show>
+                                          <span data-slot="session-turn-filename">{getFilename(diff.file)}</span>
                                         </div>
                                       </div>
-                                    </Accordion.Trigger>
-                                  </StickyAccordionHeader>
-                                  <Accordion.Content data-slot="session-turn-accordion-content">
-                                    <Show when={store.diffsOpen.includes(diff.file!)}>
-                                      <Dynamic
-                                        component={diffComponent}
-                                        before={{
-                                          name: diff.file!,
-                                          contents: diff.before!,
-                                        }}
-                                        after={{
-                                          name: diff.file!,
-                                          contents: diff.after!,
-                                        }}
-                                      />
-                                    </Show>
-                                  </Accordion.Content>
-                                </Accordion.Item>
-                              )}
-                            </For>
-                          </Accordion>
-                          <Show when={(msg().summary?.diffs?.length ?? 0) > store.diffLimit}>
-                            <Button
-                              data-slot="session-turn-accordion-more"
-                              variant="ghost"
-                              size="small"
-                              onClick={() => {
-                                const total = msg().summary?.diffs?.length ?? 0
-                                setStore("diffLimit", (limit) => {
-                                  const next = limit + diffBatch
-                                  if (next > total) return total
-                                  return next
-                                })
-                              }}
-                            >
-                              Show more changes ({(msg().summary?.diffs?.length ?? 0) - store.diffLimit})
-                            </Button>
-                          </Show>
+                                      <div data-slot="session-turn-accordion-actions">
+                                        <DiffChanges changes={diff} />
+                                        <Icon name="chevron-grabber-vertical" size="small" />
+                                      </div>
+                                    </div>
+                                  </Accordion.Trigger>
+                                </StickyAccordionHeader>
+                                <Accordion.Content data-slot="session-turn-accordion-content">
+                                  <Show when={store.diffsOpen.includes(diff.file!)}>
+                                    <Dynamic
+                                      component={diffComponent}
+                                      before={{
+                                        name: diff.file!,
+                                        contents: diff.before!,
+                                      }}
+                                      after={{
+                                        name: diff.file!,
+                                        contents: diff.after!,
+                                      }}
+                                    />
+                                  </Show>
+                                </Accordion.Content>
+                              </Accordion.Item>
+                            )}
+                          </For>
+                        </Accordion>
+                        <Show when={(msg().summary?.diffs?.length ?? 0) > store.diffLimit}>
+                          <Button
+                            data-slot="session-turn-accordion-more"
+                            variant="ghost"
+                            size="small"
+                            onClick={() => {
+                              const total = msg().summary?.diffs?.length ?? 0
+                              setStore("diffLimit", (limit) => {
+                                const next = limit + diffBatch
+                                if (next > total) return total
+                                return next
+                              })
+                            }}
+                          >
+                            Show more changes ({(msg().summary?.diffs?.length ?? 0) - store.diffLimit})
+                          </Button>
                         </Show>
                       </div>
                     </Show>

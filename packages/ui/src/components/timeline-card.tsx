@@ -1,4 +1,4 @@
-import { Show, For, createMemo } from "solid-js"
+import { Show, For, createMemo, createSignal, createEffect } from "solid-js"
 import { Icon } from "./icon"
 import { Spinner } from "./spinner"
 import type { AgentFlowNode, ToolCall } from "./agent-flow-graph"
@@ -42,6 +42,16 @@ function getToolSummary(tool: ToolCall): string {
 
 export function TimelineCard(props: TimelineCardProps) {
   const agentColor = () => AGENT_COLORS[props.node.agent] ?? "#666"
+  const [isFresh, setIsFresh] = createSignal(false)
+
+  // Track fresh state changes for micro-interactions
+  createEffect(() => {
+    const status = props.node.status
+    if (status === "complete" || status === "failed") {
+      setIsFresh(true)
+      setTimeout(() => setIsFresh(false), 600)
+    }
+  })
 
   const duration = createMemo(() => {
     if (!props.node.startTime) return null
@@ -72,6 +82,7 @@ export function TimelineCard(props: TimelineCardProps) {
     <div
       data-component="timeline-card"
       data-status={props.node.status}
+      data-fresh={isFresh()}
       style={{ "--agent-color": agentColor() }}
       class={props.class}
       onClick={() => props.onSelect?.(props.node)}

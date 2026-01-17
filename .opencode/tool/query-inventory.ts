@@ -30,7 +30,7 @@ function generateInventoryData(args: {
       const daysOfStock = Math.round(stock / Math.max(dailySales, 1))
 
       return {
-        sku: `${args.brand_id.toUpperCase()}-${category.substring(0, 3).toUpperCase()}-${1000 + i}`,
+        sku: `${args.brand_id?.toUpperCase() || 'UNKNOWN'}-${category.substring(0, 3).toUpperCase()}-${1000 + i}`,
         category,
         product_name: `${category} Item ${i + 1}`,
         stock_quantity: stock,
@@ -152,7 +152,7 @@ export default tool({
       ]
     }
 
-    return `# Inventory Status: ${args.brand_id.toUpperCase()}
+    return `# Inventory Status: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Query Parameters
 - **Category**: ${data.query.category}

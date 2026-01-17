@@ -8,6 +8,7 @@ interface AgentFlowState {
   nodes: AgentFlowNode[]
   selectedNodeId: string | null
   sessionId: string | null
+  currentMessageId: string | null  // Track which message is currently being processed
 }
 
 // Storage key for persistence
@@ -65,6 +66,7 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
       nodes: [],
       selectedNodeId: null,
       sessionId: null,
+      currentMessageId: null,
     })
 
     // Track active task IDs to their parent task IDs
@@ -153,6 +155,7 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
               currentAction: "Analyzing prompt...",
               startTime: Date.now(),
               toolCalls: [],
+              messageId: state.currentMessageId ?? undefined,
             }
             addNode(plannerNode)
           }
@@ -237,6 +240,7 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
             startTime: Date.now(),
             parentId,
             toolCalls: [],
+            messageId: state.currentMessageId ?? undefined,
           }
 
           // Store parent relationship for child tasks
@@ -286,6 +290,16 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
       selectedNodeId: () => state.selectedNodeId,
       sessionId: () => state.sessionId,
 
+      // Get nodes for a specific message
+      nodesForMessage: (messageId: string) => {
+        return state.nodes.filter(n => n.messageId === messageId)
+      },
+
+      // Set the current message being processed
+      setCurrentMessage: (messageId: string | null) => {
+        setState("currentMessageId", messageId)
+      },
+
       // Load state for a specific session
       loadSession: (sessionId: string) => {
         const persisted = loadPersistedState(sessionId)
@@ -293,6 +307,7 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
           nodes: persisted,
           selectedNodeId: null,
           sessionId,
+          currentMessageId: null,
         })
       },
 
@@ -305,7 +320,7 @@ export const { use: useAgentFlow, provider: AgentFlowProvider } = createSimpleCo
       },
 
       clear: () => {
-        setState({ nodes: [], selectedNodeId: null })
+        setState({ nodes: [], selectedNodeId: null, currentMessageId: null })
         if (state.sessionId) {
           localStorage.removeItem(`${STORAGE_KEY}-${state.sessionId}`)
         }

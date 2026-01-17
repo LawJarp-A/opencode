@@ -166,7 +166,7 @@ export default tool({
         return `No products found for "${searchQuery}" in ${args.brand_id}.`;
       }
 
-      let output = `# Product Search Results: ${args.brand_id.toUpperCase()}\n\n`;
+      let output = `# Product Search Results: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}\n\n`;
       output += `Found ${products.length} products matching "${searchQuery}":\n\n`;
 
       products.forEach(({ node: p }: { node: any }) => {

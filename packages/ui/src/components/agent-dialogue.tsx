@@ -4,11 +4,14 @@ import { useData } from "../context"
 import { Message } from "./message-part"
 import { Icon } from "./icon"
 import { Spinner } from "./spinner"
+import { InlineAgentActivity } from "./inline-agent-activity"
+import type { AgentFlowNode } from "./agent-flow-graph"
 import "./agent-dialogue.tsx.css"
 
 interface AgentDialogueProps {
     messages: AssistantMessage[]
     working?: boolean
+    agentNodes?: AgentFlowNode[]
     classes?: {
         root?: string
     }
@@ -41,32 +44,48 @@ function AssistantMessageItem(props: {
 }
 
 export function AgentDialogue(props: AgentDialogueProps) {
+    // Debug logging
+    console.log('AgentDialogue render:', {
+        agentNodes: props.agentNodes,
+        agentNodesLength: props.agentNodes?.length,
+        messagesLength: props.messages.length,
+        working: props.working
+    })
+
     return (
         <div data-component="agent-dialogue" class={props.classes?.root}>
-            <div data-slot="agent-dialogue-header">
-                <div data-slot="agent-dialogue-title">
-                    <Icon name="console" size="small" />
-                    <span>Agent Activity</span>
+            {/* Agent Thinking - Collapsible, auto-collapses after completion */}
+            <Show when={props.agentNodes || props.working}>
+                <InlineAgentActivity nodes={props.agentNodes ?? []} working={props.working}>
+                    {/* Agent Messages (Reasoning/Logs) - Now INSIDE collapsible section */}
+                    <Show when={props.messages.length > 0}>
+                        <div data-slot="agent-dialogue-content">
+                            <For each={props.messages}>
+                                {(message) => (
+                                    <AssistantMessageItem
+                                        message={message}
+                                        hideReasoning={false}
+                                    />
+                                )}
+                            </For>
+                        </div>
+                    </Show>
+                </InlineAgentActivity>
+            </Show>
+
+            {/* Fallback: If no agent nodes (e.g. legacy/simple), just show messages */}
+            <Show when={!props.agentNodes && props.messages.length > 0}>
+                <div data-slot="agent-dialogue-content">
+                    <For each={props.messages}>
+                        {(message) => (
+                            <AssistantMessageItem
+                                message={message}
+                                hideReasoning={false}
+                            />
+                        )}
+                    </For>
                 </div>
-                <Show when={props.working}>
-                    <Spinner />
-                </Show>
-            </div>
-            <div data-slot="agent-dialogue-content">
-                <For each={props.messages}>
-                    {(msg) => (
-                        <AssistantMessageItem
-                            message={msg}
-                            hideReasoning={false}
-                        />
-                    )}
-                </For>
-                <Show when={props.messages.length === 0 && props.working}>
-                    <div class="text-text-muted italic flex items-center gap-2">
-                        <span>Initializing agent environment...</span>
-                    </div>
-                </Show>
-            </div>
+            </Show>
         </div>
     )
 }

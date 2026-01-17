@@ -127,9 +127,11 @@
       background-position: 200% 0;
       width: 20%;
     }
+
     50% {
       width: 60%;
     }
+
     100% {
       background-position: -200% 0;
       width: 20%;
@@ -194,5 +196,80 @@
     font-size: 11px;
     font-family: var(--font-family-mono);
     color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* ========== ANIMATION ENHANCEMENTS ========== */
+
+/* Entry Animation - Slide up with fade */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-component="timeline-card"] {
+  animation: slide-up 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Enhanced hover effect */
+[data-component="timeline-card"]:hover {
+  transform: translateX(4px) translateY(-1px);
+}
+
+/* Success celebration */
+@keyframes celebrate {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+[data-component="timeline-card"][data-status="complete"][data-fresh="true"] {
+  animation: celebrate 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Error shake */
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-6px);
+  }
+
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+[data-component="timeline-card"][data-status="failed"][data-fresh="true"] {
+  animation: shake 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+
+  [data-component="timeline-card"],
+  [data-component="timeline-card"] * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

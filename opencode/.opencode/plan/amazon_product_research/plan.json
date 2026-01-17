@@ -1,0 +1,134 @@
+{
+  "goal": "Amazon Product Research & Competitive Analysis",
+  "brand_id": "amazon_research",
+  "status": "ready_for_execution",
+  "spaces": [
+    {
+      "id": "research_1",
+      "type": "research",
+      "inputs": {
+        "task": "market_research",
+        "query": "wireless bluetooth headphones market trends 2024 2025",
+        "sources": ["amazon", "web"],
+        "output_format": "detailed_report"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "research_2",
+      "type": "research",
+      "inputs": {
+        "task": "competitor_analysis",
+        "query": "boAt ZEBRONICS pTron Amazon pricing strategy",
+        "sources": ["amazon"],
+        "output_format": "competitive_matrix"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "research_3",
+      "type": "research",
+      "inputs": {
+        "task": "product_deep_dive",
+        "query": "boAt Rockerz 480 detailed specifications reviews",
+        "sources": ["amazon"],
+        "output_format": "product_profile"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "copy_1",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "product_description",
+        "product_category": "wireless bluetooth headphones",
+        "tone": "professional",
+        "variations": 3,
+        "keywords": ["wireless headphones", "bluetooth audio", "premium sound"]
+      },
+      "dependencies": ["research_1"]
+    },
+    {
+      "id": "copy_2",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "ad_copy",
+        "platform": "amazon",
+        "ad_format": "sponsored_products",
+        "product_category": "wireless bluetooth headphones",
+        "variations": 5
+      },
+      "dependencies": ["research_1", "research_3"]
+    },
+    {
+      "id": "copy_3",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "social_content",
+        "platform": "instagram",
+        "product_category": "audio accessories",
+        "style": "lifestyle",
+        "variations": 3
+      },
+      "dependencies": ["research_1"]
+    },
+    {
+      "id": "image_1",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "product_lifestyle",
+        "product_category": "wireless bluetooth headphones",
+        "style": "modern lifestyle",
+        "count": 3
+      },
+      "dependencies": ["copy_1"]
+    },
+    {
+      "id": "image_2",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "social_media",
+        "platform": "instagram",
+        "product_category": "audio accessories",
+        "style": "trending",
+        "count": 3
+      },
+      "dependencies": ["copy_3"]
+    },
+    {
+      "id": "ad_creation_1",
+      "type": "ad_creation",
+      "inputs": {
+        "platform": "amazon",
+        "ad_format": "sponsored_display",
+        "objective": "awareness",
+        "products": ["wireless bluetooth headphones"],
+        "creative_count": 4
+      },
+      "dependencies": ["copy_2", "image_1"]
+    },
+    {
+      "id": "ad_creation_2",
+      "type": "ad_creation",
+      "inputs": {
+        "platform": "meta",
+        "ad_format": "facebook_feed",
+        "objective": "conversions",
+        "products": ["wireless bluetooth headphones"],
+        "creative_count": 3
+      },
+      "dependencies": ["copy_3", "image_2"]
+    },
+    {
+      "id": "email_generation_1",
+      "type": "email_generation",
+      "inputs": {
+        "email_type": "product_launch",
+        "product_category": "audio accessories",
+        "tone": "promotional",
+        "variations": 2
+      },
+      "dependencies": ["copy_1", "image_1"]
+    }
+  ]
+}
