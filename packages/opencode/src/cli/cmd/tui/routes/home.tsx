@@ -125,7 +125,7 @@ export function Home() {
                   <span style={{ fg: connectedMcpCount() > 0 ? theme.success : theme.textMuted }}>⊙ </span>
                 </Match>
               </Switch>
-              {connectedMcpCount()} MCP
+              {connectedMcpCount()} MCP-xyzdf
             </text>
             <text fg={theme.textMuted}>/status</text>
           </Show>

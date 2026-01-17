@@ -73,11 +73,7 @@ export default function Home() {
       <div class="w-full max-w-xl px-4 flex flex-col items-center relative z-10">
         <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-4 mb-10 text-center">
           <h1 class="text-6xl md:text-[2.5rem] font-medium text-text-strong tracking-wide pt-2">Welcome to</h1>
-          <img
-            src="/shopos-branding.png"
-            class="h-16 md:h-24 w-auto object-contain"
-            alt="ShopOS Branding"
-          />
+          <h1 class="text-6xl md:text-[4rem] font-semibold text-text-strong tracking-wide pt-2 font-display">ShopOS</h1>
         </div>
         <p class="md:text-[1rem] text-text-subtle mb-10 text-center max-w-md">Your premium ecommerce operating system. Manage, analyze, and grow your business with ease.</p>
 
