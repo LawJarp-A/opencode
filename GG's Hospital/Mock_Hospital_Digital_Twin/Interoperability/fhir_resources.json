@@ -1,0 +1,308 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-001",
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://hospital.gg.org/patients",
+            "value": "MRN123456"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Doe",
+            "given": [
+              "John",
+              "A"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1965-04-12",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "123 Main St"
+            ],
+            "city": "Boston",
+            "state": "MA",
+            "postalCode": "02101",
+            "country": "USA"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555-1234",
+            "use": "home"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-glucose-001",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-001"
+        },
+        "effectiveDateTime": "2025-01-15T08:30:00Z",
+        "valueQuantity": {
+          "value": 142,
+          "unit": "mg/dL",
+          "system": "http://unitsof measure.org",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 100,
+              "unit": "mg/dL"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-a1c-001",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-001"
+        },
+        "effectiveDateTime": "2025-01-15T08:30:00Z",
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "report-001",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c panel"
+            }
+          ],
+          "text": "Diabetes Monitoring Panel"
+        },
+        "subject": {
+          "reference": "Patient/patient-001"
+        },
+        "effectiveDateTime": "2025-01-15T08:30:00Z",
+        "issued": "2025-01-15T10:45:00Z",
+        "result": [
+          {
+            "reference": "Observation/obs-glucose-001"
+          },
+          {
+            "reference": "Observation/obs-a1c-001"
+          }
+        ],
+        "conclusion": "Elevated glucose and HbA1c consistent with inadequately controlled diabetes. Recommend medication adjustment."
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-001",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "314076",
+              "display": "Metformin 500 MG Oral Tablet"
+            }
+          ],
+          "text": "Metformin 500mg tablet"
+        },
+        "subject": {
+          "reference": "Patient/patient-001"
+        },
+        "authoredOn": "2025-01-15T11:00:00Z",
+        "dosageInstruction": [
+          {
+            "text": "Take 1 tablet by mouth twice daily with meals",
+            "timing": {
+              "repeat": {
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-001",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "390906007",
+                "display": "Follow-up encounter"
+              }
+            ],
+            "text": "Follow-up visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/patient-001"
+        },
+        "period": {
+          "start": "2025-01-15T10:00:00Z",
+          "end": "2025-01-15T10:30:00Z"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "Diabetes mellitus type 2"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -29,6 +29,7 @@
     "vite-plugin-solid": "catalog:"
   },
   "dependencies": {
+    "@antv/g2": "5.4.8",
     "@kobalte/core": "catalog:",
     "@opencode-ai/sdk": "workspace:*",
     "@opencode-ai/ui": "workspace:*",
@@ -56,6 +57,7 @@
     "solid-js": "catalog:",
     "solid-list": "catalog:",
     "tailwindcss": "catalog:",
+    "ulid": "3.0.2",
     "virtua": "catalog:",
     "zod": "catalog:"
   }

@@ -1,0 +1,163 @@
+item_id,name,category,unit,location,stock_level,par_level,reorder_point,min_order_qty,unit_cost,vendor_id,status,last_restock_date
+G000001,N95 Respirator,PPE,Box of 20,Central Supply,105,331,132,165,25.07,VEN006,Critical Low,2025-11-21
+G000002,N95 Respirator,PPE,Box of 20,MedSurg-North-Supply,15,20,8,10,17.67,VEN005,OK,2025-11-23
+G000003,N95 Respirator,PPE,Box of 20,MedSurg-South-Supply,439,445,178,222,36.89,VEN006,OK,2026-01-13
+G000004,N95 Respirator,PPE,Box of 20,ICU-Supply,57,63,25,31,146.72,VEN006,OK,2025-11-30
+G000005,N95 Respirator,PPE,Box of 20,ED-Supply,20,84,33,42,82.92,VEN005,Critical Low,2025-12-16
+G000006,N95 Respirator,PPE,Box of 20,OR-Supply,357,466,186,233,139.41,VEN006,OK,2025-12-05
+G000007,Surgical Mask,PPE,Box of 50,Central Supply,107,122,48,61,101.08,VEN005,OK,2025-12-21
+G000008,Surgical Mask,PPE,Box of 50,MedSurg-North-Supply,321,480,192,240,34.48,VEN005,OK,2026-01-17
+G000009,Surgical Mask,PPE,Box of 50,MedSurg-South-Supply,227,321,128,160,2.07,VEN006,OK,2025-12-09
+G000010,Surgical Mask,PPE,Box of 50,ICU-Supply,17,50,20,25,129.09,VEN004,Critical Low,2025-12-17
+G000011,Surgical Mask,PPE,Box of 50,ED-Supply,57,141,56,70,81.35,VEN006,Low,2025-11-20
+G000012,Surgical Mask,PPE,Box of 50,OR-Supply,342,471,188,235,117.91,VEN005,OK,2026-01-06
+G000013,Isolation Gown,PPE,Case of 100,Central Supply,14,68,27,34,64.11,VEN005,Critical Low,2025-11-24
+G000014,Isolation Gown,PPE,Case of 100,MedSurg-North-Supply,62,393,157,196,97.28,VEN004,Critical Low,2025-12-24
+G000015,Isolation Gown,PPE,Case of 100,MedSurg-South-Supply,185,392,156,196,38.05,VEN004,Low,2025-12-15
+G000016,Isolation Gown,PPE,Case of 100,ICU-Supply,63,249,99,124,69.93,VEN004,Critical Low,2025-12-21
+G000017,Isolation Gown,PPE,Case of 100,ED-Supply,453,433,173,216,8.54,VEN006,OK,2025-11-26
+G000018,Isolation Gown,PPE,Case of 100,OR-Supply,31,27,10,13,127.46,VEN004,OK,2025-12-23
+G000019,Exam Gloves S,PPE,Box of 100,Central Supply,168,268,107,134,135.46,VEN004,OK,2025-12-25
+G000020,Exam Gloves S,PPE,Box of 100,MedSurg-North-Supply,24,21,8,10,117.83,VEN005,OK,2025-12-31
+G000021,Exam Gloves S,PPE,Box of 100,MedSurg-South-Supply,204,236,94,118,117.72,VEN006,OK,2025-12-04
+G000022,Exam Gloves S,PPE,Box of 100,ICU-Supply,72,269,107,134,145.34,VEN006,Critical Low,2025-12-02
+G000023,Exam Gloves S,PPE,Box of 100,ED-Supply,49,297,118,148,8.47,VEN005,Critical Low,2025-12-17
+G000024,Exam Gloves S,PPE,Box of 100,OR-Supply,508,490,196,245,144.16,VEN004,OK,2025-11-25
+G000025,Exam Gloves M,PPE,Box of 100,Central Supply,11,115,46,57,129.41,VEN005,Critical Low,2026-01-11
+G000026,Exam Gloves M,PPE,Box of 100,MedSurg-North-Supply,345,475,190,237,6.92,VEN004,OK,2025-12-23
+G000027,Exam Gloves M,PPE,Box of 100,MedSurg-South-Supply,264,356,142,178,140.27,VEN004,OK,2025-12-07
+G000028,Exam Gloves M,PPE,Box of 100,ICU-Supply,172,386,154,193,20.5,VEN006,Low,2025-12-30
+G000029,Exam Gloves M,PPE,Box of 100,ED-Supply,113,254,101,127,11.81,VEN005,Low,2025-12-10
+G000030,Exam Gloves M,PPE,Box of 100,OR-Supply,30,308,123,154,32.76,VEN005,Critical Low,2026-01-10
+G000031,Exam Gloves L,PPE,Box of 100,Central Supply,49,497,198,248,37.4,VEN005,Critical Low,2026-01-08
+G000032,Exam Gloves L,PPE,Box of 100,MedSurg-North-Supply,248,244,97,122,92.14,VEN006,OK,2025-12-16
+G000033,Exam Gloves L,PPE,Box of 100,MedSurg-South-Supply,20,24,9,12,139.83,VEN004,OK,2025-11-23
+G000034,Exam Gloves L,PPE,Box of 100,ICU-Supply,34,88,35,44,111.62,VEN004,Critical Low,2026-01-01
+G000035,Exam Gloves L,PPE,Box of 100,ED-Supply,125,164,65,82,31.34,VEN006,OK,2025-11-25
+G000036,Exam Gloves L,PPE,Box of 100,OR-Supply,101,155,62,77,136.32,VEN004,OK,2026-01-13
+G000037,Face Shield,PPE,Box of 50,Central Supply,194,344,137,172,1.53,VEN004,Low,2025-12-09
+G000038,Face Shield,PPE,Box of 50,MedSurg-North-Supply,42,154,61,77,106.14,VEN006,Critical Low,2026-01-18
+G000039,Face Shield,PPE,Box of 50,MedSurg-South-Supply,14,77,30,38,135.69,VEN006,Critical Low,2026-01-16
+G000040,Face Shield,PPE,Box of 50,ICU-Supply,226,447,178,223,65.04,VEN004,Low,2025-12-30
+G000041,Face Shield,PPE,Box of 50,ED-Supply,224,206,82,103,129.24,VEN005,OK,2026-01-05
+G000042,Face Shield,PPE,Box of 50,OR-Supply,138,369,147,184,117.24,VEN005,Critical Low,2025-12-10
+G000043,IV Tubing Primary,MedSurg,Case of 50,Central Supply,108,403,161,201,129.83,VEN004,Critical Low,2025-11-23
+G000044,IV Tubing Primary,MedSurg,Case of 50,MedSurg-North-Supply,29,231,92,115,50.5,VEN005,Critical Low,2025-11-28
+G000045,IV Tubing Primary,MedSurg,Case of 50,MedSurg-South-Supply,380,362,144,181,40.75,VEN006,OK,2026-01-12
+G000046,IV Tubing Primary,MedSurg,Case of 50,ICU-Supply,227,215,86,107,34.14,VEN005,OK,2025-12-27
+G000047,IV Tubing Primary,MedSurg,Case of 50,ED-Supply,176,176,70,88,34.22,VEN006,OK,2026-01-06
+G000048,IV Tubing Primary,MedSurg,Case of 50,OR-Supply,103,224,89,112,145.07,VEN005,Low,2025-12-27
+G000049,IV Tubing Secondary,MedSurg,Case of 50,Central Supply,229,348,139,174,126.71,VEN005,OK,2026-01-17
+G000050,IV Tubing Secondary,MedSurg,Case of 50,MedSurg-North-Supply,84,79,31,39,87.51,VEN005,OK,2026-01-16
+G000051,IV Tubing Secondary,MedSurg,Case of 50,MedSurg-South-Supply,56,75,30,37,118.18,VEN005,OK,2025-12-11
+G000052,IV Tubing Secondary,MedSurg,Case of 50,ICU-Supply,63,281,112,140,29.32,VEN004,Critical Low,2025-12-04
+G000053,IV Tubing Secondary,MedSurg,Case of 50,ED-Supply,24,243,97,121,81.23,VEN006,Critical Low,2025-12-02
+G000054,IV Tubing Secondary,MedSurg,Case of 50,OR-Supply,332,397,158,198,11.43,VEN006,OK,2025-11-21
+G000055,Syringe 3ml,MedSurg,Box of 100,Central Supply,148,189,75,94,19.57,VEN005,OK,2025-12-17
+G000056,Syringe 3ml,MedSurg,Box of 100,MedSurg-North-Supply,148,178,71,89,104.88,VEN006,OK,2026-01-10
+G000057,Syringe 3ml,MedSurg,Box of 100,MedSurg-South-Supply,66,118,47,59,101.92,VEN004,Low,2025-12-10
+G000058,Syringe 3ml,MedSurg,Box of 100,ICU-Supply,134,311,124,155,1.06,VEN005,Low,2026-01-05
+G000059,Syringe 3ml,MedSurg,Box of 100,ED-Supply,231,240,96,120,49.02,VEN005,OK,2025-12-21
+G000060,Syringe 3ml,MedSurg,Box of 100,OR-Supply,122,365,146,182,135.28,VEN006,Critical Low,2026-01-08
+G000061,Syringe 5ml,MedSurg,Box of 100,Central Supply,68,357,142,178,95.31,VEN005,Critical Low,2026-01-13
+G000062,Syringe 5ml,MedSurg,Box of 100,MedSurg-North-Supply,503,439,175,219,47.25,VEN004,OK,2026-01-09
+G000063,Syringe 5ml,MedSurg,Box of 100,MedSurg-South-Supply,4,32,12,16,92.08,VEN004,Critical Low,2025-12-20
+G000064,Syringe 5ml,MedSurg,Box of 100,ICU-Supply,249,232,92,116,108.03,VEN005,OK,2025-12-18
+G000065,Syringe 5ml,MedSurg,Box of 100,ED-Supply,82,224,89,112,1.83,VEN004,Critical Low,2025-11-30
+G000066,Syringe 5ml,MedSurg,Box of 100,OR-Supply,80,237,94,118,104.69,VEN005,Critical Low,2026-01-15
+G000067,Syringe 10ml,MedSurg,Box of 100,Central Supply,114,305,122,152,69.01,VEN005,Critical Low,2025-12-07
+G000068,Syringe 10ml,MedSurg,Box of 100,MedSurg-North-Supply,345,291,116,145,142.56,VEN005,OK,2025-12-10
+G000069,Syringe 10ml,MedSurg,Box of 100,MedSurg-South-Supply,389,437,174,218,124.75,VEN006,OK,2025-12-21
+G000070,Syringe 10ml,MedSurg,Box of 100,ICU-Supply,131,479,191,239,68.06,VEN004,Critical Low,2025-11-26
+G000071,Syringe 10ml,MedSurg,Box of 100,ED-Supply,140,346,138,173,73.2,VEN004,Low,2026-01-01
+G000072,Syringe 10ml,MedSurg,Box of 100,OR-Supply,45,245,98,122,41.49,VEN005,Critical Low,2025-11-22
+G000073,Needle 20G,MedSurg,Box of 100,Central Supply,55,296,118,148,58.07,VEN004,Critical Low,2025-12-04
+G000074,Needle 20G,MedSurg,Box of 100,MedSurg-North-Supply,22,129,51,64,81.85,VEN005,Critical Low,2026-01-15
+G000075,Needle 20G,MedSurg,Box of 100,MedSurg-South-Supply,127,125,50,62,115.7,VEN006,OK,2026-01-17
+G000076,Needle 20G,MedSurg,Box of 100,ICU-Supply,489,458,183,229,72.07,VEN005,OK,2025-12-30
+G000077,Needle 20G,MedSurg,Box of 100,ED-Supply,214,405,162,202,125.52,VEN006,Low,2025-12-02
+G000078,Needle 20G,MedSurg,Box of 100,OR-Supply,277,396,158,198,33.86,VEN004,OK,2026-01-01
+G000079,Needle 22G,MedSurg,Box of 100,Central Supply,154,243,97,121,100.66,VEN005,OK,2025-12-03
+G000080,Needle 22G,MedSurg,Box of 100,MedSurg-North-Supply,106,104,41,52,147.13,VEN006,OK,2026-01-17
+G000081,Needle 22G,MedSurg,Box of 100,MedSurg-South-Supply,258,484,193,242,5.04,VEN006,Low,2025-12-22
+G000082,Needle 22G,MedSurg,Box of 100,ICU-Supply,93,89,35,44,39.76,VEN005,OK,2026-01-05
+G000083,Needle 22G,MedSurg,Box of 100,ED-Supply,115,252,100,126,57.49,VEN005,Low,2026-01-02
+G000084,Needle 22G,MedSurg,Box of 100,OR-Supply,44,447,178,223,81.37,VEN005,Critical Low,2026-01-04
+G000085,Alcohol Prep Pads,MedSurg,Box of 200,Central Supply,61,352,140,176,7.0,VEN004,Critical Low,2026-01-03
+G000086,Alcohol Prep Pads,MedSurg,Box of 200,MedSurg-North-Supply,124,122,48,61,36.54,VEN005,OK,2025-12-07
+G000087,Alcohol Prep Pads,MedSurg,Box of 200,MedSurg-South-Supply,56,78,31,39,105.22,VEN005,OK,2026-01-08
+G000088,Alcohol Prep Pads,MedSurg,Box of 200,ICU-Supply,253,330,132,165,18.07,VEN004,OK,2025-12-30
+G000089,Alcohol Prep Pads,MedSurg,Box of 200,ED-Supply,55,75,30,37,86.79,VEN005,OK,2025-12-24
+G000090,Alcohol Prep Pads,MedSurg,Box of 200,OR-Supply,122,386,154,193,124.76,VEN004,Critical Low,2026-01-12
+G000091,Gauze 4x4,MedSurg,Pack of 50,Central Supply,357,376,150,188,90.46,VEN004,OK,2025-11-29
+G000092,Gauze 4x4,MedSurg,Pack of 50,MedSurg-North-Supply,296,309,123,154,64.83,VEN005,OK,2026-01-14
+G000093,Gauze 4x4,MedSurg,Pack of 50,MedSurg-South-Supply,27,279,111,139,63.59,VEN005,Critical Low,2026-01-12
+G000094,Gauze 4x4,MedSurg,Pack of 50,ICU-Supply,278,241,96,120,124.48,VEN006,OK,2026-01-09
+G000095,Gauze 4x4,MedSurg,Pack of 50,ED-Supply,71,242,96,121,97.92,VEN006,Critical Low,2025-11-28
+G000096,Gauze 4x4,MedSurg,Pack of 50,OR-Supply,339,490,196,245,65.9,VEN006,OK,2025-12-12
+G000097,Saline Flush,MedSurg,Box of 100,Central Supply,71,157,62,78,140.26,VEN005,Low,2025-11-23
+G000098,Saline Flush,MedSurg,Box of 100,MedSurg-North-Supply,92,250,100,125,91.94,VEN005,Critical Low,2025-12-28
+G000099,Saline Flush,MedSurg,Box of 100,MedSurg-South-Supply,21,34,13,17,73.64,VEN005,OK,2025-11-28
+G000100,Saline Flush,MedSurg,Box of 100,ICU-Supply,72,152,60,76,105.48,VEN005,Low,2025-12-14
+G000101,Saline Flush,MedSurg,Box of 100,ED-Supply,16,25,10,12,36.96,VEN005,OK,2025-12-18
+G000102,Saline Flush,MedSurg,Box of 100,OR-Supply,283,304,121,152,97.24,VEN005,OK,2025-12-21
+G000103,Fitted Sheet,Hotel,Each,Central Supply,50,425,170,212,61.26,VEN009,Critical Low,2025-12-30
+G000104,Fitted Sheet,Hotel,Each,MedSurg-North-Supply,265,359,143,179,80.11,VEN009,OK,2025-12-02
+G000105,Fitted Sheet,Hotel,Each,MedSurg-South-Supply,139,301,120,150,41.37,VEN009,Low,2026-01-04
+G000106,Fitted Sheet,Hotel,Each,ICU-Supply,72,81,32,40,111.69,VEN009,OK,2026-01-06
+G000107,Fitted Sheet,Hotel,Each,ED-Supply,118,130,52,65,88.85,VEN009,OK,2026-01-12
+G000108,Flat Sheet,Hotel,Each,Central Supply,139,446,178,223,27.74,VEN009,Critical Low,2025-12-04
+G000109,Flat Sheet,Hotel,Each,MedSurg-North-Supply,29,293,117,146,9.12,VEN009,Critical Low,2025-12-05
+G000110,Flat Sheet,Hotel,Each,MedSurg-South-Supply,67,84,33,42,16.29,VEN009,OK,2025-12-13
+G000111,Flat Sheet,Hotel,Each,ICU-Supply,101,165,66,82,28.47,VEN009,OK,2026-01-02
+G000112,Flat Sheet,Hotel,Each,ED-Supply,288,461,184,230,60.71,VEN009,OK,2025-12-13
+G000113,Pillow Case,Hotel,Each,Central Supply,292,342,136,171,121.86,VEN009,OK,2026-01-13
+G000114,Pillow Case,Hotel,Each,MedSurg-North-Supply,33,147,58,73,91.34,VEN009,Critical Low,2025-11-30
+G000115,Pillow Case,Hotel,Each,MedSurg-South-Supply,148,287,114,143,45.31,VEN009,Low,2025-12-30
+G000116,Pillow Case,Hotel,Each,ICU-Supply,243,311,124,155,111.27,VEN009,OK,2025-12-09
+G000117,Pillow Case,Hotel,Each,ED-Supply,12,128,51,64,36.74,VEN009,Critical Low,2026-01-08
+G000118,Patient Blanket,Hotel,Each,Central Supply,11,21,8,10,71.02,VEN009,Low,2026-01-04
+G000119,Patient Blanket,Hotel,Each,MedSurg-North-Supply,146,167,66,83,68.65,VEN009,OK,2025-11-20
+G000120,Patient Blanket,Hotel,Each,MedSurg-South-Supply,149,155,62,77,99.52,VEN009,OK,2025-12-22
+G000121,Patient Blanket,Hotel,Each,ICU-Supply,54,78,31,39,136.35,VEN009,OK,2026-01-14
+G000122,Patient Blanket,Hotel,Each,ED-Supply,14,50,20,25,112.59,VEN009,Critical Low,2025-12-21
+G000123,Towel Set,Hotel,Each,Central Supply,51,83,33,41,60.97,VEN009,OK,2025-12-17
+G000124,Towel Set,Hotel,Each,MedSurg-North-Supply,29,296,118,148,6.94,VEN009,Critical Low,2025-12-02
+G000125,Towel Set,Hotel,Each,MedSurg-South-Supply,18,185,74,92,35.11,VEN009,Critical Low,2025-12-01
+G000126,Towel Set,Hotel,Each,ICU-Supply,365,364,145,182,114.7,VEN009,OK,2025-12-19
+G000127,Towel Set,Hotel,Each,ED-Supply,232,285,114,142,28.04,VEN009,OK,2025-12-09
+G000128,Chux Pads,Hotel,Case of 50,Central Supply,43,436,174,218,52.85,VEN009,Critical Low,2025-12-29
+G000129,Chux Pads,Hotel,Case of 50,MedSurg-North-Supply,78,363,145,181,62.34,VEN009,Critical Low,2025-12-31
+G000130,Chux Pads,Hotel,Case of 50,MedSurg-South-Supply,409,359,143,179,82.96,VEN009,OK,2026-01-13
+G000131,Chux Pads,Hotel,Case of 50,ICU-Supply,68,181,72,90,116.11,VEN009,Critical Low,2025-12-07
+G000132,Chux Pads,Hotel,Case of 50,ED-Supply,324,465,186,232,28.95,VEN009,OK,2025-12-10
+G000133,Vacutainer Red,Lab,Tray of 100,Central Supply,263,407,162,203,8.69,VEN005,OK,2025-12-14
+G000134,Vacutainer Red,Lab,Tray of 100,MedSurg-North-Supply,97,87,34,43,105.04,VEN004,OK,2026-01-17
+G000135,Vacutainer Red,Lab,Tray of 100,MedSurg-South-Supply,263,342,136,171,24.6,VEN006,OK,2026-01-18
+G000136,Vacutainer Red,Lab,Tray of 100,ICU-Supply,165,302,120,151,126.37,VEN004,Low,2025-12-20
+G000137,Vacutainer Red,Lab,Tray of 100,ED-Supply,64,80,32,40,139.97,VEN005,OK,2025-12-17
+G000138,Vacutainer Red,Lab,Tray of 100,OR-Supply,152,381,152,190,147.06,VEN004,Low,2025-12-20
+G000139,Vacutainer Lavender,Lab,Tray of 100,Central Supply,78,302,120,151,90.31,VEN006,Critical Low,2025-11-23
+G000140,Vacutainer Lavender,Lab,Tray of 100,MedSurg-North-Supply,93,89,35,44,118.71,VEN005,OK,2025-12-28
+G000141,Vacutainer Lavender,Lab,Tray of 100,MedSurg-South-Supply,481,498,199,249,1.38,VEN006,OK,2025-12-30
+G000142,Vacutainer Lavender,Lab,Tray of 100,ICU-Supply,334,448,179,224,73.96,VEN004,OK,2025-12-21
+G000143,Vacutainer Lavender,Lab,Tray of 100,ED-Supply,186,295,118,147,114.67,VEN005,OK,2025-12-20
+G000144,Vacutainer Lavender,Lab,Tray of 100,OR-Supply,225,497,198,248,104.93,VEN006,Low,2025-12-25
+G000145,Vacutainer Blue,Lab,Tray of 100,Central Supply,144,139,55,69,48.41,VEN005,OK,2025-12-04
+G000146,Vacutainer Blue,Lab,Tray of 100,MedSurg-North-Supply,483,487,194,243,99.89,VEN006,OK,2026-01-09
+G000147,Vacutainer Blue,Lab,Tray of 100,MedSurg-South-Supply,317,273,109,136,144.84,VEN005,OK,2025-11-24
+G000148,Vacutainer Blue,Lab,Tray of 100,ICU-Supply,75,71,28,35,79.37,VEN005,OK,2026-01-18
+G000149,Vacutainer Blue,Lab,Tray of 100,ED-Supply,100,389,155,194,145.52,VEN004,Critical Low,2025-12-19
+G000150,Vacutainer Blue,Lab,Tray of 100,OR-Supply,489,420,168,210,104.21,VEN006,OK,2026-01-13
+G000151,Urine Cup,Lab,Bag of 50,Central Supply,210,456,182,228,80.51,VEN005,Low,2025-12-09
+G000152,Urine Cup,Lab,Bag of 50,MedSurg-North-Supply,416,387,154,193,81.61,VEN006,OK,2026-01-14
+G000153,Urine Cup,Lab,Bag of 50,MedSurg-South-Supply,111,140,56,70,149.62,VEN006,OK,2026-01-13
+G000154,Urine Cup,Lab,Bag of 50,ICU-Supply,284,242,96,121,105.88,VEN004,OK,2025-12-21
+G000155,Urine Cup,Lab,Bag of 50,ED-Supply,90,105,42,52,7.85,VEN004,OK,2025-12-31
+G000156,Urine Cup,Lab,Bag of 50,OR-Supply,104,203,81,101,80.14,VEN006,Low,2025-12-06
+G000157,Biohazard Bag,Lab,Roll of 100,Central Supply,126,425,170,212,91.81,VEN005,Critical Low,2025-12-10
+G000158,Biohazard Bag,Lab,Roll of 100,MedSurg-North-Supply,134,369,147,184,22.32,VEN005,Critical Low,2025-12-09
+G000159,Biohazard Bag,Lab,Roll of 100,MedSurg-South-Supply,90,150,60,75,134.94,VEN005,OK,2025-11-22
+G000160,Biohazard Bag,Lab,Roll of 100,ICU-Supply,141,167,66,83,66.82,VEN005,OK,2025-12-12
+G000161,Biohazard Bag,Lab,Roll of 100,ED-Supply,138,173,69,86,38.26,VEN005,OK,2026-01-06
+G000162,Biohazard Bag,Lab,Roll of 100,OR-Supply,224,216,86,108,57.82,VEN005,OK,2025-12-13

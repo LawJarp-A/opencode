@@ -59,9 +59,12 @@ import { useCommand, type CommandOption } from "@/context/command"
 import { ConstrainDragXAxis } from "@/utils/solid-dnd"
 import { navStart } from "@/utils/perf"
 import { DialogSelectDirectory } from "@/components/dialog-select-directory"
+import { CanvasMode } from "@/components/CanvasMode"
 import { useServer } from "@/context/server"
 
 export default function Layout(props: ParentProps) {
+  const [canvasModeOpen, setCanvasModeOpen] = createSignal(false);
+
   const [store, setStore] = createStore({
     lastSession: {} as { [directory: string]: string },
     activeDraggable: undefined as string | undefined,
@@ -591,6 +594,13 @@ export default function Layout(props: ParentProps) {
           const session = currentSessions().find((s) => s.id === params.id)
           if (session) archiveSession(session)
         },
+      },
+      {
+        id: "canvas.open",
+        title: "Open Canvas Mode",
+        category: "View",
+        keybind: "mod+shift+c",
+        onSelect: () => setCanvasModeOpen(true),
       },
       {
         id: "theme.cycle",
@@ -1307,6 +1317,11 @@ export default function Layout(props: ParentProps) {
         <main class="size-full overflow-x-hidden flex flex-col items-start contain-strict">{props.children}</main>
       </div>
       <Toast.Region />
+
+      {/* Canvas Mode Overlay */}
+      <Show when={canvasModeOpen()}>
+        <CanvasMode onClose={() => setCanvasModeOpen(false)} />
+      </Show>
     </div>
   )
 }

@@ -12,7 +12,7 @@ import PROMPT_ANTHROPIC_WITHOUT_TODO from "./prompt/qwen.txt"
 import PROMPT_BEAST from "./prompt/beast.txt"
 import PROMPT_GEMINI from "./prompt/gemini.txt"
 import PROMPT_ANTHROPIC_SPOOF from "./prompt/anthropic_spoof.txt"
-import PROMPT_SHOPOS from "./prompt/shopos.txt"
+import PROMPT_HOSPITAL from "./prompt/hospital.txt"
 
 import PROMPT_CODEX from "./prompt/codex.txt"
 import PROMPT_CODEX_INSTRUCTIONS from "./prompt/codex_header.txt"
@@ -30,8 +30,8 @@ export namespace SystemPrompt {
   }
 
   export function provider(model: Provider.Model) {
-    // ShopOS: Use commerce prompt for all providers
-    return [PROMPT_SHOPOS]
+    // HospitalOS: Use healthcare prompt for all providers
+    return [PROMPT_HOSPITAL]
   }
 
   export async function environment() {
@@ -46,13 +46,12 @@ export namespace SystemPrompt {
         `  Today's date: ${new Date().toDateString()}`,
         `</env>`,
         `<files>`,
-        `  ${
-          project.vcs === "git" && false
-            ? await Ripgrep.tree({
-                cwd: Instance.directory,
-                limit: 200,
-              })
-            : ""
+        `  ${project.vcs === "git" && false
+          ? await Ripgrep.tree({
+            cwd: Instance.directory,
+            limit: 200,
+          })
+          : ""
         }`,
         `</files>`,
       ].join("\n"),

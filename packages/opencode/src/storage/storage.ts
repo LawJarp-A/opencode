@@ -161,7 +161,7 @@ export namespace Storage {
     const dir = await state().then((x) => x.dir)
     const target = path.join(dir, ...key) + ".json"
     return withErrorHandling(async () => {
-      await fs.unlink(target).catch(() => {})
+      await fs.unlink(target).catch(() => { })
     })
   }
 
@@ -210,10 +210,13 @@ export namespace Storage {
   const glob = new Bun.Glob("**/*")
   export async function list(prefix: string[]) {
     const dir = await state().then((x) => x.dir)
+    const cwd = path.join(dir, ...prefix)
+    if (!(await fs.stat(cwd).then((x) => x.isDirectory()).catch(() => false))) return []
+
     try {
       const result = await Array.fromAsync(
         glob.scan({
-          cwd: path.join(dir, ...prefix),
+          cwd,
           onlyFiles: true,
         }),
       ).then((results) => results.map((x) => [...prefix, ...x.slice(0, -5).split(path.sep)]))

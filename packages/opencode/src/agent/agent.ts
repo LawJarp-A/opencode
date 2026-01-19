@@ -11,6 +11,10 @@ import PROMPT_COMPACTION from "./prompt/compaction.txt"
 import PROMPT_EXPLORE from "./prompt/explore.txt"
 import PROMPT_SUMMARY from "./prompt/summary.txt"
 import PROMPT_TITLE from "./prompt/title.txt"
+import PROMPT_TRIAGE from "./prompt/healthcare/triage_nurse.txt"
+import PROMPT_CLINICAL_OPS from "./prompt/healthcare/clinical_ops.txt"
+import PROMPT_MEDICAL_CODER from "./prompt/healthcare/medical_coder.txt"
+import PROMPT_PATIENT_ADVOCATE from "./prompt/healthcare/patient_advocate.txt"
 import { PermissionNext } from "@/permission/next"
 import { mergeDeep, pipe, sortBy, values } from "remeda"
 import { Global } from "@/global"
@@ -191,6 +195,42 @@ export namespace Agent {
           user,
         ),
         prompt: PROMPT_SUMMARY,
+      },
+      triage: {
+        name: "triage",
+        description: "Triage Nurse Agent for symptom assessment and ESI assignment.",
+        mode: "subagent",
+        native: true,
+        prompt: PROMPT_TRIAGE,
+        options: {},
+        permission: PermissionNext.merge(defaults, user),
+      },
+      clinical_ops: {
+        name: "clinical_ops",
+        description: "Clinical Operations Agent for hospital logistics and resource management.",
+        mode: "subagent",
+        native: true,
+        prompt: PROMPT_CLINICAL_OPS,
+        options: {},
+        permission: PermissionNext.merge(defaults, user),
+      },
+      medical_coder: {
+        name: "medical_coder",
+        description: "Medical Coder Agent for ICD-10/CPT coding and billing verification.",
+        mode: "subagent",
+        native: true,
+        prompt: PROMPT_MEDICAL_CODER,
+        options: {},
+        permission: PermissionNext.merge(defaults, user),
+      },
+      patient_advocate: {
+        name: "patient_advocate",
+        description: "Patient Advocate Agent for communication, education, and support.",
+        mode: "subagent",
+        native: true,
+        prompt: PROMPT_PATIENT_ADVOCATE,
+        options: {},
+        permission: PermissionNext.merge(defaults, user),
       },
     }
 

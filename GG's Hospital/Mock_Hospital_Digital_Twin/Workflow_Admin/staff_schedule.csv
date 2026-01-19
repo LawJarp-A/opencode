@@ -1,0 +1,1627 @@
+schedule_id,staff_id,staff_name,role,shift_date,shift_start,shift_end,assigned_unit,assigned_area
+SCH00000001,STF1635,Nurse Smith,Respiratory Therapist,2026-01-12,07:00,19:00,ICU,ICU - Zone B
+SCH00000002,STF6718,Dr. Smith,CNA,2026-01-12,23:00,07:00,ICU,ICU - Zone C
+SCH00000003,STF9153, Williams,Physician,2026-01-12,23:00,07:00,ICU,ICU - Zone A
+SCH00000004,STF8449,Dr. Jones,Respiratory Therapist,2026-01-12,15:00,23:00,ICU,ICU - Zone B
+SCH00000005,STF2072,Dr. Johnson,PA,2026-01-12,19:00,07:00,ICU,ICU - Zone B
+SCH00000006,STF9040,Nurse Smith,Physician,2026-01-12,15:00,23:00,ICU,ICU - Zone A
+SCH00000007,STF8871,Dr. Williams,Physical Therapist,2026-01-12,07:00,19:00,ICU,ICU - Zone C
+SCH00000008,STF9639, Jones,Physical Therapist,2026-01-12,23:00,07:00,ICU,ICU - Zone C
+SCH00000009,STF7458,Nurse Johnson,Respiratory Therapist,2026-01-12,19:00,07:00,ICU,ICU - Zone B
+SCH00000010,STF8338,Nurse Brown,Physician,2026-01-12,07:00,15:00,ICU,ICU - Zone C
+SCH00000011,STF7177,Nurse Smith,LPN,2026-01-12,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000012,STF6267,Nurse Williams,Respiratory Therapist,2026-01-12,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000013,STF9152,Dr. Johnson,Resident,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000014,STF2461, Jones,Resident,2026-01-12,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000015,STF3840,Dr. Smith,PA,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000016,STF5963, Smith,NP,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000017,STF8107, Williams,Respiratory Therapist,2026-01-12,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000018,STF1732,Dr. Johnson,Physician,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000019,STF6247,Dr. Jones,LPN,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000020,STF1255, Smith,RN,2026-01-12,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000021,STF5758,Nurse Johnson,RN,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000022,STF7388,Dr. Johnson,Physician,2026-01-12,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000023,STF3321, Williams,Physical Therapist,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000024,STF7927, Williams,Physical Therapist,2026-01-12,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000025,STF7704,Nurse Williams,RN,2026-01-12,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000026,STF4104,Dr. Brown,Pharmacist,2026-01-12,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000027,STF1684, Johnson,Pharmacist,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000028,STF2155,Nurse Smith,LPN,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000029,STF4004, Williams,Respiratory Therapist,2026-01-12,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000030,STF7524,Nurse Jones,Resident,2026-01-12,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000031,STF5284,Dr. Smith,LPN,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000032,STF9158,Dr. Brown,Physician,2026-01-12,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000033,STF8844,Dr. Brown,LPN,2026-01-12,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000034,STF2369, Williams,LPN,2026-01-12,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000035,STF8177,Dr. Jones,CNA,2026-01-12,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000036,STF4096, Smith,Physician,2026-01-12,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000037,STF3502,Nurse Brown,PA,2026-01-12,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000038,STF4287,Dr. Williams,RN,2026-01-12,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000039,STF9283, Johnson,LPN,2026-01-12,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000040,STF6503,Dr. Johnson,Pharmacist,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000041,STF9659,Dr. Jones,Resident,2026-01-12,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000042,STF6202,Dr. Brown,RN,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000043,STF9487, Johnson,Respiratory Therapist,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000044,STF6270,Dr. Johnson,PA,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000045,STF1096,Dr. Brown,NP,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000046,STF2960, Smith,Physician,2026-01-12,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000047,STF1324,Nurse Williams,Pharmacist,2026-01-12,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000048,STF7336,Nurse Jones,Pharmacist,2026-01-12,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000049,STF6654,Nurse Jones,Pharmacist,2026-01-12,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000050,STF6900, Johnson,Physician,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000051,STF7364, Smith,Resident,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000052,STF8073,Nurse Brown,Resident,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000053,STF9871, Williams,Physician,2026-01-12,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000054,STF4409,Nurse Brown,NP,2026-01-12,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000055,STF8272,Nurse Williams,NP,2026-01-12,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000056,STF7535,Dr. Johnson,CNA,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000057,STF4128, Jones,Physical Therapist,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000058,STF6954,Nurse Williams,Pharmacist,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000059,STF4498,Dr. Jones,NP,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000060,STF8410,Dr. Johnson,Resident,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000061,STF4558, Brown,PA,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000062,STF9478,Dr. Johnson,NP,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000063,STF7323, Jones,Physical Therapist,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000064,STF3553,Dr. Brown,NP,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000065,STF6185,Dr. Brown,Pharmacist,2026-01-12,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000066,STF6180, Smith,Physical Therapist,2026-01-12,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000067,STF2070,Dr. Williams,LPN,2026-01-12,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000068,STF2473, Johnson,PA,2026-01-12,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000069,STF4489, Williams,Resident,2026-01-12,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00000070,STF8317,Dr. Williams,Pharmacist,2026-01-12,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00000071,STF5968,Dr. Johnson,LPN,2026-01-12,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000072,STF7802,Nurse Johnson,LPN,2026-01-12,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000073,STF8693, Johnson,Resident,2026-01-12,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000074,STF8289,Nurse Brown,LPN,2026-01-12,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000075,STF7215, Williams,Pharmacist,2026-01-12,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000076,STF8224,Nurse Smith,Physical Therapist,2026-01-12,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000077,STF9057,Dr. Williams,Physical Therapist,2026-01-12,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000078,STF2128,Nurse Brown,CNA,2026-01-12,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000079,STF3449,Nurse Williams,LPN,2026-01-12,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000080,STF6811, Jones,Physical Therapist,2026-01-12,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000081,STF7844,Dr. Jones,CNA,2026-01-12,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000082,STF5591,Nurse Johnson,Respiratory Therapist,2026-01-12,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000083,STF1852,Nurse Brown,Physician,2026-01-12,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000084,STF6529, Brown,RN,2026-01-12,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000085,STF2314,Dr. Jones,PA,2026-01-12,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000086,STF1174,Nurse Johnson,Physical Therapist,2026-01-12,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000087,STF8702, Williams,NP,2026-01-12,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000088,STF7146,Nurse Brown,PA,2026-01-12,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000089,STF6605,Nurse Jones,CNA,2026-01-12,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000090,STF4160,Dr. Brown,Pharmacist,2026-01-12,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000091,STF2389,Dr. Johnson,PA,2026-01-12,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000092,STF4980,Dr. Johnson,LPN,2026-01-12,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000093,STF4882, Smith,LPN,2026-01-12,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000094,STF6589, Brown,Physical Therapist,2026-01-12,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000095,STF6421,Dr. Johnson,LPN,2026-01-12,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000096,STF4268, Smith,LPN,2026-01-12,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000097,STF1062,Dr. Smith,NP,2026-01-12,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000098,STF7338,Nurse Johnson,PA,2026-01-12,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000099,STF9115,Nurse Jones,Physical Therapist,2026-01-12,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000100,STF2003,Dr. Smith,Pharmacist,2026-01-12,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000101,STF3881, Jones,Physician,2026-01-12,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000102,STF4102,Dr. Williams,LPN,2026-01-12,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000103,STF4730, Williams,CNA,2026-01-12,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000104,STF7754,Nurse Williams,Respiratory Therapist,2026-01-12,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000105,STF4944, Williams,Respiratory Therapist,2026-01-13,07:00,19:00,ICU,ICU - Zone C
+SCH00000106,STF5611,Dr. Brown,CNA,2026-01-13,07:00,19:00,ICU,ICU - Zone A
+SCH00000107,STF6639,Dr. Brown,RN,2026-01-13,23:00,07:00,ICU,ICU - Zone B
+SCH00000108,STF1196,Nurse Jones,LPN,2026-01-13,07:00,15:00,ICU,ICU - Zone C
+SCH00000109,STF2079,Nurse Brown,Physical Therapist,2026-01-13,07:00,15:00,ICU,ICU - Zone C
+SCH00000110,STF6867,Nurse Brown,Pharmacist,2026-01-13,07:00,15:00,ICU,ICU - Zone B
+SCH00000111,STF6135, Johnson,Respiratory Therapist,2026-01-13,19:00,07:00,ICU,ICU - Zone A
+SCH00000112,STF1699,Nurse Williams,PA,2026-01-13,15:00,23:00,ICU,ICU - Zone B
+SCH00000113,STF7606,Dr. Johnson,Pharmacist,2026-01-13,15:00,23:00,ICU,ICU - Zone B
+SCH00000114,STF7317,Nurse Brown,NP,2026-01-13,07:00,19:00,ICU,ICU - Zone A
+SCH00000115,STF3447,Nurse Johnson,NP,2026-01-13,07:00,15:00,ICU,ICU - Zone A
+SCH00000116,STF3474,Dr. Smith,Physical Therapist,2026-01-13,19:00,07:00,ICU,ICU - Zone A
+SCH00000117,STF7410,Nurse Johnson,Pharmacist,2026-01-13,19:00,07:00,ICU,ICU - Zone B
+SCH00000118,STF1355,Nurse Jones,Pharmacist,2026-01-13,15:00,23:00,ICU,ICU - Zone A
+SCH00000119,STF5549, Brown,Physician,2026-01-13,19:00,07:00,ICU,ICU - Zone B
+SCH00000120,STF8091, Smith,NP,2026-01-13,19:00,07:00,ICU,ICU - Zone B
+SCH00000121,STF6789, Brown,LPN,2026-01-13,07:00,19:00,ICU,ICU - Zone B
+SCH00000122,STF5740,Nurse Johnson,CNA,2026-01-13,19:00,07:00,ICU,ICU - Zone C
+SCH00000123,STF7821, Johnson,Pharmacist,2026-01-13,07:00,19:00,ICU,ICU - Zone B
+SCH00000124,STF6547, Smith,Resident,2026-01-13,23:00,07:00,ICU,ICU - Zone B
+SCH00000125,STF3120, Williams,Respiratory Therapist,2026-01-13,07:00,15:00,ICU,ICU - Zone B
+SCH00000126,STF7054,Dr. Brown,Physical Therapist,2026-01-13,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000127,STF7062,Nurse Johnson,NP,2026-01-13,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000128,STF6120,Nurse Jones,Pharmacist,2026-01-13,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000129,STF6424, Jones,Physician,2026-01-13,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000130,STF4750,Dr. Brown,Physical Therapist,2026-01-13,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000131,STF8696,Dr. Brown,RN,2026-01-13,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000132,STF3430, Brown,Physical Therapist,2026-01-13,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000133,STF8580,Nurse Brown,Physical Therapist,2026-01-13,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000134,STF4165,Dr. Brown,Resident,2026-01-13,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000135,STF5040,Nurse Jones,Physician,2026-01-13,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000136,STF8906,Nurse Brown,Respiratory Therapist,2026-01-13,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000137,STF6147, Johnson,Physical Therapist,2026-01-13,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000138,STF2972,Dr. Jones,Resident,2026-01-13,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000139,STF9259,Nurse Smith,Resident,2026-01-13,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000140,STF5276,Dr. Smith,Physician,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000141,STF7904,Dr. Brown,LPN,2026-01-13,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000142,STF7259,Nurse Williams,Respiratory Therapist,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000143,STF2765,Dr. Jones,Resident,2026-01-13,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000144,STF8427,Dr. Williams,Resident,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000145,STF1277, Brown,LPN,2026-01-13,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000146,STF7042,Nurse Jones,CNA,2026-01-13,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000147,STF1417,Dr. Williams,NP,2026-01-13,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000148,STF1565, Smith,Resident,2026-01-13,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000149,STF9383,Dr. Smith,RN,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000150,STF3292,Dr. Johnson,CNA,2026-01-13,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000151,STF2505,Dr. Brown,PA,2026-01-13,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000152,STF6629, Smith,LPN,2026-01-13,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000153,STF9596,Dr. Jones,NP,2026-01-13,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000154,STF2465,Dr. Williams,Physician,2026-01-13,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000155,STF4725, Jones,Physician,2026-01-13,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000156,STF1396,Dr. Smith,RN,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000157,STF4588, Williams,Physician,2026-01-13,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000158,STF6291, Williams,NP,2026-01-13,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000159,STF1385,Dr. Johnson,NP,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000160,STF1589,Nurse Smith,Physician,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000161,STF6724, Johnson,LPN,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000162,STF7507,Dr. Jones,Physician,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000163,STF5610, Brown,Resident,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000164,STF3619,Nurse Johnson,Physician,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000165,STF6358, Williams,Resident,2026-01-13,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000166,STF8399, Jones,RN,2026-01-13,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000167,STF7646,Dr. Brown,Physician,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000168,STF2748, Williams,Physician,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000169,STF4511,Nurse Smith,Physical Therapist,2026-01-13,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000170,STF4765, Smith,Physical Therapist,2026-01-13,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000171,STF6077,Nurse Johnson,RN,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000172,STF9185,Nurse Jones,NP,2026-01-13,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000173,STF3707, Williams,Pharmacist,2026-01-13,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000174,STF5071,Dr. Smith,LPN,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000175,STF1819,Nurse Brown,RN,2026-01-13,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000176,STF7249,Dr. Williams,Physical Therapist,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000177,STF4527,Nurse Smith,Physician,2026-01-13,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000178,STF5587,Dr. Smith,NP,2026-01-13,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000179,STF5948,Dr. Smith,CNA,2026-01-13,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000180,STF1497,Dr. Smith,Pharmacist,2026-01-13,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000181,STF4847, Williams,Pharmacist,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000182,STF5424,Dr. Johnson,RN,2026-01-13,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000183,STF4530,Nurse Smith,LPN,2026-01-13,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000184,STF9149,Dr. Smith,NP,2026-01-13,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000185,STF1721,Nurse Brown,LPN,2026-01-13,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00000186,STF4321,Nurse Johnson,Resident,2026-01-13,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000187,STF4847,Dr. Jones,Pharmacist,2026-01-13,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000188,STF8132, Smith,Respiratory Therapist,2026-01-13,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000189,STF5694,Nurse Brown,PA,2026-01-13,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000190,STF8741, Williams,Respiratory Therapist,2026-01-13,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000191,STF9859, Williams,CNA,2026-01-13,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00000192,STF7668,Nurse Brown,CNA,2026-01-13,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000193,STF6692,Nurse Jones,Resident,2026-01-13,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000194,STF7681, Williams,PA,2026-01-13,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000195,STF6452, Johnson,PA,2026-01-13,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000196,STF1700,Dr. Jones,PA,2026-01-13,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000197,STF6597,Dr. Johnson,Respiratory Therapist,2026-01-13,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000198,STF7493, Jones,LPN,2026-01-13,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000199,STF1687,Dr. Williams,Respiratory Therapist,2026-01-13,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000200,STF3698,Dr. Williams,Physician,2026-01-13,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000201,STF7116, Brown,Respiratory Therapist,2026-01-13,15:00,23:00,Oncology,Oncology - Zone C
+SCH00000202,STF4589,Nurse Smith,Physical Therapist,2026-01-13,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000203,STF4699,Dr. Smith,Pharmacist,2026-01-13,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000204,STF9265,Dr. Williams,LPN,2026-01-13,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000205,STF4962, Smith,NP,2026-01-13,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000206,STF4129,Nurse Smith,RN,2026-01-13,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000207,STF4392,Nurse Brown,CNA,2026-01-13,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000208,STF2948,Nurse Smith,NP,2026-01-13,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000209,STF6622,Nurse Brown,NP,2026-01-13,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000210,STF8838, Brown,Physical Therapist,2026-01-13,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000211,STF1516,Dr. Williams,Pharmacist,2026-01-13,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000212,STF8759,Nurse Jones,NP,2026-01-13,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000213,STF6751,Dr. Brown,Pharmacist,2026-01-13,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000214,STF2422,Dr. Smith,Pharmacist,2026-01-13,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000215,STF5020, Williams,LPN,2026-01-13,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000216,STF4954,Nurse Williams,Physical Therapist,2026-01-13,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000217,STF8392,Dr. Smith,Physician,2026-01-13,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000218,STF3103,Nurse Smith,Physical Therapist,2026-01-13,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000219,STF9225, Jones,CNA,2026-01-13,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000220,STF7359, Smith,Respiratory Therapist,2026-01-13,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000221,STF9466,Nurse Johnson,Pharmacist,2026-01-13,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000222,STF1652,Nurse Smith,Resident,2026-01-13,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000223,STF3536,Nurse Johnson,LPN,2026-01-13,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000224,STF1093,Dr. Williams,NP,2026-01-13,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000225,STF3992, Brown,Physician,2026-01-13,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000226,STF4747,Dr. Johnson,Pharmacist,2026-01-13,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000227,STF3162,Nurse Brown,Physical Therapist,2026-01-13,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000228,STF8044,Nurse Jones,RN,2026-01-14,23:00,07:00,ICU,ICU - Zone C
+SCH00000229,STF2742,Nurse Brown,NP,2026-01-14,15:00,23:00,ICU,ICU - Zone A
+SCH00000230,STF7918,Nurse Williams,LPN,2026-01-14,07:00,19:00,ICU,ICU - Zone A
+SCH00000231,STF8776,Dr. Smith,NP,2026-01-14,23:00,07:00,ICU,ICU - Zone A
+SCH00000232,STF1395,Dr. Johnson,CNA,2026-01-14,07:00,19:00,ICU,ICU - Zone C
+SCH00000233,STF8308,Nurse Brown,Respiratory Therapist,2026-01-14,07:00,15:00,ICU,ICU - Zone C
+SCH00000234,STF2094,Dr. Jones,CNA,2026-01-14,23:00,07:00,ICU,ICU - Zone B
+SCH00000235,STF1651,Nurse Johnson,Physician,2026-01-14,19:00,07:00,ICU,ICU - Zone A
+SCH00000236,STF7401, Smith,RN,2026-01-14,07:00,15:00,ICU,ICU - Zone A
+SCH00000237,STF2847, Smith,Respiratory Therapist,2026-01-14,07:00,15:00,ICU,ICU - Zone C
+SCH00000238,STF5969,Nurse Johnson,CNA,2026-01-14,07:00,15:00,ICU,ICU - Zone A
+SCH00000239,STF4091,Dr. Smith,Pharmacist,2026-01-14,15:00,23:00,ICU,ICU - Zone B
+SCH00000240,STF3824, Jones,NP,2026-01-14,23:00,07:00,ICU,ICU - Zone C
+SCH00000241,STF2161,Dr. Smith,CNA,2026-01-14,19:00,07:00,ICU,ICU - Zone C
+SCH00000242,STF8826,Dr. Johnson,Respiratory Therapist,2026-01-14,07:00,19:00,ICU,ICU - Zone C
+SCH00000243,STF7774,Nurse Smith,PA,2026-01-14,19:00,07:00,ICU,ICU - Zone B
+SCH00000244,STF8075,Dr. Johnson,RN,2026-01-14,07:00,15:00,ICU,ICU - Zone B
+SCH00000245,STF7122,Dr. Johnson,NP,2026-01-14,15:00,23:00,ICU,ICU - Zone C
+SCH00000246,STF8853, Johnson,Physical Therapist,2026-01-14,23:00,07:00,ICU,ICU - Zone B
+SCH00000247,STF4954,Nurse Smith,Physical Therapist,2026-01-14,23:00,07:00,ICU,ICU - Zone B
+SCH00000248,STF8090,Dr. Jones,Physical Therapist,2026-01-14,07:00,19:00,ICU,ICU - Zone B
+SCH00000249,STF3384,Nurse Williams,RN,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000250,STF8610, Williams,PA,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000251,STF6048,Nurse Jones,Pharmacist,2026-01-14,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000252,STF3248, Brown,Pharmacist,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000253,STF6610, Smith,Respiratory Therapist,2026-01-14,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000254,STF5122, Jones,Resident,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000255,STF4732, Johnson,PA,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000256,STF6710, Brown,Resident,2026-01-14,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000257,STF5563, Johnson,Resident,2026-01-14,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000258,STF3281, Williams,Resident,2026-01-14,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000259,STF9892,Nurse Jones,Respiratory Therapist,2026-01-14,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000260,STF9521, Williams,CNA,2026-01-14,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000261,STF4370, Brown,Physical Therapist,2026-01-14,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000262,STF7143, Williams,Physician,2026-01-14,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000263,STF8521,Nurse Jones,Respiratory Therapist,2026-01-14,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000264,STF2180, Brown,Resident,2026-01-14,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000265,STF1053,Nurse Brown,LPN,2026-01-14,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000266,STF5539,Dr. Williams,Respiratory Therapist,2026-01-14,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000267,STF1835,Dr. Brown,NP,2026-01-14,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000268,STF8162,Dr. Johnson,NP,2026-01-14,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000269,STF3013,Dr. Williams,PA,2026-01-14,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000270,STF2760,Dr. Smith,Respiratory Therapist,2026-01-14,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000271,STF7934, Smith,Physician,2026-01-14,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000272,STF1161, Williams,LPN,2026-01-14,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000273,STF5656,Dr. Jones,NP,2026-01-14,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000274,STF5370,Dr. Smith,Respiratory Therapist,2026-01-14,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000275,STF6189,Dr. Jones,Physician,2026-01-14,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000276,STF1285, Jones,CNA,2026-01-14,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000277,STF5419,Dr. Brown,Pharmacist,2026-01-14,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000278,STF4965,Dr. Johnson,Pharmacist,2026-01-14,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000279,STF5578, Williams,LPN,2026-01-14,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00000280,STF8130,Nurse Johnson,Physical Therapist,2026-01-14,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000281,STF4804, Brown,LPN,2026-01-14,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000282,STF8250,Nurse Smith,CNA,2026-01-14,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000283,STF9868,Nurse Brown,Resident,2026-01-14,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000284,STF9584,Nurse Jones,PA,2026-01-14,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000285,STF7355,Nurse Johnson,Pharmacist,2026-01-14,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000286,STF2267,Nurse Johnson,Physical Therapist,2026-01-14,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000287,STF4570,Nurse Johnson,PA,2026-01-14,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000288,STF5762,Nurse Smith,Physician,2026-01-14,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000289,STF4998,Dr. Brown,LPN,2026-01-14,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000290,STF6655,Nurse Brown,PA,2026-01-14,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000291,STF8296,Nurse Williams,NP,2026-01-14,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000292,STF4744,Nurse Johnson,Resident,2026-01-14,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000293,STF3761, Jones,Physician,2026-01-14,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000294,STF9698,Nurse Smith,Physician,2026-01-14,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000295,STF2474, Jones,CNA,2026-01-14,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000296,STF1820,Nurse Brown,Resident,2026-01-14,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000297,STF3441,Nurse Johnson,Resident,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000298,STF4753, Smith,NP,2026-01-14,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000299,STF4798, Johnson,LPN,2026-01-14,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000300,STF5722,Dr. Johnson,Respiratory Therapist,2026-01-14,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000301,STF1281,Dr. Smith,Physician,2026-01-14,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000302,STF2663,Dr. Brown,Resident,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000303,STF7044,Dr. Johnson,CNA,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000304,STF1143, Smith,PA,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000305,STF9206,Dr. Johnson,Respiratory Therapist,2026-01-14,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00000306,STF1792,Dr. Jones,Pharmacist,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000307,STF7016,Dr. Brown,Physical Therapist,2026-01-14,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000308,STF3869, Jones,LPN,2026-01-14,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000309,STF1692,Dr. Williams,LPN,2026-01-14,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000310,STF8549,Nurse Jones,Respiratory Therapist,2026-01-14,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00000311,STF9871, Jones,NP,2026-01-14,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000312,STF7638,Dr. Jones,Resident,2026-01-14,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000313,STF9187,Dr. Jones,CNA,2026-01-14,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000314,STF7021,Nurse Brown,Resident,2026-01-14,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000315,STF7159,Nurse Brown,Resident,2026-01-14,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000316,STF4255, Johnson,RN,2026-01-14,19:00,07:00,Oncology,Oncology - Zone B
+SCH00000317,STF8371,Nurse Brown,Physical Therapist,2026-01-14,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000318,STF5005,Nurse Williams,CNA,2026-01-14,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000319,STF8975,Nurse Williams,NP,2026-01-14,15:00,23:00,Oncology,Oncology - Zone C
+SCH00000320,STF4353,Dr. Johnson,Pharmacist,2026-01-14,19:00,07:00,Oncology,Oncology - Zone B
+SCH00000321,STF3384,Dr. Williams,LPN,2026-01-14,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000322,STF8620, Williams,NP,2026-01-14,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000323,STF6812,Dr. Brown,Respiratory Therapist,2026-01-14,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000324,STF2110,Nurse Jones,PA,2026-01-14,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000325,STF3718, Jones,RN,2026-01-14,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000326,STF5417,Dr. Jones,RN,2026-01-14,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000327,STF7082,Nurse Jones,RN,2026-01-14,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000328,STF8541,Nurse Williams,PA,2026-01-14,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000329,STF1834,Nurse Brown,Respiratory Therapist,2026-01-14,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000330,STF8100, Jones,Respiratory Therapist,2026-01-14,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000331,STF9289,Nurse Brown,LPN,2026-01-14,19:00,07:00,Oncology,Oncology - Zone B
+SCH00000332,STF5376,Dr. Jones,CNA,2026-01-14,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000333,STF5518,Dr. Williams,NP,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000334,STF1198, Johnson,CNA,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000335,STF7841, Williams,CNA,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000336,STF4450,Dr. Williams,RN,2026-01-14,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000337,STF8907,Dr. Brown,LPN,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000338,STF2871, Williams,LPN,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000339,STF8682, Williams,Resident,2026-01-14,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000340,STF6349, Jones,Respiratory Therapist,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000341,STF9520,Dr. Smith,Resident,2026-01-14,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000342,STF8108, Williams,Pharmacist,2026-01-14,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000343,STF9173,Nurse Williams,NP,2026-01-14,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000344,STF2744,Dr. Johnson,CNA,2026-01-14,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000345,STF8607, Jones,CNA,2026-01-14,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000346,STF6947, Williams,NP,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000347,STF5900, Brown,LPN,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000348,STF2086,Nurse Brown,PA,2026-01-14,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000349,STF3523,Nurse Williams,NP,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000350,STF2937,Nurse Brown,Resident,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000351,STF4506,Nurse Johnson,NP,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000352,STF3701,Nurse Jones,PA,2026-01-14,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000353,STF7174,Dr. Smith,LPN,2026-01-14,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000354,STF3458,Dr. Johnson,Respiratory Therapist,2026-01-14,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000355,STF1034,Dr. Williams,Pharmacist,2026-01-15,19:00,07:00,ICU,ICU - Zone A
+SCH00000356,STF7009,Dr. Johnson,PA,2026-01-15,23:00,07:00,ICU,ICU - Zone A
+SCH00000357,STF6075, Smith,PA,2026-01-15,07:00,19:00,ICU,ICU - Zone A
+SCH00000358,STF1647,Dr. Brown,Physical Therapist,2026-01-15,07:00,19:00,ICU,ICU - Zone A
+SCH00000359,STF9034,Nurse Jones,LPN,2026-01-15,07:00,15:00,ICU,ICU - Zone C
+SCH00000360,STF9619,Dr. Smith,LPN,2026-01-15,23:00,07:00,ICU,ICU - Zone B
+SCH00000361,STF8574, Jones,Physical Therapist,2026-01-15,07:00,15:00,ICU,ICU - Zone A
+SCH00000362,STF2574, Williams,Pharmacist,2026-01-15,23:00,07:00,ICU,ICU - Zone A
+SCH00000363,STF1524,Dr. Brown,NP,2026-01-15,07:00,15:00,ICU,ICU - Zone C
+SCH00000364,STF8413,Nurse Brown,PA,2026-01-15,23:00,07:00,ICU,ICU - Zone B
+SCH00000365,STF7848,Nurse Johnson,Physician,2026-01-15,07:00,15:00,ICU,ICU - Zone C
+SCH00000366,STF8557,Dr. Smith,CNA,2026-01-15,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000367,STF2928,Dr. Johnson,CNA,2026-01-15,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000368,STF2203,Nurse Jones,Resident,2026-01-15,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000369,STF4919,Dr. Jones,Pharmacist,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000370,STF5956,Dr. Williams,Physician,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000371,STF3564,Dr. Smith,NP,2026-01-15,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000372,STF1514,Nurse Brown,Resident,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000373,STF7512,Nurse Brown,PA,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000374,STF6157,Dr. Williams,Physical Therapist,2026-01-15,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000375,STF7812,Dr. Smith,LPN,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000376,STF3299,Nurse Williams,Physician,2026-01-15,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000377,STF4313,Dr. Williams,CNA,2026-01-15,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000378,STF6619,Dr. Smith,Physical Therapist,2026-01-15,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000379,STF8910,Dr. Williams,Respiratory Therapist,2026-01-15,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000380,STF9273, Jones,Resident,2026-01-15,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000381,STF4222, Jones,NP,2026-01-15,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000382,STF9964,Dr. Williams,Resident,2026-01-15,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000383,STF1293,Dr. Brown,NP,2026-01-15,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000384,STF7836,Dr. Williams,Pharmacist,2026-01-15,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000385,STF4651, Smith,Pharmacist,2026-01-15,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000386,STF4759,Nurse Smith,Physical Therapist,2026-01-15,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000387,STF9695,Nurse Johnson,Physician,2026-01-15,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000388,STF7504,Dr. Williams,RN,2026-01-15,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000389,STF9769, Williams,Respiratory Therapist,2026-01-15,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000390,STF1838, Jones,Pharmacist,2026-01-15,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000391,STF5711, Williams,LPN,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000392,STF3903, Brown,Respiratory Therapist,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000393,STF2305,Dr. Smith,PA,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000394,STF3127,Nurse Williams,Resident,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000395,STF7808, Johnson,CNA,2026-01-15,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000396,STF6921, Jones,LPN,2026-01-15,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000397,STF2123,Dr. Johnson,LPN,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000398,STF2081,Nurse Williams,Resident,2026-01-15,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000399,STF2989, Smith,Respiratory Therapist,2026-01-15,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000400,STF8884,Nurse Smith,Physical Therapist,2026-01-15,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000401,STF6787, Williams,CNA,2026-01-15,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000402,STF1298,Dr. Johnson,Physical Therapist,2026-01-15,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000403,STF3627,Nurse Williams,Respiratory Therapist,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000404,STF1488,Dr. Jones,PA,2026-01-15,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000405,STF7593, Brown,Physician,2026-01-15,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000406,STF2096,Nurse Brown,Physician,2026-01-15,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000407,STF6279,Dr. Brown,PA,2026-01-15,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000408,STF4081,Dr. Williams,RN,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000409,STF6549,Nurse Smith,NP,2026-01-15,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000410,STF3196, Smith,LPN,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000411,STF3224, Williams,Pharmacist,2026-01-15,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000412,STF2962,Nurse Johnson,Physical Therapist,2026-01-15,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000413,STF6112,Dr. Smith,Respiratory Therapist,2026-01-15,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000414,STF1899,Nurse Brown,Resident,2026-01-15,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000415,STF3507,Dr. Jones,Resident,2026-01-15,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000416,STF6960, Williams,LPN,2026-01-15,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000417,STF7666,Nurse Johnson,RN,2026-01-15,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000418,STF2524, Smith,CNA,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000419,STF6939,Nurse Williams,LPN,2026-01-15,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000420,STF3027, Smith,CNA,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000421,STF4793, Jones,RN,2026-01-15,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000422,STF2305, Williams,Respiratory Therapist,2026-01-15,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000423,STF2645,Nurse Smith,NP,2026-01-15,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00000424,STF6460,Dr. Smith,Resident,2026-01-15,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000425,STF1065,Nurse Williams,LPN,2026-01-15,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000426,STF7651,Dr. Jones,Respiratory Therapist,2026-01-15,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00000427,STF5056,Dr. Jones,LPN,2026-01-15,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000428,STF2701, Johnson,RN,2026-01-15,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000429,STF3774,Dr. Jones,Respiratory Therapist,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000430,STF5477, Johnson,Physical Therapist,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000431,STF1972, Brown,NP,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000432,STF4153,Dr. Brown,Respiratory Therapist,2026-01-15,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000433,STF7742,Dr. Jones,Physical Therapist,2026-01-15,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000434,STF3042, Brown,NP,2026-01-15,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00000435,STF1023,Dr. Williams,LPN,2026-01-15,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00000436,STF3100, Smith,Physical Therapist,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000437,STF5076,Dr. Smith,CNA,2026-01-15,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000438,STF2182,Nurse Smith,NP,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000439,STF1046,Dr. Brown,Physician,2026-01-15,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000440,STF2752,Dr. Johnson,PA,2026-01-15,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000441,STF3019,Nurse Jones,PA,2026-01-15,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000442,STF8264,Nurse Williams,Physician,2026-01-15,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000443,STF4080,Nurse Brown,Physician,2026-01-15,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000444,STF1801,Nurse Johnson,Resident,2026-01-15,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000445,STF2006,Nurse Johnson,RN,2026-01-15,15:00,23:00,Oncology,Oncology - Zone C
+SCH00000446,STF7773,Nurse Williams,LPN,2026-01-15,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000447,STF3900, Smith,NP,2026-01-15,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000448,STF8445,Dr. Brown,PA,2026-01-15,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000449,STF4291,Nurse Johnson,Resident,2026-01-15,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000450,STF8870,Dr. Johnson,Physician,2026-01-15,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000451,STF8961, Johnson,NP,2026-01-15,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000452,STF2799,Nurse Smith,Resident,2026-01-15,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000453,STF5453,Nurse Smith,Respiratory Therapist,2026-01-15,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000454,STF2031,Nurse Williams,Physical Therapist,2026-01-15,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000455,STF5002, Johnson,Respiratory Therapist,2026-01-15,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000456,STF9143,Dr. Williams,Respiratory Therapist,2026-01-15,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000457,STF7876,Nurse Johnson,Physical Therapist,2026-01-15,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000458,STF4069,Nurse Williams,LPN,2026-01-15,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000459,STF5455,Nurse Jones,Physical Therapist,2026-01-15,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000460,STF2574,Dr. Johnson,NP,2026-01-15,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000461,STF6320,Nurse Johnson,RN,2026-01-15,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000462,STF9724,Nurse Jones,PA,2026-01-15,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000463,STF1269,Dr. Johnson,LPN,2026-01-15,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000464,STF7729,Nurse Jones,RN,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000465,STF2189, Johnson,LPN,2026-01-15,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000466,STF4616,Dr. Smith,Physician,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000467,STF5201,Dr. Williams,RN,2026-01-15,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000468,STF8370,Dr. Jones,Physician,2026-01-15,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000469,STF2946, Johnson,LPN,2026-01-15,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000470,STF1723,Dr. Smith,Pharmacist,2026-01-15,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000471,STF9020,Dr. Smith,Physician,2026-01-15,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000472,STF9252,Nurse Smith,Physical Therapist,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000473,STF7997, Johnson,PA,2026-01-15,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000474,STF1440, Williams,LPN,2026-01-15,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000475,STF4154, Smith,CNA,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000476,STF3939,Dr. Williams,Physician,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000477,STF8550, Johnson,RN,2026-01-15,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000478,STF1515, Williams,LPN,2026-01-15,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000479,STF8074,Nurse Brown,CNA,2026-01-15,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000480,STF1124, Johnson,CNA,2026-01-15,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000481,STF2778,Dr. Johnson,LPN,2026-01-16,19:00,07:00,ICU,ICU - Zone A
+SCH00000482,STF7800, Johnson,LPN,2026-01-16,15:00,23:00,ICU,ICU - Zone A
+SCH00000483,STF5360, Jones,Respiratory Therapist,2026-01-16,23:00,07:00,ICU,ICU - Zone C
+SCH00000484,STF6407, Jones,Pharmacist,2026-01-16,19:00,07:00,ICU,ICU - Zone C
+SCH00000485,STF4532, Brown,Pharmacist,2026-01-16,15:00,23:00,ICU,ICU - Zone A
+SCH00000486,STF5574,Dr. Smith,PA,2026-01-16,07:00,15:00,ICU,ICU - Zone C
+SCH00000487,STF4215, Brown,NP,2026-01-16,07:00,15:00,ICU,ICU - Zone B
+SCH00000488,STF2491,Dr. Smith,Physical Therapist,2026-01-16,07:00,19:00,ICU,ICU - Zone C
+SCH00000489,STF4764,Nurse Brown,Respiratory Therapist,2026-01-16,07:00,19:00,ICU,ICU - Zone C
+SCH00000490,STF3215, Johnson,RN,2026-01-16,23:00,07:00,ICU,ICU - Zone A
+SCH00000491,STF3071, Jones,Physician,2026-01-16,07:00,19:00,ICU,ICU - Zone C
+SCH00000492,STF2215,Dr. Williams,Physician,2026-01-16,23:00,07:00,ICU,ICU - Zone C
+SCH00000493,STF9602,Nurse Williams,Respiratory Therapist,2026-01-16,07:00,19:00,ICU,ICU - Zone B
+SCH00000494,STF9993,Nurse Brown,CNA,2026-01-16,19:00,07:00,ICU,ICU - Zone A
+SCH00000495,STF4363, Smith,CNA,2026-01-16,19:00,07:00,ICU,ICU - Zone C
+SCH00000496,STF9486,Dr. Brown,CNA,2026-01-16,23:00,07:00,ICU,ICU - Zone B
+SCH00000497,STF9957,Dr. Williams,LPN,2026-01-16,07:00,15:00,ICU,ICU - Zone B
+SCH00000498,STF6532,Dr. Smith,RN,2026-01-16,07:00,19:00,ICU,ICU - Zone A
+SCH00000499,STF1497, Jones,LPN,2026-01-16,07:00,15:00,ICU,ICU - Zone A
+SCH00000500,STF2328,Dr. Brown,LPN,2026-01-16,19:00,07:00,ICU,ICU - Zone B
+SCH00000501,STF9831, Jones,PA,2026-01-16,07:00,19:00,ICU,ICU - Zone C
+SCH00000502,STF1423,Nurse Smith,CNA,2026-01-16,07:00,15:00,ICU,ICU - Zone B
+SCH00000503,STF9257,Dr. Smith,Resident,2026-01-16,07:00,15:00,ICU,ICU - Zone B
+SCH00000504,STF9847, Smith,Pharmacist,2026-01-16,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000505,STF3467, Smith,CNA,2026-01-16,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000506,STF6146, Brown,NP,2026-01-16,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000507,STF8656,Dr. Smith,RN,2026-01-16,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000508,STF5280, Williams,Physician,2026-01-16,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000509,STF2453, Johnson,PA,2026-01-16,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000510,STF7638,Dr. Brown,NP,2026-01-16,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000511,STF3445,Nurse Williams,Resident,2026-01-16,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000512,STF1802, Brown,PA,2026-01-16,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000513,STF1686,Nurse Smith,Respiratory Therapist,2026-01-16,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000514,STF7663, Jones,Physician,2026-01-16,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000515,STF8537, Jones,Physical Therapist,2026-01-16,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000516,STF4027,Nurse Smith,CNA,2026-01-16,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000517,STF3005,Dr. Jones,NP,2026-01-16,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000518,STF5286,Nurse Brown,Resident,2026-01-16,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000519,STF5079, Johnson,Respiratory Therapist,2026-01-16,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000520,STF9656,Dr. Johnson,LPN,2026-01-16,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000521,STF2073, Williams,CNA,2026-01-16,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000522,STF3799, Williams,Respiratory Therapist,2026-01-16,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000523,STF7678,Dr. Brown,Resident,2026-01-16,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000524,STF3138,Dr. Smith,PA,2026-01-16,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000525,STF6072,Dr. Brown,Resident,2026-01-16,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000526,STF5777,Nurse Williams,NP,2026-01-16,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000527,STF1693, Williams,CNA,2026-01-16,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000528,STF9904, Smith,CNA,2026-01-16,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000529,STF2386,Nurse Williams,Pharmacist,2026-01-16,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000530,STF5761, Smith,Respiratory Therapist,2026-01-16,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000531,STF4700, Jones,LPN,2026-01-16,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000532,STF9499, Johnson,CNA,2026-01-16,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000533,STF8629, Williams,Physical Therapist,2026-01-16,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000534,STF1615,Dr. Johnson,Resident,2026-01-16,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000535,STF4541, Williams,Physician,2026-01-16,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000536,STF6162,Dr. Johnson,LPN,2026-01-16,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000537,STF2674, Brown,LPN,2026-01-16,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000538,STF9621,Dr. Jones,Pharmacist,2026-01-16,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000539,STF4254, Johnson,Physician,2026-01-16,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000540,STF9070, Williams,Physician,2026-01-16,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000541,STF4698, Smith,RN,2026-01-16,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000542,STF2374,Nurse Brown,Physical Therapist,2026-01-16,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000543,STF2561, Jones,Pharmacist,2026-01-16,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000544,STF1137,Dr. Smith,RN,2026-01-16,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000545,STF2748, Johnson,PA,2026-01-16,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000546,STF9583,Nurse Williams,RN,2026-01-16,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000547,STF8737,Nurse Jones,Pharmacist,2026-01-16,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00000548,STF7807,Dr. Brown,RN,2026-01-16,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000549,STF7027,Dr. Smith,Physical Therapist,2026-01-16,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000550,STF6099, Jones,Physical Therapist,2026-01-16,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000551,STF5699,Dr. Johnson,LPN,2026-01-16,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000552,STF7504,Dr. Jones,Respiratory Therapist,2026-01-16,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000553,STF3282, Johnson,NP,2026-01-16,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000554,STF4532,Dr. Smith,Physical Therapist,2026-01-16,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000555,STF4934,Nurse Brown,Pharmacist,2026-01-16,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000556,STF2257, Williams,LPN,2026-01-16,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000557,STF3130, Smith,Respiratory Therapist,2026-01-16,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000558,STF7010,Nurse Brown,RN,2026-01-16,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000559,STF8023, Smith,NP,2026-01-16,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000560,STF2908,Dr. Johnson,CNA,2026-01-16,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000561,STF9523,Nurse Jones,Physician,2026-01-16,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000562,STF2448, Brown,RN,2026-01-16,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000563,STF2190,Dr. Johnson,PA,2026-01-16,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000564,STF5161,Nurse Jones,PA,2026-01-16,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000565,STF4004,Nurse Brown,NP,2026-01-16,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000566,STF7954,Dr. Jones,Respiratory Therapist,2026-01-16,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000567,STF5321,Dr. Williams,Resident,2026-01-16,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000568,STF1081,Nurse Williams,Respiratory Therapist,2026-01-16,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000569,STF4889, Johnson,Pharmacist,2026-01-16,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000570,STF7675, Williams,RN,2026-01-16,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000571,STF3033,Nurse Brown,RN,2026-01-16,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000572,STF1778, Smith,Respiratory Therapist,2026-01-16,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000573,STF5740,Dr. Brown,Resident,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000574,STF5181, Jones,Physical Therapist,2026-01-16,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000575,STF7893, Williams,Physical Therapist,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000576,STF8474,Dr. Jones,LPN,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000577,STF6999, Johnson,Physical Therapist,2026-01-16,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000578,STF3407,Nurse Smith,PA,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000579,STF9199,Dr. Johnson,Resident,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000580,STF4119,Nurse Johnson,LPN,2026-01-16,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000581,STF8043,Dr. Brown,NP,2026-01-16,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000582,STF8749,Dr. Brown,CNA,2026-01-17,15:00,23:00,ICU,ICU - Zone C
+SCH00000583,STF7843, Johnson,RN,2026-01-17,15:00,23:00,ICU,ICU - Zone A
+SCH00000584,STF6070, Johnson,Respiratory Therapist,2026-01-17,19:00,07:00,ICU,ICU - Zone C
+SCH00000585,STF6337,Dr. Jones,Physical Therapist,2026-01-17,07:00,15:00,ICU,ICU - Zone C
+SCH00000586,STF3269,Dr. Williams,Respiratory Therapist,2026-01-17,07:00,19:00,ICU,ICU - Zone B
+SCH00000587,STF7676, Jones,LPN,2026-01-17,19:00,07:00,ICU,ICU - Zone C
+SCH00000588,STF8113,Dr. Brown,PA,2026-01-17,07:00,19:00,ICU,ICU - Zone C
+SCH00000589,STF6877, Williams,Respiratory Therapist,2026-01-17,19:00,07:00,ICU,ICU - Zone B
+SCH00000590,STF2531,Nurse Williams,Respiratory Therapist,2026-01-17,15:00,23:00,ICU,ICU - Zone C
+SCH00000591,STF7667, Brown,LPN,2026-01-17,19:00,07:00,ICU,ICU - Zone A
+SCH00000592,STF2609,Nurse Jones,CNA,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000593,STF6518,Nurse Brown,LPN,2026-01-17,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000594,STF9871,Nurse Jones,CNA,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000595,STF5454,Nurse Johnson,RN,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000596,STF1016, Brown,RN,2026-01-17,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000597,STF7378,Nurse Jones,LPN,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000598,STF4310,Dr. Jones,LPN,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000599,STF6486,Nurse Jones,RN,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000600,STF1917,Nurse Jones,Physical Therapist,2026-01-17,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000601,STF2198,Nurse Johnson,PA,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000602,STF9549, Brown,Physician,2026-01-17,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000603,STF3353, Williams,RN,2026-01-17,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000604,STF5425,Nurse Jones,RN,2026-01-17,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000605,STF5612, Brown,NP,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000606,STF3289,Dr. Jones,NP,2026-01-17,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000607,STF3247,Dr. Brown,PA,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000608,STF8768, Jones,NP,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000609,STF2094, Jones,Resident,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000610,STF5305,Dr. Brown,LPN,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000611,STF4802,Nurse Johnson,LPN,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000612,STF4319,Nurse Jones,PA,2026-01-17,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000613,STF2296,Dr. Smith,Pharmacist,2026-01-17,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000614,STF2287,Nurse Smith,Physical Therapist,2026-01-17,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000615,STF7912,Nurse Johnson,Physician,2026-01-17,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000616,STF8663,Nurse Brown,Pharmacist,2026-01-17,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000617,STF2986,Dr. Jones,Physician,2026-01-17,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000618,STF5861,Dr. Johnson,Resident,2026-01-17,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000619,STF6292,Nurse Jones,RN,2026-01-17,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000620,STF1704,Nurse Smith,LPN,2026-01-17,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000621,STF4874,Nurse Smith,Pharmacist,2026-01-17,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000622,STF7526,Dr. Brown,Pharmacist,2026-01-17,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000623,STF9186,Dr. Smith,Respiratory Therapist,2026-01-17,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000624,STF3645, Johnson,LPN,2026-01-17,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000625,STF2676,Nurse Johnson,Physician,2026-01-17,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000626,STF9947, Jones,PA,2026-01-17,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00000627,STF8175, Johnson,Physician,2026-01-17,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000628,STF2883, Williams,Respiratory Therapist,2026-01-17,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000629,STF7691, Brown,RN,2026-01-17,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000630,STF1375, Brown,Pharmacist,2026-01-17,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000631,STF7599, Smith,LPN,2026-01-17,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000632,STF9134,Dr. Smith,Physician,2026-01-17,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000633,STF6981,Dr. Smith,RN,2026-01-17,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000634,STF3800,Nurse Williams,CNA,2026-01-17,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000635,STF3608, Williams,LPN,2026-01-17,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000636,STF1243,Dr. Williams,PA,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000637,STF7634,Dr. Jones,Physical Therapist,2026-01-17,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000638,STF3854,Nurse Jones,LPN,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000639,STF7519, Jones,Pharmacist,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000640,STF9753, Jones,Resident,2026-01-17,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000641,STF9877,Dr. Johnson,Resident,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000642,STF1619, Johnson,PA,2026-01-17,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000643,STF9884, Williams,NP,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000644,STF9312, Williams,Resident,2026-01-17,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000645,STF9391,Dr. Williams,Respiratory Therapist,2026-01-17,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000646,STF6681,Nurse Smith,Pharmacist,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000647,STF8231,Dr. Jones,LPN,2026-01-17,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000648,STF7580,Dr. Jones,Pharmacist,2026-01-17,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000649,STF4059,Nurse Brown,RN,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000650,STF2277, Brown,Physical Therapist,2026-01-17,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000651,STF9108,Nurse Jones,Physical Therapist,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000652,STF3456, Brown,Physical Therapist,2026-01-17,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000653,STF3521, Johnson,CNA,2026-01-17,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00000654,STF1625, Smith,Respiratory Therapist,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00000655,STF7530,Dr. Williams,CNA,2026-01-17,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000656,STF1489, Jones,PA,2026-01-17,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000657,STF6437,Dr. Smith,Pharmacist,2026-01-17,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000658,STF3751, Williams,Resident,2026-01-17,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000659,STF7136, Brown,Resident,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000660,STF8547,Dr. Williams,Physical Therapist,2026-01-17,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000661,STF5819,Dr. Jones,CNA,2026-01-17,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000662,STF5411, Jones,NP,2026-01-17,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000663,STF2689,Nurse Smith,PA,2026-01-17,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000664,STF6371, Brown,CNA,2026-01-17,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000665,STF3914, Johnson,PA,2026-01-17,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000666,STF7613,Dr. Williams,Physical Therapist,2026-01-17,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000667,STF9679,Dr. Jones,Physical Therapist,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000668,STF2740,Nurse Smith,Respiratory Therapist,2026-01-17,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000669,STF9022, Williams,Respiratory Therapist,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000670,STF1256, Williams,Physical Therapist,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000671,STF5287,Nurse Jones,Physician,2026-01-17,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000672,STF2965,Dr. Brown,Respiratory Therapist,2026-01-17,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000673,STF8933, Williams,CNA,2026-01-17,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000674,STF4866,Nurse Johnson,Resident,2026-01-17,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000675,STF7463,Nurse Brown,Resident,2026-01-17,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00000676,STF2761,Dr. Johnson,PA,2026-01-17,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000677,STF3842,Nurse Brown,PA,2026-01-17,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000678,STF9593,Nurse Williams,LPN,2026-01-17,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000679,STF1263, Smith,Physical Therapist,2026-01-17,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000680,STF5644,Dr. Brown,LPN,2026-01-17,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000681,STF7273, Jones,Physical Therapist,2026-01-17,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000682,STF9580, Johnson,Pharmacist,2026-01-17,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000683,STF8831,Dr. Johnson,RN,2026-01-17,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000684,STF9425,Nurse Johnson,Respiratory Therapist,2026-01-17,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000685,STF3242,Nurse Smith,PA,2026-01-17,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000686,STF6315,Nurse Jones,Physical Therapist,2026-01-17,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000687,STF8245,Dr. Brown,Resident,2026-01-17,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000688,STF6535, Williams,Respiratory Therapist,2026-01-17,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000689,STF9869,Nurse Williams,PA,2026-01-17,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000690,STF3912, Smith,Respiratory Therapist,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000691,STF2359,Dr. Smith,NP,2026-01-17,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000692,STF1645,Nurse Johnson,RN,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000693,STF4802, Smith,LPN,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000694,STF6340,Dr. Williams,PA,2026-01-17,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000695,STF6569,Dr. Brown,Pharmacist,2026-01-17,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000696,STF3984,Nurse Jones,LPN,2026-01-17,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000697,STF9598, Jones,Physical Therapist,2026-01-17,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000698,STF9038,Dr. Brown,CNA,2026-01-17,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000699,STF8356,Nurse Johnson,Pharmacist,2026-01-17,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000700,STF1104, Johnson,CNA,2026-01-17,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000701,STF7042, Johnson,Resident,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000702,STF3832,Dr. Johnson,Respiratory Therapist,2026-01-17,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000703,STF2030,Dr. Smith,CNA,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000704,STF5994,Nurse Smith,Physical Therapist,2026-01-17,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000705,STF2472,Nurse Brown,Respiratory Therapist,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000706,STF3623,Nurse Smith,Physician,2026-01-17,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000707,STF9724, Smith,CNA,2026-01-17,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000708,STF8471,Nurse Brown,CNA,2026-01-17,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000709,STF5265,Nurse Brown,PA,2026-01-18,23:00,07:00,ICU,ICU - Zone C
+SCH00000710,STF3222,Dr. Williams,NP,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000711,STF3333, Brown,Physical Therapist,2026-01-18,07:00,19:00,ICU,ICU - Zone C
+SCH00000712,STF7265,Dr. Brown,Respiratory Therapist,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000713,STF1869,Nurse Smith,Respiratory Therapist,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000714,STF8680, Johnson,CNA,2026-01-18,07:00,19:00,ICU,ICU - Zone B
+SCH00000715,STF4249, Jones,Pharmacist,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000716,STF4049,Dr. Johnson,RN,2026-01-18,07:00,15:00,ICU,ICU - Zone A
+SCH00000717,STF4507, Brown,NP,2026-01-18,19:00,07:00,ICU,ICU - Zone A
+SCH00000718,STF6356,Nurse Johnson,Physical Therapist,2026-01-18,07:00,19:00,ICU,ICU - Zone C
+SCH00000719,STF3357, Williams,Physician,2026-01-18,19:00,07:00,ICU,ICU - Zone B
+SCH00000720,STF5006,Nurse Jones,Physical Therapist,2026-01-18,23:00,07:00,ICU,ICU - Zone A
+SCH00000721,STF6047,Nurse Brown,Resident,2026-01-18,15:00,23:00,ICU,ICU - Zone A
+SCH00000722,STF9078,Nurse Johnson,Physician,2026-01-18,19:00,07:00,ICU,ICU - Zone B
+SCH00000723,STF1320,Nurse Jones,Physical Therapist,2026-01-18,07:00,15:00,ICU,ICU - Zone B
+SCH00000724,STF9161,Nurse Jones,Physical Therapist,2026-01-18,07:00,19:00,ICU,ICU - Zone A
+SCH00000725,STF8189,Dr. Brown,RN,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000726,STF2144,Dr. Jones,CNA,2026-01-18,07:00,19:00,ICU,ICU - Zone B
+SCH00000727,STF8676,Dr. Johnson,Respiratory Therapist,2026-01-18,15:00,23:00,ICU,ICU - Zone C
+SCH00000728,STF9033, Jones,PA,2026-01-18,19:00,07:00,ICU,ICU - Zone C
+SCH00000729,STF3140,Dr. Johnson,CNA,2026-01-18,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000730,STF6968,Dr. Johnson,NP,2026-01-18,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000731,STF1616,Nurse Jones,RN,2026-01-18,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000732,STF8628, Brown,Respiratory Therapist,2026-01-18,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000733,STF6723, Williams,Physician,2026-01-18,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000734,STF4025,Dr. Smith,Physician,2026-01-18,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000735,STF4309,Dr. Brown,RN,2026-01-18,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000736,STF2343,Dr. Brown,Physical Therapist,2026-01-18,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000737,STF2088, Jones,PA,2026-01-18,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000738,STF2533, Johnson,RN,2026-01-18,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000739,STF6705,Dr. Brown,RN,2026-01-18,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000740,STF5541, Johnson,Respiratory Therapist,2026-01-18,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000741,STF1080,Dr. Johnson,Physical Therapist,2026-01-18,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000742,STF9189,Dr. Brown,LPN,2026-01-18,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000743,STF1793,Dr. Johnson,CNA,2026-01-18,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000744,STF2934, Johnson,Pharmacist,2026-01-18,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000745,STF1876, Smith,LPN,2026-01-18,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000746,STF2846,Dr. Johnson,NP,2026-01-18,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000747,STF1685,Dr. Brown,LPN,2026-01-18,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000748,STF3228,Dr. Johnson,PA,2026-01-18,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000749,STF4507,Dr. Brown,RN,2026-01-18,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000750,STF7230,Dr. Johnson,PA,2026-01-18,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000751,STF8460,Dr. Williams,Resident,2026-01-18,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000752,STF3885,Dr. Jones,LPN,2026-01-18,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000753,STF7468,Dr. Jones,Respiratory Therapist,2026-01-18,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000754,STF6351,Nurse Brown,CNA,2026-01-18,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000755,STF3110, Williams,RN,2026-01-18,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000756,STF6733, Smith,NP,2026-01-18,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000757,STF4516,Dr. Jones,Physical Therapist,2026-01-18,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000758,STF9135,Nurse Smith,RN,2026-01-18,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000759,STF5513, Williams,Physician,2026-01-18,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000760,STF9841,Dr. Johnson,PA,2026-01-18,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000761,STF1443,Dr. Smith,Resident,2026-01-18,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00000762,STF3307,Dr. Williams,Pharmacist,2026-01-18,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000763,STF3653,Nurse Williams,Pharmacist,2026-01-18,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000764,STF1988,Dr. Brown,CNA,2026-01-18,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000765,STF2398,Dr. Brown,NP,2026-01-18,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000766,STF4738, Smith,CNA,2026-01-18,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000767,STF6609, Smith,PA,2026-01-18,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00000768,STF4634,Dr. Smith,Resident,2026-01-18,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00000769,STF1276,Nurse Jones,Physical Therapist,2026-01-18,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000770,STF8396, Smith,PA,2026-01-18,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000771,STF7076,Nurse Williams,Pharmacist,2026-01-18,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000772,STF5670,Nurse Brown,NP,2026-01-18,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000773,STF3242,Dr. Smith,Resident,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000774,STF1722, Smith,Respiratory Therapist,2026-01-18,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00000775,STF1634,Nurse Jones,Physician,2026-01-18,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000776,STF4765,Nurse Smith,LPN,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000777,STF9011,Dr. Jones,CNA,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00000778,STF1215, Williams,Respiratory Therapist,2026-01-18,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000779,STF8336,Dr. Smith,LPN,2026-01-18,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000780,STF6615,Dr. Jones,RN,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000781,STF1695,Dr. Smith,NP,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000782,STF8568,Dr. Williams,Physician,2026-01-18,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000783,STF6916,Nurse Johnson,Respiratory Therapist,2026-01-18,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000784,STF7563,Dr. Smith,CNA,2026-01-18,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00000785,STF1285,Nurse Jones,Physical Therapist,2026-01-18,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000786,STF8320,Nurse Brown,NP,2026-01-18,15:00,23:00,Oncology,Oncology - Zone C
+SCH00000787,STF1486,Dr. Williams,Physician,2026-01-18,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000788,STF4259,Dr. Brown,Physician,2026-01-18,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000789,STF5165,Dr. Smith,NP,2026-01-18,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000790,STF6787,Dr. Johnson,Physical Therapist,2026-01-18,07:00,19:00,Oncology,Oncology - Zone C
+SCH00000791,STF8782,Nurse Brown,RN,2026-01-18,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000792,STF7796,Nurse Jones,NP,2026-01-18,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000793,STF1408,Nurse Jones,LPN,2026-01-18,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000794,STF8956,Dr. Smith,Pharmacist,2026-01-18,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000795,STF5303, Smith,Physical Therapist,2026-01-18,19:00,07:00,Oncology,Oncology - Zone C
+SCH00000796,STF5416,Dr. Smith,Physical Therapist,2026-01-18,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000797,STF6188, Jones,CNA,2026-01-18,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000798,STF9222, Jones,RN,2026-01-18,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000799,STF9141,Nurse Johnson,NP,2026-01-18,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000800,STF2066,Nurse Smith,Physician,2026-01-18,15:00,23:00,Oncology,Oncology - Zone C
+SCH00000801,STF7792, Williams,NP,2026-01-18,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000802,STF2672,Dr. Johnson,NP,2026-01-18,15:00,23:00,Oncology,Oncology - Zone A
+SCH00000803,STF8945,Nurse Jones,Resident,2026-01-18,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000804,STF5360,Nurse Brown,Physician,2026-01-18,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000805,STF3998, Jones,Physician,2026-01-18,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000806,STF5736, Brown,Physical Therapist,2026-01-18,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000807,STF2097, Johnson,Resident,2026-01-18,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000808,STF1431, Brown,Physician,2026-01-18,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000809,STF9856,Nurse Smith,CNA,2026-01-18,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000810,STF3594, Smith,RN,2026-01-18,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000811,STF4853, Jones,PA,2026-01-18,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000812,STF9265,Dr. Smith,Physical Therapist,2026-01-18,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000813,STF8281, Jones,RN,2026-01-18,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000814,STF5747, Brown,Respiratory Therapist,2026-01-18,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000815,STF5260,Dr. Smith,Resident,2026-01-18,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000816,STF8393, Johnson,PA,2026-01-18,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000817,STF9304, Johnson,PA,2026-01-19,15:00,23:00,ICU,ICU - Zone A
+SCH00000818,STF2011,Dr. Brown,RN,2026-01-19,07:00,15:00,ICU,ICU - Zone C
+SCH00000819,STF8771,Dr. Johnson,PA,2026-01-19,15:00,23:00,ICU,ICU - Zone C
+SCH00000820,STF4095,Nurse Jones,NP,2026-01-19,23:00,07:00,ICU,ICU - Zone A
+SCH00000821,STF7606, Brown,LPN,2026-01-19,07:00,19:00,ICU,ICU - Zone A
+SCH00000822,STF5430,Nurse Jones,CNA,2026-01-19,23:00,07:00,ICU,ICU - Zone C
+SCH00000823,STF9268,Nurse Jones,CNA,2026-01-19,15:00,23:00,ICU,ICU - Zone C
+SCH00000824,STF8817, Williams,RN,2026-01-19,07:00,15:00,ICU,ICU - Zone A
+SCH00000825,STF4757, Brown,LPN,2026-01-19,07:00,15:00,ICU,ICU - Zone A
+SCH00000826,STF2843,Nurse Jones,PA,2026-01-19,15:00,23:00,ICU,ICU - Zone A
+SCH00000827,STF5065, Jones,CNA,2026-01-19,15:00,23:00,ICU,ICU - Zone B
+SCH00000828,STF4672,Dr. Brown,PA,2026-01-19,15:00,23:00,ICU,ICU - Zone B
+SCH00000829,STF7523,Dr. Jones,CNA,2026-01-19,07:00,15:00,ICU,ICU - Zone C
+SCH00000830,STF7908,Nurse Jones,Resident,2026-01-19,23:00,07:00,ICU,ICU - Zone B
+SCH00000831,STF5073,Dr. Williams,Resident,2026-01-19,23:00,07:00,ICU,ICU - Zone B
+SCH00000832,STF8422,Dr. Brown,Respiratory Therapist,2026-01-19,07:00,15:00,ICU,ICU - Zone A
+SCH00000833,STF1190,Dr. Brown,CNA,2026-01-19,23:00,07:00,ICU,ICU - Zone B
+SCH00000834,STF3332,Dr. Brown,CNA,2026-01-19,07:00,15:00,ICU,ICU - Zone C
+SCH00000835,STF5509,Dr. Jones,Respiratory Therapist,2026-01-19,23:00,07:00,ICU,ICU - Zone A
+SCH00000836,STF4637, Jones,Resident,2026-01-19,23:00,07:00,ICU,ICU - Zone B
+SCH00000837,STF4734,Dr. Williams,Physical Therapist,2026-01-19,07:00,19:00,ICU,ICU - Zone B
+SCH00000838,STF7474,Nurse Jones,Pharmacist,2026-01-19,19:00,07:00,ICU,ICU - Zone C
+SCH00000839,STF2116,Dr. Smith,NP,2026-01-19,07:00,19:00,ICU,ICU - Zone C
+SCH00000840,STF5913, Johnson,LPN,2026-01-19,19:00,07:00,ICU,ICU - Zone A
+SCH00000841,STF3674,Dr. Johnson,Physician,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000842,STF8784,Dr. Johnson,NP,2026-01-19,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000843,STF1717, Smith,Resident,2026-01-19,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000844,STF7563,Nurse Williams,PA,2026-01-19,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000845,STF5949,Dr. Jones,Pharmacist,2026-01-19,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000846,STF2595,Dr. Johnson,NP,2026-01-19,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000847,STF5737,Nurse Brown,Resident,2026-01-19,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000848,STF2035,Dr. Jones,Pharmacist,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000849,STF3077, Jones,Resident,2026-01-19,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000850,STF1685,Dr. Brown,Respiratory Therapist,2026-01-19,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000851,STF8564,Nurse Smith,Respiratory Therapist,2026-01-19,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000852,STF8255,Dr. Johnson,Resident,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000853,STF6348, Brown,Physical Therapist,2026-01-19,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000854,STF5342, Jones,Respiratory Therapist,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000855,STF5079, Jones,Physical Therapist,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000856,STF8214, Williams,Resident,2026-01-19,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000857,STF2479,Nurse Williams,PA,2026-01-19,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000858,STF1807,Dr. Jones,LPN,2026-01-19,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000859,STF3958,Dr. Brown,RN,2026-01-19,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000860,STF1728,Nurse Smith,PA,2026-01-19,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000861,STF7921, Jones,RN,2026-01-19,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000862,STF4393,Nurse Johnson,NP,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000863,STF2638,Nurse Williams,Respiratory Therapist,2026-01-19,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000864,STF1914,Dr. Smith,NP,2026-01-19,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000865,STF5933, Williams,CNA,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000866,STF3931,Nurse Williams,RN,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000867,STF8125,Dr. Williams,NP,2026-01-19,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000868,STF8140,Nurse Williams,Resident,2026-01-19,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000869,STF7940,Nurse Jones,PA,2026-01-19,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000870,STF1478,Nurse Johnson,Physical Therapist,2026-01-19,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000871,STF4150,Nurse Johnson,Respiratory Therapist,2026-01-19,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000872,STF4973,Nurse Johnson,PA,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000873,STF4019,Nurse Smith,NP,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000874,STF2776, Williams,NP,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000875,STF4750, Brown,RN,2026-01-19,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00000876,STF3625,Dr. Williams,CNA,2026-01-19,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000877,STF3966, Brown,Pharmacist,2026-01-19,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000878,STF6089, Smith,NP,2026-01-19,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000879,STF7392,Dr. Williams,RN,2026-01-19,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000880,STF2637,Nurse Jones,LPN,2026-01-19,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000881,STF9471, Smith,NP,2026-01-19,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00000882,STF2775,Nurse Brown,Pharmacist,2026-01-19,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00000883,STF9102,Dr. Johnson,Respiratory Therapist,2026-01-19,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000884,STF8275,Dr. Brown,RN,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000885,STF5310,Dr. Smith,CNA,2026-01-19,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000886,STF3697,Nurse Johnson,RN,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000887,STF8843,Nurse Jones,PA,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000888,STF7322, Williams,Respiratory Therapist,2026-01-19,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00000889,STF3765,Dr. Williams,PA,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00000890,STF3095,Dr. Jones,LPN,2026-01-19,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000891,STF6313,Dr. Smith,Resident,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000892,STF8032,Nurse Williams,Resident,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00000893,STF8654,Dr. Smith,PA,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000894,STF3292,Nurse Williams,Physician,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00000895,STF9802, Smith,Physical Therapist,2026-01-19,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000896,STF8385,Dr. Williams,Pharmacist,2026-01-19,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00000897,STF3725,Dr. Jones,Pharmacist,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000898,STF9829,Nurse Williams,NP,2026-01-19,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000899,STF1206, Brown,Respiratory Therapist,2026-01-19,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00000900,STF5045, Johnson,RN,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000901,STF1543,Nurse Jones,NP,2026-01-19,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000902,STF9241,Dr. Williams,CNA,2026-01-19,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00000903,STF4760, Smith,Resident,2026-01-19,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00000904,STF9432,Nurse Jones,LPN,2026-01-19,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00000905,STF9424,Dr. Williams,LPN,2026-01-19,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000906,STF5163,Nurse Brown,Resident,2026-01-19,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000907,STF1876,Nurse Smith,Respiratory Therapist,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000908,STF8784,Nurse Jones,Physical Therapist,2026-01-19,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000909,STF2755, Jones,RN,2026-01-19,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000910,STF3020, Jones,CNA,2026-01-19,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00000911,STF5185, Jones,Respiratory Therapist,2026-01-19,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00000912,STF7972,Dr. Jones,Physical Therapist,2026-01-19,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000913,STF1998, Johnson,Resident,2026-01-19,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000914,STF8853, Johnson,LPN,2026-01-19,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00000915,STF5158,Dr. Jones,NP,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000916,STF9854,Nurse Johnson,NP,2026-01-19,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00000917,STF4337,Nurse Johnson,Respiratory Therapist,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000918,STF9543,Dr. Johnson,Physician,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000919,STF2846,Nurse Johnson,Respiratory Therapist,2026-01-19,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00000920,STF4442,Dr. Jones,CNA,2026-01-19,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00000921,STF4474,Dr. Smith,CNA,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000922,STF1244,Dr. Smith,CNA,2026-01-19,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00000923,STF2032,Nurse Brown,Respiratory Therapist,2026-01-19,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00000924,STF1742, Jones,RN,2026-01-19,23:00,07:00,Oncology,Oncology - Zone C
+SCH00000925,STF8878, Smith,NP,2026-01-19,07:00,19:00,Oncology,Oncology - Zone A
+SCH00000926,STF5841,Dr. Williams,Physician,2026-01-19,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000927,STF2011,Nurse Johnson,Physician,2026-01-19,23:00,07:00,Oncology,Oncology - Zone B
+SCH00000928,STF2393,Nurse Williams,Physical Therapist,2026-01-19,23:00,07:00,Oncology,Oncology - Zone A
+SCH00000929,STF7899,Nurse Williams,Respiratory Therapist,2026-01-19,19:00,07:00,Oncology,Oncology - Zone A
+SCH00000930,STF7695,Dr. Smith,Physical Therapist,2026-01-19,07:00,15:00,Oncology,Oncology - Zone C
+SCH00000931,STF1059,Nurse Johnson,Physician,2026-01-19,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000932,STF1057, Jones,PA,2026-01-19,07:00,15:00,Oncology,Oncology - Zone B
+SCH00000933,STF7212,Dr. Smith,Pharmacist,2026-01-19,07:00,19:00,Oncology,Oncology - Zone B
+SCH00000934,STF8141,Nurse Smith,NP,2026-01-19,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000935,STF2209,Nurse Smith,RN,2026-01-19,15:00,23:00,Oncology,Oncology - Zone B
+SCH00000936,STF2479,Nurse Jones,Physician,2026-01-19,07:00,15:00,Oncology,Oncology - Zone A
+SCH00000937,STF2647,Nurse Jones,NP,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000938,STF8691,Dr. Williams,RN,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000939,STF4189,Dr. Williams,NP,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000940,STF3307, Jones,NP,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000941,STF7639,Nurse Smith,CNA,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000942,STF9650, Jones,Physician,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000943,STF9520, Brown,Physical Therapist,2026-01-19,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000944,STF2190, Brown,PA,2026-01-19,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000945,STF3959, Brown,PA,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000946,STF7177,Dr. Smith,RN,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000947,STF2425,Nurse Brown,CNA,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000948,STF9552,Nurse Smith,Physical Therapist,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000949,STF5959, Williams,LPN,2026-01-19,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00000950,STF3280,Nurse Jones,LPN,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000951,STF6150,Nurse Williams,LPN,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000952,STF2478,Nurse Jones,CNA,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000953,STF4029, Jones,LPN,2026-01-19,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000954,STF3370, Jones,Resident,2026-01-19,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00000955,STF7599,Dr. Johnson,CNA,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000956,STF3308, Jones,Physical Therapist,2026-01-19,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00000957,STF8360, Williams,RN,2026-01-20,07:00,15:00,ICU,ICU - Zone C
+SCH00000958,STF5364,Nurse Williams,CNA,2026-01-20,07:00,19:00,ICU,ICU - Zone C
+SCH00000959,STF7108,Nurse Jones,Pharmacist,2026-01-20,07:00,19:00,ICU,ICU - Zone B
+SCH00000960,STF3071,Dr. Williams,RN,2026-01-20,23:00,07:00,ICU,ICU - Zone A
+SCH00000961,STF9141, Smith,RN,2026-01-20,23:00,07:00,ICU,ICU - Zone A
+SCH00000962,STF2038,Nurse Brown,NP,2026-01-20,19:00,07:00,ICU,ICU - Zone C
+SCH00000963,STF5507,Dr. Johnson,RN,2026-01-20,15:00,23:00,ICU,ICU - Zone A
+SCH00000964,STF5562,Dr. Jones,Pharmacist,2026-01-20,19:00,07:00,ICU,ICU - Zone C
+SCH00000965,STF6375,Dr. Brown,Resident,2026-01-20,07:00,19:00,ICU,ICU - Zone A
+SCH00000966,STF9522, Williams,Respiratory Therapist,2026-01-20,19:00,07:00,ICU,ICU - Zone A
+SCH00000967,STF8415,Nurse Smith,Physician,2026-01-20,07:00,19:00,ICU,ICU - Zone A
+SCH00000968,STF7381,Nurse Smith,Respiratory Therapist,2026-01-20,07:00,15:00,ICU,ICU - Zone A
+SCH00000969,STF6757,Dr. Jones,Respiratory Therapist,2026-01-20,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000970,STF7091,Nurse Smith,RN,2026-01-20,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000971,STF2411,Dr. Smith,PA,2026-01-20,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000972,STF6942, Johnson,Physician,2026-01-20,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00000973,STF4270,Dr. Brown,RN,2026-01-20,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000974,STF6143,Nurse Smith,RN,2026-01-20,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000975,STF9260, Williams,Physical Therapist,2026-01-20,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000976,STF5801, Brown,Physician,2026-01-20,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000977,STF7769,Dr. Brown,Physical Therapist,2026-01-20,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000978,STF6646,Nurse Brown,CNA,2026-01-20,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00000979,STF2893, Jones,NP,2026-01-20,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00000980,STF8768,Dr. Johnson,Physician,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00000981,STF2158,Dr. Johnson,RN,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000982,STF6763,Dr. Johnson,Respiratory Therapist,2026-01-20,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00000983,STF2125, Williams,Pharmacist,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000984,STF8173,Nurse Johnson,Resident,2026-01-20,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000985,STF7892,Nurse Jones,Respiratory Therapist,2026-01-20,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000986,STF8133,Dr. Jones,RN,2026-01-20,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00000987,STF9977, Jones,Physician,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000988,STF4198,Nurse Johnson,Respiratory Therapist,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00000989,STF7268, Smith,Resident,2026-01-20,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00000990,STF6420,Nurse Williams,PA,2026-01-20,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00000991,STF1821, Williams,NP,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000992,STF6774,Dr. Johnson,LPN,2026-01-20,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00000993,STF3994, Williams,RN,2026-01-20,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00000994,STF2755, Williams,RN,2026-01-20,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00000995,STF1451,Dr. Smith,Physical Therapist,2026-01-20,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00000996,STF2640,Dr. Jones,Pharmacist,2026-01-20,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00000997,STF1312, Brown,CNA,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00000998,STF7374, Smith,RN,2026-01-20,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00000999,STF7653,Nurse Williams,Physical Therapist,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001000,STF2362, Johnson,CNA,2026-01-20,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001001,STF3985,Nurse Smith,Pharmacist,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001002,STF1173,Dr. Smith,CNA,2026-01-20,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00001003,STF6234, Johnson,LPN,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001004,STF6685, Jones,Physical Therapist,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001005,STF6567,Dr. Brown,RN,2026-01-20,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00001006,STF2636,Nurse Jones,Pharmacist,2026-01-20,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001007,STF1811,Nurse Smith,PA,2026-01-20,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001008,STF4778,Nurse Williams,LPN,2026-01-20,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001009,STF4542, Jones,Resident,2026-01-20,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001010,STF2941,Dr. Smith,RN,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001011,STF4514, Williams,NP,2026-01-20,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00001012,STF2055, Jones,LPN,2026-01-20,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001013,STF2536, Johnson,Physician,2026-01-20,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001014,STF6670, Williams,Physician,2026-01-20,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00001015,STF3400,Dr. Smith,RN,2026-01-20,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001016,STF1971, Smith,NP,2026-01-20,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001017,STF1314, Smith,NP,2026-01-20,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001018,STF2207,Nurse Brown,Respiratory Therapist,2026-01-20,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001019,STF5305, Williams,RN,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001020,STF3053,Nurse Williams,Physician,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001021,STF7143,Nurse Brown,Physician,2026-01-20,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00001022,STF8511,Nurse Smith,NP,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001023,STF4571,Dr. Brown,CNA,2026-01-20,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001024,STF4481,Dr. Brown,NP,2026-01-20,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001025,STF4008, Williams,Resident,2026-01-20,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00001026,STF4010,Dr. Jones,Physical Therapist,2026-01-20,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001027,STF3448,Nurse Smith,Physician,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001028,STF2142,Dr. Brown,RN,2026-01-20,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001029,STF1760, Jones,PA,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001030,STF7783,Dr. Johnson,Respiratory Therapist,2026-01-20,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001031,STF2911,Nurse Johnson,LPN,2026-01-20,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00001032,STF3229, Williams,Physical Therapist,2026-01-20,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00001033,STF8479, Brown,PA,2026-01-20,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001034,STF6296,Dr. Jones,Physical Therapist,2026-01-20,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001035,STF6106,Dr. Johnson,CNA,2026-01-20,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001036,STF7866,Dr. Brown,CNA,2026-01-20,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001037,STF7062,Dr. Williams,PA,2026-01-20,23:00,07:00,Oncology,Oncology - Zone A
+SCH00001038,STF8568, Johnson,Pharmacist,2026-01-20,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001039,STF1017,Nurse Johnson,Pharmacist,2026-01-20,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001040,STF4697,Dr. Brown,Respiratory Therapist,2026-01-20,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001041,STF3756, Johnson,LPN,2026-01-20,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001042,STF2106, Jones,PA,2026-01-20,23:00,07:00,Oncology,Oncology - Zone A
+SCH00001043,STF9009,Dr. Brown,RN,2026-01-20,07:00,15:00,Oncology,Oncology - Zone C
+SCH00001044,STF2743,Dr. Jones,LPN,2026-01-20,23:00,07:00,Oncology,Oncology - Zone B
+SCH00001045,STF7085,Dr. Jones,PA,2026-01-20,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001046,STF6127,Nurse Johnson,Physical Therapist,2026-01-20,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001047,STF2543,Dr. Smith,NP,2026-01-20,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001048,STF6565, Jones,Physician,2026-01-20,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001049,STF4538, Johnson,LPN,2026-01-20,23:00,07:00,Oncology,Oncology - Zone B
+SCH00001050,STF9331, Williams,Physical Therapist,2026-01-20,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001051,STF6434,Dr. Jones,Resident,2026-01-20,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001052,STF3262,Dr. Smith,CNA,2026-01-20,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001053,STF3910,Nurse Jones,Respiratory Therapist,2026-01-20,19:00,07:00,Oncology,Oncology - Zone C
+SCH00001054,STF3088,Dr. Smith,Physician,2026-01-20,19:00,07:00,Oncology,Oncology - Zone C
+SCH00001055,STF5128,Nurse Williams,LPN,2026-01-20,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001056,STF4463,Dr. Smith,CNA,2026-01-20,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001057,STF7905, Johnson,PA,2026-01-20,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001058,STF3073, Johnson,RN,2026-01-20,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001059,STF1830,Dr. Johnson,Resident,2026-01-20,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001060,STF8191, Smith,Pharmacist,2026-01-20,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001061,STF4992,Dr. Jones,PA,2026-01-20,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001062,STF2532,Nurse Williams,NP,2026-01-20,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001063,STF7485,Dr. Williams,Physician,2026-01-20,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001064,STF4781,Nurse Brown,Pharmacist,2026-01-20,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001065,STF2572,Dr. Smith,Physical Therapist,2026-01-20,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001066,STF1375,Nurse Smith,CNA,2026-01-20,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001067,STF8695,Dr. Johnson,Resident,2026-01-20,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001068,STF2955, Jones,RN,2026-01-21,07:00,15:00,ICU,ICU - Zone A
+SCH00001069,STF5520,Nurse Johnson,LPN,2026-01-21,23:00,07:00,ICU,ICU - Zone B
+SCH00001070,STF3471,Dr. Brown,Physical Therapist,2026-01-21,07:00,19:00,ICU,ICU - Zone A
+SCH00001071,STF8976,Nurse Brown,RN,2026-01-21,23:00,07:00,ICU,ICU - Zone A
+SCH00001072,STF7038,Dr. Brown,NP,2026-01-21,15:00,23:00,ICU,ICU - Zone B
+SCH00001073,STF4831, Jones,NP,2026-01-21,19:00,07:00,ICU,ICU - Zone A
+SCH00001074,STF7450,Nurse Jones,PA,2026-01-21,07:00,15:00,ICU,ICU - Zone A
+SCH00001075,STF5701,Dr. Brown,Resident,2026-01-21,07:00,15:00,ICU,ICU - Zone C
+SCH00001076,STF8069,Nurse Jones,NP,2026-01-21,19:00,07:00,ICU,ICU - Zone C
+SCH00001077,STF4089,Nurse Smith,Physician,2026-01-21,23:00,07:00,ICU,ICU - Zone B
+SCH00001078,STF5952,Nurse Johnson,Physical Therapist,2026-01-21,15:00,23:00,ICU,ICU - Zone A
+SCH00001079,STF3121,Nurse Smith,CNA,2026-01-21,15:00,23:00,ICU,ICU - Zone A
+SCH00001080,STF2449,Dr. Brown,Resident,2026-01-21,19:00,07:00,ICU,ICU - Zone B
+SCH00001081,STF3251,Nurse Williams,PA,2026-01-21,23:00,07:00,ICU,ICU - Zone C
+SCH00001082,STF3478, Smith,LPN,2026-01-21,23:00,07:00,ICU,ICU - Zone C
+SCH00001083,STF9745, Smith,Pharmacist,2026-01-21,23:00,07:00,ICU,ICU - Zone C
+SCH00001084,STF3416,Dr. Jones,Physician,2026-01-21,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001085,STF7230, Williams,Resident,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001086,STF4922,Dr. Williams,CNA,2026-01-21,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001087,STF1943,Dr. Johnson,PA,2026-01-21,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001088,STF5271,Dr. Smith,Physician,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001089,STF2289,Nurse Smith,PA,2026-01-21,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001090,STF7125, Brown,Resident,2026-01-21,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001091,STF5400,Nurse Jones,Pharmacist,2026-01-21,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001092,STF5395,Dr. Brown,PA,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001093,STF7073,Nurse Brown,Physical Therapist,2026-01-21,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001094,STF9237,Dr. Williams,NP,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001095,STF3072,Nurse Williams,LPN,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001096,STF1362,Nurse Jones,Respiratory Therapist,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001097,STF6019,Dr. Brown,Respiratory Therapist,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001098,STF3336,Nurse Brown,PA,2026-01-21,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001099,STF5949,Dr. Smith,Pharmacist,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001100,STF8425,Nurse Jones,Resident,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001101,STF2944,Dr. Williams,Resident,2026-01-21,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001102,STF1862,Dr. Johnson,Resident,2026-01-21,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001103,STF3579,Nurse Williams,NP,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001104,STF4497,Nurse Johnson,RN,2026-01-21,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001105,STF8502,Dr. Smith,Physician,2026-01-21,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001106,STF9751,Nurse Johnson,LPN,2026-01-21,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001107,STF2970, Brown,LPN,2026-01-21,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00001108,STF2513,Dr. Johnson,Respiratory Therapist,2026-01-21,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00001109,STF6943, Brown,Resident,2026-01-21,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001110,STF5255,Dr. Brown,Resident,2026-01-21,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001111,STF4178, Brown,CNA,2026-01-21,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00001112,STF6594,Nurse Brown,CNA,2026-01-21,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001113,STF3163, Williams,Physical Therapist,2026-01-21,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00001114,STF7663,Dr. Smith,Physician,2026-01-21,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001115,STF5565, Williams,RN,2026-01-21,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00001116,STF3498,Dr. Williams,Pharmacist,2026-01-21,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001117,STF6332,Dr. Johnson,Respiratory Therapist,2026-01-21,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00001118,STF8927,Nurse Johnson,CNA,2026-01-21,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001119,STF6239,Nurse Smith,Pharmacist,2026-01-21,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001120,STF5933,Dr. Johnson,Physician,2026-01-21,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00001121,STF9668,Dr. Johnson,LPN,2026-01-21,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001122,STF2992,Nurse Williams,Physician,2026-01-21,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00001123,STF3525, Smith,Respiratory Therapist,2026-01-21,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001124,STF4055,Nurse Johnson,Physical Therapist,2026-01-21,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001125,STF7119, Johnson,Physical Therapist,2026-01-21,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001126,STF4844, Brown,CNA,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001127,STF4716, Jones,Physical Therapist,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001128,STF3855,Nurse Johnson,RN,2026-01-21,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001129,STF6800,Nurse Brown,Physician,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001130,STF2427,Nurse Brown,Respiratory Therapist,2026-01-21,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001131,STF2501,Dr. Jones,RN,2026-01-21,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001132,STF4070,Dr. Jones,NP,2026-01-21,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001133,STF3595,Dr. Smith,Physician,2026-01-21,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001134,STF9050,Dr. Williams,LPN,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001135,STF4641,Dr. Smith,Respiratory Therapist,2026-01-21,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001136,STF9077,Nurse Brown,NP,2026-01-21,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001137,STF8839,Nurse Johnson,Physician,2026-01-21,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001138,STF3378,Dr. Johnson,Physician,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001139,STF3644,Dr. Jones,Respiratory Therapist,2026-01-21,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00001140,STF5784, Jones,Resident,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001141,STF3527,Nurse Brown,CNA,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001142,STF1936,Nurse Johnson,NP,2026-01-21,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001143,STF1807, Brown,NP,2026-01-21,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001144,STF5008,Dr. Williams,LPN,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001145,STF7501,Dr. Smith,Pharmacist,2026-01-21,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001146,STF8955,Nurse Smith,PA,2026-01-21,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001147,STF6307,Dr. Johnson,CNA,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001148,STF7313,Dr. Jones,CNA,2026-01-21,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001149,STF5699, Brown,NP,2026-01-21,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001150,STF6986, Williams,NP,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00001151,STF8801,Nurse Jones,RN,2026-01-21,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001152,STF2191,Dr. Brown,CNA,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00001153,STF5385, Williams,LPN,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001154,STF6405, Smith,NP,2026-01-21,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001155,STF7159,Nurse Brown,Physical Therapist,2026-01-21,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001156,STF9964,Dr. Brown,Pharmacist,2026-01-21,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001157,STF1008,Dr. Brown,CNA,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone B
+SCH00001158,STF3593, Brown,RN,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001159,STF2574,Nurse Smith,CNA,2026-01-21,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00001160,STF4306,Nurse Jones,Physical Therapist,2026-01-21,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001161,STF7611, Brown,Pharmacist,2026-01-21,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001162,STF7651,Nurse Johnson,RN,2026-01-21,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001163,STF2215,Nurse Johnson,CNA,2026-01-21,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00001164,STF4037,Nurse Smith,CNA,2026-01-21,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001165,STF8542, Jones,PA,2026-01-21,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001166,STF8784,Dr. Johnson,Respiratory Therapist,2026-01-21,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001167,STF6058,Dr. Brown,Physician,2026-01-21,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001168,STF6387, Jones,Resident,2026-01-21,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001169,STF6486,Dr. Smith,CNA,2026-01-21,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001170,STF3597,Nurse Smith,LPN,2026-01-21,23:00,07:00,Oncology,Oncology - Zone A
+SCH00001171,STF6719,Nurse Jones,Pharmacist,2026-01-21,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001172,STF8472, Smith,Resident,2026-01-21,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001173,STF1019,Nurse Brown,CNA,2026-01-21,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001174,STF6016,Nurse Brown,Resident,2026-01-21,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001175,STF7568, Brown,Resident,2026-01-21,23:00,07:00,Oncology,Oncology - Zone B
+SCH00001176,STF2458,Nurse Brown,NP,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001177,STF1553,Dr. Brown,Resident,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001178,STF5002,Dr. Brown,PA,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001179,STF4263,Nurse Williams,RN,2026-01-21,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001180,STF7989,Nurse Smith,Physical Therapist,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001181,STF2800, Brown,Physical Therapist,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001182,STF4649, Williams,PA,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001183,STF8634,Nurse Smith,RN,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001184,STF3646,Nurse Johnson,Respiratory Therapist,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001185,STF7988,Nurse Jones,Resident,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001186,STF5751, Williams,Respiratory Therapist,2026-01-21,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001187,STF7446, Brown,PA,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001188,STF5063,Nurse Johnson,Resident,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001189,STF6036, Smith,Resident,2026-01-21,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001190,STF7480,Dr. Jones,Physical Therapist,2026-01-21,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001191,STF4972,Nurse Williams,Resident,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001192,STF4709,Nurse Smith,Physical Therapist,2026-01-21,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001193,STF9615,Dr. Smith,Respiratory Therapist,2026-01-21,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001194,STF6377, Brown,Respiratory Therapist,2026-01-21,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001195,STF9735,Dr. Johnson,Respiratory Therapist,2026-01-22,23:00,07:00,ICU,ICU - Zone B
+SCH00001196,STF3583,Nurse Johnson,LPN,2026-01-22,07:00,19:00,ICU,ICU - Zone C
+SCH00001197,STF2002,Dr. Brown,CNA,2026-01-22,07:00,19:00,ICU,ICU - Zone B
+SCH00001198,STF6354,Dr. Williams,Resident,2026-01-22,23:00,07:00,ICU,ICU - Zone B
+SCH00001199,STF7763, Johnson,PA,2026-01-22,07:00,15:00,ICU,ICU - Zone B
+SCH00001200,STF3058,Dr. Williams,RN,2026-01-22,19:00,07:00,ICU,ICU - Zone A
+SCH00001201,STF5557,Nurse Smith,Physical Therapist,2026-01-22,15:00,23:00,ICU,ICU - Zone B
+SCH00001202,STF3431,Dr. Smith,Physical Therapist,2026-01-22,19:00,07:00,ICU,ICU - Zone C
+SCH00001203,STF3317,Dr. Johnson,PA,2026-01-22,07:00,19:00,ICU,ICU - Zone A
+SCH00001204,STF8560, Jones,PA,2026-01-22,15:00,23:00,ICU,ICU - Zone B
+SCH00001205,STF7416,Nurse Brown,Physician,2026-01-22,07:00,15:00,ICU,ICU - Zone C
+SCH00001206,STF1037, Jones,Respiratory Therapist,2026-01-22,15:00,23:00,ICU,ICU - Zone A
+SCH00001207,STF4578,Nurse Jones,LPN,2026-01-22,07:00,15:00,ICU,ICU - Zone C
+SCH00001208,STF5888,Nurse Brown,Physician,2026-01-22,07:00,15:00,ICU,ICU - Zone C
+SCH00001209,STF7355,Dr. Jones,Physician,2026-01-22,07:00,19:00,ICU,ICU - Zone A
+SCH00001210,STF7078,Dr. Johnson,RN,2026-01-22,19:00,07:00,ICU,ICU - Zone B
+SCH00001211,STF3581,Dr. Williams,CNA,2026-01-22,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001212,STF8495,Nurse Johnson,Resident,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001213,STF2765, Brown,RN,2026-01-22,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001214,STF7810,Dr. Smith,Respiratory Therapist,2026-01-22,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001215,STF6141,Nurse Jones,CNA,2026-01-22,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001216,STF1821, Brown,CNA,2026-01-22,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001217,STF8178,Nurse Johnson,Resident,2026-01-22,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001218,STF1615,Dr. Johnson,Resident,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001219,STF4741,Dr. Johnson,Respiratory Therapist,2026-01-22,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001220,STF5592,Dr. Brown,NP,2026-01-22,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001221,STF6517,Dr. Jones,CNA,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001222,STF3511,Dr. Smith,Physical Therapist,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001223,STF3202,Dr. Johnson,PA,2026-01-22,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001224,STF4349,Dr. Johnson,RN,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001225,STF5155,Dr. Smith,NP,2026-01-22,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001226,STF8008,Nurse Brown,Pharmacist,2026-01-22,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001227,STF3326,Nurse Williams,Pharmacist,2026-01-22,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001228,STF5081, Williams,RN,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001229,STF4450,Dr. Jones,RN,2026-01-22,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001230,STF5232,Dr. Johnson,Pharmacist,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001231,STF5437, Williams,CNA,2026-01-22,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001232,STF8511,Dr. Smith,LPN,2026-01-22,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001233,STF8441,Dr. Williams,CNA,2026-01-22,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001234,STF7116,Nurse Williams,RN,2026-01-22,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00001235,STF9953, Brown,Pharmacist,2026-01-22,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00001236,STF6261, Jones,Resident,2026-01-22,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001237,STF3996,Nurse Jones,Resident,2026-01-22,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00001238,STF4725, Brown,Respiratory Therapist,2026-01-22,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001239,STF3430,Dr. Johnson,PA,2026-01-22,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001240,STF6188, Williams,Physical Therapist,2026-01-22,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00001241,STF7312, Williams,NP,2026-01-22,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001242,STF9308,Dr. Johnson,CNA,2026-01-22,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001243,STF8395,Dr. Johnson,Physical Therapist,2026-01-22,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00001244,STF2385, Brown,LPN,2026-01-22,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00001245,STF4861, Jones,PA,2026-01-22,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001246,STF1819,Nurse Williams,LPN,2026-01-22,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001247,STF1590,Nurse Smith,Physician,2026-01-22,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001248,STF5125,Nurse Smith,PA,2026-01-22,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001249,STF9093,Dr. Brown,LPN,2026-01-22,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001250,STF7353, Brown,Resident,2026-01-22,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001251,STF3978,Nurse Johnson,CNA,2026-01-22,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00001252,STF3364,Nurse Williams,LPN,2026-01-22,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001253,STF5270,Dr. Smith,Physical Therapist,2026-01-22,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001254,STF9840,Nurse Williams,Physician,2026-01-22,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001255,STF8255, Brown,RN,2026-01-22,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001256,STF1192,Dr. Smith,Resident,2026-01-22,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001257,STF7130, Williams,Physical Therapist,2026-01-22,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001258,STF2169, Brown,Physical Therapist,2026-01-22,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001259,STF9140,Dr. Brown,Resident,2026-01-22,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001260,STF7998, Williams,Physician,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001261,STF7784,Nurse Brown,Physician,2026-01-22,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001262,STF8768,Nurse Jones,PA,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001263,STF3516,Nurse Williams,RN,2026-01-22,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001264,STF9892,Dr. Smith,LPN,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001265,STF7043, Williams,Physical Therapist,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001266,STF2917,Dr. Smith,LPN,2026-01-22,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001267,STF3484, Jones,Physical Therapist,2026-01-22,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001268,STF7590,Nurse Johnson,Physician,2026-01-22,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001269,STF7694,Nurse Johnson,CNA,2026-01-22,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001270,STF1700,Nurse Williams,NP,2026-01-22,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001271,STF9427,Dr. Johnson,RN,2026-01-22,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001272,STF4354, Smith,LPN,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001273,STF1714,Dr. Johnson,Resident,2026-01-22,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001274,STF2052,Dr. Johnson,LPN,2026-01-22,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001275,STF2249, Smith,PA,2026-01-22,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00001276,STF9819,Nurse Jones,CNA,2026-01-22,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001277,STF9183,Dr. Jones,NP,2026-01-22,07:00,15:00,Oncology,Oncology - Zone A
+SCH00001278,STF2797, Jones,Respiratory Therapist,2026-01-22,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001279,STF1958,Dr. Smith,NP,2026-01-22,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001280,STF1697, Brown,NP,2026-01-22,19:00,07:00,Oncology,Oncology - Zone C
+SCH00001281,STF8245,Nurse Jones,Respiratory Therapist,2026-01-22,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001282,STF6362,Nurse Williams,NP,2026-01-22,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001283,STF2945,Dr. Johnson,Physical Therapist,2026-01-22,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001284,STF5852,Dr. Brown,CNA,2026-01-22,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001285,STF3372,Dr. Smith,CNA,2026-01-22,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001286,STF6007,Dr. Jones,LPN,2026-01-22,07:00,19:00,Oncology,Oncology - Zone B
+SCH00001287,STF5144,Nurse Brown,Respiratory Therapist,2026-01-22,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001288,STF9373,Nurse Jones,Physical Therapist,2026-01-22,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001289,STF8315, Jones,CNA,2026-01-22,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001290,STF5549, Johnson,Physical Therapist,2026-01-22,23:00,07:00,Oncology,Oncology - Zone A
+SCH00001291,STF9416, Smith,Physician,2026-01-22,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001292,STF1934,Nurse Smith,Physician,2026-01-22,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001293,STF3754,Nurse Johnson,RN,2026-01-22,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001294,STF3642, Brown,Respiratory Therapist,2026-01-22,07:00,15:00,Oncology,Oncology - Zone A
+SCH00001295,STF4089, Smith,LPN,2026-01-22,07:00,19:00,Oncology,Oncology - Zone B
+SCH00001296,STF6351, Johnson,CNA,2026-01-22,07:00,15:00,Oncology,Oncology - Zone A
+SCH00001297,STF6820, Johnson,Respiratory Therapist,2026-01-22,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001298,STF2023, Brown,RN,2026-01-22,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001299,STF3687,Dr. Johnson,Pharmacist,2026-01-22,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001300,STF4388, Johnson,Respiratory Therapist,2026-01-22,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001301,STF4514,Dr. Jones,Pharmacist,2026-01-22,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001302,STF6508,Dr. Brown,LPN,2026-01-22,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001303,STF8452, Williams,LPN,2026-01-22,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001304,STF2780,Dr. Jones,RN,2026-01-22,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001305,STF3569, Johnson,Physician,2026-01-22,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001306,STF2624,Dr. Williams,Respiratory Therapist,2026-01-22,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001307,STF8554,Nurse Williams,Physical Therapist,2026-01-23,07:00,19:00,ICU,ICU - Zone C
+SCH00001308,STF1324,Nurse Smith,NP,2026-01-23,15:00,23:00,ICU,ICU - Zone B
+SCH00001309,STF1711,Dr. Smith,NP,2026-01-23,07:00,15:00,ICU,ICU - Zone C
+SCH00001310,STF9818,Nurse Johnson,Respiratory Therapist,2026-01-23,07:00,19:00,ICU,ICU - Zone C
+SCH00001311,STF2229, Brown,Physical Therapist,2026-01-23,19:00,07:00,ICU,ICU - Zone B
+SCH00001312,STF7713, Smith,LPN,2026-01-23,15:00,23:00,ICU,ICU - Zone C
+SCH00001313,STF6772, Johnson,Physical Therapist,2026-01-23,15:00,23:00,ICU,ICU - Zone C
+SCH00001314,STF9864,Nurse Johnson,Resident,2026-01-23,07:00,15:00,ICU,ICU - Zone C
+SCH00001315,STF1272,Nurse Brown,CNA,2026-01-23,15:00,23:00,ICU,ICU - Zone B
+SCH00001316,STF9746,Nurse Jones,NP,2026-01-23,19:00,07:00,ICU,ICU - Zone C
+SCH00001317,STF2543,Dr. Williams,CNA,2026-01-23,07:00,15:00,ICU,ICU - Zone B
+SCH00001318,STF9310,Nurse Williams,Physical Therapist,2026-01-23,23:00,07:00,ICU,ICU - Zone A
+SCH00001319,STF4662,Nurse Smith,Physical Therapist,2026-01-23,07:00,15:00,ICU,ICU - Zone C
+SCH00001320,STF8280, Smith,Resident,2026-01-23,19:00,07:00,ICU,ICU - Zone C
+SCH00001321,STF8291, Brown,Resident,2026-01-23,15:00,23:00,ICU,ICU - Zone A
+SCH00001322,STF5989, Brown,LPN,2026-01-23,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001323,STF8936, Jones,RN,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001324,STF8492, Williams,Resident,2026-01-23,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001325,STF5656, Johnson,NP,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001326,STF9258,Nurse Johnson,Resident,2026-01-23,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001327,STF5734,Nurse Johnson,Pharmacist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001328,STF7531,Dr. Brown,Physical Therapist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001329,STF5799,Nurse Williams,Physical Therapist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001330,STF6177, Jones,RN,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001331,STF7463,Dr. Smith,RN,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001332,STF3687,Dr. Brown,NP,2026-01-23,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001333,STF7557,Dr. Smith,Resident,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001334,STF9918,Nurse Williams,CNA,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001335,STF9521, Jones,LPN,2026-01-23,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001336,STF4112,Nurse Jones,RN,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001337,STF4882,Nurse Williams,Physical Therapist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001338,STF2736,Dr. Smith,Respiratory Therapist,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001339,STF3447,Dr. Smith,Pharmacist,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001340,STF4487,Nurse Brown,RN,2026-01-23,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001341,STF2668, Johnson,Physical Therapist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001342,STF1283,Dr. Jones,PA,2026-01-23,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001343,STF5277, Williams,Physical Therapist,2026-01-23,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001344,STF8077, Brown,Pharmacist,2026-01-23,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001345,STF2938,Nurse Smith,Respiratory Therapist,2026-01-23,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001346,STF1511,Nurse Smith,LPN,2026-01-23,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001347,STF1779,Nurse Williams,Physician,2026-01-23,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00001348,STF3154,Nurse Brown,Physical Therapist,2026-01-23,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001349,STF5493,Nurse Williams,PA,2026-01-23,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00001350,STF3700,Dr. Johnson,Resident,2026-01-23,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00001351,STF2914, Brown,PA,2026-01-23,07:00,15:00,Pediatrics,Pediatrics - Zone C
+SCH00001352,STF8826,Dr. Johnson,CNA,2026-01-23,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00001353,STF3962,Nurse Johnson,LPN,2026-01-23,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001354,STF4530,Nurse Brown,Resident,2026-01-23,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001355,STF8870,Nurse Williams,NP,2026-01-23,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001356,STF7100,Nurse Williams,Physical Therapist,2026-01-23,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001357,STF3797,Dr. Williams,LPN,2026-01-23,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001358,STF1100,Nurse Williams,Pharmacist,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001359,STF6696, Jones,Physician,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001360,STF1923,Dr. Johnson,RN,2026-01-23,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001361,STF2497, Johnson,LPN,2026-01-23,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001362,STF8590,Nurse Jones,Pharmacist,2026-01-23,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001363,STF9938, Williams,Physician,2026-01-23,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001364,STF6263,Dr. Jones,Respiratory Therapist,2026-01-23,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001365,STF6001, Williams,CNA,2026-01-23,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001366,STF2661,Nurse Brown,NP,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00001367,STF7033,Dr. Smith,Physical Therapist,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00001368,STF6504,Dr. Williams,RN,2026-01-23,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001369,STF6054,Nurse Brown,Physical Therapist,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00001370,STF6034,Nurse Johnson,Resident,2026-01-23,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001371,STF6842, Williams,CNA,2026-01-23,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001372,STF2837, Williams,Pharmacist,2026-01-23,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00001373,STF8527, Johnson,Physician,2026-01-23,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001374,STF6461, Smith,Physician,2026-01-23,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001375,STF4641,Dr. Brown,Physician,2026-01-23,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001376,STF2362, Jones,LPN,2026-01-23,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001377,STF3985,Nurse Jones,NP,2026-01-23,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001378,STF9764,Nurse Johnson,CNA,2026-01-23,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001379,STF8862,Dr. Williams,Respiratory Therapist,2026-01-23,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001380,STF8123,Dr. Williams,CNA,2026-01-23,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00001381,STF3974,Nurse Brown,LPN,2026-01-23,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001382,STF6352,Dr. Brown,Physician,2026-01-23,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00001383,STF9386, Smith,RN,2026-01-23,07:00,19:00,Telemetry,Telemetry - Zone C
+SCH00001384,STF6836,Nurse Williams,NP,2026-01-23,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001385,STF9135, Brown,LPN,2026-01-23,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001386,STF3663,Dr. Williams,Physical Therapist,2026-01-23,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001387,STF4677, Jones,Physician,2026-01-23,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001388,STF5209,Nurse Smith,NP,2026-01-23,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001389,STF1475, Jones,RN,2026-01-23,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001390,STF6575,Dr. Jones,Pharmacist,2026-01-23,19:00,07:00,Oncology,Oncology - Zone C
+SCH00001391,STF4833, Smith,PA,2026-01-23,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001392,STF9852, Williams,Physical Therapist,2026-01-23,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001393,STF5710,Nurse Jones,CNA,2026-01-23,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001394,STF9465, Brown,Resident,2026-01-23,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001395,STF7073,Nurse Brown,Pharmacist,2026-01-23,19:00,07:00,Oncology,Oncology - Zone C
+SCH00001396,STF6383,Dr. Jones,Physical Therapist,2026-01-23,07:00,15:00,Oncology,Oncology - Zone C
+SCH00001397,STF2821,Dr. Smith,Physical Therapist,2026-01-23,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001398,STF8227, Jones,Physical Therapist,2026-01-23,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001399,STF2212, Johnson,CNA,2026-01-23,07:00,15:00,Oncology,Oncology - Zone C
+SCH00001400,STF8403,Nurse Jones,LPN,2026-01-23,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001401,STF9669,Dr. Williams,Resident,2026-01-23,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001402,STF4376, Brown,NP,2026-01-23,15:00,23:00,Oncology,Oncology - Zone A
+SCH00001403,STF9574, Johnson,LPN,2026-01-23,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001404,STF1486,Nurse Brown,Physician,2026-01-23,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001405,STF9787,Dr. Jones,LPN,2026-01-23,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001406,STF9055,Nurse Jones,Respiratory Therapist,2026-01-23,07:00,19:00,Oncology,Oncology - Zone B
+SCH00001407,STF1371,Dr. Smith,Physical Therapist,2026-01-23,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001408,STF8295,Nurse Williams,Pharmacist,2026-01-23,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001409,STF3421, Johnson,Respiratory Therapist,2026-01-23,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001410,STF4621, Williams,PA,2026-01-23,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001411,STF9267,Nurse Smith,Respiratory Therapist,2026-01-23,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001412,STF6216,Nurse Smith,Physician,2026-01-23,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001413,STF2991, Smith,LPN,2026-01-23,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001414,STF1170, Brown,Physician,2026-01-23,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001415,STF6036,Dr. Johnson,CNA,2026-01-23,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001416,STF7989, Jones,RN,2026-01-23,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001417,STF9765,Dr. Smith,LPN,2026-01-24,23:00,07:00,ICU,ICU - Zone C
+SCH00001418,STF5643,Nurse Johnson,PA,2026-01-24,07:00,19:00,ICU,ICU - Zone A
+SCH00001419,STF8553,Nurse Jones,Physician,2026-01-24,15:00,23:00,ICU,ICU - Zone A
+SCH00001420,STF9129,Dr. Brown,Physician,2026-01-24,15:00,23:00,ICU,ICU - Zone B
+SCH00001421,STF2292, Jones,Physician,2026-01-24,07:00,15:00,ICU,ICU - Zone C
+SCH00001422,STF7569,Nurse Johnson,Physical Therapist,2026-01-24,19:00,07:00,ICU,ICU - Zone A
+SCH00001423,STF1988,Nurse Brown,RN,2026-01-24,07:00,15:00,ICU,ICU - Zone C
+SCH00001424,STF2480, Johnson,PA,2026-01-24,07:00,15:00,ICU,ICU - Zone B
+SCH00001425,STF2408,Dr. Jones,PA,2026-01-24,15:00,23:00,ICU,ICU - Zone B
+SCH00001426,STF8984,Nurse Smith,Physical Therapist,2026-01-24,19:00,07:00,ICU,ICU - Zone B
+SCH00001427,STF2659,Nurse Jones,NP,2026-01-24,07:00,15:00,ICU,ICU - Zone A
+SCH00001428,STF1697,Nurse Brown,CNA,2026-01-24,23:00,07:00,ICU,ICU - Zone A
+SCH00001429,STF3977, Jones,Pharmacist,2026-01-24,07:00,19:00,ICU,ICU - Zone A
+SCH00001430,STF7911,Nurse Johnson,NP,2026-01-24,15:00,23:00,ICU,ICU - Zone A
+SCH00001431,STF5833,Nurse Williams,CNA,2026-01-24,23:00,07:00,ICU,ICU - Zone A
+SCH00001432,STF5201,Dr. Smith,LPN,2026-01-24,15:00,23:00,ICU,ICU - Zone A
+SCH00001433,STF8566, Williams,PA,2026-01-24,19:00,07:00,ICU,ICU - Zone B
+SCH00001434,STF7710,Dr. Smith,Resident,2026-01-24,07:00,19:00,ICU,ICU - Zone B
+SCH00001435,STF4095,Dr. Brown,Respiratory Therapist,2026-01-24,23:00,07:00,ICU,ICU - Zone A
+SCH00001436,STF4506,Nurse Brown,RN,2026-01-24,07:00,15:00,ICU,ICU - Zone A
+SCH00001437,STF7917,Nurse Williams,CNA,2026-01-24,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001438,STF5433, Johnson,Pharmacist,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001439,STF6193,Nurse Jones,Physician,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001440,STF1735,Nurse Jones,NP,2026-01-24,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001441,STF1058, Jones,Physical Therapist,2026-01-24,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001442,STF5558,Nurse Williams,Physical Therapist,2026-01-24,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001443,STF6744, Brown,LPN,2026-01-24,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001444,STF3224,Nurse Johnson,Pharmacist,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001445,STF1348,Dr. Smith,NP,2026-01-24,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001446,STF7287,Nurse Johnson,Resident,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001447,STF9255,Nurse Johnson,Respiratory Therapist,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001448,STF9984, Williams,Pharmacist,2026-01-24,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001449,STF9388,Nurse Williams,Physician,2026-01-24,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001450,STF8780,Dr. Johnson,Pharmacist,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001451,STF1138,Dr. Williams,Physical Therapist,2026-01-24,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001452,STF4162,Dr. Jones,Respiratory Therapist,2026-01-24,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001453,STF7486,Dr. Smith,CNA,2026-01-24,07:00,15:00,Pediatrics,Pediatrics - Zone B
+SCH00001454,STF5292,Dr. Jones,LPN,2026-01-24,19:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001455,STF1570,Dr. Smith,PA,2026-01-24,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00001456,STF5399,Dr. Brown,Resident,2026-01-24,07:00,19:00,Pediatrics,Pediatrics - Zone A
+SCH00001457,STF5458,Dr. Williams,LPN,2026-01-24,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001458,STF7082,Dr. Smith,Physician,2026-01-24,23:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00001459,STF8908, Johnson,Physical Therapist,2026-01-24,07:00,15:00,Pediatrics,Pediatrics - Zone A
+SCH00001460,STF3362,Dr. Jones,Resident,2026-01-24,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001461,STF8776, Brown,CNA,2026-01-24,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00001462,STF4353,Dr. Brown,CNA,2026-01-24,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001463,STF5891,Dr. Williams,CNA,2026-01-24,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001464,STF4505,Dr. Jones,CNA,2026-01-24,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001465,STF1845,Nurse Jones,RN,2026-01-24,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001466,STF8071,Dr. Brown,LPN,2026-01-24,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001467,STF3446, Johnson,Respiratory Therapist,2026-01-24,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00001468,STF1918, Williams,CNA,2026-01-24,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001469,STF4873,Dr. Smith,NP,2026-01-24,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00001470,STF6904, Smith,Physician,2026-01-24,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00001471,STF1163, Williams,PA,2026-01-24,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00001472,STF1491,Dr. Johnson,RN,2026-01-24,07:00,19:00,Emergency Department,Emergency Department - Zone B
+SCH00001473,STF6464,Nurse Johnson,Physical Therapist,2026-01-24,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001474,STF8560, Brown,LPN,2026-01-24,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001475,STF3812,Dr. Jones,CNA,2026-01-24,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001476,STF7236, Brown,Physical Therapist,2026-01-24,07:00,19:00,Emergency Department,Emergency Department - Zone C
+SCH00001477,STF7387,Dr. Smith,Pharmacist,2026-01-24,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001478,STF5159,Nurse Smith,PA,2026-01-24,07:00,15:00,Telemetry,Telemetry - Zone C
+SCH00001479,STF9126, Smith,LPN,2026-01-24,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001480,STF8765,Nurse Johnson,RN,2026-01-24,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00001481,STF7669,Nurse Williams,RN,2026-01-24,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001482,STF3158,Dr. Brown,CNA,2026-01-24,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001483,STF1252,Dr. Jones,CNA,2026-01-24,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001484,STF5421, Smith,LPN,2026-01-24,19:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001485,STF5449,Dr. Brown,Resident,2026-01-24,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00001486,STF1370, Williams,Physician,2026-01-24,19:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001487,STF6174,Nurse Brown,LPN,2026-01-24,19:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001488,STF2292, Jones,Pharmacist,2026-01-24,23:00,07:00,Telemetry,Telemetry - Zone B
+SCH00001489,STF3194,Nurse Jones,Resident,2026-01-24,07:00,15:00,Oncology,Oncology - Zone C
+SCH00001490,STF9848,Dr. Johnson,PA,2026-01-24,07:00,19:00,Oncology,Oncology - Zone B
+SCH00001491,STF2732,Dr. Williams,LPN,2026-01-24,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001492,STF9798,Nurse Jones,Physical Therapist,2026-01-24,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001493,STF7629,Nurse Williams,Resident,2026-01-24,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001494,STF8847, Brown,Respiratory Therapist,2026-01-24,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001495,STF3079,Dr. Smith,Physician,2026-01-24,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001496,STF9195,Nurse Williams,Respiratory Therapist,2026-01-24,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001497,STF1387, Jones,Respiratory Therapist,2026-01-24,19:00,07:00,Oncology,Oncology - Zone B
+SCH00001498,STF2451,Dr. Brown,Physical Therapist,2026-01-24,07:00,19:00,Oncology,Oncology - Zone C
+SCH00001499,STF3140,Dr. Smith,LPN,2026-01-24,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001500,STF7613,Nurse Jones,Physical Therapist,2026-01-24,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001501,STF3094,Nurse Jones,Physician,2026-01-24,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001502,STF5407,Nurse Smith,Respiratory Therapist,2026-01-24,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001503,STF9260, Jones,CNA,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001504,STF7721,Dr. Johnson,PA,2026-01-24,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001505,STF1159,Dr. Brown,CNA,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001506,STF3431,Dr. Johnson,RN,2026-01-24,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001507,STF4568,Dr. Jones,RN,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001508,STF9503, Brown,NP,2026-01-24,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001509,STF8429, Smith,Physician,2026-01-24,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001510,STF1055, Smith,Respiratory Therapist,2026-01-24,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001511,STF2987,Dr. Smith,Resident,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001512,STF2512, Johnson,NP,2026-01-24,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001513,STF4851,Nurse Jones,CNA,2026-01-24,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001514,STF9715, Jones,Physical Therapist,2026-01-24,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001515,STF1732, Williams,NP,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001516,STF5918,Nurse Brown,Respiratory Therapist,2026-01-24,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001517,STF5227,Dr. Smith,NP,2026-01-24,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001518,STF4590,Dr. Johnson,Physician,2026-01-25,15:00,23:00,ICU,ICU - Zone A
+SCH00001519,STF8301,Dr. Williams,LPN,2026-01-25,07:00,19:00,ICU,ICU - Zone C
+SCH00001520,STF2514,Nurse Williams,Physical Therapist,2026-01-25,23:00,07:00,ICU,ICU - Zone C
+SCH00001521,STF6402,Nurse Johnson,Respiratory Therapist,2026-01-25,19:00,07:00,ICU,ICU - Zone C
+SCH00001522,STF1297,Dr. Smith,Physician,2026-01-25,07:00,15:00,ICU,ICU - Zone C
+SCH00001523,STF6947,Nurse Brown,Physician,2026-01-25,07:00,15:00,ICU,ICU - Zone A
+SCH00001524,STF7735,Nurse Jones,RN,2026-01-25,15:00,23:00,ICU,ICU - Zone B
+SCH00001525,STF5102,Nurse Brown,Resident,2026-01-25,23:00,07:00,ICU,ICU - Zone C
+SCH00001526,STF8076,Dr. Smith,Pharmacist,2026-01-25,19:00,07:00,ICU,ICU - Zone C
+SCH00001527,STF1959, Smith,Respiratory Therapist,2026-01-25,19:00,07:00,ICU,ICU - Zone B
+SCH00001528,STF3281, Johnson,Respiratory Therapist,2026-01-25,07:00,19:00,ICU,ICU - Zone C
+SCH00001529,STF3257, Williams,Physician,2026-01-25,23:00,07:00,ICU,ICU - Zone B
+SCH00001530,STF1018,Dr. Jones,CNA,2026-01-25,15:00,23:00,ICU,ICU - Zone A
+SCH00001531,STF6679,Nurse Williams,Respiratory Therapist,2026-01-25,07:00,19:00,ICU,ICU - Zone B
+SCH00001532,STF3227, Johnson,Pharmacist,2026-01-25,19:00,07:00,ICU,ICU - Zone B
+SCH00001533,STF7743,Nurse Brown,Resident,2026-01-25,19:00,07:00,ICU,ICU - Zone A
+SCH00001534,STF1285,Dr. Jones,RN,2026-01-25,07:00,15:00,ICU,ICU - Zone A
+SCH00001535,STF2551, Williams,Respiratory Therapist,2026-01-25,19:00,07:00,ICU,ICU - Zone C
+SCH00001536,STF9994, Johnson,LPN,2026-01-25,15:00,23:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001537,STF6363,Nurse Brown,PA,2026-01-25,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001538,STF2874, Johnson,RN,2026-01-25,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001539,STF4589,Nurse Smith,RN,2026-01-25,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001540,STF1881,Dr. Jones,LPN,2026-01-25,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001541,STF3348,Dr. Johnson,Pharmacist,2026-01-25,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001542,STF4285, Brown,CNA,2026-01-25,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001543,STF2124,Dr. Williams,PA,2026-01-25,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001544,STF9722, Brown,PA,2026-01-25,07:00,19:00,Medical/Surgical,Medical/Surgical - Zone B
+SCH00001545,STF8130,Nurse Williams,PA,2026-01-25,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001546,STF7255,Dr. Johnson,RN,2026-01-25,07:00,15:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001547,STF8205,Nurse Brown,NP,2026-01-25,19:00,07:00,Medical/Surgical,Medical/Surgical - Zone C
+SCH00001548,STF1412,Nurse Johnson,LPN,2026-01-25,23:00,07:00,Medical/Surgical,Medical/Surgical - Zone A
+SCH00001549,STF6995,Nurse Brown,Pharmacist,2026-01-25,19:00,07:00,Pediatrics,Pediatrics - Zone C
+SCH00001550,STF3439, Brown,Resident,2026-01-25,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001551,STF2361,Dr. Johnson,Pharmacist,2026-01-25,15:00,23:00,Pediatrics,Pediatrics - Zone C
+SCH00001552,STF6207, Johnson,LPN,2026-01-25,19:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001553,STF7459,Nurse Brown,Pharmacist,2026-01-25,07:00,19:00,Pediatrics,Pediatrics - Zone C
+SCH00001554,STF7347,Dr. Williams,PA,2026-01-25,15:00,23:00,Pediatrics,Pediatrics - Zone A
+SCH00001555,STF2254, Brown,Physical Therapist,2026-01-25,15:00,23:00,Pediatrics,Pediatrics - Zone B
+SCH00001556,STF9366,Nurse Brown,Resident,2026-01-25,23:00,07:00,Pediatrics,Pediatrics - Zone B
+SCH00001557,STF2319, Johnson,CNA,2026-01-25,23:00,07:00,Pediatrics,Pediatrics - Zone A
+SCH00001558,STF6924,Dr. Jones,RN,2026-01-25,07:00,19:00,Pediatrics,Pediatrics - Zone B
+SCH00001559,STF9201,Dr. Johnson,Physical Therapist,2026-01-25,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00001560,STF4855,Nurse Smith,PA,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001561,STF6033,Dr. Smith,NP,2026-01-25,15:00,23:00,Emergency Department,Emergency Department - Zone C
+SCH00001562,STF3470,Nurse Williams,LPN,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001563,STF6837, Johnson,CNA,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001564,STF1281, Smith,NP,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone B
+SCH00001565,STF3027,Dr. Jones,LPN,2026-01-25,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001566,STF2315,Dr. Smith,Respiratory Therapist,2026-01-25,19:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001567,STF8029,Nurse Jones,Physician,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone A
+SCH00001568,STF5710, Smith,Respiratory Therapist,2026-01-25,23:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001569,STF9654,Nurse Jones,Respiratory Therapist,2026-01-25,07:00,15:00,Emergency Department,Emergency Department - Zone C
+SCH00001570,STF1380,Dr. Williams,NP,2026-01-25,15:00,23:00,Emergency Department,Emergency Department - Zone B
+SCH00001571,STF2611,Dr. Johnson,LPN,2026-01-25,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001572,STF7079, Williams,Resident,2026-01-25,19:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001573,STF2347,Dr. Brown,CNA,2026-01-25,19:00,07:00,Emergency Department,Emergency Department - Zone A
+SCH00001574,STF1834, Brown,Resident,2026-01-25,23:00,07:00,Emergency Department,Emergency Department - Zone C
+SCH00001575,STF1068,Dr. Jones,Physician,2026-01-25,15:00,23:00,Emergency Department,Emergency Department - Zone A
+SCH00001576,STF7308,Dr. Smith,RN,2026-01-25,07:00,19:00,Emergency Department,Emergency Department - Zone A
+SCH00001577,STF4303, Jones,LPN,2026-01-25,23:00,07:00,Emergency Department,Emergency Department - Zone B
+SCH00001578,STF2313,Dr. Johnson,LPN,2026-01-25,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001579,STF5879,Dr. Brown,Pharmacist,2026-01-25,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00001580,STF2620, Brown,Physical Therapist,2026-01-25,15:00,23:00,Telemetry,Telemetry - Zone C
+SCH00001581,STF1746,Nurse Jones,LPN,2026-01-25,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001582,STF1834, Williams,Respiratory Therapist,2026-01-25,07:00,15:00,Telemetry,Telemetry - Zone A
+SCH00001583,STF8645,Dr. Smith,Respiratory Therapist,2026-01-25,07:00,15:00,Telemetry,Telemetry - Zone B
+SCH00001584,STF2262,Dr. Williams,Physician,2026-01-25,15:00,23:00,Telemetry,Telemetry - Zone B
+SCH00001585,STF9685,Nurse Johnson,CNA,2026-01-25,07:00,19:00,Telemetry,Telemetry - Zone A
+SCH00001586,STF9658,Dr. Brown,Pharmacist,2026-01-25,23:00,07:00,Telemetry,Telemetry - Zone C
+SCH00001587,STF3254, Johnson,Pharmacist,2026-01-25,23:00,07:00,Telemetry,Telemetry - Zone A
+SCH00001588,STF8666,Nurse Smith,LPN,2026-01-25,15:00,23:00,Telemetry,Telemetry - Zone A
+SCH00001589,STF8700, Jones,CNA,2026-01-25,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001590,STF7294,Dr. Jones,Resident,2026-01-25,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001591,STF4243,Dr. Brown,Pharmacist,2026-01-25,07:00,15:00,Oncology,Oncology - Zone A
+SCH00001592,STF7868,Dr. Williams,Respiratory Therapist,2026-01-25,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001593,STF9962,Nurse Brown,RN,2026-01-25,23:00,07:00,Oncology,Oncology - Zone B
+SCH00001594,STF9200, Williams,RN,2026-01-25,07:00,19:00,Oncology,Oncology - Zone A
+SCH00001595,STF5803,Nurse Johnson,Physician,2026-01-25,19:00,07:00,Oncology,Oncology - Zone A
+SCH00001596,STF3658,Dr. Brown,LPN,2026-01-25,15:00,23:00,Oncology,Oncology - Zone C
+SCH00001597,STF7265,Nurse Brown,Respiratory Therapist,2026-01-25,07:00,15:00,Oncology,Oncology - Zone B
+SCH00001598,STF8735, Williams,RN,2026-01-25,15:00,23:00,Oncology,Oncology - Zone B
+SCH00001599,STF2086,Dr. Johnson,NP,2026-01-25,23:00,07:00,Oncology,Oncology - Zone C
+SCH00001600,STF6974,Dr. Smith,CNA,2026-01-25,07:00,19:00,Oncology,Oncology - Zone B
+SCH00001601,STF7661,Dr. Smith,Resident,2026-01-25,19:00,07:00,Oncology,Oncology - Zone B
+SCH00001602,STF1158,Dr. Jones,Physician,2026-01-25,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001603,STF5227, Smith,CNA,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001604,STF9817,Nurse Jones,Physician,2026-01-25,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001605,STF5797,Dr. Smith,Respiratory Therapist,2026-01-25,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001606,STF5938,Dr. Smith,LPN,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001607,STF6183,Dr. Williams,Physician,2026-01-25,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001608,STF2167,Nurse Jones,NP,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001609,STF7359,Dr. Johnson,Resident,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001610,STF6406,Dr. Smith,Physician,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001611,STF1051,Nurse Brown,PA,2026-01-25,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001612,STF7891, Jones,Resident,2026-01-25,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001613,STF7954,Dr. Jones,LPN,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001614,STF6520, Smith,PA,2026-01-25,07:00,19:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001615,STF8357,Dr. Johnson,Pharmacist,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001616,STF7096,Dr. Williams,Physical Therapist,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001617,STF6935, Smith,Resident,2026-01-25,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001618,STF8567,Nurse Smith,CNA,2026-01-25,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001619,STF3515, Williams,Resident,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001620,STF5590,Dr. Smith,NP,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001621,STF6867,Dr. Brown,LPN,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001622,STF4335,Dr. Williams,RN,2026-01-25,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone B
+SCH00001623,STF7295, Johnson,Resident,2026-01-25,15:00,23:00,Step-Down Unit,Step-Down Unit - Zone C
+SCH00001624,STF8883,Nurse Williams,RN,2026-01-25,19:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001625,STF6028,Dr. Brown,Physician,2026-01-25,23:00,07:00,Step-Down Unit,Step-Down Unit - Zone A
+SCH00001626,STF5857,Nurse Brown,LPN,2026-01-25,07:00,15:00,Step-Down Unit,Step-Down Unit - Zone C

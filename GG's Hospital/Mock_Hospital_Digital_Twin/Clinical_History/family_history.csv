@@ -1,0 +1,2731 @@
+history_id,patient_id,relation,condition,icd10_code,age_of_onset,living_status
+FH0000001,P000003,Brother,Diabetes,E11.9,35,Deceased
+FH0000002,P000003,Brother,Alzheimer's disease,G30.9,58,Deceased
+FH0000003,P000003,Father,Osteoporosis,M81.0,30,Living
+FH0000004,P000003,Mother,Cancer - Prostate,C61,41,Living
+FH0000005,P000006,Paternal Grandmother,Cancer - Lung,C34.90,36,Living
+FH0000006,P000006,Uncle,Stroke,I63.9,34,Living
+FH0000007,P000008,Maternal Grandfather,Heart disease,I25.10,45,Living
+FH0000008,P000008,Maternal Grandmother,Osteoporosis,M81.0,76,Living
+FH0000009,P000008,Aunt,Diabetes,E11.9,67,Living
+FH0000010,P000010,Uncle,Cancer - Breast,C50.919,40,Living
+FH0000011,P000010,Aunt,Asthma,J45.909,76,Deceased
+FH0000012,P000011,Paternal Grandmother,Stroke,I63.9,48,Living
+FH0000013,P000011,Brother,Hypertension,I10,75,Living
+FH0000014,P000012,Paternal Grandmother,Alzheimer's disease,G30.9,57,Living
+FH0000015,P000014,Maternal Grandfather,Alzheimer's disease,G30.9,55,Deceased
+FH0000016,P000014,Uncle,Cancer - Breast,C50.919,78,Living
+FH0000017,P000015,Uncle,Asthma,J45.909,36,Living
+FH0000018,P000016,Aunt,Diabetes,E11.9,80,Living
+FH0000019,P000016,Aunt,Depression,F32.9,38,Deceased
+FH0000020,P000016,Sister,Hypertension,I10,52,Living
+FH0000021,P000016,Uncle,Heart disease,I25.10,60,Living
+FH0000022,P000018,Sister,Diabetes,E11.9,55,Living
+FH0000023,P000018,Uncle,Hypertension,I10,67,Living
+FH0000024,P000020,Brother,Hypertension,I10,73,Living
+FH0000025,P000020,Aunt,Stroke,I63.9,70,Living
+FH0000026,P000022,Paternal Grandfather,Cancer - Colon,C18.9,68,Living
+FH0000027,P000022,Paternal Grandfather,Alzheimer's disease,G30.9,68,Deceased
+FH0000028,P000022,Brother,Cancer - Prostate,C61,61,Living
+FH0000029,P000023,Mother,Asthma,J45.909,32,Deceased
+FH0000030,P000023,Paternal Grandfather,Alzheimer's disease,G30.9,32,Deceased
+FH0000031,P000024,Maternal Grandfather,Asthma,J45.909,79,Living
+FH0000032,P000026,Paternal Grandmother,Stroke,I63.9,74,Living
+FH0000033,P000028,Paternal Grandfather,Alzheimer's disease,G30.9,58,Living
+FH0000034,P000028,Maternal Grandfather,Cancer - Prostate,C61,71,Deceased
+FH0000035,P000030,Father,Heart disease,I25.10,59,Deceased
+FH0000036,P000030,Maternal Grandfather,Cancer - Lung,C34.90,38,Living
+FH0000037,P000030,Maternal Grandfather,Hypertension,I10,30,Living
+FH0000038,P000031,Maternal Grandmother,Alzheimer's disease,G30.9,70,Living
+FH0000039,P000031,Mother,Depression,F32.9,40,Deceased
+FH0000040,P000034,Uncle,Cancer - Lung,C34.90,78,Living
+FH0000041,P000034,Aunt,Stroke,I63.9,63,Living
+FH0000042,P000034,Brother,Cancer - Prostate,C61,73,Living
+FH0000043,P000035,Uncle,Diabetes,E11.9,80,Deceased
+FH0000044,P000035,Sister,Asthma,J45.909,38,Living
+FH0000045,P000037,Paternal Grandmother,Cancer - Breast,C50.919,69,Living
+FH0000046,P000037,Brother,Cancer - Colon,C18.9,49,Deceased
+FH0000047,P000038,Sister,Cancer - Colon,C18.9,61,Living
+FH0000048,P000038,Brother,Alzheimer's disease,G30.9,78,Deceased
+FH0000049,P000039,Sister,Cancer - Lung,C34.90,45,Living
+FH0000050,P000039,Sister,Depression,F32.9,53,Deceased
+FH0000051,P000043,Sister,Hypertension,I10,59,Living
+FH0000052,P000043,Mother,Asthma,J45.909,62,Living
+FH0000053,P000044,Maternal Grandfather,Heart disease,I25.10,39,Deceased
+FH0000054,P000044,Paternal Grandfather,Diabetes,E11.9,55,Living
+FH0000055,P000045,Aunt,Depression,F32.9,59,Living
+FH0000056,P000045,Father,Diabetes,E11.9,30,Living
+FH0000057,P000046,Mother,Depression,F32.9,60,Deceased
+FH0000058,P000046,Aunt,Hypertension,I10,68,Living
+FH0000059,P000048,Father,Cancer - Breast,C50.919,65,Living
+FH0000060,P000049,Paternal Grandmother,Cancer - Breast,C50.919,54,Living
+FH0000061,P000051,Brother,Diabetes,E11.9,75,Living
+FH0000062,P000052,Paternal Grandmother,Cancer - Lung,C34.90,50,Living
+FH0000063,P000052,Maternal Grandmother,Osteoporosis,M81.0,45,Deceased
+FH0000064,P000054,Uncle,Cancer - Prostate,C61,35,Living
+FH0000065,P000054,Sister,Cancer - Colon,C18.9,55,Living
+FH0000066,P000056,Paternal Grandmother,Cancer - Prostate,C61,62,Living
+FH0000067,P000057,Maternal Grandfather,Cancer - Colon,C18.9,50,Living
+FH0000068,P000057,Paternal Grandfather,Osteoporosis,M81.0,71,Living
+FH0000069,P000059,Paternal Grandmother,Cancer - Prostate,C61,59,Living
+FH0000070,P000060,Brother,Cancer - Prostate,C61,61,Living
+FH0000071,P000060,Father,Asthma,J45.909,43,Living
+FH0000072,P000061,Paternal Grandmother,Cancer - Colon,C18.9,65,Deceased
+FH0000073,P000062,Maternal Grandfather,Asthma,J45.909,52,Deceased
+FH0000074,P000062,Uncle,Cancer - Lung,C34.90,31,Deceased
+FH0000075,P000063,Aunt,Diabetes,E11.9,47,Living
+FH0000076,P000066,Sister,Cancer - Colon,C18.9,53,Living
+FH0000077,P000066,Maternal Grandfather,Asthma,J45.909,39,Deceased
+FH0000078,P000067,Uncle,Depression,F32.9,36,Deceased
+FH0000079,P000068,Brother,Cancer - Colon,C18.9,75,Living
+FH0000080,P000068,Uncle,Cancer - Breast,C50.919,65,Living
+FH0000081,P000068,Maternal Grandmother,Alzheimer's disease,G30.9,71,Living
+FH0000082,P000068,Mother,Osteoporosis,M81.0,68,Living
+FH0000083,P000069,Maternal Grandmother,Depression,F32.9,72,Living
+FH0000084,P000071,Maternal Grandmother,Cancer - Breast,C50.919,65,Living
+FH0000085,P000072,Paternal Grandmother,Diabetes,E11.9,66,Deceased
+FH0000086,P000072,Maternal Grandmother,Depression,F32.9,62,Deceased
+FH0000087,P000072,Maternal Grandfather,Hypertension,I10,30,Deceased
+FH0000088,P000073,Maternal Grandfather,Alzheimer's disease,G30.9,71,Living
+FH0000089,P000073,Paternal Grandmother,Diabetes,E11.9,53,Living
+FH0000090,P000073,Brother,Osteoporosis,M81.0,66,Living
+FH0000091,P000074,Uncle,Osteoporosis,M81.0,57,Living
+FH0000092,P000076,Maternal Grandfather,Depression,F32.9,44,Deceased
+FH0000093,P000076,Paternal Grandfather,Hypertension,I10,66,Living
+FH0000094,P000078,Maternal Grandfather,Cancer - Lung,C34.90,52,Living
+FH0000095,P000080,Paternal Grandfather,Hypertension,I10,74,Deceased
+FH0000096,P000080,Mother,Cancer - Colon,C18.9,79,Living
+FH0000097,P000083,Brother,Cancer - Colon,C18.9,72,Living
+FH0000098,P000085,Uncle,Asthma,J45.909,64,Living
+FH0000099,P000086,Sister,Cancer - Colon,C18.9,65,Living
+FH0000100,P000088,Brother,Depression,F32.9,30,Living
+FH0000101,P000089,Brother,Asthma,J45.909,44,Living
+FH0000102,P000089,Maternal Grandmother,Osteoporosis,M81.0,43,Deceased
+FH0000103,P000091,Maternal Grandfather,Cancer - Breast,C50.919,55,Living
+FH0000104,P000091,Father,Stroke,I63.9,40,Living
+FH0000105,P000091,Father,Alzheimer's disease,G30.9,48,Living
+FH0000106,P000092,Paternal Grandmother,Stroke,I63.9,60,Living
+FH0000107,P000092,Mother,Alzheimer's disease,G30.9,47,Living
+FH0000108,P000093,Paternal Grandmother,Cancer - Prostate,C61,43,Living
+FH0000109,P000094,Paternal Grandmother,Depression,F32.9,72,Deceased
+FH0000110,P000095,Maternal Grandfather,Cancer - Lung,C34.90,41,Living
+FH0000111,P000097,Paternal Grandmother,Asthma,J45.909,76,Living
+FH0000112,P000097,Uncle,Alzheimer's disease,G30.9,67,Living
+FH0000113,P000097,Mother,Cancer - Breast,C50.919,78,Living
+FH0000114,P000099,Brother,Cancer - Colon,C18.9,38,Deceased
+FH0000115,P000103,Mother,Hypertension,I10,36,Deceased
+FH0000116,P000103,Maternal Grandmother,Cancer - Lung,C34.90,41,Living
+FH0000117,P000104,Uncle,Stroke,I63.9,48,Living
+FH0000118,P000104,Brother,Diabetes,E11.9,40,Living
+FH0000119,P000104,Paternal Grandmother,Cancer - Colon,C18.9,67,Deceased
+FH0000120,P000105,Maternal Grandfather,Alzheimer's disease,G30.9,30,Living
+FH0000121,P000106,Aunt,Heart disease,I25.10,33,Living
+FH0000122,P000107,Uncle,Alzheimer's disease,G30.9,62,Living
+FH0000123,P000107,Maternal Grandmother,Heart disease,I25.10,40,Deceased
+FH0000124,P000108,Father,Hypertension,I10,30,Living
+FH0000125,P000110,Paternal Grandfather,Asthma,J45.909,73,Living
+FH0000126,P000111,Maternal Grandmother,Osteoporosis,M81.0,61,Deceased
+FH0000127,P000112,Maternal Grandmother,Depression,F32.9,50,Living
+FH0000128,P000112,Mother,Heart disease,I25.10,80,Deceased
+FH0000129,P000113,Paternal Grandfather,Alzheimer's disease,G30.9,59,Living
+FH0000130,P000113,Uncle,Hypertension,I10,62,Deceased
+FH0000131,P000114,Maternal Grandfather,Osteoporosis,M81.0,40,Living
+FH0000132,P000114,Mother,Asthma,J45.909,44,Living
+FH0000133,P000114,Maternal Grandmother,Cancer - Colon,C18.9,49,Living
+FH0000134,P000115,Mother,Stroke,I63.9,30,Living
+FH0000135,P000115,Aunt,Asthma,J45.909,36,Living
+FH0000136,P000117,Maternal Grandmother,Cancer - Lung,C34.90,48,Living
+FH0000137,P000118,Uncle,Alzheimer's disease,G30.9,40,Deceased
+FH0000138,P000118,Mother,Depression,F32.9,64,Living
+FH0000139,P000118,Paternal Grandfather,Cancer - Lung,C34.90,35,Deceased
+FH0000140,P000119,Mother,Cancer - Prostate,C61,66,Living
+FH0000141,P000119,Brother,Osteoporosis,M81.0,74,Living
+FH0000142,P000119,Paternal Grandmother,Heart disease,I25.10,37,Living
+FH0000143,P000120,Mother,Depression,F32.9,45,Living
+FH0000144,P000122,Paternal Grandfather,Stroke,I63.9,69,Deceased
+FH0000145,P000122,Mother,Hypertension,I10,78,Living
+FH0000146,P000123,Aunt,Alzheimer's disease,G30.9,74,Living
+FH0000147,P000123,Maternal Grandfather,Cancer - Colon,C18.9,74,Living
+FH0000148,P000124,Sister,Stroke,I63.9,70,Living
+FH0000149,P000124,Paternal Grandfather,Alzheimer's disease,G30.9,49,Deceased
+FH0000150,P000129,Uncle,Cancer - Lung,C34.90,78,Deceased
+FH0000151,P000129,Brother,Asthma,J45.909,35,Deceased
+FH0000152,P000129,Paternal Grandmother,Depression,F32.9,58,Deceased
+FH0000153,P000131,Father,Diabetes,E11.9,77,Living
+FH0000154,P000131,Mother,Depression,F32.9,44,Living
+FH0000155,P000132,Father,Cancer - Lung,C34.90,70,Deceased
+FH0000156,P000132,Maternal Grandmother,Depression,F32.9,42,Living
+FH0000157,P000132,Paternal Grandfather,Hypertension,I10,78,Living
+FH0000158,P000133,Sister,Osteoporosis,M81.0,56,Living
+FH0000159,P000133,Father,Alzheimer's disease,G30.9,72,Living
+FH0000160,P000135,Father,Diabetes,E11.9,51,Living
+FH0000161,P000138,Paternal Grandfather,Alzheimer's disease,G30.9,69,Living
+FH0000162,P000138,Father,Osteoporosis,M81.0,69,Living
+FH0000163,P000138,Sister,Depression,F32.9,50,Deceased
+FH0000164,P000139,Sister,Cancer - Breast,C50.919,57,Living
+FH0000165,P000139,Father,Cancer - Prostate,C61,47,Living
+FH0000166,P000140,Mother,Cancer - Colon,C18.9,74,Living
+FH0000167,P000140,Aunt,Heart disease,I25.10,33,Deceased
+FH0000168,P000142,Maternal Grandmother,Alzheimer's disease,G30.9,47,Deceased
+FH0000169,P000142,Maternal Grandfather,Hypertension,I10,40,Living
+FH0000170,P000145,Aunt,Diabetes,E11.9,68,Living
+FH0000171,P000145,Aunt,Asthma,J45.909,37,Living
+FH0000172,P000146,Father,Cancer - Lung,C34.90,58,Living
+FH0000173,P000146,Paternal Grandfather,Osteoporosis,M81.0,48,Deceased
+FH0000174,P000147,Maternal Grandfather,Heart disease,I25.10,47,Living
+FH0000175,P000147,Paternal Grandmother,Asthma,J45.909,64,Deceased
+FH0000176,P000148,Aunt,Cancer - Colon,C18.9,32,Living
+FH0000177,P000148,Father,Depression,F32.9,32,Deceased
+FH0000178,P000148,Sister,Osteoporosis,M81.0,67,Living
+FH0000179,P000148,Uncle,Heart disease,I25.10,64,Living
+FH0000180,P000149,Father,Cancer - Breast,C50.919,55,Living
+FH0000181,P000151,Mother,Cancer - Colon,C18.9,58,Living
+FH0000182,P000151,Paternal Grandfather,Heart disease,I25.10,66,Deceased
+FH0000183,P000151,Uncle,Cancer - Breast,C50.919,31,Deceased
+FH0000184,P000152,Mother,Diabetes,E11.9,54,Living
+FH0000185,P000153,Sister,Depression,F32.9,53,Living
+FH0000186,P000158,Brother,Cancer - Breast,C50.919,48,Living
+FH0000187,P000159,Maternal Grandfather,Alzheimer's disease,G30.9,68,Living
+FH0000188,P000160,Paternal Grandfather,Osteoporosis,M81.0,46,Deceased
+FH0000189,P000160,Maternal Grandfather,Cancer - Prostate,C61,46,Deceased
+FH0000190,P000160,Aunt,Asthma,J45.909,36,Deceased
+FH0000191,P000162,Mother,Osteoporosis,M81.0,60,Living
+FH0000192,P000162,Aunt,Diabetes,E11.9,54,Deceased
+FH0000193,P000165,Mother,Stroke,I63.9,70,Deceased
+FH0000194,P000166,Brother,Alzheimer's disease,G30.9,77,Living
+FH0000195,P000166,Maternal Grandfather,Diabetes,E11.9,75,Living
+FH0000196,P000167,Uncle,Diabetes,E11.9,71,Living
+FH0000197,P000167,Brother,Osteoporosis,M81.0,59,Living
+FH0000198,P000170,Paternal Grandmother,Alzheimer's disease,G30.9,38,Living
+FH0000199,P000170,Brother,Cancer - Colon,C18.9,57,Deceased
+FH0000200,P000172,Maternal Grandmother,Asthma,J45.909,52,Living
+FH0000201,P000174,Paternal Grandmother,Cancer - Lung,C34.90,49,Deceased
+FH0000202,P000175,Father,Stroke,I63.9,68,Living
+FH0000203,P000175,Paternal Grandmother,Depression,F32.9,66,Deceased
+FH0000204,P000175,Uncle,Cancer - Lung,C34.90,31,Deceased
+FH0000205,P000176,Uncle,Osteoporosis,M81.0,31,Living
+FH0000206,P000176,Paternal Grandmother,Cancer - Colon,C18.9,49,Deceased
+FH0000207,P000176,Sister,Heart disease,I25.10,40,Living
+FH0000208,P000178,Maternal Grandfather,Cancer - Lung,C34.90,65,Deceased
+FH0000209,P000187,Brother,Osteoporosis,M81.0,52,Deceased
+FH0000210,P000187,Paternal Grandmother,Cancer - Prostate,C61,71,Living
+FH0000211,P000188,Uncle,Diabetes,E11.9,67,Living
+FH0000212,P000188,Sister,Cancer - Lung,C34.90,52,Deceased
+FH0000213,P000188,Father,Stroke,I63.9,36,Deceased
+FH0000214,P000189,Maternal Grandfather,Stroke,I63.9,57,Living
+FH0000215,P000189,Mother,Osteoporosis,M81.0,73,Deceased
+FH0000216,P000189,Sister,Alzheimer's disease,G30.9,77,Living
+FH0000217,P000191,Maternal Grandmother,Stroke,I63.9,43,Deceased
+FH0000218,P000191,Uncle,Diabetes,E11.9,71,Living
+FH0000219,P000191,Maternal Grandmother,Cancer - Prostate,C61,56,Living
+FH0000220,P000191,Brother,Depression,F32.9,70,Deceased
+FH0000221,P000192,Father,Cancer - Lung,C34.90,43,Living
+FH0000222,P000192,Sister,Alzheimer's disease,G30.9,36,Living
+FH0000223,P000194,Mother,Stroke,I63.9,35,Deceased
+FH0000224,P000197,Mother,Hypertension,I10,33,Living
+FH0000225,P000200,Paternal Grandmother,Osteoporosis,M81.0,31,Deceased
+FH0000226,P000200,Father,Cancer - Prostate,C61,64,Deceased
+FH0000227,P000200,Paternal Grandfather,Stroke,I63.9,44,Living
+FH0000228,P000202,Maternal Grandfather,Alzheimer's disease,G30.9,50,Deceased
+FH0000229,P000203,Paternal Grandfather,Osteoporosis,M81.0,42,Deceased
+FH0000230,P000203,Aunt,Alzheimer's disease,G30.9,46,Living
+FH0000231,P000203,Maternal Grandfather,Stroke,I63.9,45,Living
+FH0000232,P000204,Uncle,Hypertension,I10,56,Living
+FH0000233,P000206,Maternal Grandfather,Cancer - Prostate,C61,71,Living
+FH0000234,P000208,Sister,Diabetes,E11.9,78,Deceased
+FH0000235,P000210,Maternal Grandmother,Diabetes,E11.9,35,Deceased
+FH0000236,P000210,Paternal Grandfather,Alzheimer's disease,G30.9,51,Living
+FH0000237,P000213,Father,Cancer - Lung,C34.90,41,Living
+FH0000238,P000214,Father,Osteoporosis,M81.0,60,Living
+FH0000239,P000214,Father,Cancer - Breast,C50.919,67,Deceased
+FH0000240,P000214,Paternal Grandmother,Cancer - Colon,C18.9,74,Deceased
+FH0000241,P000214,Paternal Grandfather,Heart disease,I25.10,60,Deceased
+FH0000242,P000218,Brother,Cancer - Prostate,C61,36,Living
+FH0000243,P000219,Paternal Grandmother,Cancer - Breast,C50.919,53,Deceased
+FH0000244,P000220,Brother,Asthma,J45.909,51,Living
+FH0000245,P000224,Maternal Grandmother,Heart disease,I25.10,38,Living
+FH0000246,P000224,Brother,Hypertension,I10,35,Living
+FH0000247,P000224,Sister,Asthma,J45.909,49,Living
+FH0000248,P000224,Maternal Grandfather,Cancer - Colon,C18.9,72,Deceased
+FH0000249,P000231,Father,Diabetes,E11.9,50,Living
+FH0000250,P000231,Uncle,Osteoporosis,M81.0,40,Living
+FH0000251,P000236,Sister,Cancer - Prostate,C61,70,Living
+FH0000252,P000236,Mother,Stroke,I63.9,70,Deceased
+FH0000253,P000238,Mother,Stroke,I63.9,34,Living
+FH0000254,P000238,Father,Cancer - Breast,C50.919,31,Deceased
+FH0000255,P000238,Paternal Grandmother,Diabetes,E11.9,55,Living
+FH0000256,P000240,Sister,Cancer - Colon,C18.9,56,Living
+FH0000257,P000240,Sister,Depression,F32.9,75,Living
+FH0000258,P000240,Mother,Cancer - Lung,C34.90,42,Living
+FH0000259,P000241,Maternal Grandmother,Asthma,J45.909,38,Living
+FH0000260,P000243,Maternal Grandmother,Hypertension,I10,51,Deceased
+FH0000261,P000243,Maternal Grandmother,Depression,F32.9,49,Living
+FH0000262,P000243,Aunt,Heart disease,I25.10,64,Deceased
+FH0000263,P000244,Paternal Grandfather,Cancer - Prostate,C61,59,Living
+FH0000264,P000244,Sister,Depression,F32.9,50,Living
+FH0000265,P000244,Uncle,Osteoporosis,M81.0,52,Deceased
+FH0000266,P000246,Maternal Grandfather,Cancer - Prostate,C61,78,Living
+FH0000267,P000249,Paternal Grandmother,Stroke,I63.9,67,Deceased
+FH0000268,P000253,Brother,Cancer - Colon,C18.9,64,Deceased
+FH0000269,P000253,Father,Asthma,J45.909,65,Living
+FH0000270,P000254,Paternal Grandmother,Cancer - Colon,C18.9,70,Living
+FH0000271,P000254,Paternal Grandmother,Asthma,J45.909,47,Living
+FH0000272,P000257,Uncle,Asthma,J45.909,80,Deceased
+FH0000273,P000257,Paternal Grandmother,Cancer - Prostate,C61,49,Deceased
+FH0000274,P000258,Paternal Grandfather,Diabetes,E11.9,59,Living
+FH0000275,P000260,Mother,Osteoporosis,M81.0,60,Living
+FH0000276,P000261,Aunt,Cancer - Colon,C18.9,38,Living
+FH0000277,P000261,Paternal Grandmother,Cancer - Breast,C50.919,72,Living
+FH0000278,P000263,Paternal Grandmother,Cancer - Lung,C34.90,53,Deceased
+FH0000279,P000263,Maternal Grandmother,Osteoporosis,M81.0,51,Deceased
+FH0000280,P000266,Brother,Heart disease,I25.10,70,Deceased
+FH0000281,P000266,Maternal Grandfather,Cancer - Prostate,C61,33,Deceased
+FH0000282,P000266,Brother,Stroke,I63.9,65,Living
+FH0000283,P000269,Mother,Cancer - Prostate,C61,75,Living
+FH0000284,P000269,Maternal Grandfather,Hypertension,I10,66,Living
+FH0000285,P000270,Aunt,Asthma,J45.909,40,Living
+FH0000286,P000270,Uncle,Depression,F32.9,35,Living
+FH0000287,P000270,Maternal Grandfather,Cancer - Breast,C50.919,76,Living
+FH0000288,P000271,Paternal Grandfather,Cancer - Colon,C18.9,51,Living
+FH0000289,P000271,Mother,Alzheimer's disease,G30.9,55,Living
+FH0000290,P000272,Maternal Grandmother,Cancer - Colon,C18.9,59,Deceased
+FH0000291,P000272,Paternal Grandfather,Cancer - Prostate,C61,55,Deceased
+FH0000292,P000274,Maternal Grandmother,Osteoporosis,M81.0,73,Living
+FH0000293,P000274,Maternal Grandmother,Cancer - Prostate,C61,49,Living
+FH0000294,P000275,Paternal Grandmother,Cancer - Colon,C18.9,53,Living
+FH0000295,P000277,Uncle,Cancer - Colon,C18.9,58,Living
+FH0000296,P000277,Mother,Depression,F32.9,34,Living
+FH0000297,P000278,Paternal Grandmother,Alzheimer's disease,G30.9,50,Living
+FH0000298,P000279,Maternal Grandmother,Hypertension,I10,38,Living
+FH0000299,P000282,Father,Cancer - Colon,C18.9,38,Deceased
+FH0000300,P000282,Paternal Grandfather,Alzheimer's disease,G30.9,68,Living
+FH0000301,P000282,Aunt,Diabetes,E11.9,66,Living
+FH0000302,P000282,Maternal Grandfather,Cancer - Breast,C50.919,31,Deceased
+FH0000303,P000285,Father,Hypertension,I10,61,Living
+FH0000304,P000285,Uncle,Cancer - Colon,C18.9,58,Living
+FH0000305,P000288,Maternal Grandmother,Osteoporosis,M81.0,65,Living
+FH0000306,P000288,Sister,Alzheimer's disease,G30.9,58,Living
+FH0000307,P000290,Brother,Asthma,J45.909,61,Living
+FH0000308,P000292,Uncle,Hypertension,I10,52,Living
+FH0000309,P000292,Father,Cancer - Lung,C34.90,39,Living
+FH0000310,P000293,Paternal Grandfather,Heart disease,I25.10,44,Living
+FH0000311,P000293,Maternal Grandfather,Diabetes,E11.9,57,Deceased
+FH0000312,P000293,Sister,Hypertension,I10,57,Living
+FH0000313,P000294,Sister,Asthma,J45.909,49,Living
+FH0000314,P000294,Maternal Grandfather,Cancer - Lung,C34.90,70,Living
+FH0000315,P000295,Uncle,Diabetes,E11.9,76,Living
+FH0000316,P000299,Paternal Grandfather,Cancer - Lung,C34.90,50,Deceased
+FH0000317,P000300,Aunt,Osteoporosis,M81.0,50,Deceased
+FH0000318,P000301,Uncle,Cancer - Prostate,C61,48,Deceased
+FH0000319,P000302,Maternal Grandmother,Cancer - Breast,C50.919,39,Deceased
+FH0000320,P000302,Aunt,Cancer - Prostate,C61,48,Deceased
+FH0000321,P000302,Uncle,Heart disease,I25.10,42,Deceased
+FH0000322,P000302,Uncle,Stroke,I63.9,39,Deceased
+FH0000323,P000305,Aunt,Cancer - Prostate,C61,67,Living
+FH0000324,P000305,Father,Osteoporosis,M81.0,31,Living
+FH0000325,P000310,Maternal Grandfather,Cancer - Colon,C18.9,32,Living
+FH0000326,P000313,Brother,Diabetes,E11.9,31,Living
+FH0000327,P000313,Maternal Grandmother,Cancer - Prostate,C61,61,Deceased
+FH0000328,P000313,Maternal Grandmother,Cancer - Breast,C50.919,31,Living
+FH0000329,P000317,Paternal Grandmother,Depression,F32.9,80,Living
+FH0000330,P000319,Aunt,Depression,F32.9,35,Living
+FH0000331,P000319,Paternal Grandmother,Stroke,I63.9,62,Living
+FH0000332,P000319,Father,Asthma,J45.909,52,Deceased
+FH0000333,P000319,Mother,Alzheimer's disease,G30.9,77,Living
+FH0000334,P000320,Aunt,Cancer - Colon,C18.9,48,Living
+FH0000335,P000320,Paternal Grandmother,Alzheimer's disease,G30.9,36,Deceased
+FH0000336,P000320,Brother,Stroke,I63.9,36,Living
+FH0000337,P000324,Father,Depression,F32.9,50,Deceased
+FH0000338,P000324,Sister,Cancer - Lung,C34.90,69,Living
+FH0000339,P000325,Brother,Asthma,J45.909,70,Deceased
+FH0000340,P000325,Mother,Cancer - Breast,C50.919,70,Living
+FH0000341,P000326,Paternal Grandmother,Heart disease,I25.10,74,Living
+FH0000342,P000327,Uncle,Heart disease,I25.10,74,Deceased
+FH0000343,P000328,Father,Asthma,J45.909,49,Living
+FH0000344,P000328,Paternal Grandfather,Depression,F32.9,71,Deceased
+FH0000345,P000329,Brother,Alzheimer's disease,G30.9,54,Living
+FH0000346,P000329,Brother,Cancer - Colon,C18.9,47,Living
+FH0000347,P000329,Paternal Grandfather,Hypertension,I10,45,Deceased
+FH0000348,P000330,Aunt,Cancer - Prostate,C61,51,Deceased
+FH0000349,P000330,Maternal Grandfather,Stroke,I63.9,73,Living
+FH0000350,P000331,Father,Diabetes,E11.9,36,Deceased
+FH0000351,P000333,Brother,Hypertension,I10,37,Living
+FH0000352,P000333,Brother,Cancer - Colon,C18.9,49,Living
+FH0000353,P000333,Maternal Grandmother,Diabetes,E11.9,50,Living
+FH0000354,P000334,Paternal Grandfather,Cancer - Breast,C50.919,35,Living
+FH0000355,P000334,Father,Hypertension,I10,31,Living
+FH0000356,P000337,Father,Cancer - Colon,C18.9,47,Living
+FH0000357,P000337,Father,Depression,F32.9,35,Deceased
+FH0000358,P000338,Paternal Grandmother,Stroke,I63.9,59,Living
+FH0000359,P000339,Father,Asthma,J45.909,67,Deceased
+FH0000360,P000339,Paternal Grandmother,Stroke,I63.9,38,Living
+FH0000361,P000339,Aunt,Depression,F32.9,33,Living
+FH0000362,P000339,Father,Cancer - Prostate,C61,41,Living
+FH0000363,P000341,Mother,Stroke,I63.9,62,Deceased
+FH0000364,P000343,Paternal Grandfather,Alzheimer's disease,G30.9,58,Living
+FH0000365,P000344,Paternal Grandmother,Hypertension,I10,41,Deceased
+FH0000366,P000344,Brother,Cancer - Lung,C34.90,33,Deceased
+FH0000367,P000345,Sister,Asthma,J45.909,55,Living
+FH0000368,P000345,Maternal Grandmother,Cancer - Lung,C34.90,30,Living
+FH0000369,P000345,Maternal Grandmother,Cancer - Colon,C18.9,66,Living
+FH0000370,P000346,Brother,Cancer - Breast,C50.919,31,Living
+FH0000371,P000346,Sister,Diabetes,E11.9,74,Living
+FH0000372,P000346,Paternal Grandmother,Alzheimer's disease,G30.9,78,Deceased
+FH0000373,P000347,Aunt,Cancer - Lung,C34.90,41,Living
+FH0000374,P000347,Mother,Heart disease,I25.10,74,Living
+FH0000375,P000348,Maternal Grandmother,Cancer - Prostate,C61,65,Living
+FH0000376,P000348,Mother,Depression,F32.9,39,Living
+FH0000377,P000348,Maternal Grandfather,Alzheimer's disease,G30.9,56,Deceased
+FH0000378,P000348,Sister,Heart disease,I25.10,65,Deceased
+FH0000379,P000350,Brother,Diabetes,E11.9,68,Living
+FH0000380,P000350,Paternal Grandmother,Asthma,J45.909,59,Living
+FH0000381,P000350,Paternal Grandfather,Cancer - Colon,C18.9,45,Deceased
+FH0000382,P000352,Aunt,Heart disease,I25.10,79,Deceased
+FH0000383,P000352,Maternal Grandmother,Cancer - Prostate,C61,45,Deceased
+FH0000384,P000352,Maternal Grandmother,Osteoporosis,M81.0,30,Deceased
+FH0000385,P000353,Brother,Hypertension,I10,64,Living
+FH0000386,P000353,Brother,Depression,F32.9,76,Deceased
+FH0000387,P000354,Paternal Grandfather,Cancer - Lung,C34.90,42,Living
+FH0000388,P000355,Father,Hypertension,I10,38,Living
+FH0000389,P000356,Aunt,Cancer - Breast,C50.919,43,Deceased
+FH0000390,P000356,Maternal Grandmother,Cancer - Lung,C34.90,75,Deceased
+FH0000391,P000357,Paternal Grandmother,Cancer - Breast,C50.919,38,Living
+FH0000392,P000357,Sister,Cancer - Colon,C18.9,33,Living
+FH0000393,P000358,Aunt,Asthma,J45.909,67,Living
+FH0000394,P000358,Paternal Grandmother,Diabetes,E11.9,64,Deceased
+FH0000395,P000358,Maternal Grandmother,Cancer - Colon,C18.9,72,Living
+FH0000396,P000360,Paternal Grandmother,Osteoporosis,M81.0,57,Deceased
+FH0000397,P000362,Mother,Stroke,I63.9,62,Deceased
+FH0000398,P000362,Aunt,Diabetes,E11.9,55,Living
+FH0000399,P000365,Paternal Grandfather,Osteoporosis,M81.0,75,Deceased
+FH0000400,P000367,Paternal Grandfather,Asthma,J45.909,49,Living
+FH0000401,P000368,Paternal Grandmother,Osteoporosis,M81.0,63,Deceased
+FH0000402,P000368,Uncle,Heart disease,I25.10,61,Deceased
+FH0000403,P000370,Uncle,Cancer - Lung,C34.90,73,Deceased
+FH0000404,P000371,Aunt,Cancer - Colon,C18.9,53,Living
+FH0000405,P000372,Maternal Grandmother,Stroke,I63.9,76,Living
+FH0000406,P000372,Mother,Cancer - Colon,C18.9,55,Deceased
+FH0000407,P000372,Aunt,Cancer - Breast,C50.919,45,Living
+FH0000408,P000374,Paternal Grandfather,Osteoporosis,M81.0,62,Living
+FH0000409,P000374,Aunt,Asthma,J45.909,58,Deceased
+FH0000410,P000374,Father,Cancer - Prostate,C61,76,Deceased
+FH0000411,P000374,Paternal Grandfather,Stroke,I63.9,59,Deceased
+FH0000412,P000375,Aunt,Cancer - Breast,C50.919,43,Living
+FH0000413,P000378,Paternal Grandmother,Osteoporosis,M81.0,80,Deceased
+FH0000414,P000378,Paternal Grandfather,Depression,F32.9,57,Living
+FH0000415,P000379,Maternal Grandmother,Cancer - Prostate,C61,59,Deceased
+FH0000416,P000379,Aunt,Diabetes,E11.9,37,Living
+FH0000417,P000379,Mother,Depression,F32.9,59,Living
+FH0000418,P000380,Uncle,Heart disease,I25.10,69,Living
+FH0000419,P000381,Sister,Stroke,I63.9,37,Deceased
+FH0000420,P000381,Maternal Grandfather,Cancer - Lung,C34.90,58,Living
+FH0000421,P000382,Father,Osteoporosis,M81.0,58,Living
+FH0000422,P000382,Paternal Grandfather,Heart disease,I25.10,51,Deceased
+FH0000423,P000382,Brother,Diabetes,E11.9,59,Deceased
+FH0000424,P000383,Sister,Heart disease,I25.10,59,Deceased
+FH0000425,P000385,Uncle,Depression,F32.9,32,Deceased
+FH0000426,P000385,Brother,Alzheimer's disease,G30.9,37,Deceased
+FH0000427,P000386,Mother,Osteoporosis,M81.0,45,Living
+FH0000428,P000386,Maternal Grandmother,Alzheimer's disease,G30.9,48,Deceased
+FH0000429,P000387,Mother,Asthma,J45.909,30,Living
+FH0000430,P000388,Brother,Alzheimer's disease,G30.9,37,Deceased
+FH0000431,P000391,Mother,Depression,F32.9,79,Deceased
+FH0000432,P000391,Aunt,Asthma,J45.909,30,Living
+FH0000433,P000391,Paternal Grandfather,Cancer - Breast,C50.919,47,Living
+FH0000434,P000393,Uncle,Diabetes,E11.9,53,Deceased
+FH0000435,P000393,Mother,Hypertension,I10,80,Deceased
+FH0000436,P000394,Father,Osteoporosis,M81.0,79,Living
+FH0000437,P000394,Brother,Alzheimer's disease,G30.9,74,Living
+FH0000438,P000396,Maternal Grandmother,Osteoporosis,M81.0,71,Living
+FH0000439,P000398,Maternal Grandmother,Depression,F32.9,63,Living
+FH0000440,P000402,Sister,Diabetes,E11.9,41,Living
+FH0000441,P000402,Sister,Asthma,J45.909,59,Living
+FH0000442,P000402,Maternal Grandfather,Heart disease,I25.10,32,Deceased
+FH0000443,P000403,Paternal Grandmother,Depression,F32.9,64,Living
+FH0000444,P000403,Mother,Diabetes,E11.9,59,Living
+FH0000445,P000403,Uncle,Osteoporosis,M81.0,64,Deceased
+FH0000446,P000406,Father,Diabetes,E11.9,64,Living
+FH0000447,P000407,Maternal Grandmother,Asthma,J45.909,58,Deceased
+FH0000448,P000408,Maternal Grandfather,Stroke,I63.9,30,Deceased
+FH0000449,P000411,Paternal Grandmother,Alzheimer's disease,G30.9,41,Deceased
+FH0000450,P000412,Brother,Osteoporosis,M81.0,41,Living
+FH0000451,P000414,Maternal Grandmother,Cancer - Lung,C34.90,61,Deceased
+FH0000452,P000418,Paternal Grandmother,Osteoporosis,M81.0,34,Deceased
+FH0000453,P000418,Sister,Cancer - Colon,C18.9,44,Living
+FH0000454,P000418,Sister,Cancer - Breast,C50.919,59,Living
+FH0000455,P000419,Brother,Hypertension,I10,59,Living
+FH0000456,P000419,Uncle,Stroke,I63.9,62,Deceased
+FH0000457,P000420,Paternal Grandmother,Osteoporosis,M81.0,55,Deceased
+FH0000458,P000421,Sister,Cancer - Colon,C18.9,80,Living
+FH0000459,P000421,Paternal Grandmother,Heart disease,I25.10,74,Living
+FH0000460,P000421,Sister,Depression,F32.9,80,Living
+FH0000461,P000422,Paternal Grandmother,Osteoporosis,M81.0,78,Deceased
+FH0000462,P000425,Mother,Stroke,I63.9,50,Living
+FH0000463,P000425,Uncle,Cancer - Breast,C50.919,30,Deceased
+FH0000464,P000425,Aunt,Cancer - Prostate,C61,34,Living
+FH0000465,P000426,Brother,Osteoporosis,M81.0,64,Living
+FH0000466,P000429,Paternal Grandmother,Osteoporosis,M81.0,34,Living
+FH0000467,P000429,Brother,Cancer - Prostate,C61,73,Deceased
+FH0000468,P000429,Maternal Grandfather,Cancer - Breast,C50.919,41,Living
+FH0000469,P000429,Mother,Stroke,I63.9,76,Living
+FH0000470,P000431,Paternal Grandmother,Hypertension,I10,71,Living
+FH0000471,P000431,Paternal Grandfather,Stroke,I63.9,46,Deceased
+FH0000472,P000432,Aunt,Cancer - Colon,C18.9,61,Deceased
+FH0000473,P000432,Maternal Grandmother,Stroke,I63.9,48,Living
+FH0000474,P000432,Brother,Hypertension,I10,73,Deceased
+FH0000475,P000432,Brother,Asthma,J45.909,34,Living
+FH0000476,P000433,Uncle,Alzheimer's disease,G30.9,79,Living
+FH0000477,P000433,Paternal Grandmother,Cancer - Prostate,C61,38,Deceased
+FH0000478,P000433,Sister,Stroke,I63.9,37,Living
+FH0000479,P000434,Father,Hypertension,I10,65,Living
+FH0000480,P000434,Uncle,Cancer - Breast,C50.919,43,Deceased
+FH0000481,P000434,Aunt,Stroke,I63.9,61,Living
+FH0000482,P000434,Brother,Cancer - Prostate,C61,66,Living
+FH0000483,P000435,Father,Diabetes,E11.9,40,Deceased
+FH0000484,P000435,Maternal Grandfather,Hypertension,I10,50,Deceased
+FH0000485,P000438,Maternal Grandmother,Diabetes,E11.9,54,Living
+FH0000486,P000438,Paternal Grandfather,Heart disease,I25.10,78,Deceased
+FH0000487,P000439,Sister,Cancer - Lung,C34.90,38,Deceased
+FH0000488,P000442,Maternal Grandmother,Hypertension,I10,62,Living
+FH0000489,P000442,Father,Alzheimer's disease,G30.9,40,Living
+FH0000490,P000444,Mother,Hypertension,I10,66,Deceased
+FH0000491,P000445,Maternal Grandmother,Asthma,J45.909,48,Living
+FH0000492,P000445,Uncle,Diabetes,E11.9,55,Deceased
+FH0000493,P000446,Mother,Stroke,I63.9,42,Deceased
+FH0000494,P000446,Brother,Alzheimer's disease,G30.9,40,Living
+FH0000495,P000446,Paternal Grandmother,Cancer - Breast,C50.919,33,Living
+FH0000496,P000447,Sister,Cancer - Lung,C34.90,73,Living
+FH0000497,P000447,Paternal Grandmother,Diabetes,E11.9,63,Living
+FH0000498,P000447,Father,Cancer - Breast,C50.919,75,Living
+FH0000499,P000447,Sister,Stroke,I63.9,61,Living
+FH0000500,P000450,Mother,Diabetes,E11.9,62,Deceased
+FH0000501,P000450,Paternal Grandmother,Depression,F32.9,69,Deceased
+FH0000502,P000450,Paternal Grandfather,Hypertension,I10,45,Deceased
+FH0000503,P000451,Sister,Cancer - Colon,C18.9,64,Living
+FH0000504,P000451,Paternal Grandfather,Heart disease,I25.10,70,Deceased
+FH0000505,P000451,Uncle,Cancer - Lung,C34.90,43,Deceased
+FH0000506,P000452,Maternal Grandmother,Heart disease,I25.10,65,Living
+FH0000507,P000452,Uncle,Stroke,I63.9,69,Living
+FH0000508,P000452,Maternal Grandmother,Cancer - Lung,C34.90,51,Living
+FH0000509,P000455,Father,Cancer - Lung,C34.90,72,Living
+FH0000510,P000455,Maternal Grandmother,Depression,F32.9,60,Living
+FH0000511,P000455,Paternal Grandmother,Cancer - Breast,C50.919,48,Deceased
+FH0000512,P000456,Mother,Cancer - Lung,C34.90,45,Deceased
+FH0000513,P000457,Paternal Grandfather,Hypertension,I10,46,Deceased
+FH0000514,P000458,Sister,Cancer - Breast,C50.919,58,Deceased
+FH0000515,P000458,Aunt,Depression,F32.9,42,Living
+FH0000516,P000460,Aunt,Cancer - Breast,C50.919,30,Living
+FH0000517,P000461,Uncle,Depression,F32.9,74,Living
+FH0000518,P000461,Mother,Cancer - Colon,C18.9,59,Living
+FH0000519,P000461,Maternal Grandmother,Heart disease,I25.10,40,Living
+FH0000520,P000463,Maternal Grandfather,Heart disease,I25.10,55,Living
+FH0000521,P000466,Maternal Grandmother,Osteoporosis,M81.0,68,Living
+FH0000522,P000468,Paternal Grandfather,Asthma,J45.909,77,Living
+FH0000523,P000469,Paternal Grandmother,Asthma,J45.909,66,Living
+FH0000524,P000470,Sister,Cancer - Lung,C34.90,32,Deceased
+FH0000525,P000471,Father,Cancer - Lung,C34.90,72,Living
+FH0000526,P000471,Paternal Grandmother,Diabetes,E11.9,62,Living
+FH0000527,P000472,Paternal Grandfather,Alzheimer's disease,G30.9,64,Living
+FH0000528,P000472,Mother,Heart disease,I25.10,60,Living
+FH0000529,P000475,Paternal Grandfather,Diabetes,E11.9,68,Living
+FH0000530,P000475,Brother,Stroke,I63.9,40,Living
+FH0000531,P000478,Sister,Cancer - Colon,C18.9,42,Deceased
+FH0000532,P000478,Father,Cancer - Lung,C34.90,78,Deceased
+FH0000533,P000479,Maternal Grandmother,Cancer - Prostate,C61,56,Living
+FH0000534,P000479,Aunt,Diabetes,E11.9,64,Deceased
+FH0000535,P000481,Maternal Grandfather,Cancer - Lung,C34.90,60,Living
+FH0000536,P000486,Uncle,Asthma,J45.909,55,Living
+FH0000537,P000486,Father,Heart disease,I25.10,66,Living
+FH0000538,P000488,Brother,Asthma,J45.909,42,Deceased
+FH0000539,P000488,Father,Cancer - Colon,C18.9,60,Living
+FH0000540,P000491,Brother,Stroke,I63.9,31,Living
+FH0000541,P000491,Aunt,Asthma,J45.909,79,Living
+FH0000542,P000492,Aunt,Osteoporosis,M81.0,72,Living
+FH0000543,P000493,Paternal Grandmother,Cancer - Prostate,C61,78,Deceased
+FH0000544,P000494,Paternal Grandfather,Stroke,I63.9,49,Living
+FH0000545,P000497,Brother,Stroke,I63.9,33,Deceased
+FH0000546,P000499,Sister,Cancer - Prostate,C61,78,Living
+FH0000547,P000499,Aunt,Hypertension,I10,35,Living
+FH0000548,P000499,Paternal Grandfather,Osteoporosis,M81.0,38,Living
+FH0000549,P000501,Paternal Grandmother,Cancer - Lung,C34.90,55,Living
+FH0000550,P000502,Mother,Cancer - Colon,C18.9,55,Deceased
+FH0000551,P000502,Sister,Cancer - Prostate,C61,70,Living
+FH0000552,P000505,Aunt,Osteoporosis,M81.0,43,Living
+FH0000553,P000506,Paternal Grandmother,Cancer - Breast,C50.919,67,Living
+FH0000554,P000506,Maternal Grandmother,Asthma,J45.909,52,Deceased
+FH0000555,P000506,Aunt,Diabetes,E11.9,50,Deceased
+FH0000556,P000508,Sister,Asthma,J45.909,57,Living
+FH0000557,P000508,Maternal Grandfather,Hypertension,I10,46,Living
+FH0000558,P000508,Brother,Heart disease,I25.10,74,Deceased
+FH0000559,P000509,Aunt,Hypertension,I10,35,Living
+FH0000560,P000510,Sister,Osteoporosis,M81.0,35,Living
+FH0000561,P000510,Mother,Cancer - Prostate,C61,62,Deceased
+FH0000562,P000510,Sister,Asthma,J45.909,80,Living
+FH0000563,P000513,Brother,Hypertension,I10,74,Living
+FH0000564,P000514,Uncle,Osteoporosis,M81.0,78,Living
+FH0000565,P000516,Father,Hypertension,I10,53,Deceased
+FH0000566,P000516,Paternal Grandfather,Osteoporosis,M81.0,42,Living
+FH0000567,P000516,Uncle,Depression,F32.9,40,Deceased
+FH0000568,P000517,Father,Cancer - Prostate,C61,54,Living
+FH0000569,P000517,Maternal Grandmother,Osteoporosis,M81.0,68,Deceased
+FH0000570,P000518,Mother,Diabetes,E11.9,78,Deceased
+FH0000571,P000518,Mother,Asthma,J45.909,37,Living
+FH0000572,P000521,Paternal Grandmother,Cancer - Breast,C50.919,65,Deceased
+FH0000573,P000522,Paternal Grandfather,Osteoporosis,M81.0,30,Living
+FH0000574,P000525,Maternal Grandfather,Cancer - Breast,C50.919,37,Deceased
+FH0000575,P000527,Father,Cancer - Prostate,C61,61,Living
+FH0000576,P000527,Mother,Hypertension,I10,78,Deceased
+FH0000577,P000528,Father,Cancer - Colon,C18.9,54,Living
+FH0000578,P000530,Uncle,Asthma,J45.909,65,Living
+FH0000579,P000533,Brother,Cancer - Breast,C50.919,63,Living
+FH0000580,P000533,Maternal Grandmother,Asthma,J45.909,63,Living
+FH0000581,P000533,Uncle,Hypertension,I10,79,Deceased
+FH0000582,P000534,Mother,Cancer - Lung,C34.90,34,Living
+FH0000583,P000537,Uncle,Asthma,J45.909,75,Living
+FH0000584,P000538,Uncle,Cancer - Lung,C34.90,53,Living
+FH0000585,P000539,Uncle,Cancer - Prostate,C61,76,Living
+FH0000586,P000539,Paternal Grandfather,Cancer - Lung,C34.90,80,Deceased
+FH0000587,P000539,Paternal Grandmother,Cancer - Colon,C18.9,46,Living
+FH0000588,P000541,Father,Hypertension,I10,30,Living
+FH0000589,P000543,Brother,Stroke,I63.9,34,Living
+FH0000590,P000543,Sister,Heart disease,I25.10,31,Deceased
+FH0000591,P000545,Sister,Diabetes,E11.9,64,Living
+FH0000592,P000545,Brother,Heart disease,I25.10,52,Living
+FH0000593,P000545,Mother,Asthma,J45.909,33,Living
+FH0000594,P000545,Aunt,Cancer - Colon,C18.9,57,Living
+FH0000595,P000546,Aunt,Cancer - Lung,C34.90,54,Deceased
+FH0000596,P000546,Maternal Grandmother,Cancer - Prostate,C61,40,Living
+FH0000597,P000550,Mother,Diabetes,E11.9,52,Deceased
+FH0000598,P000551,Maternal Grandmother,Osteoporosis,M81.0,69,Living
+FH0000599,P000556,Paternal Grandmother,Cancer - Prostate,C61,73,Living
+FH0000600,P000557,Maternal Grandfather,Cancer - Lung,C34.90,65,Living
+FH0000601,P000557,Uncle,Alzheimer's disease,G30.9,72,Deceased
+FH0000602,P000559,Paternal Grandmother,Asthma,J45.909,59,Living
+FH0000603,P000559,Mother,Hypertension,I10,49,Living
+FH0000604,P000559,Mother,Heart disease,I25.10,73,Deceased
+FH0000605,P000560,Paternal Grandfather,Cancer - Breast,C50.919,51,Living
+FH0000606,P000560,Maternal Grandmother,Hypertension,I10,59,Deceased
+FH0000607,P000561,Maternal Grandmother,Hypertension,I10,38,Living
+FH0000608,P000561,Sister,Cancer - Prostate,C61,80,Living
+FH0000609,P000562,Maternal Grandmother,Osteoporosis,M81.0,44,Deceased
+FH0000610,P000562,Father,Asthma,J45.909,46,Deceased
+FH0000611,P000563,Maternal Grandfather,Cancer - Lung,C34.90,63,Living
+FH0000612,P000563,Uncle,Heart disease,I25.10,50,Deceased
+FH0000613,P000565,Mother,Hypertension,I10,43,Living
+FH0000614,P000566,Mother,Diabetes,E11.9,47,Deceased
+FH0000615,P000567,Uncle,Heart disease,I25.10,64,Living
+FH0000616,P000568,Uncle,Cancer - Breast,C50.919,56,Deceased
+FH0000617,P000568,Mother,Cancer - Colon,C18.9,76,Living
+FH0000618,P000568,Brother,Heart disease,I25.10,55,Living
+FH0000619,P000570,Paternal Grandmother,Asthma,J45.909,39,Living
+FH0000620,P000571,Paternal Grandfather,Cancer - Prostate,C61,59,Living
+FH0000621,P000571,Sister,Alzheimer's disease,G30.9,79,Deceased
+FH0000622,P000572,Brother,Hypertension,I10,61,Living
+FH0000623,P000573,Maternal Grandmother,Cancer - Lung,C34.90,75,Living
+FH0000624,P000574,Maternal Grandmother,Hypertension,I10,35,Living
+FH0000625,P000574,Mother,Osteoporosis,M81.0,69,Deceased
+FH0000626,P000575,Paternal Grandmother,Diabetes,E11.9,68,Living
+FH0000627,P000576,Mother,Osteoporosis,M81.0,76,Deceased
+FH0000628,P000577,Brother,Stroke,I63.9,69,Living
+FH0000629,P000578,Maternal Grandfather,Depression,F32.9,63,Living
+FH0000630,P000580,Paternal Grandfather,Diabetes,E11.9,43,Living
+FH0000631,P000580,Brother,Stroke,I63.9,42,Living
+FH0000632,P000580,Brother,Cancer - Lung,C34.90,59,Deceased
+FH0000633,P000581,Aunt,Osteoporosis,M81.0,52,Living
+FH0000634,P000581,Brother,Cancer - Prostate,C61,57,Deceased
+FH0000635,P000581,Paternal Grandmother,Cancer - Lung,C34.90,70,Deceased
+FH0000636,P000584,Aunt,Asthma,J45.909,66,Living
+FH0000637,P000596,Sister,Depression,F32.9,64,Living
+FH0000638,P000596,Father,Alzheimer's disease,G30.9,69,Living
+FH0000639,P000596,Paternal Grandfather,Cancer - Breast,C50.919,31,Living
+FH0000640,P000597,Father,Cancer - Lung,C34.90,32,Living
+FH0000641,P000597,Paternal Grandmother,Osteoporosis,M81.0,68,Living
+FH0000642,P000597,Father,Asthma,J45.909,65,Living
+FH0000643,P000600,Aunt,Cancer - Lung,C34.90,63,Living
+FH0000644,P000601,Brother,Alzheimer's disease,G30.9,38,Living
+FH0000645,P000606,Maternal Grandmother,Cancer - Lung,C34.90,71,Deceased
+FH0000646,P000606,Maternal Grandmother,Cancer - Prostate,C61,33,Living
+FH0000647,P000607,Uncle,Diabetes,E11.9,79,Deceased
+FH0000648,P000607,Sister,Osteoporosis,M81.0,69,Living
+FH0000649,P000607,Paternal Grandmother,Cancer - Prostate,C61,45,Living
+FH0000650,P000608,Father,Alzheimer's disease,G30.9,68,Deceased
+FH0000651,P000608,Paternal Grandmother,Hypertension,I10,75,Living
+FH0000652,P000609,Maternal Grandfather,Hypertension,I10,41,Living
+FH0000653,P000610,Maternal Grandmother,Osteoporosis,M81.0,51,Deceased
+FH0000654,P000610,Paternal Grandfather,Stroke,I63.9,69,Deceased
+FH0000655,P000610,Father,Cancer - Breast,C50.919,41,Living
+FH0000656,P000611,Paternal Grandfather,Cancer - Colon,C18.9,56,Deceased
+FH0000657,P000611,Maternal Grandfather,Alzheimer's disease,G30.9,35,Living
+FH0000658,P000611,Father,Depression,F32.9,77,Living
+FH0000659,P000611,Paternal Grandmother,Heart disease,I25.10,55,Living
+FH0000660,P000614,Brother,Osteoporosis,M81.0,31,Deceased
+FH0000661,P000615,Mother,Cancer - Breast,C50.919,73,Living
+FH0000662,P000615,Paternal Grandmother,Cancer - Lung,C34.90,53,Living
+FH0000663,P000616,Maternal Grandmother,Diabetes,E11.9,52,Living
+FH0000664,P000617,Paternal Grandmother,Depression,F32.9,36,Living
+FH0000665,P000617,Mother,Osteoporosis,M81.0,51,Living
+FH0000666,P000617,Mother,Stroke,I63.9,58,Deceased
+FH0000667,P000617,Sister,Cancer - Breast,C50.919,46,Deceased
+FH0000668,P000618,Maternal Grandmother,Asthma,J45.909,70,Living
+FH0000669,P000618,Maternal Grandfather,Cancer - Prostate,C61,56,Living
+FH0000670,P000619,Maternal Grandfather,Cancer - Lung,C34.90,78,Living
+FH0000671,P000620,Maternal Grandmother,Stroke,I63.9,79,Living
+FH0000672,P000625,Mother,Cancer - Colon,C18.9,41,Living
+FH0000673,P000625,Brother,Cancer - Lung,C34.90,76,Living
+FH0000674,P000625,Sister,Alzheimer's disease,G30.9,73,Living
+FH0000675,P000625,Father,Osteoporosis,M81.0,65,Deceased
+FH0000676,P000626,Paternal Grandfather,Stroke,I63.9,41,Living
+FH0000677,P000626,Maternal Grandfather,Hypertension,I10,78,Deceased
+FH0000678,P000628,Uncle,Diabetes,E11.9,32,Living
+FH0000679,P000629,Aunt,Diabetes,E11.9,42,Living
+FH0000680,P000629,Maternal Grandfather,Heart disease,I25.10,76,Living
+FH0000681,P000630,Aunt,Diabetes,E11.9,46,Living
+FH0000682,P000630,Brother,Heart disease,I25.10,76,Deceased
+FH0000683,P000632,Paternal Grandfather,Cancer - Breast,C50.919,43,Deceased
+FH0000684,P000633,Sister,Cancer - Colon,C18.9,63,Living
+FH0000685,P000633,Aunt,Alzheimer's disease,G30.9,71,Deceased
+FH0000686,P000635,Maternal Grandfather,Cancer - Lung,C34.90,51,Living
+FH0000687,P000637,Uncle,Cancer - Colon,C18.9,30,Living
+FH0000688,P000637,Aunt,Asthma,J45.909,46,Living
+FH0000689,P000637,Father,Cancer - Prostate,C61,44,Deceased
+FH0000690,P000639,Maternal Grandmother,Asthma,J45.909,40,Living
+FH0000691,P000639,Father,Stroke,I63.9,73,Deceased
+FH0000692,P000639,Maternal Grandmother,Cancer - Lung,C34.90,76,Deceased
+FH0000693,P000640,Maternal Grandmother,Asthma,J45.909,43,Deceased
+FH0000694,P000641,Brother,Heart disease,I25.10,70,Living
+FH0000695,P000641,Paternal Grandmother,Cancer - Breast,C50.919,53,Deceased
+FH0000696,P000641,Maternal Grandfather,Asthma,J45.909,52,Deceased
+FH0000697,P000641,Mother,Alzheimer's disease,G30.9,38,Living
+FH0000698,P000643,Sister,Cancer - Prostate,C61,66,Living
+FH0000699,P000643,Maternal Grandfather,Osteoporosis,M81.0,56,Deceased
+FH0000700,P000644,Father,Cancer - Colon,C18.9,68,Living
+FH0000701,P000644,Aunt,Depression,F32.9,74,Deceased
+FH0000702,P000646,Paternal Grandmother,Asthma,J45.909,48,Deceased
+FH0000703,P000648,Brother,Cancer - Prostate,C61,61,Living
+FH0000704,P000650,Father,Hypertension,I10,62,Living
+FH0000705,P000650,Aunt,Alzheimer's disease,G30.9,72,Living
+FH0000706,P000650,Sister,Cancer - Breast,C50.919,56,Living
+FH0000707,P000651,Mother,Alzheimer's disease,G30.9,68,Living
+FH0000708,P000652,Maternal Grandmother,Cancer - Prostate,C61,48,Living
+FH0000709,P000652,Brother,Alzheimer's disease,G30.9,59,Living
+FH0000710,P000653,Paternal Grandmother,Asthma,J45.909,32,Deceased
+FH0000711,P000653,Sister,Depression,F32.9,53,Living
+FH0000712,P000653,Brother,Diabetes,E11.9,55,Living
+FH0000713,P000653,Maternal Grandmother,Osteoporosis,M81.0,57,Living
+FH0000714,P000656,Paternal Grandfather,Heart disease,I25.10,44,Living
+FH0000715,P000656,Maternal Grandfather,Stroke,I63.9,62,Living
+FH0000716,P000658,Uncle,Cancer - Breast,C50.919,50,Living
+FH0000717,P000658,Paternal Grandfather,Osteoporosis,M81.0,36,Living
+FH0000718,P000658,Aunt,Cancer - Colon,C18.9,39,Living
+FH0000719,P000660,Brother,Cancer - Colon,C18.9,55,Living
+FH0000720,P000661,Sister,Osteoporosis,M81.0,35,Living
+FH0000721,P000661,Uncle,Cancer - Lung,C34.90,65,Deceased
+FH0000722,P000662,Sister,Cancer - Colon,C18.9,61,Deceased
+FH0000723,P000662,Sister,Diabetes,E11.9,67,Deceased
+FH0000724,P000662,Maternal Grandfather,Osteoporosis,M81.0,62,Living
+FH0000725,P000663,Father,Depression,F32.9,48,Living
+FH0000726,P000664,Maternal Grandmother,Cancer - Breast,C50.919,69,Living
+FH0000727,P000664,Maternal Grandfather,Cancer - Lung,C34.90,35,Deceased
+FH0000728,P000665,Aunt,Asthma,J45.909,56,Living
+FH0000729,P000666,Aunt,Stroke,I63.9,58,Living
+FH0000730,P000666,Mother,Alzheimer's disease,G30.9,59,Living
+FH0000731,P000666,Father,Cancer - Prostate,C61,36,Living
+FH0000732,P000667,Sister,Asthma,J45.909,78,Living
+FH0000733,P000667,Father,Alzheimer's disease,G30.9,62,Deceased
+FH0000734,P000667,Brother,Hypertension,I10,73,Living
+FH0000735,P000668,Aunt,Depression,F32.9,73,Living
+FH0000736,P000670,Uncle,Diabetes,E11.9,78,Living
+FH0000737,P000670,Paternal Grandmother,Depression,F32.9,75,Deceased
+FH0000738,P000670,Uncle,Osteoporosis,M81.0,64,Living
+FH0000739,P000672,Paternal Grandmother,Stroke,I63.9,40,Living
+FH0000740,P000673,Paternal Grandmother,Stroke,I63.9,31,Living
+FH0000741,P000674,Aunt,Hypertension,I10,73,Living
+FH0000742,P000677,Mother,Cancer - Breast,C50.919,65,Living
+FH0000743,P000677,Maternal Grandfather,Asthma,J45.909,52,Living
+FH0000744,P000677,Paternal Grandmother,Stroke,I63.9,44,Deceased
+FH0000745,P000678,Paternal Grandmother,Heart disease,I25.10,55,Living
+FH0000746,P000678,Father,Osteoporosis,M81.0,39,Living
+FH0000747,P000678,Paternal Grandfather,Cancer - Colon,C18.9,46,Deceased
+FH0000748,P000678,Uncle,Hypertension,I10,66,Deceased
+FH0000749,P000680,Father,Cancer - Breast,C50.919,71,Living
+FH0000750,P000681,Sister,Cancer - Prostate,C61,58,Deceased
+FH0000751,P000682,Paternal Grandfather,Hypertension,I10,73,Living
+FH0000752,P000682,Mother,Depression,F32.9,43,Living
+FH0000753,P000685,Aunt,Asthma,J45.909,40,Living
+FH0000754,P000686,Brother,Cancer - Colon,C18.9,55,Deceased
+FH0000755,P000686,Father,Alzheimer's disease,G30.9,64,Deceased
+FH0000756,P000686,Sister,Asthma,J45.909,48,Deceased
+FH0000757,P000689,Uncle,Diabetes,E11.9,54,Living
+FH0000758,P000689,Uncle,Hypertension,I10,71,Living
+FH0000759,P000689,Brother,Cancer - Breast,C50.919,32,Deceased
+FH0000760,P000689,Maternal Grandmother,Cancer - Colon,C18.9,59,Living
+FH0000761,P000690,Maternal Grandfather,Osteoporosis,M81.0,54,Living
+FH0000762,P000691,Paternal Grandfather,Alzheimer's disease,G30.9,60,Living
+FH0000763,P000691,Sister,Osteoporosis,M81.0,40,Deceased
+FH0000764,P000691,Aunt,Stroke,I63.9,47,Living
+FH0000765,P000691,Paternal Grandfather,Heart disease,I25.10,49,Living
+FH0000766,P000694,Paternal Grandmother,Cancer - Prostate,C61,54,Living
+FH0000767,P000694,Paternal Grandmother,Diabetes,E11.9,62,Living
+FH0000768,P000696,Father,Cancer - Lung,C34.90,57,Deceased
+FH0000769,P000696,Aunt,Cancer - Prostate,C61,51,Living
+FH0000770,P000696,Sister,Heart disease,I25.10,59,Deceased
+FH0000771,P000697,Paternal Grandmother,Cancer - Breast,C50.919,69,Living
+FH0000772,P000697,Paternal Grandfather,Hypertension,I10,43,Living
+FH0000773,P000698,Uncle,Diabetes,E11.9,66,Living
+FH0000774,P000698,Sister,Depression,F32.9,76,Living
+FH0000775,P000702,Brother,Cancer - Lung,C34.90,71,Deceased
+FH0000776,P000703,Maternal Grandfather,Osteoporosis,M81.0,55,Living
+FH0000777,P000704,Brother,Asthma,J45.909,35,Living
+FH0000778,P000704,Aunt,Cancer - Breast,C50.919,57,Living
+FH0000779,P000706,Father,Cancer - Prostate,C61,74,Living
+FH0000780,P000707,Sister,Cancer - Colon,C18.9,50,Living
+FH0000781,P000707,Maternal Grandfather,Cancer - Lung,C34.90,74,Living
+FH0000782,P000709,Uncle,Alzheimer's disease,G30.9,39,Deceased
+FH0000783,P000709,Maternal Grandmother,Asthma,J45.909,41,Living
+FH0000784,P000709,Mother,Diabetes,E11.9,48,Deceased
+FH0000785,P000709,Maternal Grandmother,Cancer - Breast,C50.919,36,Living
+FH0000786,P000710,Maternal Grandmother,Depression,F32.9,31,Living
+FH0000787,P000710,Aunt,Alzheimer's disease,G30.9,58,Living
+FH0000788,P000712,Maternal Grandfather,Diabetes,E11.9,42,Living
+FH0000789,P000712,Brother,Hypertension,I10,74,Living
+FH0000790,P000714,Uncle,Stroke,I63.9,30,Living
+FH0000791,P000714,Uncle,Cancer - Lung,C34.90,38,Living
+FH0000792,P000716,Father,Heart disease,I25.10,44,Living
+FH0000793,P000717,Paternal Grandmother,Stroke,I63.9,75,Living
+FH0000794,P000718,Brother,Osteoporosis,M81.0,75,Living
+FH0000795,P000721,Aunt,Hypertension,I10,38,Living
+FH0000796,P000723,Aunt,Depression,F32.9,39,Deceased
+FH0000797,P000723,Aunt,Cancer - Breast,C50.919,44,Living
+FH0000798,P000724,Maternal Grandfather,Osteoporosis,M81.0,45,Living
+FH0000799,P000724,Maternal Grandfather,Asthma,J45.909,57,Deceased
+FH0000800,P000727,Mother,Diabetes,E11.9,48,Living
+FH0000801,P000727,Sister,Cancer - Colon,C18.9,34,Living
+FH0000802,P000730,Father,Osteoporosis,M81.0,62,Living
+FH0000803,P000730,Father,Cancer - Lung,C34.90,30,Living
+FH0000804,P000730,Uncle,Alzheimer's disease,G30.9,68,Living
+FH0000805,P000734,Father,Cancer - Breast,C50.919,77,Living
+FH0000806,P000736,Uncle,Cancer - Lung,C34.90,43,Living
+FH0000807,P000736,Maternal Grandmother,Asthma,J45.909,32,Living
+FH0000808,P000736,Mother,Alzheimer's disease,G30.9,73,Living
+FH0000809,P000740,Maternal Grandmother,Osteoporosis,M81.0,71,Deceased
+FH0000810,P000743,Father,Stroke,I63.9,69,Deceased
+FH0000811,P000743,Paternal Grandmother,Alzheimer's disease,G30.9,47,Living
+FH0000812,P000743,Aunt,Cancer - Breast,C50.919,64,Living
+FH0000813,P000743,Paternal Grandmother,Heart disease,I25.10,46,Living
+FH0000814,P000744,Uncle,Cancer - Colon,C18.9,78,Living
+FH0000815,P000746,Mother,Stroke,I63.9,39,Living
+FH0000816,P000746,Maternal Grandmother,Osteoporosis,M81.0,62,Deceased
+FH0000817,P000747,Paternal Grandfather,Diabetes,E11.9,58,Deceased
+FH0000818,P000748,Maternal Grandfather,Cancer - Colon,C18.9,77,Living
+FH0000819,P000751,Paternal Grandmother,Cancer - Colon,C18.9,39,Living
+FH0000820,P000751,Paternal Grandfather,Diabetes,E11.9,68,Deceased
+FH0000821,P000751,Maternal Grandfather,Heart disease,I25.10,36,Living
+FH0000822,P000751,Sister,Hypertension,I10,78,Living
+FH0000823,P000753,Sister,Alzheimer's disease,G30.9,73,Deceased
+FH0000824,P000753,Uncle,Stroke,I63.9,56,Living
+FH0000825,P000753,Brother,Asthma,J45.909,57,Living
+FH0000826,P000754,Maternal Grandmother,Cancer - Prostate,C61,76,Deceased
+FH0000827,P000755,Father,Stroke,I63.9,33,Deceased
+FH0000828,P000755,Paternal Grandmother,Cancer - Lung,C34.90,34,Living
+FH0000829,P000755,Mother,Alzheimer's disease,G30.9,63,Deceased
+FH0000830,P000756,Mother,Asthma,J45.909,54,Living
+FH0000831,P000756,Father,Hypertension,I10,60,Living
+FH0000832,P000756,Maternal Grandmother,Cancer - Breast,C50.919,50,Deceased
+FH0000833,P000757,Aunt,Alzheimer's disease,G30.9,31,Deceased
+FH0000834,P000758,Sister,Heart disease,I25.10,66,Living
+FH0000835,P000758,Mother,Cancer - Lung,C34.90,62,Living
+FH0000836,P000758,Uncle,Cancer - Colon,C18.9,77,Living
+FH0000837,P000760,Paternal Grandmother,Cancer - Colon,C18.9,60,Living
+FH0000838,P000760,Mother,Hypertension,I10,63,Deceased
+FH0000839,P000760,Aunt,Heart disease,I25.10,64,Deceased
+FH0000840,P000761,Maternal Grandmother,Cancer - Breast,C50.919,40,Deceased
+FH0000841,P000762,Maternal Grandfather,Diabetes,E11.9,44,Deceased
+FH0000842,P000763,Father,Hypertension,I10,33,Living
+FH0000843,P000763,Brother,Asthma,J45.909,30,Living
+FH0000844,P000764,Maternal Grandmother,Alzheimer's disease,G30.9,42,Living
+FH0000845,P000766,Father,Cancer - Colon,C18.9,77,Deceased
+FH0000846,P000768,Aunt,Alzheimer's disease,G30.9,42,Living
+FH0000847,P000771,Maternal Grandfather,Cancer - Colon,C18.9,51,Deceased
+FH0000848,P000772,Aunt,Depression,F32.9,66,Living
+FH0000849,P000772,Paternal Grandmother,Diabetes,E11.9,52,Deceased
+FH0000850,P000773,Paternal Grandmother,Cancer - Prostate,C61,76,Living
+FH0000851,P000775,Aunt,Cancer - Breast,C50.919,79,Living
+FH0000852,P000775,Father,Heart disease,I25.10,53,Deceased
+FH0000853,P000775,Paternal Grandfather,Cancer - Lung,C34.90,45,Living
+FH0000854,P000777,Mother,Cancer - Lung,C34.90,76,Deceased
+FH0000855,P000777,Uncle,Alzheimer's disease,G30.9,47,Living
+FH0000856,P000782,Father,Cancer - Breast,C50.919,41,Deceased
+FH0000857,P000786,Aunt,Cancer - Lung,C34.90,51,Deceased
+FH0000858,P000786,Mother,Osteoporosis,M81.0,40,Deceased
+FH0000859,P000786,Mother,Cancer - Prostate,C61,70,Living
+FH0000860,P000787,Uncle,Cancer - Colon,C18.9,74,Living
+FH0000861,P000787,Uncle,Stroke,I63.9,53,Living
+FH0000862,P000791,Paternal Grandfather,Cancer - Breast,C50.919,68,Living
+FH0000863,P000792,Paternal Grandmother,Heart disease,I25.10,32,Deceased
+FH0000864,P000792,Uncle,Diabetes,E11.9,62,Deceased
+FH0000865,P000793,Father,Stroke,I63.9,73,Deceased
+FH0000866,P000795,Maternal Grandfather,Osteoporosis,M81.0,79,Living
+FH0000867,P000798,Maternal Grandfather,Depression,F32.9,41,Living
+FH0000868,P000798,Paternal Grandfather,Cancer - Prostate,C61,44,Deceased
+FH0000869,P000799,Maternal Grandfather,Stroke,I63.9,36,Living
+FH0000870,P000799,Paternal Grandfather,Cancer - Lung,C34.90,38,Deceased
+FH0000871,P000801,Maternal Grandmother,Hypertension,I10,46,Deceased
+FH0000872,P000804,Maternal Grandfather,Depression,F32.9,61,Deceased
+FH0000873,P000805,Paternal Grandfather,Alzheimer's disease,G30.9,32,Living
+FH0000874,P000805,Maternal Grandmother,Cancer - Breast,C50.919,39,Living
+FH0000875,P000807,Brother,Alzheimer's disease,G30.9,75,Living
+FH0000876,P000807,Paternal Grandmother,Depression,F32.9,38,Deceased
+FH0000877,P000807,Paternal Grandfather,Stroke,I63.9,35,Living
+FH0000878,P000807,Mother,Cancer - Lung,C34.90,75,Deceased
+FH0000879,P000809,Uncle,Cancer - Colon,C18.9,38,Deceased
+FH0000880,P000811,Paternal Grandmother,Cancer - Breast,C50.919,48,Living
+FH0000881,P000814,Uncle,Depression,F32.9,72,Deceased
+FH0000882,P000814,Maternal Grandmother,Cancer - Breast,C50.919,30,Living
+FH0000883,P000819,Mother,Cancer - Lung,C34.90,48,Living
+FH0000884,P000819,Uncle,Cancer - Breast,C50.919,47,Living
+FH0000885,P000819,Paternal Grandfather,Asthma,J45.909,66,Living
+FH0000886,P000820,Aunt,Cancer - Prostate,C61,60,Living
+FH0000887,P000821,Paternal Grandmother,Cancer - Breast,C50.919,70,Deceased
+FH0000888,P000821,Maternal Grandmother,Diabetes,E11.9,68,Living
+FH0000889,P000823,Mother,Asthma,J45.909,44,Living
+FH0000890,P000824,Paternal Grandfather,Heart disease,I25.10,53,Deceased
+FH0000891,P000824,Brother,Stroke,I63.9,64,Deceased
+FH0000892,P000825,Paternal Grandmother,Cancer - Breast,C50.919,77,Deceased
+FH0000893,P000825,Paternal Grandmother,Cancer - Colon,C18.9,44,Deceased
+FH0000894,P000825,Paternal Grandfather,Alzheimer's disease,G30.9,43,Living
+FH0000895,P000826,Mother,Stroke,I63.9,80,Living
+FH0000896,P000826,Maternal Grandfather,Cancer - Lung,C34.90,65,Living
+FH0000897,P000826,Aunt,Asthma,J45.909,65,Living
+FH0000898,P000827,Father,Stroke,I63.9,67,Deceased
+FH0000899,P000829,Brother,Stroke,I63.9,37,Living
+FH0000900,P000829,Maternal Grandfather,Cancer - Breast,C50.919,52,Living
+FH0000901,P000829,Maternal Grandmother,Hypertension,I10,64,Living
+FH0000902,P000832,Maternal Grandmother,Osteoporosis,M81.0,33,Living
+FH0000903,P000832,Maternal Grandmother,Alzheimer's disease,G30.9,42,Living
+FH0000904,P000832,Maternal Grandmother,Stroke,I63.9,78,Living
+FH0000905,P000833,Brother,Cancer - Breast,C50.919,74,Living
+FH0000906,P000833,Maternal Grandmother,Hypertension,I10,54,Living
+FH0000907,P000834,Aunt,Cancer - Colon,C18.9,33,Living
+FH0000908,P000834,Maternal Grandfather,Cancer - Lung,C34.90,37,Living
+FH0000909,P000835,Aunt,Cancer - Colon,C18.9,76,Living
+FH0000910,P000836,Maternal Grandfather,Diabetes,E11.9,72,Living
+FH0000911,P000836,Maternal Grandmother,Cancer - Colon,C18.9,60,Living
+FH0000912,P000840,Brother,Asthma,J45.909,35,Living
+FH0000913,P000840,Father,Cancer - Colon,C18.9,76,Living
+FH0000914,P000842,Father,Hypertension,I10,76,Living
+FH0000915,P000843,Paternal Grandmother,Cancer - Lung,C34.90,58,Living
+FH0000916,P000845,Paternal Grandfather,Cancer - Lung,C34.90,52,Deceased
+FH0000917,P000847,Father,Alzheimer's disease,G30.9,46,Living
+FH0000918,P000849,Brother,Asthma,J45.909,46,Living
+FH0000919,P000849,Maternal Grandmother,Diabetes,E11.9,78,Deceased
+FH0000920,P000849,Maternal Grandfather,Alzheimer's disease,G30.9,69,Deceased
+FH0000921,P000849,Sister,Heart disease,I25.10,53,Living
+FH0000922,P000853,Brother,Hypertension,I10,47,Living
+FH0000923,P000854,Uncle,Cancer - Lung,C34.90,71,Deceased
+FH0000924,P000855,Sister,Stroke,I63.9,42,Deceased
+FH0000925,P000856,Paternal Grandmother,Cancer - Breast,C50.919,79,Living
+FH0000926,P000856,Maternal Grandfather,Cancer - Prostate,C61,61,Living
+FH0000927,P000857,Brother,Heart disease,I25.10,33,Living
+FH0000928,P000858,Maternal Grandmother,Alzheimer's disease,G30.9,79,Deceased
+FH0000929,P000858,Aunt,Cancer - Breast,C50.919,55,Living
+FH0000930,P000858,Maternal Grandfather,Heart disease,I25.10,34,Living
+FH0000931,P000858,Sister,Cancer - Colon,C18.9,52,Deceased
+FH0000932,P000860,Uncle,Asthma,J45.909,42,Living
+FH0000933,P000860,Brother,Cancer - Colon,C18.9,44,Living
+FH0000934,P000861,Paternal Grandmother,Alzheimer's disease,G30.9,32,Living
+FH0000935,P000861,Aunt,Cancer - Breast,C50.919,67,Living
+FH0000936,P000862,Uncle,Cancer - Breast,C50.919,43,Living
+FH0000937,P000866,Maternal Grandfather,Depression,F32.9,69,Deceased
+FH0000938,P000866,Paternal Grandfather,Cancer - Breast,C50.919,54,Living
+FH0000939,P000866,Father,Cancer - Lung,C34.90,77,Living
+FH0000940,P000867,Father,Hypertension,I10,63,Living
+FH0000941,P000867,Maternal Grandmother,Cancer - Prostate,C61,56,Deceased
+FH0000942,P000867,Mother,Stroke,I63.9,35,Living
+FH0000943,P000868,Brother,Cancer - Prostate,C61,44,Living
+FH0000944,P000869,Brother,Asthma,J45.909,52,Living
+FH0000945,P000869,Father,Stroke,I63.9,49,Living
+FH0000946,P000870,Paternal Grandfather,Cancer - Colon,C18.9,44,Deceased
+FH0000947,P000872,Father,Depression,F32.9,74,Living
+FH0000948,P000872,Brother,Stroke,I63.9,55,Living
+FH0000949,P000872,Paternal Grandmother,Osteoporosis,M81.0,45,Living
+FH0000950,P000874,Brother,Heart disease,I25.10,67,Living
+FH0000951,P000874,Maternal Grandmother,Osteoporosis,M81.0,43,Deceased
+FH0000952,P000877,Maternal Grandfather,Stroke,I63.9,72,Living
+FH0000953,P000877,Sister,Alzheimer's disease,G30.9,44,Living
+FH0000954,P000877,Father,Osteoporosis,M81.0,36,Living
+FH0000955,P000878,Sister,Diabetes,E11.9,71,Deceased
+FH0000956,P000878,Uncle,Cancer - Prostate,C61,63,Living
+FH0000957,P000878,Maternal Grandfather,Hypertension,I10,51,Deceased
+FH0000958,P000879,Uncle,Asthma,J45.909,59,Living
+FH0000959,P000880,Mother,Alzheimer's disease,G30.9,69,Living
+FH0000960,P000880,Uncle,Cancer - Lung,C34.90,73,Living
+FH0000961,P000880,Uncle,Heart disease,I25.10,40,Living
+FH0000962,P000882,Maternal Grandmother,Asthma,J45.909,76,Deceased
+FH0000963,P000882,Uncle,Diabetes,E11.9,32,Living
+FH0000964,P000882,Uncle,Cancer - Prostate,C61,38,Living
+FH0000965,P000882,Aunt,Depression,F32.9,54,Living
+FH0000966,P000884,Maternal Grandfather,Stroke,I63.9,69,Living
+FH0000967,P000884,Maternal Grandfather,Cancer - Prostate,C61,53,Living
+FH0000968,P000885,Paternal Grandfather,Stroke,I63.9,53,Living
+FH0000969,P000886,Aunt,Diabetes,E11.9,44,Deceased
+FH0000970,P000886,Uncle,Cancer - Breast,C50.919,33,Living
+FH0000971,P000887,Mother,Alzheimer's disease,G30.9,71,Living
+FH0000972,P000887,Mother,Asthma,J45.909,61,Living
+FH0000973,P000887,Uncle,Hypertension,I10,72,Living
+FH0000974,P000890,Father,Cancer - Lung,C34.90,56,Living
+FH0000975,P000890,Mother,Cancer - Prostate,C61,40,Living
+FH0000976,P000891,Maternal Grandmother,Alzheimer's disease,G30.9,41,Deceased
+FH0000977,P000891,Paternal Grandmother,Heart disease,I25.10,54,Living
+FH0000978,P000891,Sister,Hypertension,I10,50,Living
+FH0000979,P000893,Sister,Cancer - Prostate,C61,52,Deceased
+FH0000980,P000893,Mother,Hypertension,I10,49,Deceased
+FH0000981,P000894,Maternal Grandmother,Cancer - Breast,C50.919,42,Deceased
+FH0000982,P000894,Aunt,Depression,F32.9,46,Living
+FH0000983,P000895,Uncle,Cancer - Prostate,C61,34,Living
+FH0000984,P000897,Paternal Grandmother,Stroke,I63.9,40,Living
+FH0000985,P000899,Paternal Grandfather,Heart disease,I25.10,49,Living
+FH0000986,P000899,Mother,Asthma,J45.909,78,Living
+FH0000987,P000899,Sister,Stroke,I63.9,47,Deceased
+FH0000988,P000899,Sister,Osteoporosis,M81.0,74,Living
+FH0000989,P000900,Father,Stroke,I63.9,62,Living
+FH0000990,P000900,Father,Depression,F32.9,74,Living
+FH0000991,P000900,Aunt,Cancer - Colon,C18.9,32,Living
+FH0000992,P000900,Father,Osteoporosis,M81.0,76,Deceased
+FH0000993,P000901,Uncle,Stroke,I63.9,60,Living
+FH0000994,P000902,Maternal Grandmother,Heart disease,I25.10,30,Living
+FH0000995,P000902,Maternal Grandfather,Hypertension,I10,74,Deceased
+FH0000996,P000903,Maternal Grandmother,Alzheimer's disease,G30.9,38,Living
+FH0000997,P000904,Paternal Grandmother,Depression,F32.9,36,Living
+FH0000998,P000905,Sister,Osteoporosis,M81.0,41,Living
+FH0000999,P000906,Paternal Grandfather,Heart disease,I25.10,46,Deceased
+FH0001000,P000906,Mother,Hypertension,I10,66,Living
+FH0001001,P000907,Paternal Grandfather,Cancer - Prostate,C61,46,Living
+FH0001002,P000908,Sister,Stroke,I63.9,50,Living
+FH0001003,P000910,Paternal Grandfather,Depression,F32.9,31,Deceased
+FH0001004,P000912,Brother,Depression,F32.9,53,Deceased
+FH0001005,P000913,Maternal Grandfather,Osteoporosis,M81.0,75,Deceased
+FH0001006,P000914,Sister,Heart disease,I25.10,36,Living
+FH0001007,P000916,Paternal Grandmother,Alzheimer's disease,G30.9,58,Living
+FH0001008,P000916,Uncle,Depression,F32.9,31,Living
+FH0001009,P000916,Uncle,Asthma,J45.909,76,Deceased
+FH0001010,P000917,Father,Cancer - Breast,C50.919,33,Living
+FH0001011,P000917,Uncle,Stroke,I63.9,33,Living
+FH0001012,P000919,Uncle,Cancer - Prostate,C61,33,Deceased
+FH0001013,P000919,Sister,Alzheimer's disease,G30.9,75,Living
+FH0001014,P000920,Maternal Grandfather,Alzheimer's disease,G30.9,68,Living
+FH0001015,P000920,Brother,Heart disease,I25.10,80,Deceased
+FH0001016,P000922,Aunt,Asthma,J45.909,77,Living
+FH0001017,P000923,Paternal Grandfather,Osteoporosis,M81.0,43,Deceased
+FH0001018,P000923,Paternal Grandmother,Depression,F32.9,41,Deceased
+FH0001019,P000924,Uncle,Heart disease,I25.10,77,Deceased
+FH0001020,P000924,Brother,Cancer - Breast,C50.919,42,Living
+FH0001021,P000925,Maternal Grandfather,Cancer - Colon,C18.9,40,Deceased
+FH0001022,P000925,Sister,Diabetes,E11.9,76,Deceased
+FH0001023,P000925,Uncle,Osteoporosis,M81.0,49,Living
+FH0001024,P000926,Maternal Grandmother,Cancer - Colon,C18.9,43,Deceased
+FH0001025,P000928,Aunt,Asthma,J45.909,54,Living
+FH0001026,P000928,Maternal Grandfather,Alzheimer's disease,G30.9,44,Living
+FH0001027,P000928,Brother,Cancer - Prostate,C61,63,Living
+FH0001028,P000928,Maternal Grandfather,Cancer - Lung,C34.90,49,Deceased
+FH0001029,P000930,Paternal Grandmother,Asthma,J45.909,55,Living
+FH0001030,P000932,Father,Cancer - Lung,C34.90,75,Living
+FH0001031,P000933,Father,Diabetes,E11.9,41,Living
+FH0001032,P000933,Maternal Grandmother,Stroke,I63.9,37,Deceased
+FH0001033,P000933,Brother,Cancer - Breast,C50.919,66,Deceased
+FH0001034,P000934,Father,Osteoporosis,M81.0,59,Living
+FH0001035,P000934,Maternal Grandfather,Cancer - Prostate,C61,50,Living
+FH0001036,P000935,Sister,Cancer - Lung,C34.90,63,Deceased
+FH0001037,P000936,Paternal Grandmother,Stroke,I63.9,33,Living
+FH0001038,P000936,Brother,Cancer - Breast,C50.919,51,Living
+FH0001039,P000937,Father,Cancer - Prostate,C61,80,Deceased
+FH0001040,P000937,Mother,Cancer - Breast,C50.919,65,Deceased
+FH0001041,P000937,Uncle,Heart disease,I25.10,38,Living
+FH0001042,P000938,Maternal Grandmother,Hypertension,I10,34,Deceased
+FH0001043,P000939,Paternal Grandfather,Cancer - Colon,C18.9,80,Deceased
+FH0001044,P000939,Maternal Grandfather,Asthma,J45.909,71,Deceased
+FH0001045,P000940,Uncle,Hypertension,I10,49,Living
+FH0001046,P000941,Paternal Grandfather,Cancer - Breast,C50.919,37,Living
+FH0001047,P000941,Paternal Grandfather,Cancer - Colon,C18.9,37,Living
+FH0001048,P000944,Sister,Alzheimer's disease,G30.9,61,Living
+FH0001049,P000945,Maternal Grandmother,Heart disease,I25.10,60,Living
+FH0001050,P000946,Brother,Cancer - Colon,C18.9,56,Deceased
+FH0001051,P000946,Paternal Grandfather,Alzheimer's disease,G30.9,76,Living
+FH0001052,P000948,Uncle,Heart disease,I25.10,52,Deceased
+FH0001053,P000948,Maternal Grandmother,Cancer - Prostate,C61,37,Living
+FH0001054,P000950,Sister,Diabetes,E11.9,37,Living
+FH0001055,P000952,Brother,Cancer - Lung,C34.90,78,Living
+FH0001056,P000952,Paternal Grandmother,Depression,F32.9,34,Living
+FH0001057,P000954,Aunt,Alzheimer's disease,G30.9,34,Living
+FH0001058,P000955,Paternal Grandfather,Asthma,J45.909,70,Living
+FH0001059,P000956,Paternal Grandmother,Osteoporosis,M81.0,52,Living
+FH0001060,P000956,Aunt,Cancer - Lung,C34.90,50,Living
+FH0001061,P000957,Sister,Depression,F32.9,66,Living
+FH0001062,P000957,Maternal Grandfather,Alzheimer's disease,G30.9,67,Deceased
+FH0001063,P000957,Brother,Heart disease,I25.10,62,Living
+FH0001064,P000959,Aunt,Asthma,J45.909,49,Deceased
+FH0001065,P000961,Uncle,Cancer - Prostate,C61,78,Deceased
+FH0001066,P000962,Mother,Cancer - Colon,C18.9,52,Deceased
+FH0001067,P000963,Maternal Grandmother,Alzheimer's disease,G30.9,30,Deceased
+FH0001068,P000963,Brother,Depression,F32.9,59,Living
+FH0001069,P000963,Mother,Asthma,J45.909,64,Deceased
+FH0001070,P000963,Aunt,Heart disease,I25.10,35,Living
+FH0001071,P000964,Brother,Cancer - Breast,C50.919,58,Living
+FH0001072,P000964,Maternal Grandmother,Osteoporosis,M81.0,66,Living
+FH0001073,P000964,Maternal Grandmother,Asthma,J45.909,52,Living
+FH0001074,P000964,Paternal Grandmother,Cancer - Prostate,C61,36,Deceased
+FH0001075,P000965,Maternal Grandfather,Stroke,I63.9,39,Living
+FH0001076,P000965,Maternal Grandfather,Depression,F32.9,38,Deceased
+FH0001077,P000965,Aunt,Diabetes,E11.9,78,Living
+FH0001078,P000970,Brother,Hypertension,I10,47,Living
+FH0001079,P000971,Paternal Grandfather,Diabetes,E11.9,49,Deceased
+FH0001080,P000971,Paternal Grandmother,Osteoporosis,M81.0,71,Deceased
+FH0001081,P000973,Mother,Cancer - Prostate,C61,73,Deceased
+FH0001082,P000973,Sister,Diabetes,E11.9,64,Living
+FH0001083,P000974,Brother,Stroke,I63.9,73,Living
+FH0001084,P000976,Father,Asthma,J45.909,75,Living
+FH0001085,P000976,Sister,Osteoporosis,M81.0,30,Living
+FH0001086,P000976,Brother,Cancer - Lung,C34.90,41,Living
+FH0001087,P000977,Mother,Asthma,J45.909,48,Living
+FH0001088,P000977,Mother,Cancer - Colon,C18.9,36,Living
+FH0001089,P000978,Maternal Grandfather,Cancer - Prostate,C61,71,Deceased
+FH0001090,P000979,Paternal Grandfather,Cancer - Lung,C34.90,32,Living
+FH0001091,P000981,Aunt,Hypertension,I10,57,Living
+FH0001092,P000982,Paternal Grandmother,Cancer - Lung,C34.90,55,Deceased
+FH0001093,P000982,Aunt,Cancer - Prostate,C61,79,Deceased
+FH0001094,P000983,Mother,Hypertension,I10,66,Living
+FH0001095,P000985,Uncle,Cancer - Breast,C50.919,72,Living
+FH0001096,P000985,Aunt,Diabetes,E11.9,60,Deceased
+FH0001097,P000985,Mother,Depression,F32.9,34,Deceased
+FH0001098,P000986,Brother,Stroke,I63.9,74,Deceased
+FH0001099,P000986,Uncle,Heart disease,I25.10,38,Living
+FH0001100,P000986,Sister,Hypertension,I10,59,Living
+FH0001101,P000987,Sister,Osteoporosis,M81.0,47,Living
+FH0001102,P000989,Maternal Grandmother,Hypertension,I10,79,Living
+FH0001103,P000989,Maternal Grandfather,Cancer - Breast,C50.919,69,Living
+FH0001104,P000990,Brother,Osteoporosis,M81.0,43,Deceased
+FH0001105,P000990,Maternal Grandfather,Cancer - Colon,C18.9,61,Living
+FH0001106,P000990,Uncle,Stroke,I63.9,75,Deceased
+FH0001107,P000993,Sister,Heart disease,I25.10,34,Living
+FH0001108,P000996,Maternal Grandmother,Depression,F32.9,58,Living
+FH0001109,P000997,Paternal Grandfather,Osteoporosis,M81.0,72,Living
+FH0001110,P000997,Sister,Cancer - Prostate,C61,35,Deceased
+FH0001111,P000997,Sister,Depression,F32.9,77,Living
+FH0001112,P000998,Paternal Grandfather,Asthma,J45.909,65,Deceased
+FH0001113,P000998,Maternal Grandmother,Alzheimer's disease,G30.9,50,Deceased
+FH0001114,P000998,Maternal Grandmother,Diabetes,E11.9,35,Living
+FH0001115,P000998,Paternal Grandmother,Hypertension,I10,60,Living
+FH0001116,P000999,Maternal Grandmother,Cancer - Colon,C18.9,47,Living
+FH0001117,P001000,Maternal Grandmother,Cancer - Lung,C34.90,57,Living
+FH0001118,P001000,Sister,Cancer - Prostate,C61,33,Living
+FH0001119,P001001,Mother,Osteoporosis,M81.0,58,Living
+FH0001120,P001002,Mother,Cancer - Prostate,C61,52,Deceased
+FH0001121,P001003,Maternal Grandfather,Depression,F32.9,59,Living
+FH0001122,P001003,Sister,Stroke,I63.9,54,Deceased
+FH0001123,P001003,Uncle,Alzheimer's disease,G30.9,80,Living
+FH0001124,P001004,Maternal Grandmother,Hypertension,I10,46,Living
+FH0001125,P001004,Aunt,Cancer - Colon,C18.9,49,Deceased
+FH0001126,P001005,Father,Asthma,J45.909,38,Deceased
+FH0001127,P001005,Aunt,Stroke,I63.9,39,Living
+FH0001128,P001005,Father,Cancer - Prostate,C61,40,Living
+FH0001129,P001009,Aunt,Depression,F32.9,34,Living
+FH0001130,P001009,Mother,Cancer - Colon,C18.9,56,Deceased
+FH0001131,P001010,Mother,Cancer - Lung,C34.90,48,Deceased
+FH0001132,P001010,Aunt,Cancer - Prostate,C61,57,Living
+FH0001133,P001010,Maternal Grandfather,Diabetes,E11.9,39,Living
+FH0001134,P001011,Aunt,Cancer - Colon,C18.9,34,Living
+FH0001135,P001013,Paternal Grandfather,Cancer - Prostate,C61,55,Living
+FH0001136,P001017,Maternal Grandmother,Cancer - Lung,C34.90,31,Living
+FH0001137,P001017,Father,Diabetes,E11.9,52,Deceased
+FH0001138,P001018,Paternal Grandmother,Alzheimer's disease,G30.9,59,Deceased
+FH0001139,P001018,Mother,Cancer - Prostate,C61,37,Living
+FH0001140,P001019,Sister,Heart disease,I25.10,38,Living
+FH0001141,P001019,Mother,Hypertension,I10,55,Living
+FH0001142,P001019,Maternal Grandfather,Cancer - Breast,C50.919,73,Living
+FH0001143,P001019,Maternal Grandfather,Depression,F32.9,60,Living
+FH0001144,P001020,Maternal Grandfather,Hypertension,I10,50,Living
+FH0001145,P001021,Uncle,Diabetes,E11.9,31,Living
+FH0001146,P001021,Aunt,Hypertension,I10,66,Deceased
+FH0001147,P001022,Maternal Grandmother,Depression,F32.9,48,Deceased
+FH0001148,P001022,Mother,Cancer - Lung,C34.90,51,Deceased
+FH0001149,P001023,Sister,Diabetes,E11.9,78,Living
+FH0001150,P001023,Paternal Grandfather,Heart disease,I25.10,65,Living
+FH0001151,P001023,Uncle,Cancer - Prostate,C61,50,Living
+FH0001152,P001025,Father,Asthma,J45.909,51,Deceased
+FH0001153,P001025,Aunt,Alzheimer's disease,G30.9,45,Living
+FH0001154,P001028,Aunt,Cancer - Prostate,C61,77,Living
+FH0001155,P001031,Aunt,Asthma,J45.909,35,Living
+FH0001156,P001031,Aunt,Hypertension,I10,68,Living
+FH0001157,P001032,Father,Asthma,J45.909,75,Living
+FH0001158,P001032,Father,Depression,F32.9,78,Deceased
+FH0001159,P001036,Father,Cancer - Prostate,C61,77,Deceased
+FH0001160,P001037,Sister,Cancer - Breast,C50.919,78,Living
+FH0001161,P001037,Paternal Grandmother,Cancer - Prostate,C61,48,Living
+FH0001162,P001038,Maternal Grandfather,Cancer - Breast,C50.919,48,Living
+FH0001163,P001038,Sister,Heart disease,I25.10,59,Living
+FH0001164,P001042,Sister,Diabetes,E11.9,65,Living
+FH0001165,P001042,Sister,Osteoporosis,M81.0,30,Living
+FH0001166,P001042,Sister,Cancer - Lung,C34.90,49,Deceased
+FH0001167,P001042,Paternal Grandfather,Depression,F32.9,58,Living
+FH0001168,P001044,Aunt,Osteoporosis,M81.0,40,Deceased
+FH0001169,P001044,Uncle,Diabetes,E11.9,54,Deceased
+FH0001170,P001044,Paternal Grandmother,Stroke,I63.9,77,Living
+FH0001171,P001045,Maternal Grandmother,Alzheimer's disease,G30.9,59,Living
+FH0001172,P001045,Maternal Grandmother,Heart disease,I25.10,61,Living
+FH0001173,P001046,Uncle,Depression,F32.9,80,Deceased
+FH0001174,P001046,Paternal Grandmother,Cancer - Prostate,C61,55,Deceased
+FH0001175,P001049,Sister,Cancer - Lung,C34.90,50,Living
+FH0001176,P001051,Sister,Alzheimer's disease,G30.9,65,Living
+FH0001177,P001052,Mother,Alzheimer's disease,G30.9,72,Living
+FH0001178,P001053,Paternal Grandfather,Cancer - Colon,C18.9,59,Deceased
+FH0001179,P001054,Brother,Osteoporosis,M81.0,42,Living
+FH0001180,P001055,Uncle,Osteoporosis,M81.0,68,Deceased
+FH0001181,P001055,Maternal Grandmother,Stroke,I63.9,63,Living
+FH0001182,P001057,Maternal Grandfather,Hypertension,I10,40,Deceased
+FH0001183,P001057,Sister,Asthma,J45.909,43,Living
+FH0001184,P001058,Uncle,Depression,F32.9,61,Living
+FH0001185,P001058,Uncle,Cancer - Colon,C18.9,58,Living
+FH0001186,P001059,Sister,Cancer - Lung,C34.90,48,Deceased
+FH0001187,P001059,Brother,Depression,F32.9,36,Living
+FH0001188,P001062,Father,Cancer - Colon,C18.9,70,Living
+FH0001189,P001062,Uncle,Heart disease,I25.10,58,Deceased
+FH0001190,P001062,Paternal Grandfather,Depression,F32.9,37,Living
+FH0001191,P001062,Brother,Cancer - Prostate,C61,50,Living
+FH0001192,P001063,Mother,Cancer - Colon,C18.9,39,Living
+FH0001193,P001063,Uncle,Heart disease,I25.10,36,Deceased
+FH0001194,P001063,Maternal Grandmother,Cancer - Prostate,C61,57,Living
+FH0001195,P001065,Maternal Grandfather,Stroke,I63.9,43,Living
+FH0001196,P001065,Maternal Grandmother,Alzheimer's disease,G30.9,54,Deceased
+FH0001197,P001067,Paternal Grandmother,Alzheimer's disease,G30.9,42,Living
+FH0001198,P001067,Aunt,Hypertension,I10,34,Deceased
+FH0001199,P001069,Brother,Osteoporosis,M81.0,40,Living
+FH0001200,P001069,Father,Depression,F32.9,53,Deceased
+FH0001201,P001070,Mother,Osteoporosis,M81.0,34,Living
+FH0001202,P001070,Aunt,Stroke,I63.9,43,Deceased
+FH0001203,P001073,Sister,Diabetes,E11.9,47,Living
+FH0001204,P001074,Mother,Heart disease,I25.10,57,Living
+FH0001205,P001076,Maternal Grandfather,Cancer - Lung,C34.90,33,Living
+FH0001206,P001077,Sister,Asthma,J45.909,64,Deceased
+FH0001207,P001077,Paternal Grandfather,Alzheimer's disease,G30.9,69,Living
+FH0001208,P001078,Mother,Osteoporosis,M81.0,31,Deceased
+FH0001209,P001080,Brother,Stroke,I63.9,49,Living
+FH0001210,P001080,Paternal Grandmother,Asthma,J45.909,47,Living
+FH0001211,P001081,Paternal Grandmother,Heart disease,I25.10,39,Living
+FH0001212,P001081,Sister,Cancer - Breast,C50.919,76,Deceased
+FH0001213,P001082,Paternal Grandmother,Diabetes,E11.9,76,Living
+FH0001214,P001082,Aunt,Stroke,I63.9,60,Living
+FH0001215,P001082,Mother,Heart disease,I25.10,72,Deceased
+FH0001216,P001084,Father,Depression,F32.9,35,Deceased
+FH0001217,P001084,Brother,Cancer - Prostate,C61,36,Living
+FH0001218,P001084,Mother,Hypertension,I10,46,Living
+FH0001219,P001085,Paternal Grandfather,Cancer - Prostate,C61,68,Living
+FH0001220,P001086,Sister,Asthma,J45.909,72,Living
+FH0001221,P001086,Aunt,Diabetes,E11.9,73,Living
+FH0001222,P001087,Maternal Grandmother,Osteoporosis,M81.0,32,Living
+FH0001223,P001087,Father,Hypertension,I10,73,Living
+FH0001224,P001087,Father,Asthma,J45.909,45,Deceased
+FH0001225,P001089,Uncle,Cancer - Prostate,C61,46,Living
+FH0001226,P001089,Maternal Grandfather,Cancer - Breast,C50.919,48,Living
+FH0001227,P001089,Father,Depression,F32.9,74,Living
+FH0001228,P001090,Paternal Grandmother,Alzheimer's disease,G30.9,74,Living
+FH0001229,P001090,Mother,Hypertension,I10,77,Living
+FH0001230,P001092,Paternal Grandmother,Cancer - Colon,C18.9,37,Deceased
+FH0001231,P001093,Sister,Cancer - Prostate,C61,35,Deceased
+FH0001232,P001095,Uncle,Cancer - Breast,C50.919,41,Living
+FH0001233,P001096,Father,Depression,F32.9,32,Deceased
+FH0001234,P001096,Maternal Grandmother,Stroke,I63.9,36,Living
+FH0001235,P001096,Aunt,Cancer - Prostate,C61,75,Living
+FH0001236,P001097,Brother,Asthma,J45.909,73,Living
+FH0001237,P001103,Paternal Grandmother,Heart disease,I25.10,51,Living
+FH0001238,P001103,Father,Depression,F32.9,55,Deceased
+FH0001239,P001103,Brother,Osteoporosis,M81.0,41,Living
+FH0001240,P001104,Mother,Heart disease,I25.10,35,Deceased
+FH0001241,P001104,Paternal Grandfather,Cancer - Colon,C18.9,67,Living
+FH0001242,P001104,Paternal Grandfather,Hypertension,I10,40,Living
+FH0001243,P001105,Sister,Stroke,I63.9,61,Deceased
+FH0001244,P001105,Maternal Grandmother,Cancer - Prostate,C61,47,Living
+FH0001245,P001105,Aunt,Cancer - Lung,C34.90,54,Deceased
+FH0001246,P001109,Uncle,Diabetes,E11.9,52,Deceased
+FH0001247,P001110,Maternal Grandmother,Osteoporosis,M81.0,41,Living
+FH0001248,P001110,Maternal Grandmother,Hypertension,I10,74,Deceased
+FH0001249,P001111,Father,Heart disease,I25.10,52,Living
+FH0001250,P001111,Maternal Grandmother,Cancer - Prostate,C61,74,Living
+FH0001251,P001111,Mother,Asthma,J45.909,67,Living
+FH0001252,P001112,Father,Alzheimer's disease,G30.9,65,Living
+FH0001253,P001112,Aunt,Cancer - Prostate,C61,40,Living
+FH0001254,P001115,Father,Diabetes,E11.9,75,Living
+FH0001255,P001116,Paternal Grandfather,Heart disease,I25.10,34,Living
+FH0001256,P001117,Father,Alzheimer's disease,G30.9,58,Deceased
+FH0001257,P001117,Mother,Cancer - Prostate,C61,63,Living
+FH0001258,P001118,Paternal Grandmother,Alzheimer's disease,G30.9,58,Deceased
+FH0001259,P001119,Paternal Grandfather,Heart disease,I25.10,59,Living
+FH0001260,P001120,Uncle,Cancer - Lung,C34.90,41,Living
+FH0001261,P001121,Uncle,Stroke,I63.9,40,Living
+FH0001262,P001121,Paternal Grandmother,Asthma,J45.909,75,Living
+FH0001263,P001122,Father,Alzheimer's disease,G30.9,76,Living
+FH0001264,P001122,Father,Diabetes,E11.9,71,Deceased
+FH0001265,P001123,Father,Cancer - Prostate,C61,54,Living
+FH0001266,P001124,Mother,Hypertension,I10,39,Living
+FH0001267,P001124,Paternal Grandmother,Stroke,I63.9,35,Living
+FH0001268,P001125,Aunt,Heart disease,I25.10,43,Living
+FH0001269,P001126,Father,Depression,F32.9,49,Deceased
+FH0001270,P001129,Maternal Grandfather,Cancer - Colon,C18.9,35,Deceased
+FH0001271,P001129,Aunt,Diabetes,E11.9,68,Living
+FH0001272,P001129,Mother,Cancer - Lung,C34.90,60,Deceased
+FH0001273,P001130,Aunt,Hypertension,I10,63,Living
+FH0001274,P001130,Maternal Grandmother,Depression,F32.9,63,Living
+FH0001275,P001131,Mother,Osteoporosis,M81.0,49,Living
+FH0001276,P001132,Mother,Cancer - Prostate,C61,77,Living
+FH0001277,P001132,Mother,Alzheimer's disease,G30.9,77,Deceased
+FH0001278,P001136,Uncle,Stroke,I63.9,59,Living
+FH0001279,P001136,Paternal Grandfather,Heart disease,I25.10,39,Living
+FH0001280,P001140,Maternal Grandfather,Cancer - Lung,C34.90,37,Deceased
+FH0001281,P001140,Brother,Cancer - Colon,C18.9,70,Living
+FH0001282,P001140,Paternal Grandmother,Diabetes,E11.9,64,Deceased
+FH0001283,P001141,Paternal Grandmother,Depression,F32.9,47,Deceased
+FH0001284,P001141,Maternal Grandfather,Cancer - Lung,C34.90,43,Living
+FH0001285,P001142,Aunt,Alzheimer's disease,G30.9,53,Deceased
+FH0001286,P001144,Father,Hypertension,I10,58,Living
+FH0001287,P001144,Mother,Asthma,J45.909,63,Deceased
+FH0001288,P001145,Paternal Grandfather,Diabetes,E11.9,68,Deceased
+FH0001289,P001148,Mother,Cancer - Prostate,C61,65,Deceased
+FH0001290,P001151,Paternal Grandfather,Stroke,I63.9,45,Deceased
+FH0001291,P001151,Aunt,Osteoporosis,M81.0,37,Deceased
+FH0001292,P001153,Paternal Grandmother,Hypertension,I10,60,Living
+FH0001293,P001156,Father,Diabetes,E11.9,68,Living
+FH0001294,P001156,Brother,Cancer - Prostate,C61,46,Deceased
+FH0001295,P001156,Paternal Grandmother,Hypertension,I10,56,Living
+FH0001296,P001158,Father,Diabetes,E11.9,54,Living
+FH0001297,P001158,Father,Cancer - Lung,C34.90,75,Living
+FH0001298,P001159,Father,Cancer - Colon,C18.9,68,Deceased
+FH0001299,P001159,Paternal Grandmother,Cancer - Lung,C34.90,66,Deceased
+FH0001300,P001160,Sister,Osteoporosis,M81.0,34,Deceased
+FH0001301,P001162,Paternal Grandmother,Cancer - Colon,C18.9,40,Deceased
+FH0001302,P001162,Maternal Grandmother,Alzheimer's disease,G30.9,47,Deceased
+FH0001303,P001165,Paternal Grandmother,Cancer - Prostate,C61,61,Deceased
+FH0001304,P001167,Paternal Grandfather,Cancer - Lung,C34.90,64,Deceased
+FH0001305,P001167,Aunt,Cancer - Breast,C50.919,43,Living
+FH0001306,P001168,Uncle,Asthma,J45.909,76,Deceased
+FH0001307,P001169,Maternal Grandfather,Diabetes,E11.9,34,Deceased
+FH0001308,P001169,Sister,Cancer - Breast,C50.919,77,Living
+FH0001309,P001169,Paternal Grandmother,Asthma,J45.909,42,Living
+FH0001310,P001170,Paternal Grandfather,Cancer - Breast,C50.919,37,Living
+FH0001311,P001170,Brother,Cancer - Lung,C34.90,65,Living
+FH0001312,P001171,Mother,Stroke,I63.9,49,Living
+FH0001313,P001171,Uncle,Osteoporosis,M81.0,61,Deceased
+FH0001314,P001171,Aunt,Hypertension,I10,62,Living
+FH0001315,P001172,Uncle,Diabetes,E11.9,57,Living
+FH0001316,P001172,Paternal Grandmother,Cancer - Prostate,C61,52,Living
+FH0001317,P001173,Paternal Grandmother,Hypertension,I10,31,Deceased
+FH0001318,P001173,Paternal Grandmother,Alzheimer's disease,G30.9,61,Living
+FH0001319,P001174,Paternal Grandmother,Cancer - Lung,C34.90,49,Living
+FH0001320,P001175,Maternal Grandfather,Depression,F32.9,40,Living
+FH0001321,P001175,Sister,Cancer - Colon,C18.9,67,Living
+FH0001322,P001175,Aunt,Hypertension,I10,31,Living
+FH0001323,P001175,Aunt,Cancer - Lung,C34.90,61,Living
+FH0001324,P001177,Maternal Grandmother,Osteoporosis,M81.0,32,Deceased
+FH0001325,P001177,Paternal Grandfather,Heart disease,I25.10,57,Living
+FH0001326,P001178,Aunt,Hypertension,I10,57,Deceased
+FH0001327,P001178,Sister,Asthma,J45.909,76,Living
+FH0001328,P001178,Aunt,Cancer - Breast,C50.919,57,Living
+FH0001329,P001179,Mother,Osteoporosis,M81.0,74,Living
+FH0001330,P001179,Paternal Grandfather,Cancer - Prostate,C61,64,Living
+FH0001331,P001179,Paternal Grandfather,Cancer - Colon,C18.9,77,Deceased
+FH0001332,P001180,Brother,Cancer - Colon,C18.9,61,Living
+FH0001333,P001181,Uncle,Alzheimer's disease,G30.9,59,Deceased
+FH0001334,P001181,Father,Osteoporosis,M81.0,54,Living
+FH0001335,P001181,Maternal Grandmother,Cancer - Colon,C18.9,63,Living
+FH0001336,P001182,Sister,Cancer - Breast,C50.919,72,Living
+FH0001337,P001182,Maternal Grandmother,Osteoporosis,M81.0,44,Living
+FH0001338,P001182,Father,Cancer - Prostate,C61,61,Living
+FH0001339,P001185,Father,Hypertension,I10,45,Living
+FH0001340,P001185,Paternal Grandfather,Alzheimer's disease,G30.9,34,Living
+FH0001341,P001185,Brother,Depression,F32.9,35,Living
+FH0001342,P001186,Brother,Diabetes,E11.9,70,Living
+FH0001343,P001186,Mother,Cancer - Colon,C18.9,75,Living
+FH0001344,P001187,Brother,Cancer - Breast,C50.919,66,Deceased
+FH0001345,P001187,Brother,Heart disease,I25.10,55,Deceased
+FH0001346,P001187,Aunt,Depression,F32.9,51,Deceased
+FH0001347,P001187,Maternal Grandfather,Cancer - Colon,C18.9,46,Deceased
+FH0001348,P001188,Maternal Grandmother,Cancer - Colon,C18.9,69,Living
+FH0001349,P001188,Sister,Cancer - Lung,C34.90,43,Deceased
+FH0001350,P001188,Brother,Alzheimer's disease,G30.9,43,Living
+FH0001351,P001190,Father,Cancer - Colon,C18.9,54,Deceased
+FH0001352,P001190,Maternal Grandmother,Stroke,I63.9,45,Living
+FH0001353,P001192,Maternal Grandmother,Heart disease,I25.10,70,Living
+FH0001354,P001192,Father,Diabetes,E11.9,67,Living
+FH0001355,P001194,Maternal Grandmother,Cancer - Lung,C34.90,33,Living
+FH0001356,P001196,Father,Asthma,J45.909,49,Living
+FH0001357,P001196,Sister,Cancer - Colon,C18.9,56,Deceased
+FH0001358,P001197,Maternal Grandfather,Asthma,J45.909,70,Deceased
+FH0001359,P001197,Maternal Grandfather,Cancer - Colon,C18.9,78,Deceased
+FH0001360,P001199,Paternal Grandfather,Cancer - Breast,C50.919,52,Deceased
+FH0001361,P001200,Aunt,Hypertension,I10,75,Living
+FH0001362,P001202,Brother,Depression,F32.9,49,Deceased
+FH0001363,P001204,Maternal Grandmother,Diabetes,E11.9,54,Living
+FH0001364,P001204,Maternal Grandfather,Asthma,J45.909,53,Living
+FH0001365,P001205,Paternal Grandfather,Alzheimer's disease,G30.9,69,Deceased
+FH0001366,P001206,Uncle,Alzheimer's disease,G30.9,55,Living
+FH0001367,P001207,Paternal Grandfather,Depression,F32.9,47,Deceased
+FH0001368,P001208,Uncle,Cancer - Prostate,C61,59,Deceased
+FH0001369,P001209,Maternal Grandfather,Diabetes,E11.9,48,Living
+FH0001370,P001209,Father,Hypertension,I10,78,Deceased
+FH0001371,P001210,Father,Cancer - Colon,C18.9,52,Living
+FH0001372,P001210,Sister,Heart disease,I25.10,40,Living
+FH0001373,P001212,Father,Osteoporosis,M81.0,59,Living
+FH0001374,P001213,Maternal Grandmother,Cancer - Breast,C50.919,41,Living
+FH0001375,P001213,Maternal Grandmother,Cancer - Colon,C18.9,49,Deceased
+FH0001376,P001216,Aunt,Stroke,I63.9,60,Living
+FH0001377,P001217,Maternal Grandfather,Stroke,I63.9,32,Deceased
+FH0001378,P001217,Brother,Hypertension,I10,44,Living
+FH0001379,P001218,Father,Osteoporosis,M81.0,62,Living
+FH0001380,P001219,Maternal Grandfather,Depression,F32.9,77,Deceased
+FH0001381,P001219,Paternal Grandfather,Cancer - Lung,C34.90,40,Living
+FH0001382,P001220,Paternal Grandfather,Cancer - Lung,C34.90,70,Deceased
+FH0001383,P001221,Father,Cancer - Colon,C18.9,48,Living
+FH0001384,P001223,Maternal Grandfather,Hypertension,I10,30,Deceased
+FH0001385,P001223,Aunt,Cancer - Colon,C18.9,48,Living
+FH0001386,P001224,Father,Cancer - Colon,C18.9,49,Living
+FH0001387,P001225,Uncle,Osteoporosis,M81.0,73,Living
+FH0001388,P001225,Maternal Grandfather,Heart disease,I25.10,45,Deceased
+FH0001389,P001226,Father,Asthma,J45.909,50,Deceased
+FH0001390,P001226,Mother,Heart disease,I25.10,63,Living
+FH0001391,P001228,Paternal Grandfather,Cancer - Colon,C18.9,47,Living
+FH0001392,P001232,Brother,Cancer - Prostate,C61,32,Deceased
+FH0001393,P001232,Paternal Grandmother,Cancer - Lung,C34.90,60,Living
+FH0001394,P001232,Aunt,Cancer - Breast,C50.919,33,Living
+FH0001395,P001233,Mother,Alzheimer's disease,G30.9,52,Living
+FH0001396,P001233,Aunt,Cancer - Breast,C50.919,45,Living
+FH0001397,P001233,Mother,Cancer - Lung,C34.90,41,Living
+FH0001398,P001234,Father,Asthma,J45.909,47,Living
+FH0001399,P001234,Uncle,Heart disease,I25.10,51,Living
+FH0001400,P001236,Maternal Grandfather,Alzheimer's disease,G30.9,49,Living
+FH0001401,P001238,Uncle,Cancer - Colon,C18.9,63,Living
+FH0001402,P001242,Paternal Grandmother,Cancer - Breast,C50.919,70,Living
+FH0001403,P001243,Paternal Grandmother,Cancer - Prostate,C61,68,Living
+FH0001404,P001243,Sister,Cancer - Breast,C50.919,33,Living
+FH0001405,P001244,Mother,Cancer - Breast,C50.919,46,Living
+FH0001406,P001244,Paternal Grandmother,Depression,F32.9,42,Living
+FH0001407,P001245,Uncle,Diabetes,E11.9,70,Deceased
+FH0001408,P001246,Mother,Asthma,J45.909,65,Living
+FH0001409,P001246,Mother,Diabetes,E11.9,43,Living
+FH0001410,P001247,Brother,Alzheimer's disease,G30.9,77,Living
+FH0001411,P001247,Aunt,Heart disease,I25.10,68,Deceased
+FH0001412,P001247,Aunt,Asthma,J45.909,36,Deceased
+FH0001413,P001249,Sister,Heart disease,I25.10,62,Deceased
+FH0001414,P001249,Paternal Grandmother,Cancer - Prostate,C61,42,Deceased
+FH0001415,P001249,Father,Asthma,J45.909,57,Living
+FH0001416,P001250,Father,Alzheimer's disease,G30.9,72,Living
+FH0001417,P001251,Mother,Osteoporosis,M81.0,36,Deceased
+FH0001418,P001252,Uncle,Cancer - Breast,C50.919,44,Living
+FH0001419,P001254,Maternal Grandfather,Stroke,I63.9,62,Deceased
+FH0001420,P001254,Maternal Grandfather,Asthma,J45.909,67,Living
+FH0001421,P001255,Mother,Cancer - Lung,C34.90,35,Deceased
+FH0001422,P001255,Paternal Grandfather,Alzheimer's disease,G30.9,79,Living
+FH0001423,P001257,Mother,Hypertension,I10,43,Living
+FH0001424,P001257,Maternal Grandfather,Heart disease,I25.10,32,Living
+FH0001425,P001258,Aunt,Hypertension,I10,55,Living
+FH0001426,P001258,Father,Cancer - Prostate,C61,61,Living
+FH0001427,P001259,Mother,Cancer - Lung,C34.90,52,Living
+FH0001428,P001259,Aunt,Osteoporosis,M81.0,35,Deceased
+FH0001429,P001261,Paternal Grandmother,Cancer - Prostate,C61,40,Living
+FH0001430,P001261,Sister,Diabetes,E11.9,38,Living
+FH0001431,P001262,Paternal Grandmother,Osteoporosis,M81.0,70,Deceased
+FH0001432,P001262,Father,Heart disease,I25.10,35,Living
+FH0001433,P001263,Sister,Hypertension,I10,47,Living
+FH0001434,P001263,Maternal Grandfather,Asthma,J45.909,50,Deceased
+FH0001435,P001264,Sister,Alzheimer's disease,G30.9,47,Living
+FH0001436,P001264,Maternal Grandmother,Depression,F32.9,61,Living
+FH0001437,P001264,Maternal Grandfather,Cancer - Lung,C34.90,35,Living
+FH0001438,P001267,Sister,Stroke,I63.9,52,Living
+FH0001439,P001267,Maternal Grandfather,Hypertension,I10,61,Living
+FH0001440,P001267,Paternal Grandmother,Cancer - Lung,C34.90,42,Deceased
+FH0001441,P001268,Mother,Depression,F32.9,78,Deceased
+FH0001442,P001268,Mother,Heart disease,I25.10,31,Living
+FH0001443,P001269,Brother,Diabetes,E11.9,54,Deceased
+FH0001444,P001269,Sister,Hypertension,I10,55,Deceased
+FH0001445,P001269,Maternal Grandmother,Stroke,I63.9,53,Deceased
+FH0001446,P001270,Paternal Grandmother,Alzheimer's disease,G30.9,37,Living
+FH0001447,P001270,Aunt,Stroke,I63.9,49,Living
+FH0001448,P001270,Maternal Grandmother,Cancer - Colon,C18.9,35,Living
+FH0001449,P001273,Uncle,Asthma,J45.909,46,Living
+FH0001450,P001273,Paternal Grandmother,Hypertension,I10,60,Living
+FH0001451,P001273,Uncle,Diabetes,E11.9,72,Living
+FH0001452,P001274,Sister,Diabetes,E11.9,63,Deceased
+FH0001453,P001277,Father,Depression,F32.9,70,Living
+FH0001454,P001277,Maternal Grandfather,Osteoporosis,M81.0,74,Living
+FH0001455,P001279,Paternal Grandfather,Diabetes,E11.9,71,Deceased
+FH0001456,P001279,Paternal Grandfather,Cancer - Colon,C18.9,30,Living
+FH0001457,P001280,Aunt,Cancer - Breast,C50.919,60,Living
+FH0001458,P001280,Aunt,Heart disease,I25.10,40,Deceased
+FH0001459,P001280,Maternal Grandmother,Depression,F32.9,67,Living
+FH0001460,P001282,Maternal Grandfather,Stroke,I63.9,47,Living
+FH0001461,P001283,Sister,Cancer - Breast,C50.919,46,Living
+FH0001462,P001283,Uncle,Asthma,J45.909,57,Deceased
+FH0001463,P001283,Uncle,Cancer - Colon,C18.9,37,Living
+FH0001464,P001284,Maternal Grandmother,Cancer - Lung,C34.90,40,Deceased
+FH0001465,P001287,Aunt,Depression,F32.9,34,Living
+FH0001466,P001287,Sister,Cancer - Lung,C34.90,76,Living
+FH0001467,P001287,Sister,Alzheimer's disease,G30.9,54,Living
+FH0001468,P001290,Father,Cancer - Lung,C34.90,34,Living
+FH0001469,P001291,Paternal Grandmother,Hypertension,I10,66,Deceased
+FH0001470,P001291,Paternal Grandmother,Cancer - Lung,C34.90,53,Living
+FH0001471,P001292,Father,Alzheimer's disease,G30.9,33,Deceased
+FH0001472,P001292,Father,Asthma,J45.909,78,Deceased
+FH0001473,P001294,Maternal Grandfather,Stroke,I63.9,33,Living
+FH0001474,P001295,Brother,Cancer - Breast,C50.919,52,Living
+FH0001475,P001296,Paternal Grandfather,Cancer - Colon,C18.9,71,Living
+FH0001476,P001299,Sister,Heart disease,I25.10,51,Deceased
+FH0001477,P001299,Paternal Grandmother,Diabetes,E11.9,62,Living
+FH0001478,P001300,Father,Cancer - Lung,C34.90,56,Living
+FH0001479,P001300,Paternal Grandfather,Depression,F32.9,51,Living
+FH0001480,P001303,Father,Cancer - Colon,C18.9,79,Living
+FH0001481,P001303,Mother,Hypertension,I10,37,Living
+FH0001482,P001304,Uncle,Hypertension,I10,80,Deceased
+FH0001483,P001304,Paternal Grandmother,Osteoporosis,M81.0,51,Living
+FH0001484,P001304,Father,Asthma,J45.909,66,Living
+FH0001485,P001306,Father,Cancer - Colon,C18.9,65,Deceased
+FH0001486,P001308,Paternal Grandfather,Alzheimer's disease,G30.9,76,Living
+FH0001487,P001314,Uncle,Stroke,I63.9,67,Living
+FH0001488,P001314,Uncle,Depression,F32.9,59,Living
+FH0001489,P001314,Uncle,Cancer - Prostate,C61,57,Living
+FH0001490,P001314,Uncle,Diabetes,E11.9,74,Living
+FH0001491,P001315,Aunt,Stroke,I63.9,59,Living
+FH0001492,P001315,Father,Heart disease,I25.10,51,Living
+FH0001493,P001316,Sister,Asthma,J45.909,61,Living
+FH0001494,P001316,Paternal Grandfather,Diabetes,E11.9,57,Living
+FH0001495,P001318,Aunt,Stroke,I63.9,51,Living
+FH0001496,P001318,Sister,Alzheimer's disease,G30.9,65,Living
+FH0001497,P001319,Aunt,Cancer - Lung,C34.90,53,Living
+FH0001498,P001319,Paternal Grandmother,Hypertension,I10,33,Living
+FH0001499,P001322,Mother,Asthma,J45.909,55,Living
+FH0001500,P001322,Uncle,Cancer - Lung,C34.90,65,Living
+FH0001501,P001323,Sister,Diabetes,E11.9,73,Deceased
+FH0001502,P001323,Brother,Osteoporosis,M81.0,64,Living
+FH0001503,P001324,Uncle,Alzheimer's disease,G30.9,55,Deceased
+FH0001504,P001324,Brother,Cancer - Lung,C34.90,53,Living
+FH0001505,P001324,Father,Diabetes,E11.9,74,Deceased
+FH0001506,P001324,Uncle,Cancer - Colon,C18.9,50,Living
+FH0001507,P001325,Paternal Grandmother,Cancer - Breast,C50.919,41,Deceased
+FH0001508,P001326,Uncle,Asthma,J45.909,69,Living
+FH0001509,P001326,Father,Cancer - Prostate,C61,44,Deceased
+FH0001510,P001329,Sister,Diabetes,E11.9,65,Deceased
+FH0001511,P001330,Mother,Hypertension,I10,41,Living
+FH0001512,P001330,Brother,Cancer - Colon,C18.9,64,Living
+FH0001513,P001332,Sister,Cancer - Colon,C18.9,33,Living
+FH0001514,P001332,Uncle,Stroke,I63.9,55,Deceased
+FH0001515,P001335,Uncle,Hypertension,I10,80,Deceased
+FH0001516,P001335,Paternal Grandfather,Osteoporosis,M81.0,42,Living
+FH0001517,P001335,Maternal Grandmother,Cancer - Lung,C34.90,37,Deceased
+FH0001518,P001337,Brother,Hypertension,I10,38,Living
+FH0001519,P001338,Paternal Grandmother,Cancer - Prostate,C61,67,Living
+FH0001520,P001338,Paternal Grandfather,Osteoporosis,M81.0,66,Living
+FH0001521,P001338,Mother,Stroke,I63.9,45,Living
+FH0001522,P001338,Maternal Grandfather,Cancer - Lung,C34.90,60,Deceased
+FH0001523,P001339,Aunt,Osteoporosis,M81.0,43,Living
+FH0001524,P001339,Sister,Heart disease,I25.10,65,Deceased
+FH0001525,P001339,Uncle,Alzheimer's disease,G30.9,46,Living
+FH0001526,P001342,Maternal Grandmother,Osteoporosis,M81.0,67,Living
+FH0001527,P001342,Brother,Cancer - Prostate,C61,76,Living
+FH0001528,P001342,Father,Stroke,I63.9,67,Deceased
+FH0001529,P001343,Aunt,Cancer - Breast,C50.919,79,Deceased
+FH0001530,P001343,Mother,Stroke,I63.9,47,Deceased
+FH0001531,P001343,Brother,Depression,F32.9,39,Living
+FH0001532,P001345,Maternal Grandfather,Osteoporosis,M81.0,67,Living
+FH0001533,P001345,Brother,Hypertension,I10,30,Deceased
+FH0001534,P001347,Paternal Grandfather,Diabetes,E11.9,72,Living
+FH0001535,P001351,Uncle,Hypertension,I10,66,Living
+FH0001536,P001352,Sister,Cancer - Breast,C50.919,60,Deceased
+FH0001537,P001353,Maternal Grandmother,Depression,F32.9,76,Living
+FH0001538,P001356,Aunt,Depression,F32.9,43,Living
+FH0001539,P001360,Father,Cancer - Breast,C50.919,49,Deceased
+FH0001540,P001360,Aunt,Heart disease,I25.10,71,Living
+FH0001541,P001360,Mother,Stroke,I63.9,51,Deceased
+FH0001542,P001361,Maternal Grandmother,Alzheimer's disease,G30.9,61,Living
+FH0001543,P001363,Aunt,Cancer - Prostate,C61,36,Living
+FH0001544,P001363,Brother,Alzheimer's disease,G30.9,47,Living
+FH0001545,P001363,Paternal Grandmother,Cancer - Lung,C34.90,56,Deceased
+FH0001546,P001364,Aunt,Hypertension,I10,55,Deceased
+FH0001547,P001364,Paternal Grandmother,Cancer - Breast,C50.919,40,Deceased
+FH0001548,P001364,Mother,Osteoporosis,M81.0,49,Living
+FH0001549,P001366,Paternal Grandmother,Osteoporosis,M81.0,38,Living
+FH0001550,P001366,Aunt,Stroke,I63.9,64,Deceased
+FH0001551,P001367,Sister,Cancer - Prostate,C61,80,Living
+FH0001552,P001368,Father,Diabetes,E11.9,57,Deceased
+FH0001553,P001370,Aunt,Osteoporosis,M81.0,36,Living
+FH0001554,P001370,Sister,Diabetes,E11.9,33,Living
+FH0001555,P001371,Sister,Depression,F32.9,69,Living
+FH0001556,P001373,Aunt,Cancer - Prostate,C61,47,Living
+FH0001557,P001375,Paternal Grandmother,Diabetes,E11.9,34,Deceased
+FH0001558,P001377,Uncle,Hypertension,I10,52,Deceased
+FH0001559,P001379,Aunt,Cancer - Prostate,C61,74,Living
+FH0001560,P001380,Brother,Cancer - Prostate,C61,41,Deceased
+FH0001561,P001380,Brother,Diabetes,E11.9,80,Living
+FH0001562,P001381,Aunt,Alzheimer's disease,G30.9,66,Living
+FH0001563,P001382,Sister,Cancer - Colon,C18.9,39,Living
+FH0001564,P001383,Father,Osteoporosis,M81.0,66,Living
+FH0001565,P001383,Sister,Cancer - Lung,C34.90,73,Living
+FH0001566,P001383,Paternal Grandmother,Stroke,I63.9,74,Living
+FH0001567,P001385,Aunt,Diabetes,E11.9,79,Living
+FH0001568,P001385,Maternal Grandfather,Cancer - Colon,C18.9,57,Deceased
+FH0001569,P001385,Paternal Grandmother,Heart disease,I25.10,68,Living
+FH0001570,P001385,Uncle,Stroke,I63.9,30,Living
+FH0001571,P001386,Brother,Depression,F32.9,37,Deceased
+FH0001572,P001386,Maternal Grandfather,Cancer - Colon,C18.9,76,Living
+FH0001573,P001386,Paternal Grandmother,Hypertension,I10,61,Living
+FH0001574,P001388,Maternal Grandmother,Hypertension,I10,50,Deceased
+FH0001575,P001388,Father,Osteoporosis,M81.0,56,Deceased
+FH0001576,P001389,Paternal Grandfather,Cancer - Colon,C18.9,40,Living
+FH0001577,P001389,Paternal Grandmother,Alzheimer's disease,G30.9,44,Living
+FH0001578,P001389,Paternal Grandfather,Depression,F32.9,57,Living
+FH0001579,P001391,Father,Alzheimer's disease,G30.9,38,Deceased
+FH0001580,P001391,Mother,Heart disease,I25.10,54,Living
+FH0001581,P001392,Uncle,Cancer - Lung,C34.90,75,Living
+FH0001582,P001392,Paternal Grandmother,Asthma,J45.909,68,Living
+FH0001583,P001392,Sister,Depression,F32.9,59,Living
+FH0001584,P001393,Sister,Stroke,I63.9,58,Deceased
+FH0001585,P001393,Uncle,Cancer - Prostate,C61,75,Living
+FH0001586,P001394,Paternal Grandmother,Cancer - Prostate,C61,30,Living
+FH0001587,P001394,Paternal Grandmother,Depression,F32.9,79,Living
+FH0001588,P001395,Paternal Grandmother,Cancer - Colon,C18.9,76,Deceased
+FH0001589,P001395,Maternal Grandmother,Cancer - Lung,C34.90,37,Living
+FH0001590,P001395,Father,Cancer - Breast,C50.919,30,Living
+FH0001591,P001395,Uncle,Hypertension,I10,62,Living
+FH0001592,P001397,Father,Alzheimer's disease,G30.9,78,Living
+FH0001593,P001398,Sister,Diabetes,E11.9,67,Living
+FH0001594,P001398,Uncle,Cancer - Colon,C18.9,72,Living
+FH0001595,P001400,Brother,Depression,F32.9,66,Deceased
+FH0001596,P001401,Paternal Grandmother,Alzheimer's disease,G30.9,35,Living
+FH0001597,P001401,Mother,Cancer - Breast,C50.919,61,Living
+FH0001598,P001403,Paternal Grandfather,Cancer - Breast,C50.919,47,Deceased
+FH0001599,P001404,Paternal Grandmother,Cancer - Prostate,C61,32,Living
+FH0001600,P001407,Aunt,Osteoporosis,M81.0,51,Living
+FH0001601,P001407,Mother,Heart disease,I25.10,42,Deceased
+FH0001602,P001408,Paternal Grandfather,Osteoporosis,M81.0,66,Living
+FH0001603,P001408,Uncle,Diabetes,E11.9,77,Living
+FH0001604,P001408,Maternal Grandmother,Cancer - Lung,C34.90,47,Living
+FH0001605,P001410,Maternal Grandfather,Cancer - Lung,C34.90,54,Deceased
+FH0001606,P001411,Brother,Asthma,J45.909,79,Living
+FH0001607,P001412,Maternal Grandmother,Cancer - Breast,C50.919,74,Living
+FH0001608,P001413,Paternal Grandmother,Cancer - Colon,C18.9,74,Deceased
+FH0001609,P001414,Sister,Diabetes,E11.9,51,Living
+FH0001610,P001414,Aunt,Asthma,J45.909,37,Deceased
+FH0001611,P001415,Brother,Cancer - Colon,C18.9,41,Living
+FH0001612,P001415,Father,Cancer - Prostate,C61,61,Living
+FH0001613,P001415,Mother,Alzheimer's disease,G30.9,41,Living
+FH0001614,P001416,Maternal Grandfather,Cancer - Colon,C18.9,53,Living
+FH0001615,P001416,Uncle,Cancer - Lung,C34.90,68,Living
+FH0001616,P001416,Brother,Heart disease,I25.10,44,Living
+FH0001617,P001418,Maternal Grandmother,Diabetes,E11.9,49,Living
+FH0001618,P001420,Father,Hypertension,I10,42,Deceased
+FH0001619,P001420,Sister,Depression,F32.9,41,Living
+FH0001620,P001421,Mother,Cancer - Colon,C18.9,78,Living
+FH0001621,P001422,Mother,Cancer - Prostate,C61,51,Deceased
+FH0001622,P001422,Aunt,Diabetes,E11.9,47,Living
+FH0001623,P001422,Paternal Grandmother,Hypertension,I10,46,Deceased
+FH0001624,P001423,Mother,Cancer - Prostate,C61,60,Living
+FH0001625,P001423,Father,Heart disease,I25.10,42,Deceased
+FH0001626,P001424,Maternal Grandfather,Osteoporosis,M81.0,57,Deceased
+FH0001627,P001425,Mother,Cancer - Lung,C34.90,73,Living
+FH0001628,P001425,Paternal Grandfather,Diabetes,E11.9,54,Living
+FH0001629,P001425,Maternal Grandmother,Alzheimer's disease,G30.9,51,Deceased
+FH0001630,P001426,Aunt,Alzheimer's disease,G30.9,77,Deceased
+FH0001631,P001426,Sister,Cancer - Prostate,C61,35,Living
+FH0001632,P001430,Mother,Cancer - Lung,C34.90,60,Deceased
+FH0001633,P001431,Maternal Grandmother,Heart disease,I25.10,66,Living
+FH0001634,P001431,Aunt,Stroke,I63.9,50,Living
+FH0001635,P001433,Maternal Grandfather,Cancer - Breast,C50.919,78,Living
+FH0001636,P001433,Sister,Diabetes,E11.9,77,Living
+FH0001637,P001434,Uncle,Alzheimer's disease,G30.9,59,Living
+FH0001638,P001435,Maternal Grandmother,Diabetes,E11.9,35,Living
+FH0001639,P001437,Maternal Grandfather,Osteoporosis,M81.0,66,Living
+FH0001640,P001437,Brother,Cancer - Breast,C50.919,40,Living
+FH0001641,P001437,Maternal Grandmother,Depression,F32.9,80,Living
+FH0001642,P001438,Sister,Cancer - Prostate,C61,30,Living
+FH0001643,P001438,Maternal Grandmother,Cancer - Lung,C34.90,65,Deceased
+FH0001644,P001438,Paternal Grandmother,Depression,F32.9,49,Living
+FH0001645,P001440,Paternal Grandfather,Cancer - Breast,C50.919,61,Living
+FH0001646,P001440,Maternal Grandmother,Osteoporosis,M81.0,69,Deceased
+FH0001647,P001442,Paternal Grandfather,Hypertension,I10,79,Living
+FH0001648,P001442,Aunt,Cancer - Breast,C50.919,63,Living
+FH0001649,P001444,Mother,Asthma,J45.909,55,Deceased
+FH0001650,P001444,Sister,Depression,F32.9,42,Living
+FH0001651,P001444,Maternal Grandmother,Cancer - Prostate,C61,44,Living
+FH0001652,P001445,Brother,Stroke,I63.9,47,Living
+FH0001653,P001445,Paternal Grandmother,Alzheimer's disease,G30.9,53,Living
+FH0001654,P001452,Uncle,Cancer - Prostate,C61,41,Living
+FH0001655,P001452,Uncle,Cancer - Lung,C34.90,49,Deceased
+FH0001656,P001453,Sister,Depression,F32.9,48,Living
+FH0001657,P001453,Paternal Grandmother,Asthma,J45.909,63,Deceased
+FH0001658,P001455,Paternal Grandfather,Osteoporosis,M81.0,68,Living
+FH0001659,P001458,Maternal Grandfather,Osteoporosis,M81.0,55,Living
+FH0001660,P001460,Aunt,Diabetes,E11.9,48,Deceased
+FH0001661,P001460,Mother,Alzheimer's disease,G30.9,76,Deceased
+FH0001662,P001462,Maternal Grandfather,Alzheimer's disease,G30.9,35,Deceased
+FH0001663,P001462,Sister,Hypertension,I10,37,Living
+FH0001664,P001463,Aunt,Alzheimer's disease,G30.9,46,Deceased
+FH0001665,P001463,Maternal Grandmother,Hypertension,I10,58,Deceased
+FH0001666,P001465,Paternal Grandfather,Cancer - Lung,C34.90,69,Deceased
+FH0001667,P001470,Brother,Asthma,J45.909,49,Deceased
+FH0001668,P001472,Maternal Grandfather,Cancer - Lung,C34.90,55,Living
+FH0001669,P001472,Aunt,Cancer - Prostate,C61,43,Deceased
+FH0001670,P001473,Maternal Grandmother,Heart disease,I25.10,42,Deceased
+FH0001671,P001476,Maternal Grandmother,Alzheimer's disease,G30.9,37,Deceased
+FH0001672,P001477,Father,Cancer - Breast,C50.919,79,Living
+FH0001673,P001477,Uncle,Cancer - Lung,C34.90,70,Deceased
+FH0001674,P001477,Uncle,Alzheimer's disease,G30.9,72,Living
+FH0001675,P001484,Paternal Grandfather,Cancer - Lung,C34.90,62,Living
+FH0001676,P001485,Uncle,Cancer - Lung,C34.90,72,Living
+FH0001677,P001485,Aunt,Depression,F32.9,50,Deceased
+FH0001678,P001485,Paternal Grandfather,Diabetes,E11.9,40,Deceased
+FH0001679,P001488,Uncle,Cancer - Lung,C34.90,80,Living
+FH0001680,P001489,Maternal Grandmother,Cancer - Lung,C34.90,32,Living
+FH0001681,P001489,Aunt,Cancer - Colon,C18.9,76,Deceased
+FH0001682,P001489,Maternal Grandmother,Hypertension,I10,80,Deceased
+FH0001683,P001490,Uncle,Alzheimer's disease,G30.9,55,Living
+FH0001684,P001491,Maternal Grandfather,Asthma,J45.909,59,Living
+FH0001685,P001494,Father,Asthma,J45.909,58,Living
+FH0001686,P001498,Uncle,Cancer - Prostate,C61,53,Living
+FH0001687,P001498,Father,Cancer - Breast,C50.919,55,Deceased
+FH0001688,P001498,Maternal Grandmother,Hypertension,I10,34,Deceased
+FH0001689,P001502,Brother,Cancer - Prostate,C61,48,Deceased
+FH0001690,P001502,Mother,Cancer - Breast,C50.919,45,Living
+FH0001691,P001503,Sister,Alzheimer's disease,G30.9,72,Deceased
+FH0001692,P001504,Brother,Stroke,I63.9,51,Deceased
+FH0001693,P001504,Paternal Grandmother,Diabetes,E11.9,31,Living
+FH0001694,P001506,Aunt,Cancer - Prostate,C61,50,Living
+FH0001695,P001506,Aunt,Cancer - Lung,C34.90,62,Living
+FH0001696,P001507,Brother,Hypertension,I10,47,Deceased
+FH0001697,P001508,Father,Cancer - Colon,C18.9,30,Deceased
+FH0001698,P001511,Paternal Grandfather,Stroke,I63.9,35,Living
+FH0001699,P001511,Uncle,Heart disease,I25.10,67,Living
+FH0001700,P001511,Uncle,Cancer - Breast,C50.919,58,Living
+FH0001701,P001512,Sister,Heart disease,I25.10,47,Deceased
+FH0001702,P001512,Paternal Grandmother,Depression,F32.9,33,Deceased
+FH0001703,P001512,Brother,Stroke,I63.9,72,Deceased
+FH0001704,P001512,Maternal Grandmother,Osteoporosis,M81.0,73,Living
+FH0001705,P001515,Paternal Grandfather,Cancer - Lung,C34.90,41,Deceased
+FH0001706,P001516,Brother,Hypertension,I10,65,Deceased
+FH0001707,P001518,Father,Diabetes,E11.9,44,Deceased
+FH0001708,P001522,Sister,Diabetes,E11.9,70,Living
+FH0001709,P001525,Paternal Grandfather,Hypertension,I10,80,Deceased
+FH0001710,P001525,Aunt,Cancer - Breast,C50.919,66,Living
+FH0001711,P001525,Brother,Cancer - Colon,C18.9,80,Living
+FH0001712,P001527,Mother,Cancer - Prostate,C61,72,Deceased
+FH0001713,P001527,Mother,Osteoporosis,M81.0,54,Deceased
+FH0001714,P001527,Sister,Stroke,I63.9,33,Deceased
+FH0001715,P001529,Father,Heart disease,I25.10,35,Living
+FH0001716,P001529,Maternal Grandmother,Cancer - Lung,C34.90,65,Deceased
+FH0001717,P001530,Paternal Grandmother,Diabetes,E11.9,76,Living
+FH0001718,P001530,Brother,Asthma,J45.909,69,Living
+FH0001719,P001531,Paternal Grandfather,Depression,F32.9,44,Living
+FH0001720,P001531,Maternal Grandfather,Cancer - Breast,C50.919,77,Living
+FH0001721,P001532,Paternal Grandfather,Asthma,J45.909,40,Living
+FH0001722,P001534,Father,Cancer - Colon,C18.9,48,Deceased
+FH0001723,P001536,Maternal Grandmother,Alzheimer's disease,G30.9,54,Living
+FH0001724,P001536,Maternal Grandfather,Depression,F32.9,50,Deceased
+FH0001725,P001537,Uncle,Cancer - Breast,C50.919,56,Deceased
+FH0001726,P001538,Uncle,Osteoporosis,M81.0,47,Living
+FH0001727,P001538,Sister,Cancer - Prostate,C61,62,Living
+FH0001728,P001539,Maternal Grandfather,Depression,F32.9,35,Living
+FH0001729,P001540,Uncle,Cancer - Prostate,C61,36,Living
+FH0001730,P001540,Maternal Grandfather,Cancer - Lung,C34.90,68,Deceased
+FH0001731,P001547,Paternal Grandfather,Alzheimer's disease,G30.9,59,Deceased
+FH0001732,P001547,Aunt,Cancer - Colon,C18.9,46,Living
+FH0001733,P001549,Brother,Cancer - Breast,C50.919,37,Deceased
+FH0001734,P001549,Paternal Grandmother,Heart disease,I25.10,71,Living
+FH0001735,P001549,Paternal Grandfather,Stroke,I63.9,73,Living
+FH0001736,P001552,Father,Diabetes,E11.9,62,Living
+FH0001737,P001553,Aunt,Diabetes,E11.9,34,Deceased
+FH0001738,P001553,Aunt,Heart disease,I25.10,75,Living
+FH0001739,P001554,Aunt,Cancer - Breast,C50.919,33,Living
+FH0001740,P001554,Mother,Stroke,I63.9,48,Living
+FH0001741,P001555,Paternal Grandmother,Cancer - Colon,C18.9,50,Deceased
+FH0001742,P001555,Maternal Grandfather,Osteoporosis,M81.0,79,Deceased
+FH0001743,P001557,Uncle,Diabetes,E11.9,73,Deceased
+FH0001744,P001557,Father,Osteoporosis,M81.0,35,Living
+FH0001745,P001558,Sister,Asthma,J45.909,52,Deceased
+FH0001746,P001558,Aunt,Hypertension,I10,70,Deceased
+FH0001747,P001559,Paternal Grandmother,Diabetes,E11.9,57,Living
+FH0001748,P001561,Aunt,Alzheimer's disease,G30.9,64,Deceased
+FH0001749,P001565,Brother,Cancer - Colon,C18.9,40,Living
+FH0001750,P001565,Aunt,Cancer - Breast,C50.919,53,Living
+FH0001751,P001565,Sister,Stroke,I63.9,80,Living
+FH0001752,P001567,Paternal Grandfather,Cancer - Colon,C18.9,48,Living
+FH0001753,P001567,Father,Depression,F32.9,76,Living
+FH0001754,P001567,Brother,Cancer - Breast,C50.919,42,Living
+FH0001755,P001568,Uncle,Osteoporosis,M81.0,76,Living
+FH0001756,P001568,Brother,Diabetes,E11.9,60,Living
+FH0001757,P001568,Father,Depression,F32.9,36,Living
+FH0001758,P001569,Paternal Grandfather,Osteoporosis,M81.0,67,Living
+FH0001759,P001569,Paternal Grandfather,Cancer - Breast,C50.919,64,Living
+FH0001760,P001569,Paternal Grandfather,Stroke,I63.9,72,Living
+FH0001761,P001570,Mother,Asthma,J45.909,61,Living
+FH0001762,P001573,Uncle,Stroke,I63.9,63,Living
+FH0001763,P001574,Father,Alzheimer's disease,G30.9,78,Deceased
+FH0001764,P001574,Mother,Hypertension,I10,58,Living
+FH0001765,P001577,Brother,Depression,F32.9,79,Living
+FH0001766,P001577,Maternal Grandmother,Cancer - Lung,C34.90,53,Living
+FH0001767,P001577,Brother,Asthma,J45.909,59,Living
+FH0001768,P001577,Sister,Alzheimer's disease,G30.9,60,Deceased
+FH0001769,P001578,Uncle,Cancer - Colon,C18.9,55,Living
+FH0001770,P001582,Maternal Grandmother,Cancer - Breast,C50.919,43,Living
+FH0001771,P001582,Paternal Grandfather,Stroke,I63.9,59,Living
+FH0001772,P001583,Maternal Grandmother,Osteoporosis,M81.0,68,Living
+FH0001773,P001583,Sister,Cancer - Prostate,C61,63,Living
+FH0001774,P001585,Uncle,Alzheimer's disease,G30.9,33,Deceased
+FH0001775,P001586,Paternal Grandmother,Cancer - Lung,C34.90,48,Living
+FH0001776,P001587,Sister,Osteoporosis,M81.0,62,Living
+FH0001777,P001587,Paternal Grandfather,Asthma,J45.909,62,Deceased
+FH0001778,P001591,Maternal Grandfather,Osteoporosis,M81.0,42,Deceased
+FH0001779,P001593,Paternal Grandfather,Depression,F32.9,43,Living
+FH0001780,P001596,Paternal Grandmother,Osteoporosis,M81.0,56,Living
+FH0001781,P001596,Mother,Heart disease,I25.10,79,Living
+FH0001782,P001596,Paternal Grandmother,Cancer - Colon,C18.9,36,Living
+FH0001783,P001597,Paternal Grandmother,Asthma,J45.909,36,Living
+FH0001784,P001597,Mother,Cancer - Prostate,C61,33,Living
+FH0001785,P001598,Paternal Grandmother,Stroke,I63.9,38,Living
+FH0001786,P001600,Paternal Grandfather,Asthma,J45.909,73,Deceased
+FH0001787,P001600,Mother,Cancer - Prostate,C61,74,Deceased
+FH0001788,P001600,Paternal Grandfather,Heart disease,I25.10,56,Living
+FH0001789,P001601,Uncle,Alzheimer's disease,G30.9,36,Living
+FH0001790,P001602,Maternal Grandmother,Alzheimer's disease,G30.9,47,Living
+FH0001791,P001602,Mother,Heart disease,I25.10,60,Living
+FH0001792,P001602,Mother,Stroke,I63.9,78,Living
+FH0001793,P001605,Sister,Depression,F32.9,79,Deceased
+FH0001794,P001606,Paternal Grandfather,Cancer - Colon,C18.9,63,Deceased
+FH0001795,P001606,Sister,Depression,F32.9,33,Living
+FH0001796,P001607,Paternal Grandfather,Alzheimer's disease,G30.9,80,Living
+FH0001797,P001609,Paternal Grandfather,Osteoporosis,M81.0,34,Living
+FH0001798,P001609,Brother,Cancer - Prostate,C61,80,Deceased
+FH0001799,P001610,Father,Stroke,I63.9,76,Living
+FH0001800,P001612,Aunt,Diabetes,E11.9,56,Living
+FH0001801,P001614,Brother,Osteoporosis,M81.0,38,Deceased
+FH0001802,P001617,Brother,Cancer - Lung,C34.90,35,Living
+FH0001803,P001617,Maternal Grandmother,Cancer - Colon,C18.9,72,Living
+FH0001804,P001618,Paternal Grandmother,Cancer - Prostate,C61,65,Deceased
+FH0001805,P001618,Maternal Grandfather,Cancer - Breast,C50.919,31,Deceased
+FH0001806,P001619,Sister,Cancer - Breast,C50.919,66,Living
+FH0001807,P001619,Paternal Grandfather,Cancer - Prostate,C61,45,Deceased
+FH0001808,P001619,Uncle,Hypertension,I10,73,Living
+FH0001809,P001619,Paternal Grandfather,Cancer - Lung,C34.90,65,Deceased
+FH0001810,P001620,Maternal Grandmother,Osteoporosis,M81.0,48,Living
+FH0001811,P001620,Sister,Cancer - Prostate,C61,54,Living
+FH0001812,P001622,Aunt,Osteoporosis,M81.0,34,Deceased
+FH0001813,P001622,Father,Diabetes,E11.9,63,Living
+FH0001814,P001622,Maternal Grandmother,Depression,F32.9,66,Deceased
+FH0001815,P001622,Sister,Cancer - Lung,C34.90,50,Living
+FH0001816,P001623,Paternal Grandmother,Diabetes,E11.9,52,Living
+FH0001817,P001624,Aunt,Stroke,I63.9,53,Deceased
+FH0001818,P001627,Father,Cancer - Prostate,C61,41,Living
+FH0001819,P001627,Paternal Grandmother,Asthma,J45.909,40,Deceased
+FH0001820,P001635,Maternal Grandmother,Osteoporosis,M81.0,34,Living
+FH0001821,P001640,Sister,Heart disease,I25.10,32,Deceased
+FH0001822,P001640,Maternal Grandmother,Osteoporosis,M81.0,62,Living
+FH0001823,P001643,Paternal Grandfather,Stroke,I63.9,57,Deceased
+FH0001824,P001643,Paternal Grandmother,Osteoporosis,M81.0,71,Living
+FH0001825,P001644,Brother,Cancer - Lung,C34.90,38,Deceased
+FH0001826,P001644,Paternal Grandfather,Hypertension,I10,68,Deceased
+FH0001827,P001644,Mother,Heart disease,I25.10,42,Living
+FH0001828,P001645,Maternal Grandfather,Diabetes,E11.9,45,Deceased
+FH0001829,P001647,Maternal Grandmother,Cancer - Colon,C18.9,75,Deceased
+FH0001830,P001647,Paternal Grandfather,Cancer - Lung,C34.90,50,Living
+FH0001831,P001647,Uncle,Asthma,J45.909,75,Living
+FH0001832,P001648,Father,Diabetes,E11.9,45,Deceased
+FH0001833,P001648,Maternal Grandfather,Cancer - Colon,C18.9,39,Living
+FH0001834,P001649,Maternal Grandfather,Diabetes,E11.9,71,Living
+FH0001835,P001649,Paternal Grandfather,Cancer - Breast,C50.919,57,Living
+FH0001836,P001649,Maternal Grandfather,Asthma,J45.909,36,Living
+FH0001837,P001652,Uncle,Osteoporosis,M81.0,33,Living
+FH0001838,P001652,Father,Cancer - Prostate,C61,43,Deceased
+FH0001839,P001652,Paternal Grandfather,Stroke,I63.9,76,Living
+FH0001840,P001654,Uncle,Diabetes,E11.9,31,Deceased
+FH0001841,P001654,Aunt,Osteoporosis,M81.0,43,Deceased
+FH0001842,P001654,Mother,Alzheimer's disease,G30.9,62,Living
+FH0001843,P001655,Father,Cancer - Breast,C50.919,42,Living
+FH0001844,P001655,Uncle,Heart disease,I25.10,35,Living
+FH0001845,P001655,Uncle,Depression,F32.9,65,Deceased
+FH0001846,P001658,Maternal Grandmother,Alzheimer's disease,G30.9,65,Living
+FH0001847,P001661,Paternal Grandmother,Diabetes,E11.9,45,Living
+FH0001848,P001662,Maternal Grandfather,Alzheimer's disease,G30.9,53,Living
+FH0001849,P001662,Aunt,Cancer - Prostate,C61,30,Living
+FH0001850,P001662,Aunt,Hypertension,I10,63,Deceased
+FH0001851,P001662,Brother,Osteoporosis,M81.0,61,Deceased
+FH0001852,P001664,Aunt,Cancer - Prostate,C61,61,Living
+FH0001853,P001665,Paternal Grandmother,Cancer - Colon,C18.9,40,Deceased
+FH0001854,P001668,Paternal Grandmother,Osteoporosis,M81.0,31,Deceased
+FH0001855,P001668,Uncle,Cancer - Prostate,C61,41,Deceased
+FH0001856,P001668,Brother,Cancer - Colon,C18.9,31,Deceased
+FH0001857,P001668,Uncle,Alzheimer's disease,G30.9,32,Deceased
+FH0001858,P001670,Paternal Grandmother,Hypertension,I10,65,Living
+FH0001859,P001671,Aunt,Cancer - Prostate,C61,66,Living
+FH0001860,P001673,Uncle,Asthma,J45.909,78,Living
+FH0001861,P001673,Uncle,Osteoporosis,M81.0,55,Living
+FH0001862,P001674,Paternal Grandmother,Alzheimer's disease,G30.9,33,Deceased
+FH0001863,P001674,Paternal Grandmother,Diabetes,E11.9,64,Deceased
+FH0001864,P001677,Maternal Grandmother,Depression,F32.9,56,Living
+FH0001865,P001677,Paternal Grandmother,Cancer - Breast,C50.919,52,Deceased
+FH0001866,P001678,Paternal Grandfather,Diabetes,E11.9,67,Living
+FH0001867,P001678,Father,Stroke,I63.9,75,Living
+FH0001868,P001680,Mother,Cancer - Colon,C18.9,63,Deceased
+FH0001869,P001680,Paternal Grandfather,Depression,F32.9,60,Living
+FH0001870,P001681,Paternal Grandmother,Diabetes,E11.9,30,Deceased
+FH0001871,P001682,Paternal Grandfather,Asthma,J45.909,67,Living
+FH0001872,P001683,Paternal Grandfather,Cancer - Lung,C34.90,41,Living
+FH0001873,P001687,Sister,Cancer - Colon,C18.9,31,Deceased
+FH0001874,P001687,Paternal Grandmother,Cancer - Breast,C50.919,64,Living
+FH0001875,P001689,Father,Asthma,J45.909,64,Living
+FH0001876,P001689,Paternal Grandmother,Cancer - Prostate,C61,50,Living
+FH0001877,P001690,Maternal Grandfather,Hypertension,I10,80,Living
+FH0001878,P001690,Mother,Cancer - Prostate,C61,70,Living
+FH0001879,P001691,Mother,Cancer - Breast,C50.919,44,Living
+FH0001880,P001691,Uncle,Asthma,J45.909,74,Deceased
+FH0001881,P001692,Paternal Grandmother,Cancer - Prostate,C61,43,Living
+FH0001882,P001692,Mother,Stroke,I63.9,66,Deceased
+FH0001883,P001693,Mother,Cancer - Lung,C34.90,37,Deceased
+FH0001884,P001695,Maternal Grandfather,Cancer - Colon,C18.9,77,Living
+FH0001885,P001699,Maternal Grandfather,Cancer - Prostate,C61,36,Living
+FH0001886,P001700,Mother,Cancer - Colon,C18.9,78,Living
+FH0001887,P001703,Paternal Grandfather,Alzheimer's disease,G30.9,39,Living
+FH0001888,P001705,Aunt,Stroke,I63.9,75,Living
+FH0001889,P001706,Paternal Grandmother,Osteoporosis,M81.0,56,Living
+FH0001890,P001706,Mother,Alzheimer's disease,G30.9,53,Deceased
+FH0001891,P001707,Aunt,Diabetes,E11.9,56,Living
+FH0001892,P001707,Aunt,Osteoporosis,M81.0,41,Living
+FH0001893,P001708,Aunt,Heart disease,I25.10,64,Living
+FH0001894,P001708,Uncle,Diabetes,E11.9,58,Deceased
+FH0001895,P001709,Father,Alzheimer's disease,G30.9,62,Deceased
+FH0001896,P001710,Father,Cancer - Lung,C34.90,79,Living
+FH0001897,P001711,Aunt,Hypertension,I10,65,Deceased
+FH0001898,P001712,Uncle,Cancer - Colon,C18.9,46,Living
+FH0001899,P001712,Paternal Grandfather,Cancer - Breast,C50.919,58,Deceased
+FH0001900,P001713,Aunt,Alzheimer's disease,G30.9,78,Living
+FH0001901,P001713,Paternal Grandmother,Cancer - Prostate,C61,60,Deceased
+FH0001902,P001715,Maternal Grandmother,Cancer - Colon,C18.9,58,Living
+FH0001903,P001715,Brother,Stroke,I63.9,68,Deceased
+FH0001904,P001716,Mother,Depression,F32.9,58,Living
+FH0001905,P001716,Maternal Grandfather,Alzheimer's disease,G30.9,42,Living
+FH0001906,P001717,Paternal Grandfather,Osteoporosis,M81.0,52,Living
+FH0001907,P001717,Maternal Grandmother,Diabetes,E11.9,44,Living
+FH0001908,P001718,Mother,Stroke,I63.9,47,Deceased
+FH0001909,P001718,Paternal Grandmother,Asthma,J45.909,74,Living
+FH0001910,P001720,Paternal Grandmother,Cancer - Breast,C50.919,42,Living
+FH0001911,P001720,Paternal Grandfather,Cancer - Prostate,C61,66,Deceased
+FH0001912,P001722,Brother,Alzheimer's disease,G30.9,58,Living
+FH0001913,P001723,Paternal Grandmother,Alzheimer's disease,G30.9,32,Deceased
+FH0001914,P001724,Uncle,Heart disease,I25.10,66,Living
+FH0001915,P001726,Father,Osteoporosis,M81.0,73,Living
+FH0001916,P001726,Sister,Heart disease,I25.10,72,Deceased
+FH0001917,P001728,Aunt,Depression,F32.9,73,Deceased
+FH0001918,P001728,Sister,Hypertension,I10,70,Deceased
+FH0001919,P001728,Brother,Stroke,I63.9,67,Living
+FH0001920,P001729,Uncle,Stroke,I63.9,70,Living
+FH0001921,P001729,Mother,Asthma,J45.909,61,Deceased
+FH0001922,P001729,Uncle,Alzheimer's disease,G30.9,62,Deceased
+FH0001923,P001732,Maternal Grandmother,Diabetes,E11.9,47,Living
+FH0001924,P001732,Maternal Grandfather,Cancer - Breast,C50.919,35,Living
+FH0001925,P001732,Maternal Grandmother,Cancer - Prostate,C61,75,Deceased
+FH0001926,P001733,Paternal Grandfather,Stroke,I63.9,56,Deceased
+FH0001927,P001733,Maternal Grandfather,Cancer - Colon,C18.9,76,Deceased
+FH0001928,P001733,Maternal Grandmother,Asthma,J45.909,39,Deceased
+FH0001929,P001735,Sister,Asthma,J45.909,59,Deceased
+FH0001930,P001738,Paternal Grandfather,Heart disease,I25.10,46,Living
+FH0001931,P001738,Maternal Grandmother,Cancer - Lung,C34.90,30,Living
+FH0001932,P001738,Aunt,Depression,F32.9,66,Deceased
+FH0001933,P001739,Father,Cancer - Breast,C50.919,48,Deceased
+FH0001934,P001739,Paternal Grandmother,Asthma,J45.909,42,Deceased
+FH0001935,P001739,Aunt,Stroke,I63.9,33,Deceased
+FH0001936,P001740,Paternal Grandmother,Hypertension,I10,68,Living
+FH0001937,P001740,Aunt,Asthma,J45.909,48,Deceased
+FH0001938,P001743,Aunt,Cancer - Lung,C34.90,73,Deceased
+FH0001939,P001743,Maternal Grandfather,Stroke,I63.9,70,Living
+FH0001940,P001743,Father,Cancer - Breast,C50.919,41,Deceased
+FH0001941,P001744,Uncle,Cancer - Lung,C34.90,73,Living
+FH0001942,P001746,Maternal Grandmother,Hypertension,I10,47,Living
+FH0001943,P001747,Father,Osteoporosis,M81.0,45,Deceased
+FH0001944,P001749,Sister,Heart disease,I25.10,64,Living
+FH0001945,P001749,Uncle,Osteoporosis,M81.0,73,Living
+FH0001946,P001751,Paternal Grandfather,Alzheimer's disease,G30.9,32,Living
+FH0001947,P001751,Uncle,Cancer - Lung,C34.90,42,Living
+FH0001948,P001751,Mother,Asthma,J45.909,32,Deceased
+FH0001949,P001753,Paternal Grandmother,Cancer - Colon,C18.9,73,Deceased
+FH0001950,P001754,Sister,Asthma,J45.909,36,Living
+FH0001951,P001755,Paternal Grandmother,Stroke,I63.9,37,Living
+FH0001952,P001755,Sister,Heart disease,I25.10,46,Living
+FH0001953,P001757,Maternal Grandmother,Cancer - Lung,C34.90,41,Living
+FH0001954,P001757,Father,Diabetes,E11.9,44,Deceased
+FH0001955,P001757,Maternal Grandmother,Asthma,J45.909,77,Deceased
+FH0001956,P001757,Paternal Grandfather,Alzheimer's disease,G30.9,33,Living
+FH0001957,P001758,Maternal Grandmother,Osteoporosis,M81.0,76,Deceased
+FH0001958,P001760,Aunt,Asthma,J45.909,50,Deceased
+FH0001959,P001760,Aunt,Hypertension,I10,37,Living
+FH0001960,P001761,Maternal Grandmother,Heart disease,I25.10,38,Living
+FH0001961,P001762,Father,Depression,F32.9,33,Deceased
+FH0001962,P001762,Father,Diabetes,E11.9,68,Deceased
+FH0001963,P001762,Uncle,Cancer - Prostate,C61,51,Living
+FH0001964,P001763,Uncle,Cancer - Lung,C34.90,60,Living
+FH0001965,P001764,Aunt,Hypertension,I10,35,Deceased
+FH0001966,P001764,Maternal Grandfather,Asthma,J45.909,70,Living
+FH0001967,P001765,Father,Asthma,J45.909,69,Deceased
+FH0001968,P001765,Brother,Cancer - Colon,C18.9,68,Deceased
+FH0001969,P001767,Father,Asthma,J45.909,68,Deceased
+FH0001970,P001770,Father,Cancer - Breast,C50.919,57,Deceased
+FH0001971,P001772,Paternal Grandmother,Heart disease,I25.10,73,Deceased
+FH0001972,P001774,Sister,Cancer - Prostate,C61,39,Living
+FH0001973,P001774,Mother,Cancer - Colon,C18.9,70,Living
+FH0001974,P001774,Aunt,Cancer - Lung,C34.90,42,Living
+FH0001975,P001776,Maternal Grandfather,Hypertension,I10,69,Living
+FH0001976,P001776,Paternal Grandfather,Asthma,J45.909,70,Deceased
+FH0001977,P001776,Maternal Grandmother,Depression,F32.9,33,Deceased
+FH0001978,P001778,Uncle,Osteoporosis,M81.0,75,Living
+FH0001979,P001778,Sister,Stroke,I63.9,58,Deceased
+FH0001980,P001779,Mother,Stroke,I63.9,36,Living
+FH0001981,P001779,Paternal Grandfather,Depression,F32.9,66,Living
+FH0001982,P001779,Paternal Grandfather,Cancer - Colon,C18.9,42,Living
+FH0001983,P001779,Maternal Grandmother,Asthma,J45.909,49,Deceased
+FH0001984,P001780,Mother,Stroke,I63.9,55,Living
+FH0001985,P001780,Aunt,Asthma,J45.909,62,Living
+FH0001986,P001780,Aunt,Cancer - Breast,C50.919,57,Deceased
+FH0001987,P001781,Maternal Grandmother,Heart disease,I25.10,64,Deceased
+FH0001988,P001781,Paternal Grandmother,Asthma,J45.909,32,Living
+FH0001989,P001781,Maternal Grandmother,Hypertension,I10,55,Deceased
+FH0001990,P001782,Paternal Grandmother,Alzheimer's disease,G30.9,50,Deceased
+FH0001991,P001783,Maternal Grandmother,Osteoporosis,M81.0,51,Deceased
+FH0001992,P001783,Paternal Grandmother,Asthma,J45.909,63,Living
+FH0001993,P001783,Mother,Hypertension,I10,56,Living
+FH0001994,P001784,Maternal Grandmother,Depression,F32.9,75,Living
+FH0001995,P001784,Father,Alzheimer's disease,G30.9,48,Deceased
+FH0001996,P001786,Brother,Cancer - Colon,C18.9,73,Living
+FH0001997,P001786,Brother,Depression,F32.9,39,Living
+FH0001998,P001787,Maternal Grandfather,Diabetes,E11.9,44,Living
+FH0001999,P001787,Paternal Grandfather,Cancer - Lung,C34.90,44,Living
+FH0002000,P001788,Maternal Grandmother,Depression,F32.9,56,Living
+FH0002001,P001789,Mother,Cancer - Breast,C50.919,75,Living
+FH0002002,P001789,Mother,Diabetes,E11.9,62,Living
+FH0002003,P001790,Paternal Grandfather,Cancer - Prostate,C61,69,Living
+FH0002004,P001790,Maternal Grandfather,Cancer - Colon,C18.9,46,Living
+FH0002005,P001791,Paternal Grandfather,Cancer - Prostate,C61,35,Living
+FH0002006,P001791,Brother,Cancer - Lung,C34.90,77,Living
+FH0002007,P001791,Maternal Grandfather,Depression,F32.9,79,Living
+FH0002008,P001792,Paternal Grandmother,Cancer - Colon,C18.9,75,Deceased
+FH0002009,P001793,Uncle,Hypertension,I10,53,Living
+FH0002010,P001793,Paternal Grandfather,Asthma,J45.909,47,Deceased
+FH0002011,P001793,Father,Heart disease,I25.10,41,Deceased
+FH0002012,P001794,Uncle,Stroke,I63.9,48,Deceased
+FH0002013,P001794,Maternal Grandmother,Depression,F32.9,41,Deceased
+FH0002014,P001794,Maternal Grandfather,Cancer - Colon,C18.9,39,Living
+FH0002015,P001795,Maternal Grandmother,Stroke,I63.9,58,Deceased
+FH0002016,P001795,Uncle,Cancer - Colon,C18.9,56,Deceased
+FH0002017,P001796,Paternal Grandfather,Cancer - Lung,C34.90,31,Living
+FH0002018,P001798,Sister,Asthma,J45.909,75,Living
+FH0002019,P001798,Sister,Osteoporosis,M81.0,42,Living
+FH0002020,P001800,Maternal Grandmother,Heart disease,I25.10,52,Living
+FH0002021,P001800,Father,Cancer - Lung,C34.90,37,Deceased
+FH0002022,P001800,Aunt,Depression,F32.9,67,Deceased
+FH0002023,P001801,Father,Diabetes,E11.9,57,Deceased
+FH0002024,P001802,Sister,Cancer - Lung,C34.90,44,Living
+FH0002025,P001802,Paternal Grandmother,Cancer - Prostate,C61,73,Deceased
+FH0002026,P001802,Maternal Grandfather,Cancer - Breast,C50.919,50,Living
+FH0002027,P001804,Mother,Cancer - Colon,C18.9,59,Deceased
+FH0002028,P001809,Maternal Grandfather,Cancer - Colon,C18.9,51,Living
+FH0002029,P001809,Maternal Grandmother,Cancer - Prostate,C61,74,Living
+FH0002030,P001809,Uncle,Stroke,I63.9,54,Deceased
+FH0002031,P001810,Father,Stroke,I63.9,72,Living
+FH0002032,P001810,Sister,Cancer - Colon,C18.9,53,Living
+FH0002033,P001811,Sister,Stroke,I63.9,49,Living
+FH0002034,P001812,Aunt,Cancer - Lung,C34.90,55,Living
+FH0002035,P001813,Sister,Depression,F32.9,59,Living
+FH0002036,P001814,Uncle,Hypertension,I10,71,Living
+FH0002037,P001814,Maternal Grandmother,Cancer - Colon,C18.9,44,Living
+FH0002038,P001815,Paternal Grandfather,Hypertension,I10,35,Living
+FH0002039,P001815,Maternal Grandmother,Alzheimer's disease,G30.9,75,Living
+FH0002040,P001817,Paternal Grandmother,Stroke,I63.9,34,Living
+FH0002041,P001818,Father,Cancer - Prostate,C61,33,Deceased
+FH0002042,P001818,Aunt,Heart disease,I25.10,57,Living
+FH0002043,P001820,Paternal Grandfather,Osteoporosis,M81.0,32,Living
+FH0002044,P001824,Paternal Grandfather,Asthma,J45.909,49,Living
+FH0002045,P001824,Aunt,Osteoporosis,M81.0,70,Deceased
+FH0002046,P001825,Paternal Grandmother,Diabetes,E11.9,54,Living
+FH0002047,P001825,Brother,Alzheimer's disease,G30.9,54,Living
+FH0002048,P001826,Mother,Stroke,I63.9,43,Deceased
+FH0002049,P001826,Maternal Grandfather,Cancer - Prostate,C61,72,Living
+FH0002050,P001826,Paternal Grandmother,Cancer - Colon,C18.9,38,Living
+FH0002051,P001826,Sister,Asthma,J45.909,55,Living
+FH0002052,P001827,Brother,Asthma,J45.909,44,Living
+FH0002053,P001827,Paternal Grandfather,Hypertension,I10,57,Living
+FH0002054,P001827,Maternal Grandfather,Diabetes,E11.9,68,Living
+FH0002055,P001830,Brother,Hypertension,I10,78,Living
+FH0002056,P001830,Maternal Grandfather,Stroke,I63.9,56,Living
+FH0002057,P001831,Brother,Cancer - Colon,C18.9,74,Living
+FH0002058,P001832,Sister,Stroke,I63.9,46,Living
+FH0002059,P001832,Maternal Grandmother,Asthma,J45.909,40,Living
+FH0002060,P001832,Maternal Grandmother,Diabetes,E11.9,42,Living
+FH0002061,P001836,Uncle,Cancer - Colon,C18.9,35,Living
+FH0002062,P001836,Paternal Grandmother,Osteoporosis,M81.0,64,Deceased
+FH0002063,P001837,Father,Alzheimer's disease,G30.9,31,Living
+FH0002064,P001839,Aunt,Alzheimer's disease,G30.9,45,Living
+FH0002065,P001839,Mother,Diabetes,E11.9,61,Deceased
+FH0002066,P001840,Paternal Grandfather,Diabetes,E11.9,55,Deceased
+FH0002067,P001842,Mother,Cancer - Breast,C50.919,64,Deceased
+FH0002068,P001843,Sister,Alzheimer's disease,G30.9,33,Living
+FH0002069,P001843,Sister,Asthma,J45.909,74,Living
+FH0002070,P001845,Father,Cancer - Prostate,C61,34,Living
+FH0002071,P001845,Maternal Grandfather,Depression,F32.9,30,Deceased
+FH0002072,P001847,Aunt,Alzheimer's disease,G30.9,74,Deceased
+FH0002073,P001847,Mother,Cancer - Prostate,C61,46,Living
+FH0002074,P001847,Paternal Grandmother,Cancer - Breast,C50.919,79,Living
+FH0002075,P001849,Father,Asthma,J45.909,42,Deceased
+FH0002076,P001849,Sister,Osteoporosis,M81.0,42,Living
+FH0002077,P001850,Father,Cancer - Prostate,C61,70,Deceased
+FH0002078,P001853,Aunt,Heart disease,I25.10,30,Living
+FH0002079,P001853,Brother,Alzheimer's disease,G30.9,46,Deceased
+FH0002080,P001855,Paternal Grandmother,Cancer - Lung,C34.90,80,Deceased
+FH0002081,P001855,Mother,Alzheimer's disease,G30.9,40,Living
+FH0002082,P001856,Aunt,Diabetes,E11.9,68,Living
+FH0002083,P001856,Maternal Grandmother,Cancer - Breast,C50.919,59,Living
+FH0002084,P001857,Paternal Grandmother,Cancer - Colon,C18.9,51,Deceased
+FH0002085,P001857,Aunt,Asthma,J45.909,77,Deceased
+FH0002086,P001859,Mother,Cancer - Breast,C50.919,37,Living
+FH0002087,P001859,Uncle,Asthma,J45.909,50,Living
+FH0002088,P001860,Brother,Cancer - Lung,C34.90,70,Living
+FH0002089,P001862,Sister,Cancer - Prostate,C61,43,Living
+FH0002090,P001862,Father,Cancer - Breast,C50.919,38,Living
+FH0002091,P001863,Uncle,Stroke,I63.9,67,Living
+FH0002092,P001866,Sister,Cancer - Breast,C50.919,65,Living
+FH0002093,P001866,Sister,Alzheimer's disease,G30.9,66,Deceased
+FH0002094,P001866,Paternal Grandfather,Cancer - Lung,C34.90,58,Living
+FH0002095,P001870,Maternal Grandfather,Osteoporosis,M81.0,47,Living
+FH0002096,P001872,Sister,Cancer - Breast,C50.919,41,Living
+FH0002097,P001872,Maternal Grandfather,Cancer - Lung,C34.90,46,Deceased
+FH0002098,P001873,Brother,Diabetes,E11.9,49,Living
+FH0002099,P001873,Father,Hypertension,I10,44,Living
+FH0002100,P001873,Sister,Heart disease,I25.10,30,Living
+FH0002101,P001873,Maternal Grandmother,Cancer - Lung,C34.90,63,Living
+FH0002102,P001877,Paternal Grandfather,Cancer - Colon,C18.9,55,Living
+FH0002103,P001880,Brother,Heart disease,I25.10,55,Living
+FH0002104,P001882,Uncle,Asthma,J45.909,54,Living
+FH0002105,P001883,Paternal Grandfather,Cancer - Colon,C18.9,67,Deceased
+FH0002106,P001883,Paternal Grandmother,Cancer - Breast,C50.919,53,Deceased
+FH0002107,P001886,Sister,Cancer - Lung,C34.90,43,Living
+FH0002108,P001886,Mother,Asthma,J45.909,56,Deceased
+FH0002109,P001887,Maternal Grandmother,Asthma,J45.909,43,Living
+FH0002110,P001887,Maternal Grandfather,Diabetes,E11.9,31,Living
+FH0002111,P001887,Sister,Cancer - Breast,C50.919,61,Living
+FH0002112,P001888,Father,Heart disease,I25.10,56,Living
+FH0002113,P001888,Mother,Alzheimer's disease,G30.9,42,Living
+FH0002114,P001889,Sister,Hypertension,I10,39,Living
+FH0002115,P001889,Uncle,Heart disease,I25.10,51,Deceased
+FH0002116,P001891,Paternal Grandfather,Alzheimer's disease,G30.9,36,Living
+FH0002117,P001893,Maternal Grandmother,Cancer - Breast,C50.919,34,Deceased
+FH0002118,P001893,Paternal Grandmother,Depression,F32.9,80,Living
+FH0002119,P001894,Maternal Grandfather,Alzheimer's disease,G30.9,42,Deceased
+FH0002120,P001894,Paternal Grandmother,Stroke,I63.9,54,Living
+FH0002121,P001896,Uncle,Cancer - Prostate,C61,43,Living
+FH0002122,P001896,Mother,Alzheimer's disease,G30.9,77,Living
+FH0002123,P001896,Brother,Hypertension,I10,30,Living
+FH0002124,P001897,Sister,Stroke,I63.9,47,Living
+FH0002125,P001897,Paternal Grandfather,Cancer - Colon,C18.9,31,Living
+FH0002126,P001899,Paternal Grandfather,Cancer - Colon,C18.9,79,Living
+FH0002127,P001899,Maternal Grandmother,Osteoporosis,M81.0,65,Living
+FH0002128,P001901,Father,Cancer - Colon,C18.9,33,Living
+FH0002129,P001901,Maternal Grandfather,Hypertension,I10,64,Living
+FH0002130,P001904,Uncle,Asthma,J45.909,62,Living
+FH0002131,P001904,Father,Cancer - Colon,C18.9,63,Deceased
+FH0002132,P001904,Sister,Alzheimer's disease,G30.9,33,Deceased
+FH0002133,P001905,Uncle,Cancer - Lung,C34.90,44,Deceased
+FH0002134,P001905,Uncle,Cancer - Breast,C50.919,65,Deceased
+FH0002135,P001907,Paternal Grandmother,Cancer - Prostate,C61,41,Living
+FH0002136,P001907,Uncle,Heart disease,I25.10,62,Living
+FH0002137,P001907,Sister,Asthma,J45.909,78,Deceased
+FH0002138,P001908,Paternal Grandmother,Alzheimer's disease,G30.9,70,Living
+FH0002139,P001908,Maternal Grandfather,Asthma,J45.909,80,Deceased
+FH0002140,P001908,Mother,Depression,F32.9,76,Living
+FH0002141,P001910,Father,Asthma,J45.909,74,Living
+FH0002142,P001911,Aunt,Stroke,I63.9,33,Living
+FH0002143,P001914,Aunt,Depression,F32.9,41,Deceased
+FH0002144,P001914,Uncle,Hypertension,I10,36,Living
+FH0002145,P001914,Mother,Cancer - Lung,C34.90,65,Living
+FH0002146,P001915,Aunt,Asthma,J45.909,66,Living
+FH0002147,P001917,Aunt,Stroke,I63.9,55,Deceased
+FH0002148,P001917,Paternal Grandmother,Cancer - Prostate,C61,54,Living
+FH0002149,P001920,Father,Diabetes,E11.9,72,Living
+FH0002150,P001920,Aunt,Cancer - Colon,C18.9,73,Living
+FH0002151,P001921,Paternal Grandfather,Asthma,J45.909,55,Living
+FH0002152,P001921,Maternal Grandmother,Diabetes,E11.9,56,Deceased
+FH0002153,P001921,Paternal Grandmother,Heart disease,I25.10,57,Living
+FH0002154,P001923,Aunt,Osteoporosis,M81.0,77,Living
+FH0002155,P001923,Maternal Grandfather,Asthma,J45.909,51,Living
+FH0002156,P001923,Sister,Stroke,I63.9,56,Living
+FH0002157,P001925,Father,Cancer - Breast,C50.919,70,Deceased
+FH0002158,P001925,Maternal Grandmother,Hypertension,I10,47,Living
+FH0002159,P001925,Sister,Diabetes,E11.9,35,Living
+FH0002160,P001926,Paternal Grandmother,Alzheimer's disease,G30.9,74,Deceased
+FH0002161,P001926,Aunt,Cancer - Colon,C18.9,73,Living
+FH0002162,P001927,Brother,Cancer - Breast,C50.919,77,Living
+FH0002163,P001927,Maternal Grandmother,Hypertension,I10,80,Deceased
+FH0002164,P001929,Maternal Grandfather,Alzheimer's disease,G30.9,61,Living
+FH0002165,P001929,Paternal Grandfather,Hypertension,I10,67,Living
+FH0002166,P001931,Paternal Grandmother,Alzheimer's disease,G30.9,58,Deceased
+FH0002167,P001931,Maternal Grandfather,Heart disease,I25.10,39,Deceased
+FH0002168,P001933,Brother,Osteoporosis,M81.0,50,Deceased
+FH0002169,P001936,Sister,Depression,F32.9,77,Living
+FH0002170,P001940,Brother,Cancer - Colon,C18.9,58,Living
+FH0002171,P001941,Paternal Grandfather,Osteoporosis,M81.0,69,Deceased
+FH0002172,P001942,Brother,Cancer - Prostate,C61,62,Deceased
+FH0002173,P001942,Father,Hypertension,I10,35,Living
+FH0002174,P001943,Paternal Grandmother,Alzheimer's disease,G30.9,79,Deceased
+FH0002175,P001943,Paternal Grandmother,Cancer - Breast,C50.919,32,Deceased
+FH0002176,P001944,Aunt,Heart disease,I25.10,44,Living
+FH0002177,P001944,Aunt,Asthma,J45.909,76,Living
+FH0002178,P001945,Maternal Grandfather,Asthma,J45.909,53,Living
+FH0002179,P001946,Paternal Grandmother,Alzheimer's disease,G30.9,40,Deceased
+FH0002180,P001946,Paternal Grandmother,Cancer - Lung,C34.90,69,Deceased
+FH0002181,P001946,Paternal Grandmother,Osteoporosis,M81.0,69,Living
+FH0002182,P001947,Brother,Asthma,J45.909,50,Living
+FH0002183,P001947,Aunt,Cancer - Lung,C34.90,56,Living
+FH0002184,P001947,Aunt,Cancer - Prostate,C61,34,Living
+FH0002185,P001948,Paternal Grandmother,Depression,F32.9,35,Deceased
+FH0002186,P001948,Maternal Grandfather,Hypertension,I10,77,Deceased
+FH0002187,P001949,Sister,Hypertension,I10,72,Living
+FH0002188,P001950,Paternal Grandmother,Asthma,J45.909,49,Living
+FH0002189,P001951,Mother,Hypertension,I10,63,Living
+FH0002190,P001953,Maternal Grandmother,Diabetes,E11.9,35,Living
+FH0002191,P001953,Aunt,Depression,F32.9,57,Deceased
+FH0002192,P001954,Maternal Grandmother,Alzheimer's disease,G30.9,66,Deceased
+FH0002193,P001955,Maternal Grandmother,Cancer - Lung,C34.90,73,Deceased
+FH0002194,P001956,Mother,Depression,F32.9,54,Living
+FH0002195,P001957,Maternal Grandmother,Cancer - Lung,C34.90,52,Living
+FH0002196,P001957,Paternal Grandmother,Hypertension,I10,48,Living
+FH0002197,P001957,Sister,Diabetes,E11.9,39,Deceased
+FH0002198,P001957,Maternal Grandmother,Asthma,J45.909,76,Deceased
+FH0002199,P001958,Paternal Grandfather,Cancer - Lung,C34.90,56,Deceased
+FH0002200,P001958,Sister,Cancer - Colon,C18.9,80,Living
+FH0002201,P001960,Father,Heart disease,I25.10,33,Living
+FH0002202,P001963,Paternal Grandfather,Cancer - Lung,C34.90,44,Deceased
+FH0002203,P001963,Aunt,Stroke,I63.9,76,Living
+FH0002204,P001964,Maternal Grandfather,Alzheimer's disease,G30.9,59,Living
+FH0002205,P001964,Father,Cancer - Colon,C18.9,60,Living
+FH0002206,P001965,Sister,Alzheimer's disease,G30.9,69,Living
+FH0002207,P001965,Father,Cancer - Lung,C34.90,75,Deceased
+FH0002208,P001967,Aunt,Stroke,I63.9,78,Living
+FH0002209,P001967,Aunt,Cancer - Lung,C34.90,67,Deceased
+FH0002210,P001968,Maternal Grandfather,Hypertension,I10,59,Living
+FH0002211,P001968,Mother,Cancer - Breast,C50.919,62,Living
+FH0002212,P001968,Father,Depression,F32.9,66,Living
+FH0002213,P001969,Mother,Hypertension,I10,31,Living
+FH0002214,P001969,Brother,Diabetes,E11.9,75,Deceased
+FH0002215,P001969,Uncle,Heart disease,I25.10,78,Living
+FH0002216,P001970,Aunt,Cancer - Prostate,C61,51,Deceased
+FH0002217,P001971,Mother,Stroke,I63.9,64,Deceased
+FH0002218,P001975,Maternal Grandmother,Depression,F32.9,80,Deceased
+FH0002219,P001975,Paternal Grandmother,Diabetes,E11.9,41,Living
+FH0002220,P001975,Aunt,Heart disease,I25.10,42,Living
+FH0002221,P001977,Paternal Grandmother,Osteoporosis,M81.0,60,Living
+FH0002222,P001978,Mother,Asthma,J45.909,77,Living
+FH0002223,P001979,Maternal Grandmother,Hypertension,I10,55,Living
+FH0002224,P001979,Maternal Grandmother,Depression,F32.9,44,Living
+FH0002225,P001980,Paternal Grandmother,Cancer - Breast,C50.919,39,Deceased
+FH0002226,P001981,Maternal Grandfather,Stroke,I63.9,31,Living
+FH0002227,P001981,Uncle,Cancer - Prostate,C61,62,Living
+FH0002228,P001982,Mother,Diabetes,E11.9,42,Living
+FH0002229,P001982,Sister,Alzheimer's disease,G30.9,74,Living
+FH0002230,P001983,Maternal Grandfather,Diabetes,E11.9,77,Living
+FH0002231,P001984,Paternal Grandmother,Cancer - Breast,C50.919,58,Living
+FH0002232,P001984,Aunt,Stroke,I63.9,74,Living
+FH0002233,P001985,Father,Depression,F32.9,68,Living
+FH0002234,P001986,Father,Cancer - Breast,C50.919,80,Living
+FH0002235,P001986,Maternal Grandfather,Depression,F32.9,78,Living
+FH0002236,P001987,Maternal Grandmother,Cancer - Breast,C50.919,75,Deceased
+FH0002237,P001987,Brother,Depression,F32.9,50,Living
+FH0002238,P001990,Paternal Grandmother,Cancer - Lung,C34.90,48,Living
+FH0002239,P001993,Paternal Grandmother,Hypertension,I10,37,Deceased
+FH0002240,P001994,Maternal Grandmother,Heart disease,I25.10,76,Living
+FH0002241,P001994,Uncle,Stroke,I63.9,69,Deceased
+FH0002242,P001994,Paternal Grandmother,Osteoporosis,M81.0,73,Living
+FH0002243,P001997,Sister,Alzheimer's disease,G30.9,61,Deceased
+FH0002244,P001997,Maternal Grandfather,Depression,F32.9,74,Living
+FH0002245,P001998,Paternal Grandmother,Cancer - Lung,C34.90,51,Living
+FH0002246,P001999,Brother,Cancer - Lung,C34.90,43,Living
+FH0002247,P001999,Maternal Grandmother,Cancer - Breast,C50.919,55,Deceased
+FH0002248,P002002,Paternal Grandmother,Cancer - Colon,C18.9,66,Deceased
+FH0002249,P002004,Father,Cancer - Prostate,C61,48,Living
+FH0002250,P002004,Maternal Grandfather,Depression,F32.9,56,Living
+FH0002251,P002004,Mother,Cancer - Lung,C34.90,33,Living
+FH0002252,P002008,Mother,Cancer - Colon,C18.9,38,Living
+FH0002253,P002010,Uncle,Cancer - Breast,C50.919,60,Living
+FH0002254,P002010,Sister,Alzheimer's disease,G30.9,72,Living
+FH0002255,P002011,Brother,Stroke,I63.9,65,Deceased
+FH0002256,P002011,Sister,Cancer - Colon,C18.9,44,Deceased
+FH0002257,P002011,Sister,Alzheimer's disease,G30.9,68,Living
+FH0002258,P002011,Sister,Cancer - Prostate,C61,34,Living
+FH0002259,P002013,Aunt,Cancer - Breast,C50.919,31,Living
+FH0002260,P002013,Paternal Grandmother,Diabetes,E11.9,79,Living
+FH0002261,P002014,Paternal Grandfather,Heart disease,I25.10,80,Living
+FH0002262,P002015,Maternal Grandfather,Cancer - Prostate,C61,51,Living
+FH0002263,P002015,Maternal Grandmother,Heart disease,I25.10,59,Deceased
+FH0002264,P002017,Uncle,Heart disease,I25.10,36,Living
+FH0002265,P002017,Father,Osteoporosis,M81.0,69,Living
+FH0002266,P002018,Brother,Diabetes,E11.9,60,Deceased
+FH0002267,P002019,Paternal Grandmother,Alzheimer's disease,G30.9,60,Living
+FH0002268,P002019,Paternal Grandfather,Osteoporosis,M81.0,72,Living
+FH0002269,P002022,Paternal Grandmother,Cancer - Lung,C34.90,43,Deceased
+FH0002270,P002022,Uncle,Diabetes,E11.9,63,Living
+FH0002271,P002022,Aunt,Cancer - Prostate,C61,45,Living
+FH0002272,P002024,Brother,Depression,F32.9,46,Deceased
+FH0002273,P002026,Brother,Hypertension,I10,76,Living
+FH0002274,P002026,Father,Alzheimer's disease,G30.9,67,Deceased
+FH0002275,P002027,Maternal Grandfather,Hypertension,I10,33,Deceased
+FH0002276,P002027,Paternal Grandfather,Asthma,J45.909,74,Deceased
+FH0002277,P002030,Aunt,Cancer - Prostate,C61,46,Living
+FH0002278,P002030,Maternal Grandfather,Cancer - Lung,C34.90,30,Living
+FH0002279,P002032,Sister,Heart disease,I25.10,48,Living
+FH0002280,P002033,Uncle,Stroke,I63.9,62,Living
+FH0002281,P002033,Father,Hypertension,I10,67,Living
+FH0002282,P002036,Uncle,Osteoporosis,M81.0,55,Living
+FH0002283,P002036,Aunt,Asthma,J45.909,73,Living
+FH0002284,P002036,Sister,Hypertension,I10,49,Deceased
+FH0002285,P002041,Maternal Grandmother,Diabetes,E11.9,40,Deceased
+FH0002286,P002042,Maternal Grandmother,Diabetes,E11.9,67,Deceased
+FH0002287,P002042,Maternal Grandmother,Stroke,I63.9,52,Living
+FH0002288,P002042,Maternal Grandfather,Asthma,J45.909,57,Living
+FH0002289,P002043,Mother,Cancer - Breast,C50.919,50,Deceased
+FH0002290,P002044,Mother,Cancer - Prostate,C61,32,Living
+FH0002291,P002045,Mother,Hypertension,I10,60,Living
+FH0002292,P002045,Aunt,Cancer - Breast,C50.919,65,Deceased
+FH0002293,P002047,Maternal Grandmother,Diabetes,E11.9,46,Living
+FH0002294,P002051,Mother,Diabetes,E11.9,58,Deceased
+FH0002295,P002051,Paternal Grandmother,Heart disease,I25.10,51,Living
+FH0002296,P002051,Mother,Osteoporosis,M81.0,76,Living
+FH0002297,P002052,Father,Depression,F32.9,68,Living
+FH0002298,P002052,Brother,Diabetes,E11.9,37,Living
+FH0002299,P002053,Father,Asthma,J45.909,50,Living
+FH0002300,P002053,Paternal Grandmother,Diabetes,E11.9,36,Living
+FH0002301,P002053,Maternal Grandmother,Osteoporosis,M81.0,76,Deceased
+FH0002302,P002054,Aunt,Hypertension,I10,59,Deceased
+FH0002303,P002056,Mother,Cancer - Prostate,C61,42,Living
+FH0002304,P002056,Uncle,Stroke,I63.9,61,Living
+FH0002305,P002057,Uncle,Diabetes,E11.9,45,Living
+FH0002306,P002057,Father,Cancer - Colon,C18.9,68,Living
+FH0002307,P002058,Paternal Grandmother,Diabetes,E11.9,54,Deceased
+FH0002308,P002059,Mother,Stroke,I63.9,66,Living
+FH0002309,P002059,Maternal Grandfather,Cancer - Lung,C34.90,80,Deceased
+FH0002310,P002059,Aunt,Cancer - Prostate,C61,76,Living
+FH0002311,P002059,Uncle,Diabetes,E11.9,34,Deceased
+FH0002312,P002060,Brother,Cancer - Prostate,C61,69,Deceased
+FH0002313,P002060,Mother,Hypertension,I10,52,Living
+FH0002314,P002060,Maternal Grandfather,Cancer - Colon,C18.9,73,Living
+FH0002315,P002063,Father,Depression,F32.9,60,Living
+FH0002316,P002064,Paternal Grandmother,Asthma,J45.909,32,Deceased
+FH0002317,P002064,Paternal Grandfather,Cancer - Prostate,C61,63,Deceased
+FH0002318,P002065,Paternal Grandfather,Alzheimer's disease,G30.9,52,Living
+FH0002319,P002066,Sister,Stroke,I63.9,57,Deceased
+FH0002320,P002066,Brother,Osteoporosis,M81.0,34,Living
+FH0002321,P002066,Sister,Cancer - Lung,C34.90,36,Deceased
+FH0002322,P002066,Paternal Grandmother,Asthma,J45.909,41,Deceased
+FH0002323,P002067,Paternal Grandfather,Cancer - Breast,C50.919,44,Living
+FH0002324,P002068,Brother,Diabetes,E11.9,64,Living
+FH0002325,P002068,Brother,Cancer - Lung,C34.90,71,Deceased
+FH0002326,P002068,Sister,Depression,F32.9,37,Deceased
+FH0002327,P002069,Paternal Grandfather,Alzheimer's disease,G30.9,45,Living
+FH0002328,P002070,Brother,Osteoporosis,M81.0,49,Deceased
+FH0002329,P002071,Maternal Grandfather,Cancer - Colon,C18.9,78,Living
+FH0002330,P002072,Sister,Hypertension,I10,41,Living
+FH0002331,P002072,Maternal Grandfather,Cancer - Prostate,C61,68,Deceased
+FH0002332,P002073,Maternal Grandfather,Alzheimer's disease,G30.9,42,Living
+FH0002333,P002073,Uncle,Diabetes,E11.9,71,Living
+FH0002334,P002073,Father,Cancer - Breast,C50.919,50,Deceased
+FH0002335,P002073,Maternal Grandmother,Osteoporosis,M81.0,66,Deceased
+FH0002336,P002075,Father,Asthma,J45.909,42,Living
+FH0002337,P002075,Uncle,Stroke,I63.9,68,Deceased
+FH0002338,P002077,Maternal Grandfather,Heart disease,I25.10,36,Living
+FH0002339,P002077,Brother,Osteoporosis,M81.0,62,Living
+FH0002340,P002077,Aunt,Diabetes,E11.9,60,Deceased
+FH0002341,P002080,Mother,Hypertension,I10,66,Living
+FH0002342,P002080,Brother,Depression,F32.9,60,Living
+FH0002343,P002080,Paternal Grandfather,Cancer - Breast,C50.919,65,Living
+FH0002344,P002082,Paternal Grandfather,Cancer - Prostate,C61,31,Living
+FH0002345,P002082,Paternal Grandmother,Hypertension,I10,56,Deceased
+FH0002346,P002084,Uncle,Heart disease,I25.10,31,Deceased
+FH0002347,P002084,Maternal Grandmother,Cancer - Prostate,C61,53,Deceased
+FH0002348,P002084,Maternal Grandmother,Alzheimer's disease,G30.9,62,Living
+FH0002349,P002086,Mother,Alzheimer's disease,G30.9,58,Deceased
+FH0002350,P002086,Paternal Grandmother,Cancer - Colon,C18.9,37,Living
+FH0002351,P002087,Sister,Diabetes,E11.9,73,Deceased
+FH0002352,P002088,Brother,Hypertension,I10,66,Living
+FH0002353,P002088,Maternal Grandfather,Cancer - Breast,C50.919,32,Living
+FH0002354,P002089,Uncle,Cancer - Breast,C50.919,40,Living
+FH0002355,P002089,Aunt,Heart disease,I25.10,57,Living
+FH0002356,P002089,Mother,Diabetes,E11.9,46,Living
+FH0002357,P002091,Maternal Grandfather,Diabetes,E11.9,79,Living
+FH0002358,P002094,Father,Stroke,I63.9,52,Deceased
+FH0002359,P002095,Father,Stroke,I63.9,50,Deceased
+FH0002360,P002097,Maternal Grandfather,Alzheimer's disease,G30.9,62,Living
+FH0002361,P002097,Aunt,Osteoporosis,M81.0,39,Deceased
+FH0002362,P002098,Father,Osteoporosis,M81.0,50,Deceased
+FH0002363,P002099,Brother,Heart disease,I25.10,66,Living
+FH0002364,P002099,Brother,Stroke,I63.9,50,Deceased
+FH0002365,P002099,Father,Cancer - Prostate,C61,76,Deceased
+FH0002366,P002100,Paternal Grandfather,Stroke,I63.9,31,Deceased
+FH0002367,P002100,Sister,Hypertension,I10,68,Living
+FH0002368,P002101,Paternal Grandmother,Alzheimer's disease,G30.9,67,Deceased
+FH0002369,P002101,Maternal Grandfather,Stroke,I63.9,37,Living
+FH0002370,P002101,Father,Depression,F32.9,37,Living
+FH0002371,P002104,Maternal Grandfather,Cancer - Breast,C50.919,51,Deceased
+FH0002372,P002104,Father,Diabetes,E11.9,69,Living
+FH0002373,P002107,Paternal Grandfather,Stroke,I63.9,62,Deceased
+FH0002374,P002107,Father,Cancer - Prostate,C61,63,Deceased
+FH0002375,P002113,Maternal Grandmother,Stroke,I63.9,52,Living
+FH0002376,P002113,Mother,Diabetes,E11.9,58,Living
+FH0002377,P002114,Brother,Diabetes,E11.9,64,Living
+FH0002378,P002116,Paternal Grandmother,Alzheimer's disease,G30.9,43,Living
+FH0002379,P002116,Maternal Grandmother,Cancer - Breast,C50.919,63,Living
+FH0002380,P002116,Paternal Grandfather,Cancer - Colon,C18.9,67,Living
+FH0002381,P002116,Father,Depression,F32.9,33,Living
+FH0002382,P002117,Maternal Grandfather,Cancer - Prostate,C61,50,Living
+FH0002383,P002117,Mother,Osteoporosis,M81.0,42,Deceased
+FH0002384,P002118,Maternal Grandmother,Alzheimer's disease,G30.9,33,Living
+FH0002385,P002118,Maternal Grandfather,Cancer - Breast,C50.919,65,Deceased
+FH0002386,P002119,Father,Cancer - Breast,C50.919,37,Living
+FH0002387,P002119,Sister,Stroke,I63.9,68,Living
+FH0002388,P002119,Aunt,Heart disease,I25.10,68,Living
+FH0002389,P002120,Sister,Stroke,I63.9,35,Deceased
+FH0002390,P002122,Mother,Stroke,I63.9,36,Living
+FH0002391,P002122,Mother,Osteoporosis,M81.0,75,Living
+FH0002392,P002122,Sister,Cancer - Prostate,C61,38,Living
+FH0002393,P002123,Aunt,Cancer - Lung,C34.90,38,Deceased
+FH0002394,P002123,Paternal Grandfather,Stroke,I63.9,38,Living
+FH0002395,P002123,Brother,Diabetes,E11.9,37,Deceased
+FH0002396,P002124,Sister,Cancer - Prostate,C61,52,Deceased
+FH0002397,P002125,Maternal Grandmother,Cancer - Colon,C18.9,70,Deceased
+FH0002398,P002127,Paternal Grandmother,Stroke,I63.9,67,Deceased
+FH0002399,P002128,Brother,Cancer - Prostate,C61,34,Living
+FH0002400,P002129,Aunt,Depression,F32.9,76,Deceased
+FH0002401,P002130,Brother,Diabetes,E11.9,77,Deceased
+FH0002402,P002130,Maternal Grandmother,Cancer - Lung,C34.90,37,Deceased
+FH0002403,P002130,Father,Asthma,J45.909,74,Deceased
+FH0002404,P002131,Maternal Grandfather,Cancer - Prostate,C61,67,Deceased
+FH0002405,P002131,Mother,Alzheimer's disease,G30.9,40,Deceased
+FH0002406,P002132,Maternal Grandmother,Cancer - Prostate,C61,41,Deceased
+FH0002407,P002132,Brother,Stroke,I63.9,35,Deceased
+FH0002408,P002134,Maternal Grandfather,Asthma,J45.909,42,Living
+FH0002409,P002135,Uncle,Cancer - Colon,C18.9,39,Living
+FH0002410,P002135,Maternal Grandfather,Depression,F32.9,57,Living
+FH0002411,P002135,Paternal Grandmother,Osteoporosis,M81.0,48,Living
+FH0002412,P002136,Father,Stroke,I63.9,66,Deceased
+FH0002413,P002138,Paternal Grandmother,Cancer - Prostate,C61,60,Living
+FH0002414,P002138,Brother,Alzheimer's disease,G30.9,73,Living
+FH0002415,P002139,Brother,Hypertension,I10,61,Living
+FH0002416,P002139,Father,Alzheimer's disease,G30.9,54,Deceased
+FH0002417,P002139,Uncle,Diabetes,E11.9,48,Living
+FH0002418,P002140,Maternal Grandfather,Cancer - Breast,C50.919,41,Living
+FH0002419,P002140,Mother,Depression,F32.9,30,Living
+FH0002420,P002140,Uncle,Cancer - Prostate,C61,73,Deceased
+FH0002421,P002141,Paternal Grandmother,Osteoporosis,M81.0,60,Deceased
+FH0002422,P002142,Father,Cancer - Breast,C50.919,54,Living
+FH0002423,P002143,Maternal Grandmother,Alzheimer's disease,G30.9,47,Living
+FH0002424,P002147,Maternal Grandmother,Cancer - Lung,C34.90,69,Living
+FH0002425,P002147,Aunt,Cancer - Breast,C50.919,44,Living
+FH0002426,P002148,Uncle,Cancer - Lung,C34.90,33,Living
+FH0002427,P002148,Aunt,Depression,F32.9,49,Deceased
+FH0002428,P002149,Aunt,Osteoporosis,M81.0,41,Living
+FH0002429,P002149,Paternal Grandmother,Cancer - Colon,C18.9,73,Deceased
+FH0002430,P002151,Paternal Grandmother,Heart disease,I25.10,55,Living
+FH0002431,P002151,Mother,Cancer - Breast,C50.919,57,Living
+FH0002432,P002152,Brother,Cancer - Colon,C18.9,45,Living
+FH0002433,P002153,Mother,Cancer - Breast,C50.919,73,Living
+FH0002434,P002153,Father,Stroke,I63.9,65,Living
+FH0002435,P002154,Sister,Diabetes,E11.9,45,Living
+FH0002436,P002155,Aunt,Depression,F32.9,50,Deceased
+FH0002437,P002158,Brother,Cancer - Colon,C18.9,53,Living
+FH0002438,P002158,Paternal Grandmother,Heart disease,I25.10,67,Deceased
+FH0002439,P002158,Paternal Grandfather,Asthma,J45.909,58,Living
+FH0002440,P002158,Paternal Grandmother,Diabetes,E11.9,35,Living
+FH0002441,P002159,Maternal Grandfather,Diabetes,E11.9,42,Deceased
+FH0002442,P002159,Aunt,Cancer - Lung,C34.90,61,Living
+FH0002443,P002160,Uncle,Depression,F32.9,37,Deceased
+FH0002444,P002160,Maternal Grandfather,Hypertension,I10,62,Deceased
+FH0002445,P002162,Mother,Stroke,I63.9,33,Deceased
+FH0002446,P002162,Paternal Grandmother,Cancer - Colon,C18.9,44,Deceased
+FH0002447,P002163,Paternal Grandmother,Osteoporosis,M81.0,43,Living
+FH0002448,P002163,Maternal Grandfather,Asthma,J45.909,72,Living
+FH0002449,P002164,Sister,Cancer - Breast,C50.919,60,Deceased
+FH0002450,P002164,Uncle,Cancer - Lung,C34.90,47,Living
+FH0002451,P002165,Sister,Hypertension,I10,48,Deceased
+FH0002452,P002165,Maternal Grandmother,Osteoporosis,M81.0,62,Deceased
+FH0002453,P002165,Maternal Grandfather,Asthma,J45.909,44,Living
+FH0002454,P002166,Maternal Grandfather,Heart disease,I25.10,41,Living
+FH0002455,P002166,Brother,Asthma,J45.909,51,Living
+FH0002456,P002167,Paternal Grandmother,Cancer - Lung,C34.90,73,Living
+FH0002457,P002167,Father,Alzheimer's disease,G30.9,59,Living
+FH0002458,P002167,Uncle,Cancer - Breast,C50.919,62,Deceased
+FH0002459,P002170,Uncle,Osteoporosis,M81.0,75,Deceased
+FH0002460,P002171,Paternal Grandmother,Asthma,J45.909,37,Deceased
+FH0002461,P002171,Maternal Grandmother,Hypertension,I10,68,Living
+FH0002462,P002172,Maternal Grandmother,Stroke,I63.9,62,Deceased
+FH0002463,P002172,Maternal Grandfather,Cancer - Lung,C34.90,39,Living
+FH0002464,P002172,Uncle,Hypertension,I10,44,Living
+FH0002465,P002175,Maternal Grandmother,Depression,F32.9,69,Living
+FH0002466,P002176,Paternal Grandfather,Diabetes,E11.9,51,Living
+FH0002467,P002176,Uncle,Cancer - Colon,C18.9,49,Living
+FH0002468,P002178,Maternal Grandmother,Asthma,J45.909,57,Living
+FH0002469,P002178,Maternal Grandmother,Stroke,I63.9,80,Living
+FH0002470,P002178,Paternal Grandmother,Cancer - Breast,C50.919,64,Living
+FH0002471,P002178,Brother,Osteoporosis,M81.0,73,Living
+FH0002472,P002180,Aunt,Cancer - Breast,C50.919,51,Living
+FH0002473,P002180,Uncle,Stroke,I63.9,42,Deceased
+FH0002474,P002181,Father,Cancer - Prostate,C61,39,Deceased
+FH0002475,P002181,Sister,Cancer - Lung,C34.90,46,Living
+FH0002476,P002181,Sister,Cancer - Breast,C50.919,74,Deceased
+FH0002477,P002182,Brother,Stroke,I63.9,36,Deceased
+FH0002478,P002182,Brother,Heart disease,I25.10,35,Living
+FH0002479,P002182,Father,Cancer - Lung,C34.90,71,Living
+FH0002480,P002185,Paternal Grandfather,Hypertension,I10,51,Living
+FH0002481,P002186,Maternal Grandfather,Cancer - Colon,C18.9,76,Living
+FH0002482,P002186,Father,Diabetes,E11.9,44,Living
+FH0002483,P002186,Maternal Grandmother,Heart disease,I25.10,31,Deceased
+FH0002484,P002188,Maternal Grandfather,Stroke,I63.9,64,Deceased
+FH0002485,P002192,Sister,Alzheimer's disease,G30.9,56,Living
+FH0002486,P002192,Brother,Cancer - Prostate,C61,31,Living
+FH0002487,P002192,Sister,Osteoporosis,M81.0,48,Living
+FH0002488,P002193,Brother,Depression,F32.9,50,Deceased
+FH0002489,P002193,Aunt,Osteoporosis,M81.0,36,Living
+FH0002490,P002193,Uncle,Alzheimer's disease,G30.9,66,Deceased
+FH0002491,P002194,Paternal Grandmother,Diabetes,E11.9,67,Living
+FH0002492,P002194,Aunt,Heart disease,I25.10,42,Living
+FH0002493,P002194,Uncle,Hypertension,I10,45,Living
+FH0002494,P002194,Brother,Alzheimer's disease,G30.9,53,Living
+FH0002495,P002196,Sister,Alzheimer's disease,G30.9,42,Deceased
+FH0002496,P002198,Paternal Grandfather,Cancer - Breast,C50.919,79,Living
+FH0002497,P002198,Maternal Grandmother,Heart disease,I25.10,45,Living
+FH0002498,P002198,Sister,Cancer - Prostate,C61,68,Living
+FH0002499,P002199,Father,Cancer - Prostate,C61,34,Living
+FH0002500,P002199,Sister,Cancer - Colon,C18.9,48,Deceased
+FH0002501,P002205,Brother,Cancer - Lung,C34.90,65,Living
+FH0002502,P002205,Uncle,Depression,F32.9,31,Living
+FH0002503,P002206,Maternal Grandfather,Heart disease,I25.10,41,Living
+FH0002504,P002207,Aunt,Alzheimer's disease,G30.9,79,Deceased
+FH0002505,P002208,Maternal Grandfather,Cancer - Breast,C50.919,74,Deceased
+FH0002506,P002208,Uncle,Depression,F32.9,59,Living
+FH0002507,P002208,Mother,Diabetes,E11.9,53,Living
+FH0002508,P002209,Father,Depression,F32.9,78,Living
+FH0002509,P002209,Mother,Cancer - Breast,C50.919,49,Deceased
+FH0002510,P002211,Father,Hypertension,I10,57,Living
+FH0002511,P002211,Father,Cancer - Breast,C50.919,31,Deceased
+FH0002512,P002211,Uncle,Cancer - Prostate,C61,61,Living
+FH0002513,P002213,Maternal Grandmother,Cancer - Breast,C50.919,34,Living
+FH0002514,P002213,Father,Alzheimer's disease,G30.9,32,Living
+FH0002515,P002214,Mother,Cancer - Prostate,C61,77,Living
+FH0002516,P002216,Maternal Grandmother,Heart disease,I25.10,74,Living
+FH0002517,P002216,Brother,Cancer - Colon,C18.9,73,Deceased
+FH0002518,P002217,Maternal Grandfather,Cancer - Prostate,C61,36,Deceased
+FH0002519,P002217,Mother,Asthma,J45.909,68,Deceased
+FH0002520,P002218,Paternal Grandmother,Osteoporosis,M81.0,38,Living
+FH0002521,P002219,Maternal Grandmother,Cancer - Breast,C50.919,60,Living
+FH0002522,P002221,Paternal Grandfather,Asthma,J45.909,30,Living
+FH0002523,P002221,Sister,Osteoporosis,M81.0,39,Living
+FH0002524,P002224,Paternal Grandmother,Heart disease,I25.10,62,Living
+FH0002525,P002224,Brother,Depression,F32.9,79,Deceased
+FH0002526,P002224,Paternal Grandmother,Cancer - Colon,C18.9,77,Living
+FH0002527,P002224,Maternal Grandfather,Asthma,J45.909,56,Living
+FH0002528,P002226,Sister,Alzheimer's disease,G30.9,44,Deceased
+FH0002529,P002226,Brother,Stroke,I63.9,42,Living
+FH0002530,P002227,Aunt,Cancer - Lung,C34.90,46,Living
+FH0002531,P002227,Sister,Stroke,I63.9,43,Living
+FH0002532,P002227,Brother,Osteoporosis,M81.0,32,Living
+FH0002533,P002228,Father,Alzheimer's disease,G30.9,30,Living
+FH0002534,P002228,Paternal Grandfather,Osteoporosis,M81.0,58,Living
+FH0002535,P002229,Sister,Cancer - Breast,C50.919,38,Living
+FH0002536,P002229,Maternal Grandmother,Osteoporosis,M81.0,72,Living
+FH0002537,P002229,Paternal Grandmother,Cancer - Lung,C34.90,78,Living
+FH0002538,P002229,Sister,Alzheimer's disease,G30.9,49,Living
+FH0002539,P002230,Mother,Hypertension,I10,53,Living
+FH0002540,P002230,Sister,Cancer - Breast,C50.919,80,Living
+FH0002541,P002231,Father,Osteoporosis,M81.0,70,Living
+FH0002542,P002231,Paternal Grandfather,Cancer - Prostate,C61,37,Living
+FH0002543,P002232,Aunt,Heart disease,I25.10,49,Living
+FH0002544,P002238,Sister,Diabetes,E11.9,68,Living
+FH0002545,P002239,Aunt,Heart disease,I25.10,60,Living
+FH0002546,P002239,Aunt,Hypertension,I10,52,Living
+FH0002547,P002239,Father,Cancer - Prostate,C61,58,Deceased
+FH0002548,P002240,Paternal Grandmother,Osteoporosis,M81.0,61,Deceased
+FH0002549,P002240,Sister,Cancer - Prostate,C61,71,Deceased
+FH0002550,P002240,Paternal Grandfather,Diabetes,E11.9,80,Deceased
+FH0002551,P002240,Brother,Hypertension,I10,54,Living
+FH0002552,P002242,Maternal Grandmother,Cancer - Lung,C34.90,65,Deceased
+FH0002553,P002242,Brother,Depression,F32.9,59,Deceased
+FH0002554,P002242,Sister,Heart disease,I25.10,69,Deceased
+FH0002555,P002243,Paternal Grandmother,Hypertension,I10,50,Living
+FH0002556,P002243,Maternal Grandfather,Cancer - Lung,C34.90,48,Living
+FH0002557,P002244,Mother,Hypertension,I10,36,Living
+FH0002558,P002244,Sister,Heart disease,I25.10,62,Living
+FH0002559,P002249,Paternal Grandmother,Hypertension,I10,41,Deceased
+FH0002560,P002250,Paternal Grandfather,Osteoporosis,M81.0,44,Deceased
+FH0002561,P002251,Mother,Stroke,I63.9,51,Deceased
+FH0002562,P002253,Maternal Grandfather,Stroke,I63.9,32,Deceased
+FH0002563,P002253,Mother,Depression,F32.9,39,Deceased
+FH0002564,P002253,Mother,Alzheimer's disease,G30.9,42,Living
+FH0002565,P002254,Brother,Stroke,I63.9,66,Deceased
+FH0002566,P002257,Maternal Grandfather,Cancer - Lung,C34.90,41,Living
+FH0002567,P002258,Uncle,Depression,F32.9,51,Living
+FH0002568,P002259,Aunt,Hypertension,I10,37,Living
+FH0002569,P002259,Maternal Grandfather,Stroke,I63.9,34,Living
+FH0002570,P002259,Paternal Grandfather,Diabetes,E11.9,48,Living
+FH0002571,P002260,Paternal Grandmother,Stroke,I63.9,75,Deceased
+FH0002572,P002260,Maternal Grandmother,Cancer - Prostate,C61,70,Living
+FH0002573,P002262,Father,Osteoporosis,M81.0,55,Living
+FH0002574,P002262,Maternal Grandmother,Cancer - Prostate,C61,55,Living
+FH0002575,P002262,Paternal Grandmother,Cancer - Lung,C34.90,60,Deceased
+FH0002576,P002263,Father,Asthma,J45.909,80,Living
+FH0002577,P002264,Brother,Stroke,I63.9,78,Living
+FH0002578,P002267,Mother,Cancer - Colon,C18.9,56,Living
+FH0002579,P002267,Maternal Grandfather,Cancer - Lung,C34.90,51,Living
+FH0002580,P002268,Father,Alzheimer's disease,G30.9,41,Living
+FH0002581,P002268,Paternal Grandfather,Asthma,J45.909,49,Deceased
+FH0002582,P002272,Sister,Hypertension,I10,33,Living
+FH0002583,P002272,Mother,Heart disease,I25.10,70,Living
+FH0002584,P002272,Brother,Cancer - Breast,C50.919,45,Living
+FH0002585,P002272,Sister,Stroke,I63.9,56,Deceased
+FH0002586,P002273,Brother,Depression,F32.9,57,Living
+FH0002587,P002275,Mother,Asthma,J45.909,51,Living
+FH0002588,P002275,Maternal Grandfather,Cancer - Prostate,C61,77,Living
+FH0002589,P002275,Uncle,Heart disease,I25.10,47,Living
+FH0002590,P002276,Uncle,Depression,F32.9,34,Deceased
+FH0002591,P002277,Maternal Grandmother,Heart disease,I25.10,80,Living
+FH0002592,P002279,Maternal Grandmother,Asthma,J45.909,38,Deceased
+FH0002593,P002280,Father,Cancer - Colon,C18.9,69,Deceased
+FH0002594,P002284,Sister,Depression,F32.9,54,Living
+FH0002595,P002284,Sister,Heart disease,I25.10,44,Living
+FH0002596,P002285,Father,Cancer - Prostate,C61,56,Living
+FH0002597,P002286,Maternal Grandfather,Cancer - Breast,C50.919,48,Living
+FH0002598,P002286,Maternal Grandmother,Osteoporosis,M81.0,64,Living
+FH0002599,P002286,Maternal Grandfather,Cancer - Prostate,C61,42,Living
+FH0002600,P002288,Aunt,Cancer - Lung,C34.90,36,Living
+FH0002601,P002289,Paternal Grandfather,Diabetes,E11.9,40,Living
+FH0002602,P002290,Father,Depression,F32.9,53,Living
+FH0002603,P002291,Paternal Grandmother,Asthma,J45.909,66,Living
+FH0002604,P002291,Uncle,Stroke,I63.9,74,Living
+FH0002605,P002291,Mother,Depression,F32.9,72,Deceased
+FH0002606,P002292,Sister,Hypertension,I10,31,Living
+FH0002607,P002292,Uncle,Cancer - Lung,C34.90,63,Deceased
+FH0002608,P002292,Maternal Grandmother,Stroke,I63.9,46,Deceased
+FH0002609,P002292,Uncle,Heart disease,I25.10,74,Living
+FH0002610,P002293,Brother,Cancer - Prostate,C61,52,Living
+FH0002611,P002295,Maternal Grandmother,Heart disease,I25.10,37,Deceased
+FH0002612,P002295,Brother,Asthma,J45.909,69,Living
+FH0002613,P002295,Sister,Osteoporosis,M81.0,49,Deceased
+FH0002614,P002296,Sister,Osteoporosis,M81.0,72,Living
+FH0002615,P002296,Sister,Alzheimer's disease,G30.9,51,Living
+FH0002616,P002297,Sister,Hypertension,I10,67,Living
+FH0002617,P002297,Maternal Grandmother,Cancer - Lung,C34.90,53,Living
+FH0002618,P002300,Father,Hypertension,I10,80,Deceased
+FH0002619,P002300,Paternal Grandmother,Cancer - Prostate,C61,41,Deceased
+FH0002620,P002304,Aunt,Stroke,I63.9,52,Deceased
+FH0002621,P002305,Mother,Diabetes,E11.9,71,Living
+FH0002622,P002305,Sister,Depression,F32.9,44,Deceased
+FH0002623,P002305,Aunt,Cancer - Colon,C18.9,32,Deceased
+FH0002624,P002305,Maternal Grandmother,Alzheimer's disease,G30.9,80,Living
+FH0002625,P002308,Maternal Grandmother,Diabetes,E11.9,36,Deceased
+FH0002626,P002311,Paternal Grandmother,Osteoporosis,M81.0,34,Living
+FH0002627,P002311,Maternal Grandfather,Alzheimer's disease,G30.9,55,Living
+FH0002628,P002313,Father,Osteoporosis,M81.0,79,Living
+FH0002629,P002313,Paternal Grandmother,Cancer - Breast,C50.919,67,Living
+FH0002630,P002314,Maternal Grandmother,Osteoporosis,M81.0,69,Living
+FH0002631,P002314,Maternal Grandmother,Alzheimer's disease,G30.9,36,Deceased
+FH0002632,P002316,Maternal Grandmother,Hypertension,I10,69,Living
+FH0002633,P002318,Father,Cancer - Breast,C50.919,35,Living
+FH0002634,P002320,Paternal Grandmother,Osteoporosis,M81.0,69,Deceased
+FH0002635,P002320,Uncle,Stroke,I63.9,79,Living
+FH0002636,P002320,Aunt,Heart disease,I25.10,72,Deceased
+FH0002637,P002321,Mother,Hypertension,I10,50,Deceased
+FH0002638,P002321,Uncle,Heart disease,I25.10,51,Deceased
+FH0002639,P002321,Paternal Grandmother,Cancer - Prostate,C61,45,Deceased
+FH0002640,P002322,Father,Cancer - Lung,C34.90,38,Deceased
+FH0002641,P002322,Uncle,Asthma,J45.909,43,Living
+FH0002642,P002325,Paternal Grandmother,Stroke,I63.9,66,Deceased
+FH0002643,P002326,Brother,Stroke,I63.9,43,Living
+FH0002644,P002326,Mother,Cancer - Prostate,C61,67,Living
+FH0002645,P002326,Father,Cancer - Colon,C18.9,64,Living
+FH0002646,P002326,Brother,Hypertension,I10,33,Deceased
+FH0002647,P002327,Maternal Grandfather,Osteoporosis,M81.0,39,Deceased
+FH0002648,P002327,Maternal Grandmother,Asthma,J45.909,47,Living
+FH0002649,P002327,Father,Alzheimer's disease,G30.9,54,Living
+FH0002650,P002328,Aunt,Cancer - Prostate,C61,80,Living
+FH0002651,P002330,Father,Alzheimer's disease,G30.9,66,Living
+FH0002652,P002331,Brother,Osteoporosis,M81.0,61,Living
+FH0002653,P002331,Aunt,Heart disease,I25.10,65,Living
+FH0002654,P002332,Mother,Cancer - Lung,C34.90,72,Living
+FH0002655,P002332,Paternal Grandfather,Asthma,J45.909,53,Living
+FH0002656,P002335,Brother,Asthma,J45.909,35,Living
+FH0002657,P002336,Uncle,Stroke,I63.9,66,Deceased
+FH0002658,P002336,Paternal Grandmother,Cancer - Lung,C34.90,43,Deceased
+FH0002659,P002336,Sister,Cancer - Breast,C50.919,36,Deceased
+FH0002660,P002337,Maternal Grandmother,Diabetes,E11.9,71,Deceased
+FH0002661,P002337,Aunt,Cancer - Colon,C18.9,53,Living
+FH0002662,P002338,Paternal Grandmother,Heart disease,I25.10,73,Deceased
+FH0002663,P002340,Uncle,Cancer - Prostate,C61,59,Living
+FH0002664,P002340,Father,Alzheimer's disease,G30.9,56,Deceased
+FH0002665,P002342,Mother,Heart disease,I25.10,35,Deceased
+FH0002666,P002344,Aunt,Stroke,I63.9,74,Living
+FH0002667,P002344,Paternal Grandfather,Cancer - Breast,C50.919,52,Deceased
+FH0002668,P002344,Brother,Osteoporosis,M81.0,37,Living
+FH0002669,P002346,Maternal Grandfather,Heart disease,I25.10,46,Living
+FH0002670,P002347,Brother,Cancer - Lung,C34.90,54,Deceased
+FH0002671,P002347,Maternal Grandfather,Diabetes,E11.9,71,Living
+FH0002672,P002349,Maternal Grandfather,Osteoporosis,M81.0,52,Living
+FH0002673,P002349,Maternal Grandfather,Heart disease,I25.10,37,Living
+FH0002674,P002349,Father,Cancer - Prostate,C61,74,Living
+FH0002675,P002351,Maternal Grandmother,Depression,F32.9,69,Deceased
+FH0002676,P002351,Aunt,Diabetes,E11.9,41,Deceased
+FH0002677,P002353,Mother,Diabetes,E11.9,42,Deceased
+FH0002678,P002353,Aunt,Cancer - Breast,C50.919,31,Living
+FH0002679,P002353,Father,Osteoporosis,M81.0,33,Deceased
+FH0002680,P002353,Father,Depression,F32.9,40,Living
+FH0002681,P002357,Uncle,Depression,F32.9,54,Living
+FH0002682,P002357,Paternal Grandmother,Cancer - Lung,C34.90,50,Living
+FH0002683,P002360,Sister,Cancer - Prostate,C61,41,Deceased
+FH0002684,P002363,Maternal Grandfather,Stroke,I63.9,55,Living
+FH0002685,P002367,Paternal Grandfather,Heart disease,I25.10,34,Deceased
+FH0002686,P002367,Mother,Alzheimer's disease,G30.9,76,Deceased
+FH0002687,P002367,Brother,Diabetes,E11.9,64,Living
+FH0002688,P002369,Sister,Cancer - Colon,C18.9,46,Deceased
+FH0002689,P002369,Paternal Grandfather,Osteoporosis,M81.0,53,Living
+FH0002690,P002371,Aunt,Hypertension,I10,68,Deceased
+FH0002691,P002371,Paternal Grandmother,Cancer - Prostate,C61,41,Living
+FH0002692,P002371,Brother,Asthma,J45.909,34,Living
+FH0002693,P002372,Paternal Grandfather,Cancer - Lung,C34.90,38,Living
+FH0002694,P002374,Paternal Grandmother,Stroke,I63.9,58,Living
+FH0002695,P002374,Father,Depression,F32.9,72,Deceased
+FH0002696,P002374,Paternal Grandfather,Cancer - Colon,C18.9,65,Living
+FH0002697,P002376,Brother,Cancer - Colon,C18.9,40,Living
+FH0002698,P002376,Paternal Grandfather,Depression,F32.9,79,Living
+FH0002699,P002376,Aunt,Hypertension,I10,42,Deceased
+FH0002700,P002379,Aunt,Hypertension,I10,77,Living
+FH0002701,P002379,Father,Cancer - Breast,C50.919,38,Living
+FH0002702,P002379,Uncle,Heart disease,I25.10,48,Living
+FH0002703,P002380,Maternal Grandmother,Cancer - Lung,C34.90,72,Living
+FH0002704,P002380,Paternal Grandmother,Heart disease,I25.10,37,Living
+FH0002705,P002380,Maternal Grandmother,Diabetes,E11.9,73,Deceased
+FH0002706,P002380,Mother,Asthma,J45.909,33,Deceased
+FH0002707,P002381,Paternal Grandmother,Stroke,I63.9,69,Living
+FH0002708,P002382,Maternal Grandfather,Alzheimer's disease,G30.9,38,Living
+FH0002709,P002383,Uncle,Heart disease,I25.10,75,Living
+FH0002710,P002386,Father,Cancer - Colon,C18.9,78,Living
+FH0002711,P002386,Uncle,Depression,F32.9,44,Deceased
+FH0002712,P002386,Brother,Diabetes,E11.9,71,Living
+FH0002713,P002387,Paternal Grandmother,Depression,F32.9,77,Deceased
+FH0002714,P002387,Brother,Stroke,I63.9,68,Living
+FH0002715,P002388,Aunt,Hypertension,I10,41,Living
+FH0002716,P002388,Uncle,Diabetes,E11.9,74,Deceased
+FH0002717,P002388,Maternal Grandmother,Stroke,I63.9,60,Living
+FH0002718,P002389,Sister,Cancer - Prostate,C61,48,Living
+FH0002719,P002389,Brother,Alzheimer's disease,G30.9,45,Living
+FH0002720,P002389,Brother,Cancer - Colon,C18.9,54,Living
+FH0002721,P002391,Father,Cancer - Breast,C50.919,35,Deceased
+FH0002722,P002391,Paternal Grandfather,Diabetes,E11.9,48,Deceased
+FH0002723,P002392,Paternal Grandfather,Stroke,I63.9,56,Deceased
+FH0002724,P002392,Paternal Grandmother,Cancer - Colon,C18.9,49,Deceased
+FH0002725,P002393,Father,Alzheimer's disease,G30.9,77,Living
+FH0002726,P002394,Maternal Grandmother,Alzheimer's disease,G30.9,44,Deceased
+FH0002727,P002398,Mother,Cancer - Prostate,C61,63,Deceased
+FH0002728,P002399,Brother,Stroke,I63.9,38,Living
+FH0002729,P002399,Aunt,Cancer - Colon,C18.9,32,Deceased
+FH0002730,P002399,Father,Heart disease,I25.10,62,Living

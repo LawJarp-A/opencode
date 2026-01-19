@@ -1,0 +1,11 @@
+plan_id,payer_name,plan_type,copay,deductible,oop_max,network_type,active_from,active_to
+PLAN0001,Blue Cross Blue Shield,HMO,10,3000,5000,In-Network,2023-01-01,2025-12-31
+PLAN0002,UnitedHealthcare,PPO,15,3000,3000,Both,2023-01-01,2025-12-31
+PLAN0003,Aetna,HMO,30,2000,3000,In-Network,2023-01-01,2025-12-31
+PLAN0004,Cigna,HMO,15,1000,7000,Both,2023-01-01,2025-12-31
+PLAN0005,Humana,HMO,30,1000,8000,Both,2023-01-01,2025-12-31
+PLAN0006,Medicare,Medicare,20,226,3436,In-Network,2023-01-01,2025-12-31
+PLAN0007,Medicaid,Medicaid,3,0,0,Both,2023-01-01,2025-12-31
+PLAN0008,Kaiser Permanente,EPO,50,5000,3000,In-Network,2023-01-01,2025-12-31
+PLAN0009,Anthem,POS,20,1500,4000,In-Network,2023-01-01,2025-12-31
+PLAN0010,Centene,EPO,10,500,6000,In-Network,2023-01-01,2025-12-31

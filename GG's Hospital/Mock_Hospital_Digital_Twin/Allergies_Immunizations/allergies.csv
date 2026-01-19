@@ -1,0 +1,1563 @@
+allergy_id,patient_id,allergen,allergen_type,reaction,severity,date_identified,verified_by
+ALG0000001,P000002,Contrast dye,Medication,Itching,Moderate,2022-03-26,STF2424
+ALG0000002,P000004,Contrast dye,Medication,Diarrhea,Moderate,2022-08-03,STF4257
+ALG0000003,P000009,Morphine,Medication,Difficulty breathing,Severe,2014-10-30,STF6514
+ALG0000004,P000009,Eggs,Food,Hives,Mild,2012-03-03,STF6881
+ALG0000005,P000009,Latex,Environmental,Difficulty breathing,Severe,2010-12-22,STF8527
+ALG0000006,P000012,Eggs,Food,Dizziness,Mild,2011-07-24,STF1750
+ALG0000007,P000018,Eggs,Food,Itching,Mild,2014-09-13,STF5374
+ALG0000008,P000021,Contrast dye,Medication,Vomiting,Mild,2024-05-09,STF4598
+ALG0000009,P000021,Aspirin,Medication,Lightheadedness,Mild,2011-04-04,STF4752
+ALG0000010,P000025,Tree nuts,Food,Vomiting,Mild,2024-06-02,STF8517
+ALG0000011,P000025,Ibuprofen,Medication,Itching,Mild,2015-07-14,STF9830
+ALG0000012,P000025,Bee stings,Environmental,Anaphylaxis,Severe,2019-08-11,STF7543
+ALG0000013,P000026,Codeine,Medication,Rash,Moderate,2013-06-06,STF3621
+ALG0000014,P000026,Shellfish,Food,Lightheadedness,Mild,2011-06-05,STF7304
+ALG0000015,P000026,Contrast dye,Medication,Nausea,Moderate,2020-07-01,STF9669
+ALG0000016,P000026,Sulfa drugs,Medication,Anaphylaxis,Severe,2010-04-05,STF2876
+ALG0000017,P000029,Ibuprofen,Medication,Nausea,Mild,2010-01-27,STF5315
+ALG0000018,P000029,Codeine,Medication,Diarrhea,Moderate,2021-05-21,STF2743
+ALG0000019,P000031,Latex,Environmental,Difficulty breathing,Severe,2022-02-05,STF9689
+ALG0000020,P000031,Aspirin,Medication,Rash,Moderate,2020-12-16,STF1319
+ALG0000021,P000032,Peanuts,Food,Swelling,Mild,2022-09-22,STF2290
+ALG0000022,P000033,Aspirin,Medication,Diarrhea,Moderate,2012-11-17,STF8787
+ALG0000023,P000035,Soy,Food,Swelling,Severe,2014-07-06,STF6107
+ALG0000024,P000036,Eggs,Food,Diarrhea,Mild,2015-07-24,STF4681
+ALG0000025,P000036,Contrast dye,Medication,Hives,Moderate,2023-03-13,STF4770
+ALG0000026,P000038,Sulfa drugs,Medication,Hives,Severe,2017-05-30,STF2160
+ALG0000027,P000038,Ibuprofen,Medication,Diarrhea,Mild,2020-11-20,STF4510
+ALG0000028,P000043,Soy,Food,Swelling,Mild,2024-10-12,STF8062
+ALG0000029,P000044,Sulfa drugs,Medication,Lightheadedness,Moderate,2024-06-29,STF2612
+ALG0000030,P000045,Ibuprofen,Medication,Swelling,Mild,2020-01-24,STF3296
+ALG0000031,P000045,Bee stings,Environmental,Nausea,Mild,2020-05-17,STF5092
+ALG0000032,P000047,Ibuprofen,Medication,Lightheadedness,Severe,2010-05-01,STF2528
+ALG0000033,P000047,Penicillin,Medication,Swelling,Mild,2020-11-22,STF8886
+ALG0000034,P000048,Sulfa drugs,Medication,Itching,Mild,2018-10-04,STF5345
+ALG0000035,P000051,Bee stings,Environmental,Swelling,Moderate,2011-04-25,STF9883
+ALG0000036,P000051,Aspirin,Medication,Rash,Moderate,2011-04-14,STF1821
+ALG0000037,P000055,Aspirin,Medication,Dizziness,Mild,2015-04-11,STF7615
+ALG0000038,P000055,Soy,Food,Hives,Severe,2022-10-11,STF5033
+ALG0000039,P000055,Bee stings,Environmental,Dizziness,Moderate,2023-11-22,STF2343
+ALG0000040,P000055,Sulfa drugs,Medication,Nausea,Moderate,2022-09-05,STF9565
+ALG0000041,P000056,Tree nuts,Food,Swelling,Moderate,2012-12-08,STF5915
+ALG0000042,P000060,Ibuprofen,Medication,Diarrhea,Mild,2015-12-13,STF3170
+ALG0000043,P000060,Sulfa drugs,Medication,Difficulty breathing,Severe,2015-06-25,STF7054
+ALG0000044,P000061,Peanuts,Food,Dizziness,Severe,2024-09-01,STF9666
+ALG0000045,P000062,Peanuts,Food,Lightheadedness,Mild,2013-01-05,STF5333
+ALG0000046,P000062,Wheat,Food,Hives,Severe,2022-05-30,STF3546
+ALG0000047,P000063,Tree nuts,Food,Lightheadedness,Moderate,2015-12-03,STF9280
+ALG0000048,P000063,Ibuprofen,Medication,Vomiting,Mild,2011-02-21,STF2512
+ALG0000049,P000066,Codeine,Medication,Lightheadedness,Severe,2013-08-16,STF8239
+ALG0000050,P000069,Codeine,Medication,Diarrhea,Mild,2018-04-13,STF3426
+ALG0000051,P000071,Sulfa drugs,Medication,Difficulty breathing,Moderate,2015-08-07,STF2684
+ALG0000052,P000072,Soy,Food,Dizziness,Moderate,2015-04-24,STF3662
+ALG0000053,P000076,Tree nuts,Food,Nausea,Moderate,2015-07-26,STF5371
+ALG0000054,P000076,Milk,Food,Itching,Moderate,2012-06-04,STF7267
+ALG0000055,P000079,Wheat,Food,Anaphylaxis,Severe,2015-02-08,STF4652
+ALG0000056,P000079,Morphine,Medication,Rash,Moderate,2018-12-09,STF6378
+ALG0000057,P000080,Shellfish,Food,Difficulty breathing,Severe,2018-12-19,STF9785
+ALG0000058,P000081,Shellfish,Food,Itching,Moderate,2015-12-15,STF1626
+ALG0000059,P000082,Tree nuts,Food,Nausea,Moderate,2021-06-21,STF2894
+ALG0000060,P000083,Shellfish,Food,Rash,Moderate,2010-01-14,STF9518
+ALG0000061,P000089,Tree nuts,Food,Dizziness,Mild,2012-10-17,STF5920
+ALG0000062,P000092,Codeine,Medication,Nausea,Moderate,2018-07-03,STF3851
+ALG0000063,P000092,Ibuprofen,Medication,Dizziness,Moderate,2019-02-09,STF9977
+ALG0000064,P000094,Tree nuts,Food,Vomiting,Mild,2014-10-17,STF9375
+ALG0000065,P000098,Tree nuts,Food,Hives,Severe,2015-04-09,STF6085
+ALG0000066,P000099,Penicillin,Medication,Rash,Mild,2020-08-28,STF2193
+ALG0000067,P000104,Codeine,Medication,Lightheadedness,Moderate,2012-05-23,STF7965
+ALG0000068,P000105,Wheat,Food,Diarrhea,Mild,2012-09-21,STF8478
+ALG0000069,P000105,Penicillin,Medication,Itching,Moderate,2024-12-21,STF9702
+ALG0000070,P000118,Shellfish,Food,Diarrhea,Mild,2015-05-14,STF5499
+ALG0000071,P000121,Aspirin,Medication,Itching,Mild,2018-08-04,STF3503
+ALG0000072,P000123,Wheat,Food,Nausea,Mild,2019-06-04,STF7381
+ALG0000073,P000129,Eggs,Food,Anaphylaxis,Severe,2019-05-26,STF9818
+ALG0000074,P000133,Soy,Food,Vomiting,Mild,2017-07-16,STF7624
+ALG0000075,P000142,Wheat,Food,Itching,Mild,2018-07-03,STF6363
+ALG0000076,P000143,Milk,Food,Anaphylaxis,Severe,2019-06-16,STF5133
+ALG0000077,P000147,Contrast dye,Medication,Lightheadedness,Mild,2010-09-12,STF5051
+ALG0000078,P000147,Tree nuts,Food,Swelling,Severe,2023-12-08,STF3496
+ALG0000079,P000147,Sulfa drugs,Medication,Swelling,Mild,2012-07-26,STF4571
+ALG0000080,P000147,Milk,Food,Vomiting,Moderate,2018-04-10,STF3749
+ALG0000081,P000152,Penicillin,Medication,Anaphylaxis,Severe,2018-06-02,STF7498
+ALG0000082,P000154,Contrast dye,Medication,Hives,Moderate,2016-10-06,STF2983
+ALG0000083,P000157,Eggs,Food,Hives,Moderate,2017-08-27,STF1207
+ALG0000084,P000160,Wheat,Food,Itching,Moderate,2024-08-03,STF5425
+ALG0000085,P000160,Eggs,Food,Dizziness,Moderate,2022-01-26,STF8921
+ALG0000086,P000160,Aspirin,Medication,Vomiting,Mild,2023-04-16,STF5397
+ALG0000087,P000160,Latex,Environmental,Difficulty breathing,Severe,2011-12-11,STF5569
+ALG0000088,P000162,Milk,Food,Difficulty breathing,Mild,2017-04-16,STF3979
+ALG0000089,P000164,Shellfish,Food,Dizziness,Moderate,2016-03-13,STF1166
+ALG0000090,P000166,Soy,Food,Vomiting,Moderate,2015-05-23,STF8800
+ALG0000091,P000170,Contrast dye,Medication,Anaphylaxis,Severe,2018-04-12,STF8753
+ALG0000092,P000172,Tree nuts,Food,Anaphylaxis,Severe,2015-03-04,STF2976
+ALG0000093,P000172,Morphine,Medication,Tachycardia,Mild,2012-09-06,STF9779
+ALG0000094,P000172,Eggs,Food,Tachycardia,Mild,2014-11-08,STF8933
+ALG0000095,P000172,Contrast dye,Medication,Anaphylaxis,Severe,2021-10-07,STF5636
+ALG0000096,P000175,Peanuts,Food,Rash,Moderate,2012-11-02,STF5494
+ALG0000097,P000176,Peanuts,Food,Tachycardia,Severe,2024-04-22,STF9042
+ALG0000098,P000177,Peanuts,Food,Vomiting,Mild,2017-08-23,STF4020
+ALG0000099,P000179,Ibuprofen,Medication,Nausea,Mild,2022-12-10,STF1878
+ALG0000100,P000179,Soy,Food,Itching,Mild,2022-08-16,STF5978
+ALG0000101,P000179,Sulfa drugs,Medication,Hives,Severe,2012-08-28,STF7818
+ALG0000102,P000182,Wheat,Food,Vomiting,Mild,2023-03-15,STF8025
+ALG0000103,P000183,Ibuprofen,Medication,Swelling,Moderate,2015-12-08,STF2330
+ALG0000104,P000183,Milk,Food,Itching,Mild,2022-05-19,STF2229
+ALG0000105,P000184,Bee stings,Environmental,Anaphylaxis,Mild,2016-06-18,STF5632
+ALG0000106,P000198,Peanuts,Food,Dizziness,Moderate,2022-10-07,STF5728
+ALG0000107,P000201,Shellfish,Food,Diarrhea,Moderate,2019-10-27,STF2317
+ALG0000108,P000206,Penicillin,Medication,Lightheadedness,Moderate,2022-12-04,STF1659
+ALG0000109,P000208,Wheat,Food,Anaphylaxis,Moderate,2023-02-17,STF8141
+ALG0000110,P000211,Tree nuts,Food,Difficulty breathing,Severe,2013-08-10,STF6403
+ALG0000111,P000217,Shellfish,Food,Difficulty breathing,Moderate,2019-01-25,STF9431
+ALG0000112,P000219,Wheat,Food,Swelling,Moderate,2023-12-19,STF9167
+ALG0000113,P000219,Latex,Environmental,Lightheadedness,Mild,2011-02-27,STF4335
+ALG0000114,P000219,Penicillin,Medication,Anaphylaxis,Severe,2016-06-17,STF8178
+ALG0000115,P000222,Contrast dye,Medication,Itching,Mild,2010-04-23,STF7684
+ALG0000116,P000222,Eggs,Food,Hives,Moderate,2012-07-18,STF8560
+ALG0000117,P000225,Peanuts,Food,Anaphylaxis,Severe,2020-10-27,STF8736
+ALG0000118,P000225,Shellfish,Food,Swelling,Moderate,2013-03-30,STF7284
+ALG0000119,P000225,Eggs,Food,Swelling,Severe,2021-05-26,STF3236
+ALG0000120,P000227,Soy,Food,Diarrhea,Mild,2010-01-22,STF5634
+ALG0000121,P000227,Morphine,Medication,Tachycardia,Mild,2023-03-02,STF9022
+ALG0000122,P000231,Milk,Food,Difficulty breathing,Severe,2015-05-11,STF7274
+ALG0000123,P000231,Contrast dye,Medication,Swelling,Severe,2019-03-20,STF1715
+ALG0000124,P000232,Milk,Food,Nausea,Severe,2024-08-16,STF3492
+ALG0000125,P000234,Tree nuts,Food,Hives,Severe,2019-11-16,STF2633
+ALG0000126,P000240,Shellfish,Food,Difficulty breathing,Severe,2018-12-01,STF2315
+ALG0000127,P000244,Bee stings,Environmental,Diarrhea,Mild,2011-07-15,STF4846
+ALG0000128,P000250,Ibuprofen,Medication,Itching,Moderate,2010-08-26,STF1753
+ALG0000129,P000250,Contrast dye,Medication,Difficulty breathing,Severe,2016-07-31,STF6873
+ALG0000130,P000251,Soy,Food,Dizziness,Moderate,2014-01-15,STF3785
+ALG0000131,P000252,Milk,Food,Lightheadedness,Mild,2023-01-30,STF3344
+ALG0000132,P000252,Peanuts,Food,Swelling,Moderate,2015-09-12,STF8529
+ALG0000133,P000253,Wheat,Food,Anaphylaxis,Severe,2013-07-18,STF2210
+ALG0000134,P000255,Soy,Food,Tachycardia,Mild,2016-10-10,STF4263
+ALG0000135,P000258,Eggs,Food,Dizziness,Mild,2016-08-15,STF1359
+ALG0000136,P000261,Sulfa drugs,Medication,Dizziness,Moderate,2016-06-02,STF4770
+ALG0000137,P000263,Shellfish,Food,Tachycardia,Moderate,2013-01-25,STF2591
+ALG0000138,P000263,Tree nuts,Food,Lightheadedness,Moderate,2016-12-05,STF8222
+ALG0000139,P000264,Codeine,Medication,Hives,Severe,2017-04-30,STF7807
+ALG0000140,P000265,Eggs,Food,Diarrhea,Moderate,2016-02-11,STF3695
+ALG0000141,P000266,Bee stings,Environmental,Anaphylaxis,Severe,2017-08-06,STF2886
+ALG0000142,P000266,Milk,Food,Vomiting,Severe,2013-02-27,STF4696
+ALG0000143,P000272,Penicillin,Medication,Diarrhea,Mild,2018-04-08,STF5295
+ALG0000144,P000272,Codeine,Medication,Dizziness,Mild,2024-04-27,STF7086
+ALG0000145,P000273,Penicillin,Medication,Dizziness,Moderate,2022-08-05,STF6374
+ALG0000146,P000275,Wheat,Food,Tachycardia,Mild,2019-02-27,STF2911
+ALG0000147,P000276,Peanuts,Food,Hives,Moderate,2022-01-21,STF3222
+ALG0000148,P000276,Contrast dye,Medication,Nausea,Mild,2022-02-12,STF7866
+ALG0000149,P000276,Sulfa drugs,Medication,Dizziness,Moderate,2013-06-19,STF7797
+ALG0000150,P000281,Latex,Environmental,Vomiting,Severe,2018-02-19,STF2627
+ALG0000151,P000281,Contrast dye,Medication,Lightheadedness,Mild,2024-06-18,STF6876
+ALG0000152,P000282,Ibuprofen,Medication,Vomiting,Mild,2014-10-04,STF1349
+ALG0000153,P000283,Codeine,Medication,Dizziness,Mild,2022-06-07,STF4394
+ALG0000154,P000286,Penicillin,Medication,Itching,Severe,2022-02-12,STF5106
+ALG0000155,P000286,Codeine,Medication,Itching,Mild,2010-07-31,STF3159
+ALG0000156,P000287,Contrast dye,Medication,Difficulty breathing,Mild,2015-12-14,STF1858
+ALG0000157,P000287,Peanuts,Food,Itching,Moderate,2021-10-19,STF2862
+ALG0000158,P000292,Sulfa drugs,Medication,Tachycardia,Moderate,2024-10-11,STF9543
+ALG0000159,P000293,Penicillin,Medication,Vomiting,Moderate,2019-07-25,STF2768
+ALG0000160,P000293,Bee stings,Environmental,Vomiting,Moderate,2019-12-13,STF2204
+ALG0000161,P000295,Codeine,Medication,Anaphylaxis,Severe,2023-02-17,STF9984
+ALG0000162,P000297,Peanuts,Food,Vomiting,Moderate,2019-08-26,STF2624
+ALG0000163,P000299,Latex,Environmental,Vomiting,Moderate,2019-04-13,STF6553
+ALG0000164,P000299,Bee stings,Environmental,Vomiting,Mild,2012-02-18,STF6120
+ALG0000165,P000302,Bee stings,Environmental,Hives,Mild,2011-12-01,STF2527
+ALG0000166,P000305,Sulfa drugs,Medication,Dizziness,Severe,2022-08-07,STF6400
+ALG0000167,P000312,Peanuts,Food,Difficulty breathing,Moderate,2021-05-19,STF4485
+ALG0000168,P000313,Ibuprofen,Medication,Difficulty breathing,Severe,2018-03-31,STF2882
+ALG0000169,P000322,Shellfish,Food,Anaphylaxis,Severe,2016-12-06,STF6567
+ALG0000170,P000322,Penicillin,Medication,Difficulty breathing,Mild,2013-03-19,STF7566
+ALG0000171,P000322,Aspirin,Medication,Hives,Mild,2024-03-14,STF1502
+ALG0000172,P000323,Milk,Food,Nausea,Mild,2013-07-13,STF7062
+ALG0000173,P000324,Aspirin,Medication,Rash,Mild,2023-11-10,STF1815
+ALG0000174,P000326,Bee stings,Environmental,Vomiting,Mild,2014-11-01,STF9394
+ALG0000175,P000326,Peanuts,Food,Hives,Moderate,2012-06-27,STF5640
+ALG0000176,P000330,Sulfa drugs,Medication,Rash,Mild,2014-09-27,STF3248
+ALG0000177,P000332,Bee stings,Environmental,Tachycardia,Mild,2012-11-24,STF7229
+ALG0000178,P000334,Eggs,Food,Hives,Moderate,2010-12-13,STF8147
+ALG0000179,P000335,Tree nuts,Food,Dizziness,Mild,2024-05-11,STF7843
+ALG0000180,P000335,Peanuts,Food,Anaphylaxis,Moderate,2010-06-20,STF6321
+ALG0000181,P000335,Latex,Environmental,Itching,Moderate,2023-11-12,STF8538
+ALG0000182,P000338,Contrast dye,Medication,Dizziness,Mild,2011-10-07,STF7484
+ALG0000183,P000338,Latex,Environmental,Anaphylaxis,Severe,2014-12-21,STF6456
+ALG0000184,P000340,Latex,Environmental,Difficulty breathing,Severe,2024-06-23,STF3419
+ALG0000185,P000340,Wheat,Food,Swelling,Mild,2015-09-28,STF4232
+ALG0000186,P000341,Aspirin,Medication,Itching,Severe,2024-02-01,STF9095
+ALG0000187,P000349,Tree nuts,Food,Vomiting,Mild,2016-10-16,STF5500
+ALG0000188,P000349,Aspirin,Medication,Dizziness,Mild,2021-05-19,STF2215
+ALG0000189,P000349,Contrast dye,Medication,Anaphylaxis,Severe,2010-11-05,STF1932
+ALG0000190,P000349,Sulfa drugs,Medication,Difficulty breathing,Severe,2011-09-21,STF2479
+ALG0000191,P000359,Codeine,Medication,Rash,Mild,2017-09-14,STF2381
+ALG0000192,P000361,Wheat,Food,Vomiting,Moderate,2023-09-05,STF3600
+ALG0000193,P000362,Milk,Food,Difficulty breathing,Severe,2011-03-05,STF6482
+ALG0000194,P000362,Latex,Environmental,Hives,Moderate,2022-07-07,STF7333
+ALG0000195,P000362,Bee stings,Environmental,Anaphylaxis,Severe,2024-09-22,STF3463
+ALG0000196,P000363,Codeine,Medication,Difficulty breathing,Severe,2024-09-18,STF7421
+ALG0000197,P000364,Aspirin,Medication,Diarrhea,Mild,2017-05-14,STF3093
+ALG0000198,P000364,Codeine,Medication,Lightheadedness,Moderate,2021-10-22,STF2531
+ALG0000199,P000367,Morphine,Medication,Swelling,Moderate,2020-11-27,STF4145
+ALG0000200,P000368,Aspirin,Medication,Anaphylaxis,Severe,2012-04-08,STF9317
+ALG0000201,P000372,Codeine,Medication,Dizziness,Mild,2013-08-22,STF3962
+ALG0000202,P000376,Soy,Food,Difficulty breathing,Severe,2015-04-30,STF8277
+ALG0000203,P000380,Bee stings,Environmental,Swelling,Moderate,2022-10-17,STF8218
+ALG0000204,P000382,Soy,Food,Itching,Moderate,2023-07-25,STF3267
+ALG0000205,P000384,Eggs,Food,Diarrhea,Severe,2021-07-28,STF3042
+ALG0000206,P000385,Shellfish,Food,Diarrhea,Mild,2019-10-24,STF2502
+ALG0000207,P000385,Contrast dye,Medication,Swelling,Severe,2017-11-03,STF1436
+ALG0000208,P000387,Milk,Food,Hives,Moderate,2010-08-19,STF6221
+ALG0000209,P000392,Bee stings,Environmental,Tachycardia,Moderate,2020-07-09,STF8349
+ALG0000210,P000395,Codeine,Medication,Diarrhea,Severe,2023-08-28,STF9647
+ALG0000211,P000398,Contrast dye,Medication,Nausea,Moderate,2023-12-21,STF8489
+ALG0000212,P000399,Bee stings,Environmental,Diarrhea,Mild,2021-07-23,STF4963
+ALG0000213,P000399,Peanuts,Food,Tachycardia,Mild,2019-08-18,STF1025
+ALG0000214,P000401,Aspirin,Medication,Diarrhea,Severe,2011-07-09,STF9618
+ALG0000215,P000405,Sulfa drugs,Medication,Difficulty breathing,Severe,2010-05-14,STF6850
+ALG0000216,P000405,Tree nuts,Food,Hives,Moderate,2024-09-26,STF2698
+ALG0000217,P000405,Latex,Environmental,Dizziness,Moderate,2017-06-16,STF3185
+ALG0000218,P000406,Morphine,Medication,Lightheadedness,Mild,2020-09-25,STF3986
+ALG0000219,P000408,Wheat,Food,Anaphylaxis,Moderate,2014-06-23,STF1686
+ALG0000220,P000408,Penicillin,Medication,Difficulty breathing,Severe,2021-07-24,STF7524
+ALG0000221,P000411,Latex,Environmental,Difficulty breathing,Severe,2011-01-27,STF6438
+ALG0000222,P000411,Codeine,Medication,Anaphylaxis,Moderate,2018-04-03,STF8159
+ALG0000223,P000415,Bee stings,Environmental,Diarrhea,Mild,2011-11-08,STF7955
+ALG0000224,P000415,Eggs,Food,Hives,Moderate,2014-01-18,STF9937
+ALG0000225,P000415,Contrast dye,Medication,Anaphylaxis,Severe,2011-10-18,STF6372
+ALG0000226,P000415,Morphine,Medication,Lightheadedness,Mild,2020-01-01,STF7981
+ALG0000227,P000416,Wheat,Food,Rash,Moderate,2017-11-28,STF8126
+ALG0000228,P000417,Sulfa drugs,Medication,Nausea,Mild,2013-08-03,STF1510
+ALG0000229,P000417,Bee stings,Environmental,Itching,Moderate,2019-10-30,STF1570
+ALG0000230,P000417,Tree nuts,Food,Itching,Mild,2024-06-21,STF7001
+ALG0000231,P000417,Soy,Food,Difficulty breathing,Severe,2022-09-21,STF1530
+ALG0000232,P000421,Codeine,Medication,Difficulty breathing,Severe,2024-07-27,STF5566
+ALG0000233,P000421,Shellfish,Food,Swelling,Severe,2010-08-01,STF4048
+ALG0000234,P000423,Shellfish,Food,Anaphylaxis,Severe,2014-10-24,STF5678
+ALG0000235,P000426,Aspirin,Medication,Vomiting,Mild,2019-12-26,STF2438
+ALG0000236,P000433,Morphine,Medication,Tachycardia,Moderate,2024-04-21,STF3852
+ALG0000237,P000436,Codeine,Medication,Swelling,Moderate,2010-08-04,STF6912
+ALG0000238,P000438,Codeine,Medication,Hives,Mild,2018-12-06,STF8842
+ALG0000239,P000438,Peanuts,Food,Diarrhea,Mild,2019-03-09,STF2208
+ALG0000240,P000439,Aspirin,Medication,Vomiting,Mild,2021-08-09,STF6644
+ALG0000241,P000440,Morphine,Medication,Itching,Mild,2011-03-30,STF3034
+ALG0000242,P000440,Milk,Food,Diarrhea,Mild,2013-09-10,STF3653
+ALG0000243,P000441,Eggs,Food,Anaphylaxis,Severe,2015-08-15,STF4216
+ALG0000244,P000441,Shellfish,Food,Lightheadedness,Severe,2016-02-27,STF3050
+ALG0000245,P000444,Codeine,Medication,Lightheadedness,Moderate,2023-07-29,STF6531
+ALG0000246,P000444,Aspirin,Medication,Dizziness,Mild,2010-08-21,STF2330
+ALG0000247,P000445,Shellfish,Food,Swelling,Moderate,2019-05-06,STF1496
+ALG0000248,P000445,Tree nuts,Food,Vomiting,Moderate,2022-03-28,STF5745
+ALG0000249,P000447,Milk,Food,Anaphylaxis,Severe,2011-05-06,STF3589
+ALG0000250,P000450,Tree nuts,Food,Tachycardia,Mild,2017-09-30,STF7532
+ALG0000251,P000450,Soy,Food,Itching,Moderate,2021-07-20,STF2739
+ALG0000252,P000451,Shellfish,Food,Vomiting,Mild,2012-03-04,STF1829
+ALG0000253,P000452,Soy,Food,Swelling,Severe,2013-08-01,STF6364
+ALG0000254,P000455,Wheat,Food,Vomiting,Moderate,2021-02-26,STF1379
+ALG0000255,P000456,Wheat,Food,Swelling,Moderate,2017-11-30,STF1797
+ALG0000256,P000457,Bee stings,Environmental,Anaphylaxis,Severe,2012-05-30,STF8060
+ALG0000257,P000458,Eggs,Food,Nausea,Mild,2018-12-26,STF1838
+ALG0000258,P000460,Aspirin,Medication,Nausea,Moderate,2022-05-02,STF5582
+ALG0000259,P000464,Eggs,Food,Difficulty breathing,Severe,2018-03-15,STF3363
+ALG0000260,P000465,Sulfa drugs,Medication,Rash,Mild,2017-06-21,STF8761
+ALG0000261,P000467,Codeine,Medication,Difficulty breathing,Moderate,2023-10-30,STF5902
+ALG0000262,P000467,Morphine,Medication,Dizziness,Mild,2021-06-07,STF9721
+ALG0000263,P000467,Peanuts,Food,Vomiting,Moderate,2016-09-21,STF8780
+ALG0000264,P000469,Soy,Food,Anaphylaxis,Severe,2024-02-11,STF1436
+ALG0000265,P000469,Peanuts,Food,Dizziness,Mild,2024-09-14,STF4728
+ALG0000266,P000472,Milk,Food,Lightheadedness,Mild,2022-11-04,STF2800
+ALG0000267,P000472,Aspirin,Medication,Swelling,Mild,2017-01-13,STF7861
+ALG0000268,P000473,Soy,Food,Dizziness,Severe,2011-05-26,STF3262
+ALG0000269,P000473,Shellfish,Food,Diarrhea,Mild,2017-04-16,STF8837
+ALG0000270,P000475,Tree nuts,Food,Diarrhea,Mild,2024-06-05,STF5331
+ALG0000271,P000477,Peanuts,Food,Swelling,Severe,2016-09-04,STF5735
+ALG0000272,P000485,Milk,Food,Nausea,Moderate,2013-04-14,STF5758
+ALG0000273,P000486,Aspirin,Medication,Anaphylaxis,Severe,2014-10-19,STF4310
+ALG0000274,P000486,Morphine,Medication,Diarrhea,Mild,2022-08-10,STF5450
+ALG0000275,P000486,Contrast dye,Medication,Itching,Mild,2023-03-01,STF4920
+ALG0000276,P000486,Tree nuts,Food,Swelling,Mild,2021-11-29,STF4697
+ALG0000277,P000488,Bee stings,Environmental,Hives,Moderate,2013-01-31,STF1084
+ALG0000278,P000491,Bee stings,Environmental,Lightheadedness,Mild,2016-06-11,STF6262
+ALG0000279,P000491,Contrast dye,Medication,Anaphylaxis,Severe,2012-01-03,STF4804
+ALG0000280,P000496,Morphine,Medication,Nausea,Moderate,2014-03-07,STF5742
+ALG0000281,P000496,Wheat,Food,Rash,Mild,2022-09-27,STF2758
+ALG0000282,P000496,Penicillin,Medication,Difficulty breathing,Severe,2024-05-20,STF9901
+ALG0000283,P000499,Shellfish,Food,Swelling,Severe,2017-06-01,STF3662
+ALG0000284,P000503,Peanuts,Food,Dizziness,Moderate,2014-05-02,STF3875
+ALG0000285,P000508,Ibuprofen,Medication,Itching,Severe,2020-09-16,STF6301
+ALG0000286,P000510,Wheat,Food,Anaphylaxis,Severe,2016-10-09,STF1187
+ALG0000287,P000511,Contrast dye,Medication,Rash,Moderate,2020-06-09,STF6026
+ALG0000288,P000512,Peanuts,Food,Hives,Moderate,2016-08-13,STF7021
+ALG0000289,P000512,Eggs,Food,Dizziness,Mild,2012-12-30,STF8834
+ALG0000290,P000513,Eggs,Food,Tachycardia,Moderate,2020-07-24,STF9806
+ALG0000291,P000513,Latex,Environmental,Lightheadedness,Moderate,2015-07-21,STF2341
+ALG0000292,P000516,Ibuprofen,Medication,Diarrhea,Severe,2014-07-15,STF9792
+ALG0000293,P000516,Penicillin,Medication,Itching,Mild,2021-09-02,STF8239
+ALG0000294,P000516,Soy,Food,Hives,Moderate,2023-01-30,STF9008
+ALG0000295,P000517,Sulfa drugs,Medication,Vomiting,Mild,2019-04-27,STF8484
+ALG0000296,P000521,Shellfish,Food,Rash,Moderate,2022-12-21,STF2196
+ALG0000297,P000522,Aspirin,Medication,Diarrhea,Severe,2011-07-20,STF8734
+ALG0000298,P000523,Codeine,Medication,Lightheadedness,Severe,2024-06-27,STF7887
+ALG0000299,P000524,Wheat,Food,Nausea,Mild,2024-11-04,STF9835
+ALG0000300,P000524,Soy,Food,Itching,Moderate,2017-10-19,STF2943
+ALG0000301,P000524,Latex,Environmental,Itching,Severe,2018-10-25,STF9664
+ALG0000302,P000525,Penicillin,Medication,Vomiting,Moderate,2022-03-19,STF7948
+ALG0000303,P000525,Milk,Food,Diarrhea,Mild,2015-02-25,STF5055
+ALG0000304,P000525,Bee stings,Environmental,Vomiting,Mild,2016-03-08,STF4088
+ALG0000305,P000525,Codeine,Medication,Tachycardia,Moderate,2010-09-21,STF7868
+ALG0000306,P000529,Sulfa drugs,Medication,Vomiting,Moderate,2011-02-03,STF5009
+ALG0000307,P000532,Sulfa drugs,Medication,Itching,Moderate,2016-06-27,STF4836
+ALG0000308,P000535,Tree nuts,Food,Swelling,Moderate,2013-03-19,STF9540
+ALG0000309,P000536,Sulfa drugs,Medication,Diarrhea,Severe,2013-12-05,STF7999
+ALG0000310,P000538,Milk,Food,Diarrhea,Mild,2019-05-04,STF7688
+ALG0000311,P000539,Bee stings,Environmental,Swelling,Severe,2016-09-29,STF3365
+ALG0000312,P000545,Latex,Environmental,Difficulty breathing,Severe,2020-02-02,STF7079
+ALG0000313,P000546,Latex,Environmental,Anaphylaxis,Severe,2023-07-27,STF1647
+ALG0000314,P000546,Penicillin,Medication,Hives,Mild,2023-03-07,STF4555
+ALG0000315,P000549,Penicillin,Medication,Hives,Moderate,2020-09-28,STF4974
+ALG0000316,P000549,Ibuprofen,Medication,Tachycardia,Moderate,2014-08-03,STF7498
+ALG0000317,P000549,Wheat,Food,Swelling,Moderate,2016-05-07,STF7236
+ALG0000318,P000549,Eggs,Food,Vomiting,Moderate,2018-01-22,STF6053
+ALG0000319,P000550,Bee stings,Environmental,Vomiting,Mild,2020-07-13,STF6246
+ALG0000320,P000552,Contrast dye,Medication,Tachycardia,Mild,2015-11-07,STF7841
+ALG0000321,P000553,Contrast dye,Medication,Nausea,Moderate,2015-07-07,STF9180
+ALG0000322,P000556,Bee stings,Environmental,Lightheadedness,Moderate,2020-05-03,STF3756
+ALG0000323,P000556,Eggs,Food,Tachycardia,Moderate,2013-10-18,STF3293
+ALG0000324,P000562,Aspirin,Medication,Lightheadedness,Mild,2010-02-22,STF7756
+ALG0000325,P000563,Aspirin,Medication,Itching,Mild,2021-05-05,STF8471
+ALG0000326,P000563,Eggs,Food,Difficulty breathing,Moderate,2024-04-21,STF8916
+ALG0000327,P000565,Soy,Food,Rash,Mild,2016-02-29,STF9777
+ALG0000328,P000567,Soy,Food,Itching,Mild,2012-02-29,STF9591
+ALG0000329,P000567,Milk,Food,Itching,Mild,2023-11-26,STF9625
+ALG0000330,P000568,Milk,Food,Hives,Moderate,2019-02-09,STF8520
+ALG0000331,P000571,Aspirin,Medication,Lightheadedness,Moderate,2012-02-05,STF7640
+ALG0000332,P000571,Tree nuts,Food,Nausea,Mild,2020-09-04,STF1919
+ALG0000333,P000574,Tree nuts,Food,Hives,Severe,2010-12-15,STF4764
+ALG0000334,P000574,Peanuts,Food,Swelling,Severe,2022-09-18,STF8790
+ALG0000335,P000575,Shellfish,Food,Dizziness,Moderate,2014-01-09,STF6152
+ALG0000336,P000575,Wheat,Food,Rash,Severe,2023-03-02,STF3362
+ALG0000337,P000575,Bee stings,Environmental,Tachycardia,Moderate,2011-09-23,STF5903
+ALG0000338,P000576,Milk,Food,Lightheadedness,Moderate,2017-06-10,STF7288
+ALG0000339,P000578,Aspirin,Medication,Rash,Mild,2015-03-17,STF2245
+ALG0000340,P000578,Shellfish,Food,Difficulty breathing,Severe,2023-10-08,STF7499
+ALG0000341,P000578,Eggs,Food,Difficulty breathing,Mild,2016-02-18,STF8381
+ALG0000342,P000578,Morphine,Medication,Vomiting,Mild,2022-05-28,STF7150
+ALG0000343,P000582,Contrast dye,Medication,Hives,Mild,2013-06-17,STF7225
+ALG0000344,P000582,Eggs,Food,Tachycardia,Moderate,2013-06-17,STF7383
+ALG0000345,P000583,Penicillin,Medication,Anaphylaxis,Severe,2016-01-19,STF2674
+ALG0000346,P000584,Wheat,Food,Diarrhea,Moderate,2019-02-25,STF2692
+ALG0000347,P000585,Aspirin,Medication,Dizziness,Moderate,2017-04-11,STF7311
+ALG0000348,P000586,Aspirin,Medication,Tachycardia,Severe,2015-06-12,STF9537
+ALG0000349,P000587,Codeine,Medication,Anaphylaxis,Severe,2021-01-22,STF3390
+ALG0000350,P000588,Soy,Food,Anaphylaxis,Severe,2011-09-23,STF6916
+ALG0000351,P000589,Bee stings,Environmental,Dizziness,Moderate,2020-04-08,STF2752
+ALG0000352,P000590,Milk,Food,Difficulty breathing,Severe,2018-07-10,STF6399
+ALG0000353,P000596,Latex,Environmental,Difficulty breathing,Moderate,2018-12-07,STF6228
+ALG0000354,P000596,Contrast dye,Medication,Anaphylaxis,Severe,2024-03-12,STF9044
+ALG0000355,P000599,Milk,Food,Difficulty breathing,Moderate,2022-08-25,STF4273
+ALG0000356,P000608,Soy,Food,Vomiting,Mild,2016-10-16,STF4965
+ALG0000357,P000608,Tree nuts,Food,Anaphylaxis,Severe,2019-06-29,STF7176
+ALG0000358,P000609,Bee stings,Environmental,Diarrhea,Severe,2019-05-20,STF9907
+ALG0000359,P000609,Peanuts,Food,Rash,Moderate,2018-01-24,STF9796
+ALG0000360,P000609,Latex,Environmental,Dizziness,Moderate,2011-11-28,STF2791
+ALG0000361,P000609,Shellfish,Food,Swelling,Moderate,2017-12-18,STF3725
+ALG0000362,P000611,Milk,Food,Nausea,Mild,2012-03-18,STF5239
+ALG0000363,P000611,Bee stings,Environmental,Swelling,Moderate,2021-08-20,STF4621
+ALG0000364,P000611,Morphine,Medication,Vomiting,Mild,2020-05-21,STF9199
+ALG0000365,P000611,Wheat,Food,Itching,Mild,2010-07-21,STF8909
+ALG0000366,P000612,Aspirin,Medication,Hives,Severe,2013-03-06,STF6707
+ALG0000367,P000613,Latex,Environmental,Diarrhea,Mild,2020-09-05,STF2599
+ALG0000368,P000616,Ibuprofen,Medication,Rash,Moderate,2024-07-14,STF2791
+ALG0000369,P000618,Contrast dye,Medication,Itching,Mild,2019-07-25,STF8570
+ALG0000370,P000618,Shellfish,Food,Swelling,Moderate,2024-02-15,STF4022
+ALG0000371,P000618,Aspirin,Medication,Itching,Moderate,2019-09-11,STF7481
+ALG0000372,P000618,Wheat,Food,Rash,Moderate,2014-06-05,STF8365
+ALG0000373,P000620,Latex,Environmental,Tachycardia,Moderate,2011-05-28,STF2667
+ALG0000374,P000620,Codeine,Medication,Diarrhea,Mild,2017-04-24,STF4228
+ALG0000375,P000622,Tree nuts,Food,Dizziness,Mild,2012-07-24,STF6700
+ALG0000376,P000622,Peanuts,Food,Difficulty breathing,Severe,2023-11-06,STF3826
+ALG0000377,P000622,Latex,Environmental,Lightheadedness,Moderate,2016-09-02,STF2388
+ALG0000378,P000624,Ibuprofen,Medication,Itching,Mild,2013-03-04,STF9369
+ALG0000379,P000625,Milk,Food,Nausea,Mild,2024-04-03,STF9804
+ALG0000380,P000631,Wheat,Food,Dizziness,Mild,2018-01-20,STF1157
+ALG0000381,P000633,Bee stings,Environmental,Nausea,Moderate,2019-04-28,STF8272
+ALG0000382,P000635,Contrast dye,Medication,Anaphylaxis,Mild,2015-01-16,STF9808
+ALG0000383,P000636,Bee stings,Environmental,Diarrhea,Mild,2012-07-24,STF5389
+ALG0000384,P000636,Shellfish,Food,Diarrhea,Moderate,2018-03-25,STF9880
+ALG0000385,P000638,Latex,Environmental,Hives,Moderate,2024-08-29,STF5055
+ALG0000386,P000638,Bee stings,Environmental,Anaphylaxis,Severe,2010-09-22,STF8368
+ALG0000387,P000639,Aspirin,Medication,Hives,Moderate,2015-04-26,STF4438
+ALG0000388,P000639,Contrast dye,Medication,Tachycardia,Moderate,2017-11-12,STF8015
+ALG0000389,P000639,Soy,Food,Itching,Moderate,2014-08-20,STF4390
+ALG0000390,P000644,Peanuts,Food,Diarrhea,Severe,2012-02-20,STF3221
+ALG0000391,P000644,Codeine,Medication,Nausea,Severe,2016-03-21,STF3078
+ALG0000392,P000644,Bee stings,Environmental,Tachycardia,Moderate,2015-08-08,STF3396
+ALG0000393,P000644,Wheat,Food,Tachycardia,Mild,2015-07-21,STF7434
+ALG0000394,P000647,Wheat,Food,Hives,Moderate,2012-02-02,STF7600
+ALG0000395,P000649,Eggs,Food,Difficulty breathing,Severe,2012-02-03,STF8511
+ALG0000396,P000649,Contrast dye,Medication,Lightheadedness,Moderate,2018-01-13,STF2037
+ALG0000397,P000649,Wheat,Food,Diarrhea,Mild,2019-08-21,STF4470
+ALG0000398,P000651,Codeine,Medication,Dizziness,Moderate,2017-09-16,STF1793
+ALG0000399,P000652,Wheat,Food,Hives,Severe,2013-07-18,STF8230
+ALG0000400,P000652,Penicillin,Medication,Vomiting,Mild,2019-08-06,STF4314
+ALG0000401,P000656,Shellfish,Food,Difficulty breathing,Severe,2018-05-05,STF3711
+ALG0000402,P000656,Sulfa drugs,Medication,Rash,Mild,2016-11-07,STF4836
+ALG0000403,P000656,Tree nuts,Food,Nausea,Moderate,2012-02-19,STF1017
+ALG0000404,P000657,Contrast dye,Medication,Diarrhea,Moderate,2010-03-18,STF1132
+ALG0000405,P000662,Milk,Food,Hives,Moderate,2012-04-19,STF2690
+ALG0000406,P000663,Codeine,Medication,Itching,Moderate,2013-03-16,STF2120
+ALG0000407,P000663,Latex,Environmental,Diarrhea,Moderate,2023-09-09,STF3688
+ALG0000408,P000663,Milk,Food,Vomiting,Mild,2014-10-12,STF3480
+ALG0000409,P000667,Codeine,Medication,Dizziness,Moderate,2017-11-19,STF8035
+ALG0000410,P000667,Milk,Food,Difficulty breathing,Severe,2015-07-23,STF5537
+ALG0000411,P000667,Sulfa drugs,Medication,Lightheadedness,Mild,2022-05-31,STF5668
+ALG0000412,P000672,Latex,Environmental,Tachycardia,Mild,2024-06-29,STF1894
+ALG0000413,P000675,Contrast dye,Medication,Vomiting,Moderate,2011-08-05,STF9655
+ALG0000414,P000677,Tree nuts,Food,Itching,Mild,2022-10-01,STF7895
+ALG0000415,P000678,Bee stings,Environmental,Hives,Mild,2011-07-08,STF1225
+ALG0000416,P000678,Milk,Food,Anaphylaxis,Moderate,2011-05-11,STF7520
+ALG0000417,P000684,Codeine,Medication,Anaphylaxis,Moderate,2011-10-10,STF9377
+ALG0000418,P000687,Aspirin,Medication,Anaphylaxis,Severe,2015-05-09,STF1948
+ALG0000419,P000688,Ibuprofen,Medication,Dizziness,Mild,2024-12-09,STF3877
+ALG0000420,P000688,Contrast dye,Medication,Hives,Mild,2013-01-29,STF1185
+ALG0000421,P000688,Peanuts,Food,Itching,Mild,2017-10-11,STF9568
+ALG0000422,P000691,Shellfish,Food,Tachycardia,Moderate,2010-08-29,STF6488
+ALG0000423,P000693,Aspirin,Medication,Vomiting,Mild,2018-01-29,STF1908
+ALG0000424,P000696,Ibuprofen,Medication,Dizziness,Moderate,2012-08-02,STF4742
+ALG0000425,P000698,Penicillin,Medication,Vomiting,Mild,2013-05-14,STF3932
+ALG0000426,P000698,Ibuprofen,Medication,Rash,Moderate,2024-09-15,STF7870
+ALG0000427,P000698,Bee stings,Environmental,Swelling,Moderate,2019-05-03,STF6241
+ALG0000428,P000699,Eggs,Food,Hives,Moderate,2011-03-08,STF3938
+ALG0000429,P000700,Sulfa drugs,Medication,Nausea,Mild,2020-06-07,STF5625
+ALG0000430,P000702,Wheat,Food,Rash,Mild,2016-07-16,STF5979
+ALG0000431,P000704,Bee stings,Environmental,Swelling,Moderate,2022-04-05,STF5016
+ALG0000432,P000705,Penicillin,Medication,Difficulty breathing,Severe,2010-03-20,STF6488
+ALG0000433,P000705,Ibuprofen,Medication,Rash,Moderate,2018-06-10,STF6038
+ALG0000434,P000705,Shellfish,Food,Hives,Moderate,2015-05-06,STF7878
+ALG0000435,P000707,Shellfish,Food,Diarrhea,Mild,2018-05-10,STF8511
+ALG0000436,P000707,Sulfa drugs,Medication,Tachycardia,Mild,2012-02-22,STF9280
+ALG0000437,P000707,Penicillin,Medication,Itching,Moderate,2018-11-05,STF2226
+ALG0000438,P000707,Ibuprofen,Medication,Dizziness,Moderate,2019-10-04,STF3141
+ALG0000439,P000708,Tree nuts,Food,Nausea,Moderate,2017-04-26,STF6211
+ALG0000440,P000710,Codeine,Medication,Dizziness,Mild,2012-05-15,STF3693
+ALG0000441,P000710,Milk,Food,Vomiting,Mild,2019-02-13,STF2978
+ALG0000442,P000710,Wheat,Food,Diarrhea,Mild,2014-08-28,STF8404
+ALG0000443,P000711,Ibuprofen,Medication,Hives,Mild,2016-10-28,STF1660
+ALG0000444,P000712,Codeine,Medication,Swelling,Severe,2018-11-21,STF9412
+ALG0000445,P000712,Sulfa drugs,Medication,Rash,Moderate,2015-11-02,STF3848
+ALG0000446,P000712,Eggs,Food,Rash,Severe,2020-02-22,STF5093
+ALG0000447,P000713,Codeine,Medication,Hives,Mild,2014-12-26,STF3141
+ALG0000448,P000714,Aspirin,Medication,Dizziness,Moderate,2011-09-07,STF1357
+ALG0000449,P000716,Codeine,Medication,Difficulty breathing,Moderate,2020-05-04,STF1829
+ALG0000450,P000716,Sulfa drugs,Medication,Itching,Severe,2019-09-19,STF7471
+ALG0000451,P000718,Eggs,Food,Swelling,Severe,2016-03-02,STF5585
+ALG0000452,P000720,Contrast dye,Medication,Anaphylaxis,Severe,2022-05-09,STF8848
+ALG0000453,P000720,Tree nuts,Food,Rash,Mild,2018-08-04,STF3248
+ALG0000454,P000724,Penicillin,Medication,Difficulty breathing,Severe,2020-11-14,STF6636
+ALG0000455,P000724,Latex,Environmental,Dizziness,Moderate,2018-09-17,STF5430
+ALG0000456,P000724,Milk,Food,Itching,Mild,2023-05-24,STF4588
+ALG0000457,P000724,Eggs,Food,Rash,Moderate,2016-04-20,STF1959
+ALG0000458,P000727,Contrast dye,Medication,Itching,Mild,2024-09-25,STF4951
+ALG0000459,P000728,Sulfa drugs,Medication,Swelling,Moderate,2018-09-17,STF6813
+ALG0000460,P000728,Milk,Food,Itching,Mild,2023-04-16,STF6210
+ALG0000461,P000732,Codeine,Medication,Swelling,Severe,2021-01-15,STF9882
+ALG0000462,P000732,Peanuts,Food,Anaphylaxis,Moderate,2010-11-07,STF2478
+ALG0000463,P000733,Penicillin,Medication,Vomiting,Mild,2023-10-10,STF4300
+ALG0000464,P000733,Shellfish,Food,Itching,Mild,2013-12-24,STF6301
+ALG0000465,P000734,Codeine,Medication,Hives,Severe,2018-03-09,STF2188
+ALG0000466,P000735,Milk,Food,Difficulty breathing,Severe,2013-01-22,STF3580
+ALG0000467,P000735,Peanuts,Food,Tachycardia,Severe,2024-05-03,STF8982
+ALG0000468,P000735,Sulfa drugs,Medication,Lightheadedness,Mild,2022-08-09,STF6846
+ALG0000469,P000736,Morphine,Medication,Nausea,Mild,2016-08-09,STF3086
+ALG0000470,P000737,Milk,Food,Dizziness,Mild,2023-07-06,STF6213
+ALG0000471,P000740,Bee stings,Environmental,Itching,Mild,2011-09-30,STF4899
+ALG0000472,P000741,Aspirin,Medication,Tachycardia,Moderate,2017-07-13,STF8317
+ALG0000473,P000742,Aspirin,Medication,Difficulty breathing,Severe,2012-06-04,STF1020
+ALG0000474,P000743,Soy,Food,Itching,Moderate,2021-01-22,STF7204
+ALG0000475,P000744,Bee stings,Environmental,Dizziness,Moderate,2015-01-22,STF3664
+ALG0000476,P000747,Shellfish,Food,Hives,Mild,2013-10-25,STF7151
+ALG0000477,P000748,Aspirin,Medication,Difficulty breathing,Severe,2023-10-06,STF8909
+ALG0000478,P000754,Latex,Environmental,Nausea,Moderate,2022-02-11,STF5346
+ALG0000479,P000756,Milk,Food,Dizziness,Moderate,2021-01-04,STF3516
+ALG0000480,P000757,Aspirin,Medication,Anaphylaxis,Severe,2024-01-08,STF8869
+ALG0000481,P000758,Morphine,Medication,Lightheadedness,Mild,2011-11-03,STF8758
+ALG0000482,P000760,Bee stings,Environmental,Lightheadedness,Mild,2024-05-25,STF9914
+ALG0000483,P000761,Milk,Food,Difficulty breathing,Moderate,2011-01-01,STF5313
+ALG0000484,P000763,Sulfa drugs,Medication,Tachycardia,Moderate,2011-12-04,STF6632
+ALG0000485,P000763,Aspirin,Medication,Diarrhea,Mild,2023-03-25,STF4727
+ALG0000486,P000773,Sulfa drugs,Medication,Diarrhea,Moderate,2023-11-30,STF3415
+ALG0000487,P000773,Shellfish,Food,Hives,Severe,2020-01-27,STF3832
+ALG0000488,P000773,Peanuts,Food,Itching,Severe,2014-04-28,STF3067
+ALG0000489,P000774,Soy,Food,Swelling,Severe,2024-01-26,STF3422
+ALG0000490,P000776,Aspirin,Medication,Diarrhea,Mild,2017-04-25,STF5525
+ALG0000491,P000776,Sulfa drugs,Medication,Diarrhea,Mild,2010-04-12,STF9561
+ALG0000492,P000776,Latex,Environmental,Nausea,Mild,2013-05-10,STF3428
+ALG0000493,P000780,Ibuprofen,Medication,Anaphylaxis,Severe,2017-09-17,STF7732
+ALG0000494,P000781,Bee stings,Environmental,Itching,Mild,2013-03-24,STF7581
+ALG0000495,P000781,Penicillin,Medication,Rash,Mild,2017-06-08,STF4892
+ALG0000496,P000782,Shellfish,Food,Difficulty breathing,Mild,2016-10-18,STF6094
+ALG0000497,P000783,Ibuprofen,Medication,Swelling,Mild,2019-12-09,STF6257
+ALG0000498,P000784,Aspirin,Medication,Swelling,Moderate,2019-02-18,STF8937
+ALG0000499,P000789,Milk,Food,Itching,Moderate,2021-10-04,STF1474
+ALG0000500,P000790,Latex,Environmental,Swelling,Mild,2011-02-19,STF6904
+ALG0000501,P000790,Soy,Food,Tachycardia,Mild,2018-04-06,STF8605
+ALG0000502,P000790,Penicillin,Medication,Diarrhea,Mild,2012-10-11,STF1500
+ALG0000503,P000791,Wheat,Food,Itching,Severe,2020-08-23,STF6730
+ALG0000504,P000792,Shellfish,Food,Tachycardia,Mild,2010-08-13,STF7333
+ALG0000505,P000792,Eggs,Food,Rash,Mild,2022-11-01,STF4511
+ALG0000506,P000796,Penicillin,Medication,Lightheadedness,Mild,2012-12-19,STF3837
+ALG0000507,P000798,Peanuts,Food,Tachycardia,Severe,2024-06-01,STF5511
+ALG0000508,P000800,Shellfish,Food,Swelling,Moderate,2021-09-05,STF7506
+ALG0000509,P000802,Eggs,Food,Dizziness,Mild,2012-06-04,STF8892
+ALG0000510,P000802,Shellfish,Food,Hives,Moderate,2016-03-14,STF6327
+ALG0000511,P000802,Tree nuts,Food,Anaphylaxis,Severe,2024-08-11,STF5895
+ALG0000512,P000802,Peanuts,Food,Swelling,Mild,2015-05-23,STF1930
+ALG0000513,P000811,Milk,Food,Tachycardia,Mild,2022-10-31,STF4111
+ALG0000514,P000812,Bee stings,Environmental,Lightheadedness,Mild,2016-09-25,STF3785
+ALG0000515,P000812,Wheat,Food,Lightheadedness,Moderate,2014-01-23,STF5813
+ALG0000516,P000813,Shellfish,Food,Tachycardia,Moderate,2014-02-08,STF6499
+ALG0000517,P000815,Peanuts,Food,Nausea,Moderate,2017-06-07,STF7089
+ALG0000518,P000816,Ibuprofen,Medication,Vomiting,Mild,2024-03-24,STF2166
+ALG0000519,P000818,Milk,Food,Diarrhea,Mild,2011-03-19,STF3470
+ALG0000520,P000819,Soy,Food,Dizziness,Moderate,2020-04-06,STF3346
+ALG0000521,P000820,Aspirin,Medication,Difficulty breathing,Severe,2013-12-19,STF6134
+ALG0000522,P000820,Contrast dye,Medication,Lightheadedness,Mild,2020-02-21,STF5481
+ALG0000523,P000821,Morphine,Medication,Hives,Mild,2019-09-23,STF8035
+ALG0000524,P000821,Contrast dye,Medication,Nausea,Mild,2020-09-15,STF7280
+ALG0000525,P000822,Eggs,Food,Rash,Moderate,2021-11-29,STF4122
+ALG0000526,P000823,Contrast dye,Medication,Swelling,Moderate,2017-09-21,STF6113
+ALG0000527,P000824,Peanuts,Food,Itching,Mild,2011-01-10,STF5885
+ALG0000528,P000831,Bee stings,Environmental,Itching,Severe,2019-01-18,STF1313
+ALG0000529,P000831,Morphine,Medication,Swelling,Moderate,2012-12-10,STF4460
+ALG0000530,P000831,Milk,Food,Tachycardia,Mild,2021-04-26,STF3768
+ALG0000531,P000831,Ibuprofen,Medication,Hives,Moderate,2024-08-04,STF1612
+ALG0000532,P000832,Sulfa drugs,Medication,Rash,Moderate,2024-08-29,STF1323
+ALG0000533,P000832,Peanuts,Food,Rash,Moderate,2019-05-08,STF8279
+ALG0000534,P000833,Bee stings,Environmental,Tachycardia,Mild,2024-02-20,STF1152
+ALG0000535,P000834,Shellfish,Food,Dizziness,Moderate,2019-05-25,STF2718
+ALG0000536,P000834,Peanuts,Food,Diarrhea,Moderate,2012-08-22,STF5631
+ALG0000537,P000835,Latex,Environmental,Dizziness,Mild,2015-11-25,STF9571
+ALG0000538,P000837,Morphine,Medication,Rash,Moderate,2014-08-29,STF8875
+ALG0000539,P000838,Aspirin,Medication,Hives,Severe,2021-01-30,STF3443
+ALG0000540,P000841,Shellfish,Food,Swelling,Moderate,2016-08-22,STF5327
+ALG0000541,P000841,Tree nuts,Food,Vomiting,Mild,2013-12-02,STF1646
+ALG0000542,P000843,Soy,Food,Hives,Mild,2011-01-11,STF1158
+ALG0000543,P000843,Eggs,Food,Itching,Moderate,2013-10-28,STF6384
+ALG0000544,P000844,Shellfish,Food,Tachycardia,Mild,2017-09-08,STF3996
+ALG0000545,P000845,Wheat,Food,Anaphylaxis,Severe,2020-09-22,STF7909
+ALG0000546,P000848,Sulfa drugs,Medication,Itching,Mild,2023-04-02,STF8908
+ALG0000547,P000848,Soy,Food,Dizziness,Moderate,2014-01-24,STF7221
+ALG0000548,P000859,Penicillin,Medication,Lightheadedness,Moderate,2022-12-07,STF4669
+ALG0000549,P000859,Eggs,Food,Lightheadedness,Moderate,2021-08-23,STF9570
+ALG0000550,P000867,Sulfa drugs,Medication,Lightheadedness,Severe,2021-05-04,STF8688
+ALG0000551,P000867,Penicillin,Medication,Vomiting,Moderate,2011-09-06,STF9055
+ALG0000552,P000868,Shellfish,Food,Rash,Moderate,2022-05-07,STF7203
+ALG0000553,P000870,Wheat,Food,Hives,Severe,2020-01-11,STF6178
+ALG0000554,P000871,Penicillin,Medication,Hives,Moderate,2010-10-21,STF9996
+ALG0000555,P000872,Peanuts,Food,Diarrhea,Moderate,2024-09-06,STF8474
+ALG0000556,P000874,Contrast dye,Medication,Vomiting,Mild,2023-11-26,STF8751
+ALG0000557,P000876,Ibuprofen,Medication,Lightheadedness,Mild,2017-08-28,STF6818
+ALG0000558,P000879,Ibuprofen,Medication,Rash,Moderate,2021-01-16,STF3301
+ALG0000559,P000883,Ibuprofen,Medication,Nausea,Mild,2014-04-11,STF6536
+ALG0000560,P000884,Ibuprofen,Medication,Vomiting,Mild,2023-03-21,STF9260
+ALG0000561,P000885,Sulfa drugs,Medication,Diarrhea,Severe,2023-02-15,STF8912
+ALG0000562,P000890,Ibuprofen,Medication,Lightheadedness,Moderate,2017-03-21,STF9259
+ALG0000563,P000890,Latex,Environmental,Nausea,Mild,2023-08-29,STF5067
+ALG0000564,P000891,Peanuts,Food,Itching,Mild,2021-06-28,STF5897
+ALG0000565,P000891,Contrast dye,Medication,Tachycardia,Moderate,2017-01-15,STF4560
+ALG0000566,P000891,Milk,Food,Swelling,Moderate,2016-07-08,STF6657
+ALG0000567,P000891,Aspirin,Medication,Lightheadedness,Mild,2024-07-31,STF3913
+ALG0000568,P000894,Eggs,Food,Diarrhea,Mild,2022-10-19,STF7839
+ALG0000569,P000900,Milk,Food,Itching,Mild,2011-04-09,STF4275
+ALG0000570,P000901,Peanuts,Food,Anaphylaxis,Moderate,2011-05-24,STF5835
+ALG0000571,P000901,Tree nuts,Food,Swelling,Moderate,2010-09-22,STF6876
+ALG0000572,P000903,Contrast dye,Medication,Diarrhea,Mild,2021-06-17,STF5712
+ALG0000573,P000903,Eggs,Food,Tachycardia,Moderate,2018-07-23,STF7349
+ALG0000574,P000903,Tree nuts,Food,Nausea,Severe,2017-01-05,STF1881
+ALG0000575,P000904,Wheat,Food,Swelling,Severe,2024-07-11,STF7025
+ALG0000576,P000910,Aspirin,Medication,Itching,Severe,2021-07-11,STF2955
+ALG0000577,P000911,Shellfish,Food,Itching,Mild,2015-09-21,STF1092
+ALG0000578,P000912,Codeine,Medication,Itching,Severe,2023-05-22,STF1833
+ALG0000579,P000912,Penicillin,Medication,Lightheadedness,Moderate,2024-11-05,STF5934
+ALG0000580,P000915,Tree nuts,Food,Swelling,Severe,2021-09-04,STF2117
+ALG0000581,P000915,Shellfish,Food,Diarrhea,Mild,2022-03-07,STF9798
+ALG0000582,P000917,Tree nuts,Food,Anaphylaxis,Moderate,2023-11-13,STF9691
+ALG0000583,P000917,Morphine,Medication,Vomiting,Severe,2024-07-25,STF1144
+ALG0000584,P000917,Wheat,Food,Hives,Moderate,2019-12-30,STF4937
+ALG0000585,P000923,Ibuprofen,Medication,Diarrhea,Moderate,2010-07-22,STF9468
+ALG0000586,P000923,Latex,Environmental,Difficulty breathing,Severe,2021-05-30,STF8300
+ALG0000587,P000923,Codeine,Medication,Vomiting,Mild,2024-08-12,STF4154
+ALG0000588,P000924,Ibuprofen,Medication,Itching,Severe,2022-01-25,STF9736
+ALG0000589,P000925,Latex,Environmental,Lightheadedness,Mild,2012-05-01,STF4368
+ALG0000590,P000933,Tree nuts,Food,Rash,Mild,2011-03-21,STF3916
+ALG0000591,P000937,Milk,Food,Vomiting,Moderate,2019-09-18,STF6183
+ALG0000592,P000938,Penicillin,Medication,Tachycardia,Moderate,2023-02-19,STF1745
+ALG0000593,P000938,Tree nuts,Food,Tachycardia,Moderate,2018-01-09,STF9238
+ALG0000594,P000939,Peanuts,Food,Hives,Moderate,2019-10-26,STF7249
+ALG0000595,P000939,Bee stings,Environmental,Nausea,Moderate,2010-09-10,STF8765
+ALG0000596,P000940,Milk,Food,Diarrhea,Mild,2024-03-22,STF3360
+ALG0000597,P000941,Eggs,Food,Diarrhea,Mild,2010-12-09,STF1082
+ALG0000598,P000941,Penicillin,Medication,Dizziness,Moderate,2022-01-18,STF9970
+ALG0000599,P000941,Shellfish,Food,Hives,Moderate,2017-09-17,STF4469
+ALG0000600,P000945,Shellfish,Food,Swelling,Mild,2022-09-22,STF1891
+ALG0000601,P000951,Ibuprofen,Medication,Swelling,Moderate,2020-12-05,STF6420
+ALG0000602,P000952,Contrast dye,Medication,Anaphylaxis,Severe,2014-05-05,STF6206
+ALG0000603,P000952,Sulfa drugs,Medication,Vomiting,Mild,2023-10-29,STF6008
+ALG0000604,P000954,Tree nuts,Food,Nausea,Mild,2017-01-09,STF5033
+ALG0000605,P000958,Tree nuts,Food,Vomiting,Mild,2018-01-17,STF6004
+ALG0000606,P000960,Aspirin,Medication,Anaphylaxis,Severe,2013-02-20,STF9824
+ALG0000607,P000960,Soy,Food,Swelling,Moderate,2024-01-21,STF2252
+ALG0000608,P000968,Shellfish,Food,Diarrhea,Moderate,2022-02-08,STF8734
+ALG0000609,P000970,Peanuts,Food,Itching,Mild,2021-06-13,STF2483
+ALG0000610,P000971,Contrast dye,Medication,Dizziness,Moderate,2021-07-13,STF3299
+ALG0000611,P000973,Codeine,Medication,Vomiting,Severe,2010-11-28,STF4585
+ALG0000612,P000973,Eggs,Food,Vomiting,Mild,2015-12-06,STF7052
+ALG0000613,P000973,Wheat,Food,Swelling,Mild,2014-08-21,STF9485
+ALG0000614,P000975,Wheat,Food,Rash,Mild,2024-07-18,STF6309
+ALG0000615,P000976,Shellfish,Food,Dizziness,Moderate,2013-11-25,STF7171
+ALG0000616,P000976,Soy,Food,Lightheadedness,Mild,2023-03-08,STF2275
+ALG0000617,P000976,Eggs,Food,Diarrhea,Mild,2014-12-31,STF9460
+ALG0000618,P000976,Codeine,Medication,Nausea,Mild,2017-09-27,STF8976
+ALG0000619,P000979,Wheat,Food,Hives,Moderate,2016-04-19,STF4465
+ALG0000620,P000979,Aspirin,Medication,Itching,Mild,2018-02-15,STF2938
+ALG0000621,P000979,Ibuprofen,Medication,Lightheadedness,Mild,2017-05-29,STF2856
+ALG0000622,P000982,Soy,Food,Rash,Mild,2012-11-13,STF3639
+ALG0000623,P000983,Codeine,Medication,Rash,Mild,2014-01-14,STF9464
+ALG0000624,P000987,Peanuts,Food,Swelling,Moderate,2020-07-28,STF8891
+ALG0000625,P000987,Sulfa drugs,Medication,Itching,Mild,2019-03-20,STF3338
+ALG0000626,P000990,Shellfish,Food,Tachycardia,Moderate,2020-03-03,STF2127
+ALG0000627,P000990,Aspirin,Medication,Swelling,Moderate,2012-12-19,STF2778
+ALG0000628,P000991,Soy,Food,Itching,Moderate,2013-12-24,STF8796
+ALG0000629,P000997,Penicillin,Medication,Lightheadedness,Moderate,2021-09-16,STF7892
+ALG0000630,P000997,Wheat,Food,Difficulty breathing,Severe,2021-11-19,STF8028
+ALG0000631,P000998,Milk,Food,Dizziness,Moderate,2022-12-03,STF2600
+ALG0000632,P000998,Morphine,Medication,Nausea,Mild,2020-09-13,STF4809
+ALG0000633,P001000,Soy,Food,Anaphylaxis,Moderate,2010-02-28,STF9561
+ALG0000634,P001001,Latex,Environmental,Tachycardia,Moderate,2019-03-04,STF6935
+ALG0000635,P001002,Shellfish,Food,Anaphylaxis,Severe,2019-07-02,STF6990
+ALG0000636,P001005,Bee stings,Environmental,Itching,Mild,2022-06-12,STF8925
+ALG0000637,P001006,Eggs,Food,Tachycardia,Mild,2013-02-05,STF2951
+ALG0000638,P001010,Milk,Food,Difficulty breathing,Severe,2023-10-10,STF1852
+ALG0000639,P001011,Penicillin,Medication,Vomiting,Severe,2019-10-07,STF2444
+ALG0000640,P001011,Milk,Food,Hives,Moderate,2018-04-26,STF2311
+ALG0000641,P001011,Sulfa drugs,Medication,Dizziness,Mild,2018-08-15,STF7564
+ALG0000642,P001011,Aspirin,Medication,Dizziness,Moderate,2016-06-04,STF1941
+ALG0000643,P001016,Peanuts,Food,Rash,Moderate,2021-06-14,STF9451
+ALG0000644,P001016,Ibuprofen,Medication,Tachycardia,Mild,2013-10-20,STF1590
+ALG0000645,P001017,Morphine,Medication,Anaphylaxis,Severe,2017-12-02,STF7474
+ALG0000646,P001017,Sulfa drugs,Medication,Nausea,Moderate,2021-08-12,STF1251
+ALG0000647,P001019,Peanuts,Food,Tachycardia,Moderate,2023-01-28,STF6703
+ALG0000648,P001020,Contrast dye,Medication,Swelling,Moderate,2019-01-23,STF1076
+ALG0000649,P001020,Peanuts,Food,Anaphylaxis,Moderate,2021-05-10,STF2744
+ALG0000650,P001023,Shellfish,Food,Diarrhea,Moderate,2022-11-23,STF5098
+ALG0000651,P001033,Aspirin,Medication,Nausea,Moderate,2014-12-11,STF4767
+ALG0000652,P001036,Shellfish,Food,Swelling,Moderate,2018-12-13,STF6603
+ALG0000653,P001037,Bee stings,Environmental,Swelling,Severe,2016-01-14,STF3994
+ALG0000654,P001037,Morphine,Medication,Tachycardia,Moderate,2014-04-07,STF9175
+ALG0000655,P001037,Wheat,Food,Tachycardia,Mild,2015-06-06,STF5348
+ALG0000656,P001038,Contrast dye,Medication,Dizziness,Mild,2012-05-23,STF2964
+ALG0000657,P001045,Tree nuts,Food,Vomiting,Moderate,2022-11-20,STF5501
+ALG0000658,P001049,Codeine,Medication,Rash,Moderate,2019-06-29,STF8836
+ALG0000659,P001051,Morphine,Medication,Vomiting,Severe,2021-08-16,STF8537
+ALG0000660,P001052,Latex,Environmental,Nausea,Moderate,2017-04-19,STF6924
+ALG0000661,P001054,Contrast dye,Medication,Anaphylaxis,Severe,2023-10-02,STF6621
+ALG0000662,P001055,Latex,Environmental,Nausea,Moderate,2018-05-08,STF6981
+ALG0000663,P001057,Codeine,Medication,Dizziness,Moderate,2012-03-29,STF5422
+ALG0000664,P001061,Codeine,Medication,Rash,Mild,2021-03-16,STF3203
+ALG0000665,P001061,Contrast dye,Medication,Lightheadedness,Moderate,2017-01-30,STF8972
+ALG0000666,P001062,Sulfa drugs,Medication,Nausea,Mild,2013-08-31,STF1983
+ALG0000667,P001063,Ibuprofen,Medication,Vomiting,Moderate,2015-10-30,STF6914
+ALG0000668,P001064,Shellfish,Food,Difficulty breathing,Mild,2012-09-20,STF6752
+ALG0000669,P001067,Morphine,Medication,Anaphylaxis,Severe,2021-06-13,STF8987
+ALG0000670,P001070,Wheat,Food,Itching,Moderate,2024-05-14,STF6527
+ALG0000671,P001070,Tree nuts,Food,Nausea,Moderate,2022-10-27,STF7631
+ALG0000672,P001072,Contrast dye,Medication,Difficulty breathing,Severe,2016-07-14,STF5382
+ALG0000673,P001074,Eggs,Food,Diarrhea,Severe,2019-04-15,STF3741
+ALG0000674,P001074,Bee stings,Environmental,Itching,Moderate,2012-10-21,STF4844
+ALG0000675,P001074,Peanuts,Food,Lightheadedness,Mild,2011-10-18,STF4450
+ALG0000676,P001075,Aspirin,Medication,Vomiting,Moderate,2010-08-04,STF7504
+ALG0000677,P001078,Aspirin,Medication,Nausea,Mild,2015-07-20,STF5655
+ALG0000678,P001078,Tree nuts,Food,Vomiting,Moderate,2012-12-11,STF9630
+ALG0000679,P001080,Tree nuts,Food,Vomiting,Mild,2022-02-15,STF5463
+ALG0000680,P001080,Soy,Food,Diarrhea,Mild,2022-02-04,STF3900
+ALG0000681,P001090,Peanuts,Food,Difficulty breathing,Severe,2013-06-29,STF5973
+ALG0000682,P001091,Codeine,Medication,Difficulty breathing,Severe,2022-01-01,STF1136
+ALG0000683,P001095,Peanuts,Food,Swelling,Moderate,2022-04-18,STF7121
+ALG0000684,P001095,Bee stings,Environmental,Swelling,Moderate,2022-07-29,STF8161
+ALG0000685,P001096,Milk,Food,Nausea,Mild,2011-10-11,STF7917
+ALG0000686,P001102,Shellfish,Food,Swelling,Severe,2014-02-03,STF3238
+ALG0000687,P001102,Latex,Environmental,Anaphylaxis,Moderate,2020-03-19,STF8418
+ALG0000688,P001103,Latex,Environmental,Rash,Mild,2021-12-31,STF1362
+ALG0000689,P001103,Morphine,Medication,Itching,Severe,2016-04-30,STF5410
+ALG0000690,P001104,Penicillin,Medication,Swelling,Mild,2010-05-01,STF9086
+ALG0000691,P001105,Bee stings,Environmental,Difficulty breathing,Severe,2010-09-17,STF6410
+ALG0000692,P001106,Codeine,Medication,Anaphylaxis,Severe,2011-08-08,STF9899
+ALG0000693,P001106,Penicillin,Medication,Vomiting,Mild,2015-08-11,STF7251
+ALG0000694,P001108,Contrast dye,Medication,Vomiting,Mild,2010-10-02,STF4263
+ALG0000695,P001108,Latex,Environmental,Vomiting,Moderate,2012-02-09,STF9538
+ALG0000696,P001110,Peanuts,Food,Difficulty breathing,Moderate,2010-12-12,STF9534
+ALG0000697,P001111,Peanuts,Food,Swelling,Moderate,2011-03-03,STF4568
+ALG0000698,P001113,Penicillin,Medication,Itching,Moderate,2023-02-11,STF2960
+ALG0000699,P001114,Sulfa drugs,Medication,Dizziness,Moderate,2020-08-29,STF3539
+ALG0000700,P001115,Morphine,Medication,Vomiting,Mild,2023-11-16,STF6544
+ALG0000701,P001119,Ibuprofen,Medication,Vomiting,Mild,2022-07-11,STF6690
+ALG0000702,P001119,Aspirin,Medication,Vomiting,Moderate,2010-06-24,STF7189
+ALG0000703,P001120,Sulfa drugs,Medication,Vomiting,Moderate,2022-07-16,STF5828
+ALG0000704,P001125,Morphine,Medication,Hives,Moderate,2020-01-30,STF5844
+ALG0000705,P001134,Tree nuts,Food,Hives,Moderate,2022-02-02,STF7348
+ALG0000706,P001134,Eggs,Food,Swelling,Moderate,2021-02-27,STF3525
+ALG0000707,P001136,Ibuprofen,Medication,Diarrhea,Moderate,2010-12-25,STF3126
+ALG0000708,P001136,Sulfa drugs,Medication,Itching,Moderate,2014-07-14,STF2753
+ALG0000709,P001138,Milk,Food,Lightheadedness,Mild,2023-12-30,STF5193
+ALG0000710,P001139,Aspirin,Medication,Rash,Severe,2014-09-06,STF9051
+ALG0000711,P001144,Soy,Food,Difficulty breathing,Severe,2011-04-23,STF5355
+ALG0000712,P001144,Bee stings,Environmental,Diarrhea,Mild,2011-07-31,STF5979
+ALG0000713,P001145,Ibuprofen,Medication,Hives,Moderate,2021-12-04,STF7313
+ALG0000714,P001146,Contrast dye,Medication,Dizziness,Moderate,2014-01-05,STF7802
+ALG0000715,P001153,Milk,Food,Difficulty breathing,Severe,2021-12-22,STF8258
+ALG0000716,P001153,Shellfish,Food,Difficulty breathing,Severe,2022-05-04,STF6319
+ALG0000717,P001158,Latex,Environmental,Nausea,Moderate,2015-09-13,STF6898
+ALG0000718,P001161,Peanuts,Food,Rash,Moderate,2016-10-08,STF1107
+ALG0000719,P001161,Bee stings,Environmental,Anaphylaxis,Severe,2014-10-26,STF6159
+ALG0000720,P001162,Shellfish,Food,Diarrhea,Moderate,2022-10-19,STF3534
+ALG0000721,P001162,Wheat,Food,Hives,Mild,2017-12-23,STF3557
+ALG0000722,P001163,Contrast dye,Medication,Swelling,Moderate,2016-09-26,STF2505
+ALG0000723,P001166,Tree nuts,Food,Vomiting,Mild,2022-12-04,STF2562
+ALG0000724,P001168,Milk,Food,Rash,Severe,2017-07-02,STF6700
+ALG0000725,P001168,Sulfa drugs,Medication,Nausea,Mild,2012-09-14,STF4714
+ALG0000726,P001174,Tree nuts,Food,Diarrhea,Moderate,2017-05-01,STF9231
+ALG0000727,P001176,Milk,Food,Dizziness,Moderate,2012-01-08,STF4638
+ALG0000728,P001176,Contrast dye,Medication,Nausea,Mild,2018-11-05,STF3425
+ALG0000729,P001177,Sulfa drugs,Medication,Diarrhea,Mild,2011-11-28,STF7529
+ALG0000730,P001180,Latex,Environmental,Vomiting,Mild,2022-10-25,STF4212
+ALG0000731,P001184,Soy,Food,Difficulty breathing,Severe,2022-12-02,STF2467
+ALG0000732,P001185,Eggs,Food,Difficulty breathing,Moderate,2017-09-23,STF1396
+ALG0000733,P001187,Wheat,Food,Dizziness,Mild,2011-01-03,STF4825
+ALG0000734,P001188,Aspirin,Medication,Hives,Moderate,2015-06-15,STF3419
+ALG0000735,P001191,Ibuprofen,Medication,Vomiting,Mild,2017-06-11,STF4424
+ALG0000736,P001191,Codeine,Medication,Tachycardia,Moderate,2014-07-28,STF9952
+ALG0000737,P001193,Codeine,Medication,Tachycardia,Moderate,2010-05-31,STF7170
+ALG0000738,P001196,Peanuts,Food,Swelling,Moderate,2023-11-11,STF5444
+ALG0000739,P001197,Penicillin,Medication,Nausea,Moderate,2024-11-14,STF6901
+ALG0000740,P001197,Sulfa drugs,Medication,Hives,Mild,2024-07-25,STF7332
+ALG0000741,P001198,Ibuprofen,Medication,Difficulty breathing,Severe,2023-05-24,STF9709
+ALG0000742,P001199,Wheat,Food,Diarrhea,Severe,2010-06-26,STF1651
+ALG0000743,P001200,Tree nuts,Food,Vomiting,Mild,2013-07-10,STF1301
+ALG0000744,P001201,Peanuts,Food,Swelling,Severe,2021-03-30,STF5519
+ALG0000745,P001207,Shellfish,Food,Swelling,Mild,2018-10-24,STF3248
+ALG0000746,P001208,Contrast dye,Medication,Nausea,Mild,2013-06-05,STF7987
+ALG0000747,P001211,Latex,Environmental,Lightheadedness,Mild,2022-02-21,STF4314
+ALG0000748,P001213,Codeine,Medication,Itching,Moderate,2022-09-02,STF3589
+ALG0000749,P001213,Latex,Environmental,Difficulty breathing,Moderate,2021-12-15,STF2939
+ALG0000750,P001214,Codeine,Medication,Rash,Moderate,2019-04-15,STF7737
+ALG0000751,P001214,Eggs,Food,Anaphylaxis,Severe,2024-04-14,STF5485
+ALG0000752,P001215,Codeine,Medication,Itching,Mild,2023-09-23,STF5372
+ALG0000753,P001219,Aspirin,Medication,Tachycardia,Moderate,2013-01-03,STF9230
+ALG0000754,P001223,Bee stings,Environmental,Itching,Mild,2015-01-28,STF1528
+ALG0000755,P001228,Latex,Environmental,Swelling,Mild,2019-11-08,STF9027
+ALG0000756,P001228,Milk,Food,Tachycardia,Mild,2020-04-06,STF5043
+ALG0000757,P001234,Sulfa drugs,Medication,Vomiting,Mild,2010-12-14,STF5025
+ALG0000758,P001234,Shellfish,Food,Diarrhea,Moderate,2010-11-18,STF7347
+ALG0000759,P001234,Bee stings,Environmental,Diarrhea,Moderate,2011-02-08,STF4110
+ALG0000760,P001235,Peanuts,Food,Anaphylaxis,Severe,2019-06-23,STF5823
+ALG0000761,P001237,Codeine,Medication,Vomiting,Moderate,2020-02-18,STF2481
+ALG0000762,P001239,Codeine,Medication,Nausea,Mild,2010-07-24,STF3930
+ALG0000763,P001239,Latex,Environmental,Vomiting,Moderate,2014-07-13,STF8449
+ALG0000764,P001240,Morphine,Medication,Tachycardia,Moderate,2012-01-18,STF2870
+ALG0000765,P001243,Morphine,Medication,Diarrhea,Mild,2013-10-31,STF6491
+ALG0000766,P001243,Latex,Environmental,Dizziness,Moderate,2013-05-14,STF3656
+ALG0000767,P001245,Soy,Food,Anaphylaxis,Severe,2020-01-04,STF5731
+ALG0000768,P001245,Codeine,Medication,Lightheadedness,Mild,2012-12-13,STF4323
+ALG0000769,P001246,Penicillin,Medication,Vomiting,Moderate,2022-03-11,STF1094
+ALG0000770,P001246,Contrast dye,Medication,Dizziness,Moderate,2015-05-03,STF4553
+ALG0000771,P001250,Contrast dye,Medication,Diarrhea,Mild,2024-02-06,STF4401
+ALG0000772,P001250,Wheat,Food,Rash,Mild,2011-03-28,STF6718
+ALG0000773,P001251,Peanuts,Food,Rash,Mild,2013-12-31,STF3643
+ALG0000774,P001251,Morphine,Medication,Lightheadedness,Mild,2024-10-28,STF3906
+ALG0000775,P001251,Sulfa drugs,Medication,Vomiting,Moderate,2018-01-29,STF1587
+ALG0000776,P001252,Eggs,Food,Nausea,Moderate,2019-08-02,STF2063
+ALG0000777,P001253,Shellfish,Food,Difficulty breathing,Severe,2021-10-07,STF4438
+ALG0000778,P001256,Aspirin,Medication,Tachycardia,Moderate,2016-06-10,STF7996
+ALG0000779,P001256,Contrast dye,Medication,Dizziness,Moderate,2015-10-29,STF9608
+ALG0000780,P001266,Latex,Environmental,Rash,Mild,2020-06-05,STF2932
+ALG0000781,P001268,Soy,Food,Rash,Mild,2022-07-27,STF4478
+ALG0000782,P001268,Latex,Environmental,Rash,Moderate,2016-04-26,STF5168
+ALG0000783,P001270,Tree nuts,Food,Rash,Mild,2017-06-23,STF6592
+ALG0000784,P001271,Penicillin,Medication,Itching,Mild,2017-07-31,STF8849
+ALG0000785,P001279,Soy,Food,Tachycardia,Mild,2021-09-08,STF5904
+ALG0000786,P001279,Wheat,Food,Dizziness,Moderate,2017-01-28,STF9779
+ALG0000787,P001280,Tree nuts,Food,Difficulty breathing,Moderate,2013-05-08,STF5595
+ALG0000788,P001282,Morphine,Medication,Dizziness,Moderate,2014-03-16,STF2914
+ALG0000789,P001286,Soy,Food,Hives,Moderate,2015-05-01,STF7088
+ALG0000790,P001289,Ibuprofen,Medication,Difficulty breathing,Severe,2014-07-14,STF2517
+ALG0000791,P001291,Codeine,Medication,Swelling,Moderate,2020-11-04,STF9579
+ALG0000792,P001292,Ibuprofen,Medication,Diarrhea,Moderate,2012-12-23,STF4361
+ALG0000793,P001297,Aspirin,Medication,Rash,Mild,2024-10-12,STF6119
+ALG0000794,P001297,Morphine,Medication,Rash,Moderate,2017-01-01,STF4438
+ALG0000795,P001297,Contrast dye,Medication,Difficulty breathing,Moderate,2016-06-05,STF5532
+ALG0000796,P001301,Ibuprofen,Medication,Rash,Severe,2022-07-21,STF9422
+ALG0000797,P001302,Tree nuts,Food,Anaphylaxis,Moderate,2016-05-09,STF5011
+ALG0000798,P001303,Tree nuts,Food,Diarrhea,Mild,2012-12-01,STF1475
+ALG0000799,P001306,Soy,Food,Nausea,Mild,2023-05-16,STF8304
+ALG0000800,P001308,Aspirin,Medication,Vomiting,Moderate,2012-02-01,STF8672
+ALG0000801,P001308,Wheat,Food,Hives,Moderate,2024-06-15,STF8625
+ALG0000802,P001311,Shellfish,Food,Nausea,Mild,2024-12-02,STF6412
+ALG0000803,P001311,Wheat,Food,Difficulty breathing,Severe,2010-09-05,STF2070
+ALG0000804,P001311,Morphine,Medication,Vomiting,Mild,2020-09-26,STF8556
+ALG0000805,P001313,Codeine,Medication,Diarrhea,Mild,2012-05-26,STF6339
+ALG0000806,P001315,Wheat,Food,Nausea,Moderate,2015-05-09,STF4992
+ALG0000807,P001318,Soy,Food,Nausea,Moderate,2017-09-04,STF9921
+ALG0000808,P001320,Bee stings,Environmental,Dizziness,Moderate,2017-04-19,STF2599
+ALG0000809,P001320,Sulfa drugs,Medication,Vomiting,Mild,2019-02-07,STF2140
+ALG0000810,P001325,Sulfa drugs,Medication,Swelling,Severe,2023-01-10,STF1003
+ALG0000811,P001325,Bee stings,Environmental,Itching,Moderate,2020-02-28,STF9704
+ALG0000812,P001326,Wheat,Food,Swelling,Moderate,2017-02-06,STF5910
+ALG0000813,P001326,Ibuprofen,Medication,Dizziness,Moderate,2016-10-30,STF8122
+ALG0000814,P001335,Sulfa drugs,Medication,Diarrhea,Moderate,2018-01-21,STF2797
+ALG0000815,P001335,Penicillin,Medication,Anaphylaxis,Severe,2015-04-12,STF8073
+ALG0000816,P001335,Eggs,Food,Tachycardia,Moderate,2024-01-09,STF6212
+ALG0000817,P001339,Codeine,Medication,Swelling,Moderate,2018-01-30,STF7835
+ALG0000818,P001340,Codeine,Medication,Lightheadedness,Mild,2020-12-01,STF8155
+ALG0000819,P001340,Aspirin,Medication,Itching,Mild,2024-05-28,STF7813
+ALG0000820,P001340,Penicillin,Medication,Vomiting,Moderate,2023-07-23,STF7974
+ALG0000821,P001340,Sulfa drugs,Medication,Dizziness,Mild,2021-06-05,STF7948
+ALG0000822,P001343,Penicillin,Medication,Dizziness,Mild,2015-04-24,STF9220
+ALG0000823,P001344,Eggs,Food,Dizziness,Mild,2018-04-08,STF2854
+ALG0000824,P001344,Penicillin,Medication,Dizziness,Mild,2011-10-18,STF3327
+ALG0000825,P001344,Wheat,Food,Tachycardia,Moderate,2016-04-08,STF8617
+ALG0000826,P001348,Aspirin,Medication,Lightheadedness,Moderate,2023-01-01,STF6119
+ALG0000827,P001348,Tree nuts,Food,Dizziness,Mild,2017-09-15,STF9765
+ALG0000828,P001357,Peanuts,Food,Tachycardia,Moderate,2015-11-04,STF2006
+ALG0000829,P001362,Penicillin,Medication,Vomiting,Mild,2021-05-04,STF2259
+ALG0000830,P001362,Codeine,Medication,Anaphylaxis,Severe,2023-10-24,STF5603
+ALG0000831,P001363,Ibuprofen,Medication,Dizziness,Mild,2023-04-10,STF3476
+ALG0000832,P001365,Contrast dye,Medication,Vomiting,Mild,2021-10-30,STF1542
+ALG0000833,P001366,Codeine,Medication,Dizziness,Severe,2013-06-16,STF9125
+ALG0000834,P001369,Morphine,Medication,Dizziness,Moderate,2017-09-27,STF1890
+ALG0000835,P001369,Ibuprofen,Medication,Lightheadedness,Mild,2012-08-08,STF1860
+ALG0000836,P001370,Peanuts,Food,Vomiting,Moderate,2021-12-11,STF4828
+ALG0000837,P001371,Bee stings,Environmental,Itching,Moderate,2019-10-02,STF1194
+ALG0000838,P001371,Codeine,Medication,Anaphylaxis,Severe,2020-01-25,STF7258
+ALG0000839,P001375,Eggs,Food,Dizziness,Severe,2016-02-12,STF6488
+ALG0000840,P001375,Soy,Food,Anaphylaxis,Severe,2012-03-16,STF5183
+ALG0000841,P001375,Latex,Environmental,Lightheadedness,Moderate,2020-05-05,STF4961
+ALG0000842,P001378,Morphine,Medication,Difficulty breathing,Severe,2010-03-11,STF2113
+ALG0000843,P001379,Ibuprofen,Medication,Lightheadedness,Mild,2014-12-03,STF5641
+ALG0000844,P001380,Aspirin,Medication,Rash,Severe,2024-09-22,STF4552
+ALG0000845,P001384,Codeine,Medication,Lightheadedness,Moderate,2014-02-22,STF2816
+ALG0000846,P001384,Latex,Environmental,Tachycardia,Mild,2016-08-10,STF8650
+ALG0000847,P001384,Tree nuts,Food,Lightheadedness,Severe,2024-04-29,STF8429
+ALG0000848,P001386,Tree nuts,Food,Anaphylaxis,Moderate,2011-08-30,STF5543
+ALG0000849,P001388,Sulfa drugs,Medication,Anaphylaxis,Severe,2015-12-09,STF3915
+ALG0000850,P001393,Codeine,Medication,Diarrhea,Moderate,2014-11-25,STF2740
+ALG0000851,P001396,Shellfish,Food,Vomiting,Mild,2021-03-01,STF3438
+ALG0000852,P001398,Milk,Food,Anaphylaxis,Moderate,2017-05-25,STF7411
+ALG0000853,P001408,Bee stings,Environmental,Difficulty breathing,Severe,2016-10-16,STF7563
+ALG0000854,P001408,Sulfa drugs,Medication,Rash,Moderate,2024-07-06,STF2485
+ALG0000855,P001408,Peanuts,Food,Difficulty breathing,Severe,2017-08-17,STF2318
+ALG0000856,P001408,Shellfish,Food,Vomiting,Moderate,2016-07-03,STF4327
+ALG0000857,P001409,Milk,Food,Lightheadedness,Mild,2018-10-01,STF2749
+ALG0000858,P001411,Wheat,Food,Tachycardia,Mild,2010-10-20,STF4163
+ALG0000859,P001412,Contrast dye,Medication,Diarrhea,Moderate,2021-03-17,STF9748
+ALG0000860,P001412,Bee stings,Environmental,Vomiting,Severe,2010-05-15,STF1606
+ALG0000861,P001412,Latex,Environmental,Difficulty breathing,Moderate,2010-12-17,STF7643
+ALG0000862,P001412,Sulfa drugs,Medication,Hives,Moderate,2024-08-31,STF9570
+ALG0000863,P001416,Aspirin,Medication,Rash,Moderate,2020-12-19,STF1312
+ALG0000864,P001419,Codeine,Medication,Itching,Moderate,2016-11-22,STF2594
+ALG0000865,P001419,Penicillin,Medication,Vomiting,Moderate,2023-04-04,STF2047
+ALG0000866,P001421,Contrast dye,Medication,Hives,Severe,2019-07-24,STF6527
+ALG0000867,P001425,Codeine,Medication,Swelling,Moderate,2023-04-21,STF3841
+ALG0000868,P001425,Morphine,Medication,Difficulty breathing,Moderate,2016-02-22,STF3314
+ALG0000869,P001425,Soy,Food,Nausea,Mild,2018-04-19,STF3703
+ALG0000870,P001425,Milk,Food,Vomiting,Mild,2023-01-20,STF1666
+ALG0000871,P001426,Milk,Food,Itching,Mild,2020-12-03,STF2322
+ALG0000872,P001426,Bee stings,Environmental,Rash,Mild,2012-01-01,STF5648
+ALG0000873,P001431,Wheat,Food,Swelling,Severe,2023-09-11,STF1616
+ALG0000874,P001431,Latex,Environmental,Dizziness,Mild,2021-03-19,STF2442
+ALG0000875,P001434,Contrast dye,Medication,Swelling,Mild,2021-11-22,STF2567
+ALG0000876,P001441,Ibuprofen,Medication,Itching,Moderate,2020-08-22,STF9151
+ALG0000877,P001442,Sulfa drugs,Medication,Lightheadedness,Mild,2014-09-13,STF8121
+ALG0000878,P001442,Penicillin,Medication,Anaphylaxis,Severe,2020-03-01,STF1709
+ALG0000879,P001443,Morphine,Medication,Itching,Moderate,2020-11-17,STF9436
+ALG0000880,P001444,Wheat,Food,Difficulty breathing,Severe,2017-04-22,STF4769
+ALG0000881,P001444,Peanuts,Food,Hives,Moderate,2012-03-14,STF4884
+ALG0000882,P001444,Bee stings,Environmental,Tachycardia,Mild,2014-06-27,STF7152
+ALG0000883,P001446,Sulfa drugs,Medication,Nausea,Mild,2023-09-02,STF8454
+ALG0000884,P001447,Wheat,Food,Tachycardia,Mild,2018-01-16,STF5418
+ALG0000885,P001448,Sulfa drugs,Medication,Anaphylaxis,Moderate,2020-06-10,STF8513
+ALG0000886,P001451,Morphine,Medication,Lightheadedness,Severe,2013-10-24,STF4763
+ALG0000887,P001452,Bee stings,Environmental,Dizziness,Mild,2020-05-18,STF5573
+ALG0000888,P001452,Soy,Food,Rash,Moderate,2015-07-14,STF5060
+ALG0000889,P001452,Ibuprofen,Medication,Difficulty breathing,Severe,2014-12-27,STF3440
+ALG0000890,P001456,Sulfa drugs,Medication,Vomiting,Moderate,2012-03-13,STF8412
+ALG0000891,P001456,Latex,Environmental,Vomiting,Mild,2022-07-12,STF1203
+ALG0000892,P001456,Shellfish,Food,Tachycardia,Moderate,2014-11-21,STF3174
+ALG0000893,P001456,Wheat,Food,Difficulty breathing,Severe,2024-07-11,STF2486
+ALG0000894,P001457,Morphine,Medication,Vomiting,Moderate,2023-02-03,STF1399
+ALG0000895,P001457,Eggs,Food,Vomiting,Mild,2013-02-09,STF7641
+ALG0000896,P001458,Wheat,Food,Rash,Moderate,2011-08-03,STF7305
+ALG0000897,P001458,Eggs,Food,Tachycardia,Mild,2010-09-25,STF5859
+ALG0000898,P001458,Tree nuts,Food,Nausea,Moderate,2023-09-27,STF9887
+ALG0000899,P001460,Tree nuts,Food,Rash,Moderate,2018-03-01,STF1844
+ALG0000900,P001460,Eggs,Food,Hives,Moderate,2020-06-09,STF1669
+ALG0000901,P001461,Aspirin,Medication,Diarrhea,Moderate,2014-08-05,STF3267
+ALG0000902,P001463,Bee stings,Environmental,Tachycardia,Severe,2023-01-05,STF4437
+ALG0000903,P001466,Soy,Food,Hives,Moderate,2020-02-24,STF8966
+ALG0000904,P001466,Codeine,Medication,Diarrhea,Moderate,2012-10-02,STF8703
+ALG0000905,P001466,Penicillin,Medication,Tachycardia,Moderate,2021-12-14,STF5788
+ALG0000906,P001468,Aspirin,Medication,Vomiting,Mild,2018-10-06,STF3929
+ALG0000907,P001468,Ibuprofen,Medication,Anaphylaxis,Severe,2011-09-23,STF2791
+ALG0000908,P001469,Codeine,Medication,Vomiting,Mild,2014-08-01,STF9530
+ALG0000909,P001471,Codeine,Medication,Vomiting,Mild,2019-12-16,STF1351
+ALG0000910,P001472,Contrast dye,Medication,Diarrhea,Moderate,2019-03-27,STF6616
+ALG0000911,P001482,Contrast dye,Medication,Difficulty breathing,Severe,2011-01-23,STF3430
+ALG0000912,P001482,Bee stings,Environmental,Difficulty breathing,Severe,2013-09-24,STF3634
+ALG0000913,P001484,Codeine,Medication,Rash,Severe,2022-11-20,STF3072
+ALG0000914,P001484,Aspirin,Medication,Vomiting,Mild,2014-02-20,STF4361
+ALG0000915,P001484,Ibuprofen,Medication,Diarrhea,Moderate,2024-12-05,STF6192
+ALG0000916,P001484,Sulfa drugs,Medication,Difficulty breathing,Moderate,2020-01-22,STF9845
+ALG0000917,P001487,Bee stings,Environmental,Itching,Severe,2017-03-08,STF3556
+ALG0000918,P001488,Tree nuts,Food,Tachycardia,Mild,2016-07-02,STF3409
+ALG0000919,P001488,Bee stings,Environmental,Dizziness,Moderate,2019-12-01,STF6549
+ALG0000920,P001492,Peanuts,Food,Rash,Mild,2014-12-11,STF8306
+ALG0000921,P001493,Latex,Environmental,Dizziness,Moderate,2016-03-26,STF4206
+ALG0000922,P001494,Wheat,Food,Lightheadedness,Moderate,2011-12-17,STF9385
+ALG0000923,P001495,Sulfa drugs,Medication,Lightheadedness,Mild,2013-04-26,STF8006
+ALG0000924,P001496,Peanuts,Food,Difficulty breathing,Severe,2019-12-30,STF2435
+ALG0000925,P001497,Soy,Food,Anaphylaxis,Moderate,2019-07-05,STF7786
+ALG0000926,P001497,Milk,Food,Itching,Moderate,2023-05-31,STF2410
+ALG0000927,P001497,Contrast dye,Medication,Itching,Mild,2020-08-24,STF9606
+ALG0000928,P001499,Milk,Food,Lightheadedness,Severe,2019-04-19,STF3865
+ALG0000929,P001499,Sulfa drugs,Medication,Diarrhea,Mild,2022-09-27,STF3243
+ALG0000930,P001499,Penicillin,Medication,Swelling,Mild,2018-07-25,STF5742
+ALG0000931,P001499,Latex,Environmental,Diarrhea,Mild,2016-10-09,STF5979
+ALG0000932,P001502,Codeine,Medication,Anaphylaxis,Severe,2024-04-11,STF8742
+ALG0000933,P001502,Bee stings,Environmental,Hives,Moderate,2016-06-14,STF7834
+ALG0000934,P001503,Contrast dye,Medication,Anaphylaxis,Severe,2011-07-01,STF6927
+ALG0000935,P001503,Penicillin,Medication,Dizziness,Mild,2019-10-13,STF5225
+ALG0000936,P001503,Sulfa drugs,Medication,Lightheadedness,Moderate,2012-09-06,STF7114
+ALG0000937,P001507,Tree nuts,Food,Vomiting,Moderate,2013-01-14,STF6855
+ALG0000938,P001508,Soy,Food,Lightheadedness,Severe,2017-12-26,STF1798
+ALG0000939,P001509,Aspirin,Medication,Diarrhea,Mild,2024-02-01,STF4002
+ALG0000940,P001512,Tree nuts,Food,Lightheadedness,Moderate,2016-02-02,STF6939
+ALG0000941,P001513,Codeine,Medication,Rash,Mild,2016-04-24,STF7111
+ALG0000942,P001517,Contrast dye,Medication,Swelling,Moderate,2022-07-13,STF9612
+ALG0000943,P001524,Penicillin,Medication,Vomiting,Mild,2018-02-18,STF3277
+ALG0000944,P001529,Penicillin,Medication,Hives,Moderate,2013-03-12,STF4712
+ALG0000945,P001529,Eggs,Food,Anaphylaxis,Moderate,2012-12-02,STF2287
+ALG0000946,P001532,Bee stings,Environmental,Nausea,Mild,2012-06-02,STF1537
+ALG0000947,P001535,Shellfish,Food,Rash,Mild,2024-12-21,STF1168
+ALG0000948,P001539,Morphine,Medication,Rash,Mild,2016-03-22,STF6698
+ALG0000949,P001539,Tree nuts,Food,Difficulty breathing,Moderate,2021-03-25,STF4962
+ALG0000950,P001539,Bee stings,Environmental,Diarrhea,Moderate,2012-03-22,STF1229
+ALG0000951,P001543,Penicillin,Medication,Hives,Severe,2021-04-23,STF8777
+ALG0000952,P001543,Eggs,Food,Difficulty breathing,Severe,2014-02-25,STF8203
+ALG0000953,P001545,Milk,Food,Swelling,Moderate,2019-02-21,STF2848
+ALG0000954,P001545,Latex,Environmental,Difficulty breathing,Moderate,2012-06-22,STF9515
+ALG0000955,P001546,Peanuts,Food,Tachycardia,Mild,2017-05-11,STF9088
+ALG0000956,P001546,Shellfish,Food,Hives,Moderate,2020-04-01,STF6111
+ALG0000957,P001549,Soy,Food,Swelling,Severe,2020-09-01,STF7020
+ALG0000958,P001550,Bee stings,Environmental,Vomiting,Moderate,2011-11-28,STF2953
+ALG0000959,P001550,Tree nuts,Food,Itching,Mild,2023-03-31,STF2666
+ALG0000960,P001550,Sulfa drugs,Medication,Tachycardia,Severe,2013-10-14,STF2060
+ALG0000961,P001550,Latex,Environmental,Difficulty breathing,Severe,2017-08-06,STF4281
+ALG0000962,P001553,Bee stings,Environmental,Tachycardia,Moderate,2023-04-26,STF5472
+ALG0000963,P001553,Codeine,Medication,Lightheadedness,Severe,2017-12-27,STF8795
+ALG0000964,P001558,Ibuprofen,Medication,Anaphylaxis,Severe,2015-03-06,STF3205
+ALG0000965,P001559,Aspirin,Medication,Lightheadedness,Mild,2014-01-07,STF7269
+ALG0000966,P001559,Contrast dye,Medication,Dizziness,Moderate,2013-06-05,STF5960
+ALG0000967,P001561,Bee stings,Environmental,Vomiting,Mild,2024-11-06,STF9157
+ALG0000968,P001563,Penicillin,Medication,Rash,Severe,2012-09-02,STF7285
+ALG0000969,P001567,Peanuts,Food,Tachycardia,Mild,2019-08-30,STF3203
+ALG0000970,P001568,Ibuprofen,Medication,Dizziness,Moderate,2024-10-21,STF9837
+ALG0000971,P001573,Milk,Food,Dizziness,Moderate,2016-05-19,STF6250
+ALG0000972,P001574,Codeine,Medication,Difficulty breathing,Severe,2023-02-05,STF1440
+ALG0000973,P001577,Eggs,Food,Nausea,Mild,2024-10-30,STF5001
+ALG0000974,P001578,Aspirin,Medication,Tachycardia,Mild,2016-11-02,STF2875
+ALG0000975,P001578,Wheat,Food,Difficulty breathing,Moderate,2022-01-28,STF6343
+ALG0000976,P001579,Soy,Food,Diarrhea,Severe,2015-12-25,STF1334
+ALG0000977,P001579,Peanuts,Food,Tachycardia,Mild,2010-07-02,STF6185
+ALG0000978,P001580,Ibuprofen,Medication,Vomiting,Mild,2014-08-14,STF6504
+ALG0000979,P001584,Soy,Food,Swelling,Moderate,2011-09-10,STF9779
+ALG0000980,P001585,Peanuts,Food,Dizziness,Mild,2015-01-25,STF2506
+ALG0000981,P001589,Bee stings,Environmental,Nausea,Mild,2011-09-21,STF5945
+ALG0000982,P001591,Tree nuts,Food,Nausea,Mild,2024-01-07,STF9443
+ALG0000983,P001591,Ibuprofen,Medication,Vomiting,Moderate,2022-04-13,STF3958
+ALG0000984,P001595,Wheat,Food,Anaphylaxis,Severe,2021-12-13,STF8106
+ALG0000985,P001598,Wheat,Food,Itching,Mild,2016-09-25,STF8133
+ALG0000986,P001604,Morphine,Medication,Anaphylaxis,Severe,2015-04-19,STF7649
+ALG0000987,P001605,Penicillin,Medication,Swelling,Moderate,2016-12-18,STF8604
+ALG0000988,P001610,Penicillin,Medication,Anaphylaxis,Severe,2016-03-25,STF3883
+ALG0000989,P001612,Penicillin,Medication,Hives,Moderate,2016-09-07,STF2041
+ALG0000990,P001612,Bee stings,Environmental,Nausea,Moderate,2024-09-29,STF2479
+ALG0000991,P001613,Codeine,Medication,Hives,Moderate,2021-03-22,STF2976
+ALG0000992,P001613,Ibuprofen,Medication,Diarrhea,Moderate,2023-01-07,STF9605
+ALG0000993,P001614,Contrast dye,Medication,Difficulty breathing,Severe,2023-02-08,STF7388
+ALG0000994,P001614,Peanuts,Food,Tachycardia,Moderate,2019-06-27,STF4571
+ALG0000995,P001614,Sulfa drugs,Medication,Itching,Mild,2014-10-20,STF5498
+ALG0000996,P001616,Bee stings,Environmental,Diarrhea,Mild,2012-07-14,STF6185
+ALG0000997,P001619,Codeine,Medication,Difficulty breathing,Severe,2018-04-01,STF6049
+ALG0000998,P001620,Sulfa drugs,Medication,Rash,Moderate,2015-05-18,STF5144
+ALG0000999,P001620,Soy,Food,Diarrhea,Mild,2024-05-01,STF6945
+ALG0001000,P001620,Eggs,Food,Lightheadedness,Mild,2015-04-21,STF8248
+ALG0001001,P001620,Tree nuts,Food,Nausea,Mild,2018-10-25,STF5186
+ALG0001002,P001621,Contrast dye,Medication,Itching,Severe,2024-02-29,STF6196
+ALG0001003,P001621,Codeine,Medication,Lightheadedness,Mild,2010-10-05,STF5489
+ALG0001004,P001621,Ibuprofen,Medication,Hives,Severe,2021-01-10,STF8718
+ALG0001005,P001624,Ibuprofen,Medication,Itching,Moderate,2021-05-10,STF2087
+ALG0001006,P001625,Tree nuts,Food,Tachycardia,Mild,2011-03-03,STF4010
+ALG0001007,P001625,Contrast dye,Medication,Lightheadedness,Mild,2024-05-18,STF3229
+ALG0001008,P001626,Peanuts,Food,Difficulty breathing,Severe,2012-06-26,STF3585
+ALG0001009,P001627,Codeine,Medication,Dizziness,Moderate,2017-03-01,STF8397
+ALG0001010,P001627,Soy,Food,Vomiting,Moderate,2012-12-29,STF5270
+ALG0001011,P001628,Tree nuts,Food,Anaphylaxis,Moderate,2019-04-19,STF7022
+ALG0001012,P001629,Contrast dye,Medication,Diarrhea,Moderate,2024-01-21,STF4747
+ALG0001013,P001629,Penicillin,Medication,Hives,Severe,2014-06-13,STF5289
+ALG0001014,P001629,Wheat,Food,Tachycardia,Moderate,2011-02-12,STF7570
+ALG0001015,P001632,Morphine,Medication,Tachycardia,Moderate,2020-03-05,STF9096
+ALG0001016,P001632,Peanuts,Food,Hives,Moderate,2014-07-23,STF4121
+ALG0001017,P001632,Sulfa drugs,Medication,Anaphylaxis,Severe,2021-01-31,STF7259
+ALG0001018,P001632,Penicillin,Medication,Itching,Mild,2014-08-20,STF4531
+ALG0001019,P001634,Soy,Food,Nausea,Moderate,2010-08-24,STF5754
+ALG0001020,P001634,Aspirin,Medication,Anaphylaxis,Moderate,2020-02-12,STF5068
+ALG0001021,P001635,Wheat,Food,Rash,Mild,2017-04-02,STF7513
+ALG0001022,P001635,Sulfa drugs,Medication,Lightheadedness,Mild,2018-08-08,STF7935
+ALG0001023,P001637,Sulfa drugs,Medication,Rash,Mild,2015-04-08,STF8715
+ALG0001024,P001644,Milk,Food,Anaphylaxis,Severe,2018-04-27,STF3166
+ALG0001025,P001648,Tree nuts,Food,Vomiting,Mild,2017-02-12,STF9690
+ALG0001026,P001650,Codeine,Medication,Vomiting,Moderate,2016-04-20,STF6907
+ALG0001027,P001652,Shellfish,Food,Nausea,Moderate,2017-01-28,STF9049
+ALG0001028,P001652,Bee stings,Environmental,Itching,Moderate,2024-09-29,STF8208
+ALG0001029,P001652,Morphine,Medication,Rash,Mild,2011-03-24,STF4766
+ALG0001030,P001653,Morphine,Medication,Tachycardia,Mild,2012-08-08,STF9108
+ALG0001031,P001654,Bee stings,Environmental,Vomiting,Mild,2013-04-27,STF3025
+ALG0001032,P001655,Peanuts,Food,Itching,Moderate,2021-05-30,STF5469
+ALG0001033,P001658,Penicillin,Medication,Itching,Mild,2011-09-22,STF5033
+ALG0001034,P001658,Shellfish,Food,Vomiting,Moderate,2017-05-16,STF1425
+ALG0001035,P001658,Milk,Food,Anaphylaxis,Severe,2012-09-26,STF7458
+ALG0001036,P001658,Peanuts,Food,Difficulty breathing,Severe,2012-05-18,STF6300
+ALG0001037,P001659,Bee stings,Environmental,Vomiting,Moderate,2016-01-16,STF1095
+ALG0001038,P001660,Wheat,Food,Difficulty breathing,Severe,2022-10-07,STF3118
+ALG0001039,P001661,Peanuts,Food,Difficulty breathing,Severe,2011-08-03,STF9964
+ALG0001040,P001663,Morphine,Medication,Swelling,Severe,2018-12-12,STF2461
+ALG0001041,P001664,Milk,Food,Nausea,Mild,2024-09-02,STF3525
+ALG0001042,P001665,Soy,Food,Tachycardia,Moderate,2016-12-15,STF3151
+ALG0001043,P001666,Eggs,Food,Diarrhea,Mild,2019-12-29,STF7358
+ALG0001044,P001675,Wheat,Food,Lightheadedness,Mild,2013-06-24,STF9115
+ALG0001045,P001678,Aspirin,Medication,Vomiting,Mild,2012-11-12,STF5921
+ALG0001046,P001681,Aspirin,Medication,Rash,Moderate,2021-06-15,STF7961
+ALG0001047,P001686,Penicillin,Medication,Hives,Moderate,2020-05-19,STF3941
+ALG0001048,P001689,Peanuts,Food,Difficulty breathing,Severe,2020-03-16,STF8371
+ALG0001049,P001691,Morphine,Medication,Tachycardia,Severe,2015-10-26,STF2742
+ALG0001050,P001691,Ibuprofen,Medication,Nausea,Moderate,2010-02-17,STF7470
+ALG0001051,P001691,Aspirin,Medication,Hives,Mild,2024-09-16,STF8817
+ALG0001052,P001691,Sulfa drugs,Medication,Vomiting,Moderate,2024-10-02,STF8974
+ALG0001053,P001692,Eggs,Food,Lightheadedness,Severe,2018-11-10,STF5958
+ALG0001054,P001692,Bee stings,Environmental,Hives,Mild,2010-04-24,STF4126
+ALG0001055,P001693,Latex,Environmental,Rash,Mild,2024-07-19,STF3378
+ALG0001056,P001698,Wheat,Food,Itching,Mild,2010-06-28,STF2908
+ALG0001057,P001699,Wheat,Food,Vomiting,Mild,2020-01-31,STF4975
+ALG0001058,P001700,Milk,Food,Rash,Mild,2012-04-21,STF8074
+ALG0001059,P001706,Bee stings,Environmental,Diarrhea,Moderate,2023-09-19,STF8993
+ALG0001060,P001707,Penicillin,Medication,Nausea,Moderate,2022-05-30,STF2040
+ALG0001061,P001708,Bee stings,Environmental,Vomiting,Moderate,2024-06-29,STF6681
+ALG0001062,P001708,Sulfa drugs,Medication,Vomiting,Moderate,2010-06-20,STF3643
+ALG0001063,P001709,Eggs,Food,Vomiting,Mild,2014-12-05,STF6556
+ALG0001064,P001716,Eggs,Food,Vomiting,Moderate,2013-08-20,STF4394
+ALG0001065,P001717,Bee stings,Environmental,Itching,Mild,2023-08-03,STF9063
+ALG0001066,P001717,Aspirin,Medication,Hives,Moderate,2021-01-27,STF5975
+ALG0001067,P001718,Penicillin,Medication,Difficulty breathing,Severe,2018-01-03,STF3598
+ALG0001068,P001719,Sulfa drugs,Medication,Difficulty breathing,Severe,2023-11-08,STF4714
+ALG0001069,P001719,Milk,Food,Hives,Moderate,2020-11-28,STF5224
+ALG0001070,P001719,Bee stings,Environmental,Difficulty breathing,Severe,2011-01-18,STF5382
+ALG0001071,P001724,Wheat,Food,Vomiting,Severe,2012-06-27,STF2734
+ALG0001072,P001728,Ibuprofen,Medication,Itching,Moderate,2014-08-10,STF6925
+ALG0001073,P001729,Wheat,Food,Diarrhea,Mild,2012-03-24,STF3527
+ALG0001074,P001731,Latex,Environmental,Vomiting,Severe,2010-02-23,STF5019
+ALG0001075,P001734,Shellfish,Food,Difficulty breathing,Severe,2019-04-23,STF6908
+ALG0001076,P001736,Soy,Food,Swelling,Mild,2019-08-14,STF7773
+ALG0001077,P001736,Milk,Food,Nausea,Moderate,2021-07-30,STF6927
+ALG0001078,P001742,Milk,Food,Itching,Mild,2018-10-27,STF1607
+ALG0001079,P001746,Peanuts,Food,Nausea,Moderate,2022-06-02,STF5986
+ALG0001080,P001746,Latex,Environmental,Tachycardia,Moderate,2017-09-20,STF1129
+ALG0001081,P001750,Latex,Environmental,Diarrhea,Moderate,2023-11-13,STF8244
+ALG0001082,P001755,Sulfa drugs,Medication,Diarrhea,Mild,2012-10-29,STF9527
+ALG0001083,P001757,Peanuts,Food,Diarrhea,Mild,2024-04-04,STF3621
+ALG0001084,P001758,Shellfish,Food,Anaphylaxis,Severe,2021-05-02,STF2809
+ALG0001085,P001758,Ibuprofen,Medication,Tachycardia,Mild,2018-05-14,STF5255
+ALG0001086,P001758,Soy,Food,Lightheadedness,Moderate,2012-10-11,STF1782
+ALG0001087,P001763,Contrast dye,Medication,Tachycardia,Severe,2022-09-08,STF9737
+ALG0001088,P001765,Codeine,Medication,Tachycardia,Mild,2015-07-22,STF2724
+ALG0001089,P001766,Eggs,Food,Vomiting,Mild,2019-07-20,STF7751
+ALG0001090,P001767,Codeine,Medication,Vomiting,Mild,2011-10-02,STF7050
+ALG0001091,P001780,Bee stings,Environmental,Tachycardia,Mild,2021-07-06,STF9669
+ALG0001092,P001781,Bee stings,Environmental,Rash,Moderate,2022-07-16,STF7051
+ALG0001093,P001783,Ibuprofen,Medication,Dizziness,Mild,2021-09-22,STF3511
+ALG0001094,P001783,Sulfa drugs,Medication,Hives,Moderate,2018-05-26,STF5968
+ALG0001095,P001783,Morphine,Medication,Anaphylaxis,Severe,2013-03-16,STF3328
+ALG0001096,P001787,Morphine,Medication,Tachycardia,Mild,2012-09-29,STF9970
+ALG0001097,P001788,Soy,Food,Anaphylaxis,Severe,2017-07-30,STF7181
+ALG0001098,P001788,Contrast dye,Medication,Vomiting,Moderate,2023-08-02,STF3175
+ALG0001099,P001788,Peanuts,Food,Itching,Moderate,2020-05-03,STF8371
+ALG0001100,P001790,Aspirin,Medication,Dizziness,Moderate,2019-03-10,STF7344
+ALG0001101,P001790,Milk,Food,Swelling,Severe,2017-08-09,STF9863
+ALG0001102,P001791,Wheat,Food,Anaphylaxis,Severe,2013-09-18,STF1406
+ALG0001103,P001791,Eggs,Food,Dizziness,Moderate,2016-12-05,STF3028
+ALG0001104,P001793,Sulfa drugs,Medication,Vomiting,Moderate,2010-06-02,STF2970
+ALG0001105,P001793,Peanuts,Food,Lightheadedness,Severe,2014-01-12,STF1310
+ALG0001106,P001793,Shellfish,Food,Anaphylaxis,Severe,2015-07-03,STF8278
+ALG0001107,P001793,Ibuprofen,Medication,Hives,Severe,2023-08-12,STF6249
+ALG0001108,P001795,Penicillin,Medication,Itching,Mild,2021-11-03,STF6199
+ALG0001109,P001795,Morphine,Medication,Nausea,Mild,2012-07-28,STF2627
+ALG0001110,P001795,Latex,Environmental,Diarrhea,Mild,2013-03-25,STF3992
+ALG0001111,P001796,Peanuts,Food,Nausea,Moderate,2011-04-28,STF6329
+ALG0001112,P001797,Peanuts,Food,Hives,Moderate,2019-04-05,STF6311
+ALG0001113,P001797,Latex,Environmental,Anaphylaxis,Severe,2012-09-17,STF1849
+ALG0001114,P001798,Contrast dye,Medication,Diarrhea,Moderate,2018-08-21,STF2885
+ALG0001115,P001798,Bee stings,Environmental,Anaphylaxis,Moderate,2020-06-04,STF7669
+ALG0001116,P001799,Contrast dye,Medication,Rash,Mild,2023-02-23,STF2663
+ALG0001117,P001800,Codeine,Medication,Anaphylaxis,Severe,2020-01-02,STF2374
+ALG0001118,P001804,Morphine,Medication,Swelling,Moderate,2019-07-04,STF8401
+ALG0001119,P001805,Peanuts,Food,Itching,Mild,2020-10-25,STF5477
+ALG0001120,P001805,Tree nuts,Food,Dizziness,Mild,2018-07-12,STF6757
+ALG0001121,P001807,Peanuts,Food,Itching,Moderate,2022-08-18,STF2145
+ALG0001122,P001807,Penicillin,Medication,Anaphylaxis,Moderate,2012-10-04,STF3288
+ALG0001123,P001811,Tree nuts,Food,Lightheadedness,Severe,2024-03-31,STF5282
+ALG0001124,P001814,Tree nuts,Food,Swelling,Moderate,2023-06-13,STF6381
+ALG0001125,P001814,Morphine,Medication,Rash,Severe,2012-12-31,STF1033
+ALG0001126,P001816,Morphine,Medication,Nausea,Moderate,2020-12-19,STF7435
+ALG0001127,P001820,Wheat,Food,Lightheadedness,Mild,2018-06-11,STF6864
+ALG0001128,P001821,Penicillin,Medication,Vomiting,Mild,2014-04-30,STF8283
+ALG0001129,P001821,Sulfa drugs,Medication,Rash,Mild,2010-06-12,STF5606
+ALG0001130,P001824,Peanuts,Food,Tachycardia,Mild,2021-01-28,STF6947
+ALG0001131,P001824,Milk,Food,Rash,Mild,2023-08-05,STF4425
+ALG0001132,P001825,Milk,Food,Dizziness,Moderate,2013-10-28,STF4174
+ALG0001133,P001825,Sulfa drugs,Medication,Lightheadedness,Moderate,2023-07-11,STF3875
+ALG0001134,P001825,Soy,Food,Hives,Moderate,2011-06-17,STF3087
+ALG0001135,P001825,Codeine,Medication,Anaphylaxis,Severe,2015-02-11,STF9570
+ALG0001136,P001827,Penicillin,Medication,Lightheadedness,Moderate,2015-09-03,STF8437
+ALG0001137,P001827,Eggs,Food,Rash,Severe,2024-05-17,STF1849
+ALG0001138,P001829,Soy,Food,Hives,Moderate,2020-06-19,STF9119
+ALG0001139,P001829,Codeine,Medication,Difficulty breathing,Severe,2010-12-23,STF4678
+ALG0001140,P001830,Wheat,Food,Nausea,Mild,2011-11-02,STF1415
+ALG0001141,P001830,Morphine,Medication,Tachycardia,Mild,2019-07-04,STF2219
+ALG0001142,P001830,Penicillin,Medication,Swelling,Mild,2017-05-21,STF6092
+ALG0001143,P001831,Penicillin,Medication,Nausea,Moderate,2023-04-17,STF6477
+ALG0001144,P001831,Contrast dye,Medication,Anaphylaxis,Moderate,2020-08-15,STF4905
+ALG0001145,P001836,Wheat,Food,Hives,Moderate,2022-12-26,STF3045
+ALG0001146,P001837,Sulfa drugs,Medication,Nausea,Mild,2011-06-17,STF3089
+ALG0001147,P001838,Sulfa drugs,Medication,Dizziness,Moderate,2011-06-23,STF2668
+ALG0001148,P001838,Codeine,Medication,Lightheadedness,Mild,2011-03-04,STF5831
+ALG0001149,P001850,Penicillin,Medication,Diarrhea,Mild,2014-04-26,STF2769
+ALG0001150,P001850,Contrast dye,Medication,Hives,Mild,2011-07-08,STF4172
+ALG0001151,P001852,Eggs,Food,Nausea,Mild,2023-12-05,STF8284
+ALG0001152,P001853,Sulfa drugs,Medication,Rash,Mild,2023-02-10,STF8140
+ALG0001153,P001856,Codeine,Medication,Itching,Mild,2023-07-14,STF6618
+ALG0001154,P001857,Codeine,Medication,Diarrhea,Moderate,2019-06-20,STF6633
+ALG0001155,P001857,Penicillin,Medication,Swelling,Severe,2024-05-14,STF4297
+ALG0001156,P001857,Ibuprofen,Medication,Hives,Moderate,2024-12-24,STF8794
+ALG0001157,P001857,Shellfish,Food,Tachycardia,Moderate,2020-06-25,STF6425
+ALG0001158,P001860,Tree nuts,Food,Itching,Mild,2010-12-12,STF9125
+ALG0001159,P001861,Contrast dye,Medication,Tachycardia,Mild,2023-12-30,STF4492
+ALG0001160,P001862,Tree nuts,Food,Tachycardia,Mild,2018-12-24,STF4018
+ALG0001161,P001862,Milk,Food,Rash,Mild,2011-08-28,STF6863
+ALG0001162,P001863,Peanuts,Food,Vomiting,Mild,2023-02-19,STF6896
+ALG0001163,P001864,Latex,Environmental,Anaphylaxis,Moderate,2015-11-17,STF3855
+ALG0001164,P001865,Morphine,Medication,Swelling,Mild,2015-11-15,STF2657
+ALG0001165,P001866,Milk,Food,Hives,Moderate,2014-09-19,STF5998
+ALG0001166,P001866,Tree nuts,Food,Vomiting,Mild,2018-05-09,STF3807
+ALG0001167,P001872,Codeine,Medication,Swelling,Mild,2018-06-26,STF7131
+ALG0001168,P001873,Contrast dye,Medication,Rash,Moderate,2023-03-05,STF4098
+ALG0001169,P001875,Contrast dye,Medication,Rash,Moderate,2016-04-13,STF3071
+ALG0001170,P001879,Bee stings,Environmental,Lightheadedness,Moderate,2013-10-03,STF9333
+ALG0001171,P001880,Eggs,Food,Vomiting,Mild,2018-05-21,STF9609
+ALG0001172,P001880,Contrast dye,Medication,Tachycardia,Mild,2021-02-05,STF8762
+ALG0001173,P001880,Shellfish,Food,Anaphylaxis,Severe,2024-04-24,STF1599
+ALG0001174,P001881,Wheat,Food,Nausea,Mild,2019-07-14,STF7178
+ALG0001175,P001881,Soy,Food,Dizziness,Mild,2018-05-23,STF5170
+ALG0001176,P001881,Ibuprofen,Medication,Diarrhea,Mild,2011-11-20,STF5834
+ALG0001177,P001883,Wheat,Food,Diarrhea,Moderate,2019-07-23,STF8391
+ALG0001178,P001887,Morphine,Medication,Vomiting,Mild,2024-06-22,STF2243
+ALG0001179,P001888,Aspirin,Medication,Anaphylaxis,Severe,2012-03-17,STF2942
+ALG0001180,P001889,Latex,Environmental,Difficulty breathing,Moderate,2017-05-21,STF5096
+ALG0001181,P001890,Shellfish,Food,Tachycardia,Moderate,2013-02-03,STF9898
+ALG0001182,P001890,Ibuprofen,Medication,Anaphylaxis,Mild,2016-09-19,STF5617
+ALG0001183,P001900,Contrast dye,Medication,Tachycardia,Moderate,2020-08-22,STF4829
+ALG0001184,P001907,Soy,Food,Swelling,Moderate,2022-07-11,STF1493
+ALG0001185,P001908,Codeine,Medication,Anaphylaxis,Severe,2010-03-21,STF9188
+ALG0001186,P001911,Milk,Food,Tachycardia,Moderate,2017-04-25,STF1380
+ALG0001187,P001913,Tree nuts,Food,Dizziness,Moderate,2023-07-11,STF7404
+ALG0001188,P001915,Milk,Food,Swelling,Moderate,2017-05-17,STF8397
+ALG0001189,P001917,Morphine,Medication,Rash,Moderate,2023-07-14,STF9005
+ALG0001190,P001918,Milk,Food,Anaphylaxis,Moderate,2016-07-12,STF9591
+ALG0001191,P001919,Penicillin,Medication,Itching,Mild,2019-03-20,STF7407
+ALG0001192,P001920,Soy,Food,Vomiting,Moderate,2018-09-22,STF4382
+ALG0001193,P001921,Soy,Food,Tachycardia,Moderate,2013-07-24,STF6084
+ALG0001194,P001925,Codeine,Medication,Vomiting,Mild,2018-12-15,STF5044
+ALG0001195,P001932,Wheat,Food,Tachycardia,Moderate,2018-10-09,STF3869
+ALG0001196,P001932,Morphine,Medication,Nausea,Mild,2023-11-09,STF8079
+ALG0001197,P001932,Eggs,Food,Vomiting,Mild,2024-10-13,STF4005
+ALG0001198,P001934,Sulfa drugs,Medication,Itching,Mild,2024-02-02,STF9810
+ALG0001199,P001934,Ibuprofen,Medication,Anaphylaxis,Severe,2011-07-01,STF4559
+ALG0001200,P001938,Ibuprofen,Medication,Diarrhea,Moderate,2017-04-24,STF7719
+ALG0001201,P001940,Wheat,Food,Rash,Mild,2020-05-11,STF7244
+ALG0001202,P001941,Latex,Environmental,Nausea,Mild,2015-08-15,STF2878
+ALG0001203,P001943,Wheat,Food,Vomiting,Mild,2022-04-20,STF4969
+ALG0001204,P001943,Contrast dye,Medication,Tachycardia,Severe,2013-02-22,STF8713
+ALG0001205,P001946,Ibuprofen,Medication,Itching,Mild,2021-12-28,STF7403
+ALG0001206,P001947,Penicillin,Medication,Anaphylaxis,Moderate,2018-01-12,STF3915
+ALG0001207,P001947,Tree nuts,Food,Swelling,Moderate,2021-12-09,STF4541
+ALG0001208,P001949,Ibuprofen,Medication,Tachycardia,Mild,2011-03-06,STF1076
+ALG0001209,P001949,Latex,Environmental,Rash,Moderate,2014-07-11,STF5091
+ALG0001210,P001950,Aspirin,Medication,Rash,Mild,2010-04-30,STF6523
+ALG0001211,P001953,Ibuprofen,Medication,Itching,Moderate,2010-12-27,STF7810
+ALG0001212,P001953,Milk,Food,Diarrhea,Mild,2017-05-03,STF6286
+ALG0001213,P001953,Soy,Food,Diarrhea,Moderate,2024-01-05,STF4393
+ALG0001214,P001953,Tree nuts,Food,Diarrhea,Mild,2019-08-07,STF2979
+ALG0001215,P001954,Tree nuts,Food,Itching,Mild,2024-09-01,STF6181
+ALG0001216,P001955,Contrast dye,Medication,Hives,Moderate,2016-03-31,STF7045
+ALG0001217,P001956,Soy,Food,Dizziness,Mild,2012-04-14,STF9784
+ALG0001218,P001956,Codeine,Medication,Dizziness,Mild,2012-02-16,STF6314
+ALG0001219,P001956,Milk,Food,Lightheadedness,Moderate,2012-12-24,STF6440
+ALG0001220,P001957,Tree nuts,Food,Lightheadedness,Mild,2017-07-08,STF1289
+ALG0001221,P001957,Soy,Food,Dizziness,Severe,2020-01-26,STF7264
+ALG0001222,P001962,Ibuprofen,Medication,Anaphylaxis,Moderate,2019-08-12,STF4990
+ALG0001223,P001964,Peanuts,Food,Swelling,Mild,2014-08-02,STF1621
+ALG0001224,P001965,Wheat,Food,Difficulty breathing,Moderate,2017-02-14,STF1648
+ALG0001225,P001965,Eggs,Food,Diarrhea,Moderate,2019-04-22,STF5726
+ALG0001226,P001967,Tree nuts,Food,Swelling,Moderate,2024-11-30,STF5068
+ALG0001227,P001967,Ibuprofen,Medication,Lightheadedness,Moderate,2014-12-28,STF7250
+ALG0001228,P001969,Aspirin,Medication,Vomiting,Mild,2014-04-26,STF1853
+ALG0001229,P001969,Soy,Food,Lightheadedness,Severe,2014-07-31,STF3057
+ALG0001230,P001970,Latex,Environmental,Swelling,Moderate,2019-07-24,STF8652
+ALG0001231,P001971,Contrast dye,Medication,Itching,Moderate,2016-10-19,STF5675
+ALG0001232,P001971,Latex,Environmental,Dizziness,Mild,2024-04-03,STF4299
+ALG0001233,P001972,Aspirin,Medication,Nausea,Mild,2020-07-23,STF8231
+ALG0001234,P001972,Morphine,Medication,Nausea,Moderate,2019-09-21,STF3553
+ALG0001235,P001975,Aspirin,Medication,Anaphylaxis,Severe,2013-06-05,STF3878
+ALG0001236,P001976,Wheat,Food,Anaphylaxis,Severe,2023-08-05,STF8878
+ALG0001237,P001977,Bee stings,Environmental,Swelling,Mild,2014-04-03,STF1068
+ALG0001238,P001978,Eggs,Food,Vomiting,Mild,2019-04-30,STF7465
+ALG0001239,P001980,Aspirin,Medication,Nausea,Moderate,2012-10-16,STF7304
+ALG0001240,P001982,Shellfish,Food,Tachycardia,Mild,2020-12-16,STF7032
+ALG0001241,P001982,Milk,Food,Tachycardia,Mild,2018-08-23,STF7947
+ALG0001242,P001984,Eggs,Food,Lightheadedness,Moderate,2010-08-20,STF3422
+ALG0001243,P001985,Codeine,Medication,Anaphylaxis,Moderate,2022-12-21,STF3644
+ALG0001244,P001986,Milk,Food,Tachycardia,Moderate,2011-10-21,STF9495
+ALG0001245,P001986,Latex,Environmental,Swelling,Severe,2013-09-20,STF7993
+ALG0001246,P001987,Milk,Food,Dizziness,Mild,2019-03-26,STF2456
+ALG0001247,P001988,Eggs,Food,Itching,Mild,2014-09-13,STF7520
+ALG0001248,P001990,Bee stings,Environmental,Rash,Mild,2019-05-16,STF9600
+ALG0001249,P001992,Morphine,Medication,Difficulty breathing,Moderate,2013-01-05,STF4244
+ALG0001250,P001995,Latex,Environmental,Itching,Mild,2014-02-05,STF4143
+ALG0001251,P001996,Soy,Food,Dizziness,Mild,2024-04-10,STF3721
+ALG0001252,P001996,Contrast dye,Medication,Hives,Moderate,2018-06-22,STF3042
+ALG0001253,P001996,Tree nuts,Food,Anaphylaxis,Moderate,2010-09-01,STF4846
+ALG0001254,P001999,Penicillin,Medication,Lightheadedness,Moderate,2010-12-09,STF2586
+ALG0001255,P002000,Milk,Food,Diarrhea,Severe,2015-12-18,STF8961
+ALG0001256,P002000,Peanuts,Food,Vomiting,Moderate,2023-07-23,STF8036
+ALG0001257,P002001,Tree nuts,Food,Swelling,Severe,2024-12-01,STF7528
+ALG0001258,P002001,Morphine,Medication,Nausea,Moderate,2017-12-26,STF6410
+ALG0001259,P002003,Milk,Food,Itching,Mild,2012-10-03,STF9693
+ALG0001260,P002003,Eggs,Food,Anaphylaxis,Severe,2015-07-30,STF7036
+ALG0001261,P002003,Soy,Food,Vomiting,Moderate,2024-10-11,STF8785
+ALG0001262,P002006,Tree nuts,Food,Lightheadedness,Mild,2011-01-10,STF6333
+ALG0001263,P002006,Penicillin,Medication,Lightheadedness,Mild,2023-08-11,STF8938
+ALG0001264,P002009,Bee stings,Environmental,Lightheadedness,Moderate,2012-04-02,STF7305
+ALG0001265,P002010,Codeine,Medication,Diarrhea,Moderate,2021-04-26,STF1520
+ALG0001266,P002011,Peanuts,Food,Lightheadedness,Severe,2020-06-21,STF3753
+ALG0001267,P002011,Soy,Food,Vomiting,Severe,2020-10-24,STF9858
+ALG0001268,P002012,Aspirin,Medication,Hives,Moderate,2010-08-28,STF3625
+ALG0001269,P002014,Shellfish,Food,Swelling,Moderate,2024-12-08,STF8803
+ALG0001270,P002022,Aspirin,Medication,Lightheadedness,Mild,2018-07-24,STF8159
+ALG0001271,P002024,Aspirin,Medication,Hives,Mild,2023-04-14,STF4082
+ALG0001272,P002026,Tree nuts,Food,Nausea,Moderate,2010-01-14,STF6092
+ALG0001273,P002027,Milk,Food,Nausea,Mild,2018-03-10,STF3069
+ALG0001274,P002030,Wheat,Food,Difficulty breathing,Moderate,2016-08-28,STF4586
+ALG0001275,P002034,Sulfa drugs,Medication,Difficulty breathing,Severe,2012-10-08,STF5480
+ALG0001276,P002034,Peanuts,Food,Tachycardia,Moderate,2024-02-26,STF4534
+ALG0001277,P002037,Tree nuts,Food,Swelling,Severe,2015-01-18,STF1861
+ALG0001278,P002037,Aspirin,Medication,Itching,Moderate,2018-10-15,STF5900
+ALG0001279,P002037,Soy,Food,Lightheadedness,Severe,2013-07-28,STF1353
+ALG0001280,P002037,Eggs,Food,Diarrhea,Mild,2019-06-23,STF8756
+ALG0001281,P002040,Peanuts,Food,Anaphylaxis,Severe,2014-05-18,STF9978
+ALG0001282,P002041,Sulfa drugs,Medication,Tachycardia,Mild,2024-09-06,STF3681
+ALG0001283,P002046,Latex,Environmental,Lightheadedness,Mild,2022-11-29,STF2670
+ALG0001284,P002046,Eggs,Food,Lightheadedness,Moderate,2013-04-24,STF7169
+ALG0001285,P002051,Morphine,Medication,Lightheadedness,Mild,2019-09-24,STF3434
+ALG0001286,P002051,Penicillin,Medication,Lightheadedness,Moderate,2015-07-01,STF1556
+ALG0001287,P002051,Sulfa drugs,Medication,Hives,Moderate,2020-12-16,STF5959
+ALG0001288,P002051,Shellfish,Food,Tachycardia,Moderate,2013-11-14,STF7150
+ALG0001289,P002055,Milk,Food,Anaphylaxis,Severe,2019-12-26,STF7018
+ALG0001290,P002056,Ibuprofen,Medication,Vomiting,Moderate,2021-06-07,STF4685
+ALG0001291,P002057,Bee stings,Environmental,Anaphylaxis,Severe,2012-02-14,STF3967
+ALG0001292,P002058,Soy,Food,Hives,Moderate,2022-01-21,STF4029
+ALG0001293,P002058,Codeine,Medication,Nausea,Moderate,2010-06-11,STF7451
+ALG0001294,P002058,Peanuts,Food,Diarrhea,Moderate,2021-11-21,STF9004
+ALG0001295,P002058,Aspirin,Medication,Hives,Moderate,2023-02-12,STF9830
+ALG0001296,P002061,Ibuprofen,Medication,Dizziness,Moderate,2010-02-13,STF8327
+ALG0001297,P002061,Aspirin,Medication,Difficulty breathing,Moderate,2012-11-21,STF4378
+ALG0001298,P002063,Sulfa drugs,Medication,Hives,Severe,2021-05-09,STF5891
+ALG0001299,P002064,Soy,Food,Lightheadedness,Mild,2016-09-28,STF1756
+ALG0001300,P002074,Latex,Environmental,Tachycardia,Mild,2011-01-02,STF4884
+ALG0001301,P002075,Latex,Environmental,Itching,Moderate,2014-11-05,STF6882
+ALG0001302,P002076,Soy,Food,Diarrhea,Mild,2018-07-25,STF3675
+ALG0001303,P002076,Sulfa drugs,Medication,Nausea,Mild,2015-09-14,STF7968
+ALG0001304,P002078,Shellfish,Food,Lightheadedness,Moderate,2014-04-28,STF7097
+ALG0001305,P002082,Tree nuts,Food,Nausea,Mild,2023-07-16,STF5055
+ALG0001306,P002082,Milk,Food,Hives,Moderate,2021-12-02,STF2802
+ALG0001307,P002085,Tree nuts,Food,Anaphylaxis,Moderate,2015-01-24,STF5483
+ALG0001308,P002086,Contrast dye,Medication,Nausea,Severe,2012-10-08,STF3879
+ALG0001309,P002091,Peanuts,Food,Diarrhea,Mild,2012-03-22,STF1785
+ALG0001310,P002092,Milk,Food,Tachycardia,Moderate,2021-12-04,STF7597
+ALG0001311,P002092,Aspirin,Medication,Vomiting,Moderate,2015-10-24,STF1155
+ALG0001312,P002092,Morphine,Medication,Lightheadedness,Moderate,2013-06-27,STF3070
+ALG0001313,P002093,Shellfish,Food,Rash,Severe,2024-05-03,STF7064
+ALG0001314,P002095,Wheat,Food,Vomiting,Severe,2020-07-06,STF9228
+ALG0001315,P002095,Aspirin,Medication,Anaphylaxis,Severe,2019-08-06,STF9529
+ALG0001316,P002099,Peanuts,Food,Difficulty breathing,Severe,2024-03-27,STF2302
+ALG0001317,P002099,Latex,Environmental,Hives,Moderate,2012-02-07,STF3705
+ALG0001318,P002099,Milk,Food,Dizziness,Mild,2016-05-30,STF9074
+ALG0001319,P002101,Codeine,Medication,Diarrhea,Moderate,2021-12-10,STF3042
+ALG0001320,P002101,Contrast dye,Medication,Nausea,Mild,2014-04-07,STF1119
+ALG0001321,P002101,Wheat,Food,Tachycardia,Mild,2021-12-26,STF6653
+ALG0001322,P002102,Sulfa drugs,Medication,Vomiting,Severe,2021-09-28,STF4687
+ALG0001323,P002102,Peanuts,Food,Itching,Mild,2012-12-28,STF9416
+ALG0001324,P002103,Bee stings,Environmental,Nausea,Mild,2012-07-16,STF6537
+ALG0001325,P002105,Ibuprofen,Medication,Anaphylaxis,Severe,2016-08-01,STF5337
+ALG0001326,P002106,Milk,Food,Anaphylaxis,Severe,2024-06-03,STF9446
+ALG0001327,P002106,Ibuprofen,Medication,Rash,Severe,2023-11-09,STF8999
+ALG0001328,P002107,Wheat,Food,Difficulty breathing,Severe,2012-05-27,STF1084
+ALG0001329,P002108,Milk,Food,Rash,Mild,2021-01-13,STF4236
+ALG0001330,P002108,Morphine,Medication,Hives,Moderate,2013-06-13,STF7729
+ALG0001331,P002109,Codeine,Medication,Lightheadedness,Mild,2020-07-22,STF7477
+ALG0001332,P002110,Morphine,Medication,Diarrhea,Moderate,2012-06-09,STF8185
+ALG0001333,P002113,Penicillin,Medication,Tachycardia,Mild,2014-04-02,STF5667
+ALG0001334,P002113,Morphine,Medication,Rash,Mild,2019-06-12,STF6426
+ALG0001335,P002115,Bee stings,Environmental,Lightheadedness,Severe,2012-08-31,STF7899
+ALG0001336,P002119,Milk,Food,Tachycardia,Severe,2018-09-21,STF3153
+ALG0001337,P002119,Shellfish,Food,Hives,Severe,2010-06-23,STF3066
+ALG0001338,P002120,Contrast dye,Medication,Rash,Moderate,2017-09-03,STF8039
+ALG0001339,P002124,Soy,Food,Swelling,Moderate,2021-06-20,STF4061
+ALG0001340,P002125,Shellfish,Food,Swelling,Moderate,2019-08-17,STF4250
+ALG0001341,P002125,Eggs,Food,Vomiting,Moderate,2012-04-24,STF9230
+ALG0001342,P002127,Codeine,Medication,Itching,Mild,2016-02-22,STF4148
+ALG0001343,P002127,Ibuprofen,Medication,Itching,Mild,2023-10-30,STF4270
+ALG0001344,P002127,Sulfa drugs,Medication,Hives,Severe,2018-07-13,STF7673
+ALG0001345,P002131,Sulfa drugs,Medication,Diarrhea,Mild,2011-02-28,STF5985
+ALG0001346,P002132,Eggs,Food,Tachycardia,Mild,2017-03-05,STF1779
+ALG0001347,P002133,Tree nuts,Food,Swelling,Moderate,2016-04-14,STF2650
+ALG0001348,P002135,Tree nuts,Food,Anaphylaxis,Moderate,2010-04-22,STF3134
+ALG0001349,P002136,Eggs,Food,Dizziness,Moderate,2018-05-03,STF4903
+ALG0001350,P002136,Bee stings,Environmental,Lightheadedness,Mild,2023-02-08,STF7292
+ALG0001351,P002137,Ibuprofen,Medication,Rash,Moderate,2024-09-04,STF4120
+ALG0001352,P002138,Ibuprofen,Medication,Hives,Severe,2023-11-19,STF6618
+ALG0001353,P002139,Latex,Environmental,Diarrhea,Moderate,2010-12-25,STF3094
+ALG0001354,P002140,Shellfish,Food,Diarrhea,Severe,2018-03-18,STF8347
+ALG0001355,P002142,Bee stings,Environmental,Nausea,Moderate,2021-04-20,STF1358
+ALG0001356,P002143,Codeine,Medication,Anaphylaxis,Mild,2022-09-13,STF1996
+ALG0001357,P002147,Aspirin,Medication,Vomiting,Moderate,2018-08-13,STF7393
+ALG0001358,P002147,Bee stings,Environmental,Nausea,Moderate,2014-08-23,STF4015
+ALG0001359,P002148,Penicillin,Medication,Diarrhea,Mild,2021-10-11,STF5240
+ALG0001360,P002149,Shellfish,Food,Diarrhea,Mild,2015-01-09,STF1747
+ALG0001361,P002151,Shellfish,Food,Itching,Mild,2011-02-27,STF5079
+ALG0001362,P002151,Wheat,Food,Swelling,Moderate,2010-01-12,STF6692
+ALG0001363,P002154,Shellfish,Food,Nausea,Moderate,2016-08-12,STF6318
+ALG0001364,P002154,Eggs,Food,Rash,Moderate,2010-03-27,STF6824
+ALG0001365,P002154,Aspirin,Medication,Swelling,Moderate,2016-04-10,STF3895
+ALG0001366,P002155,Ibuprofen,Medication,Tachycardia,Moderate,2018-07-27,STF5216
+ALG0001367,P002160,Milk,Food,Itching,Mild,2019-09-25,STF7039
+ALG0001368,P002161,Bee stings,Environmental,Itching,Mild,2013-12-13,STF4094
+ALG0001369,P002164,Peanuts,Food,Itching,Moderate,2018-11-04,STF4077
+ALG0001370,P002165,Contrast dye,Medication,Vomiting,Severe,2019-01-11,STF2642
+ALG0001371,P002167,Penicillin,Medication,Hives,Moderate,2010-06-19,STF2802
+ALG0001372,P002167,Peanuts,Food,Rash,Moderate,2024-06-15,STF1716
+ALG0001373,P002168,Shellfish,Food,Lightheadedness,Moderate,2010-03-18,STF2742
+ALG0001374,P002168,Aspirin,Medication,Diarrhea,Moderate,2017-08-04,STF2392
+ALG0001375,P002169,Wheat,Food,Itching,Mild,2020-09-28,STF3531
+ALG0001376,P002170,Shellfish,Food,Lightheadedness,Moderate,2010-06-23,STF1729
+ALG0001377,P002171,Soy,Food,Itching,Mild,2015-01-12,STF1393
+ALG0001378,P002172,Eggs,Food,Lightheadedness,Mild,2018-08-18,STF2841
+ALG0001379,P002175,Peanuts,Food,Difficulty breathing,Moderate,2011-11-26,STF1710
+ALG0001380,P002175,Morphine,Medication,Dizziness,Mild,2019-08-13,STF9691
+ALG0001381,P002175,Sulfa drugs,Medication,Difficulty breathing,Severe,2019-07-16,STF3461
+ALG0001382,P002175,Bee stings,Environmental,Lightheadedness,Moderate,2024-01-06,STF5702
+ALG0001383,P002176,Bee stings,Environmental,Lightheadedness,Mild,2015-12-15,STF2251
+ALG0001384,P002181,Wheat,Food,Tachycardia,Moderate,2020-09-24,STF2102
+ALG0001385,P002182,Shellfish,Food,Itching,Mild,2012-11-10,STF3979
+ALG0001386,P002184,Bee stings,Environmental,Tachycardia,Severe,2023-07-01,STF6463
+ALG0001387,P002185,Contrast dye,Medication,Diarrhea,Mild,2021-12-21,STF9070
+ALG0001388,P002185,Latex,Environmental,Diarrhea,Moderate,2015-03-01,STF7301
+ALG0001389,P002185,Wheat,Food,Hives,Moderate,2019-06-18,STF9633
+ALG0001390,P002190,Penicillin,Medication,Difficulty breathing,Severe,2012-12-30,STF2804
+ALG0001391,P002191,Codeine,Medication,Anaphylaxis,Severe,2022-05-15,STF7898
+ALG0001392,P002192,Sulfa drugs,Medication,Itching,Mild,2013-03-18,STF7184
+ALG0001393,P002192,Eggs,Food,Tachycardia,Mild,2019-07-12,STF7089
+ALG0001394,P002193,Aspirin,Medication,Vomiting,Moderate,2013-07-19,STF1494
+ALG0001395,P002194,Contrast dye,Medication,Hives,Mild,2019-05-05,STF3452
+ALG0001396,P002197,Peanuts,Food,Vomiting,Mild,2017-07-26,STF8274
+ALG0001397,P002200,Sulfa drugs,Medication,Dizziness,Moderate,2021-04-15,STF3627
+ALG0001398,P002201,Wheat,Food,Tachycardia,Moderate,2022-10-31,STF9222
+ALG0001399,P002201,Shellfish,Food,Anaphylaxis,Severe,2019-07-03,STF3569
+ALG0001400,P002202,Milk,Food,Itching,Moderate,2018-12-25,STF1917
+ALG0001401,P002203,Aspirin,Medication,Tachycardia,Mild,2017-01-09,STF7637
+ALG0001402,P002205,Soy,Food,Anaphylaxis,Moderate,2011-09-30,STF6942
+ALG0001403,P002205,Ibuprofen,Medication,Dizziness,Moderate,2017-07-11,STF1459
+ALG0001404,P002206,Ibuprofen,Medication,Hives,Moderate,2010-03-31,STF6064
+ALG0001405,P002207,Sulfa drugs,Medication,Swelling,Moderate,2022-10-15,STF1735
+ALG0001406,P002210,Peanuts,Food,Rash,Severe,2016-05-02,STF7523
+ALG0001407,P002212,Eggs,Food,Itching,Moderate,2012-03-08,STF6428
+ALG0001408,P002215,Codeine,Medication,Dizziness,Moderate,2020-09-12,STF1612
+ALG0001409,P002215,Penicillin,Medication,Anaphylaxis,Moderate,2020-05-21,STF2290
+ALG0001410,P002217,Latex,Environmental,Lightheadedness,Moderate,2013-08-12,STF9218
+ALG0001411,P002217,Milk,Food,Diarrhea,Severe,2023-08-27,STF9573
+ALG0001412,P002219,Tree nuts,Food,Difficulty breathing,Severe,2019-08-31,STF1655
+ALG0001413,P002219,Codeine,Medication,Tachycardia,Moderate,2018-09-11,STF4917
+ALG0001414,P002220,Aspirin,Medication,Dizziness,Moderate,2021-02-27,STF2595
+ALG0001415,P002220,Bee stings,Environmental,Rash,Mild,2016-12-10,STF9964
+ALG0001416,P002226,Aspirin,Medication,Anaphylaxis,Severe,2017-12-04,STF2461
+ALG0001417,P002227,Wheat,Food,Vomiting,Severe,2019-12-01,STF3301
+ALG0001418,P002227,Codeine,Medication,Hives,Severe,2020-12-13,STF1648
+ALG0001419,P002228,Soy,Food,Dizziness,Severe,2012-11-22,STF8222
+ALG0001420,P002229,Tree nuts,Food,Hives,Moderate,2021-05-07,STF8374
+ALG0001421,P002229,Morphine,Medication,Anaphylaxis,Severe,2010-12-16,STF1934
+ALG0001422,P002231,Penicillin,Medication,Hives,Moderate,2013-07-20,STF7541
+ALG0001423,P002231,Aspirin,Medication,Hives,Moderate,2020-05-14,STF2531
+ALG0001424,P002232,Wheat,Food,Hives,Mild,2012-06-06,STF7503
+ALG0001425,P002234,Tree nuts,Food,Difficulty breathing,Severe,2020-11-27,STF4483
+ALG0001426,P002237,Codeine,Medication,Vomiting,Mild,2014-10-15,STF6245
+ALG0001427,P002241,Soy,Food,Swelling,Mild,2010-07-07,STF7929
+ALG0001428,P002241,Contrast dye,Medication,Anaphylaxis,Severe,2013-12-13,STF2369
+ALG0001429,P002242,Aspirin,Medication,Anaphylaxis,Severe,2020-02-16,STF7876
+ALG0001430,P002245,Aspirin,Medication,Nausea,Mild,2016-08-29,STF3695
+ALG0001431,P002245,Wheat,Food,Swelling,Moderate,2019-05-27,STF8890
+ALG0001432,P002248,Eggs,Food,Tachycardia,Moderate,2010-03-23,STF4253
+ALG0001433,P002248,Wheat,Food,Hives,Moderate,2022-12-22,STF3369
+ALG0001434,P002249,Tree nuts,Food,Itching,Mild,2017-02-05,STF2861
+ALG0001435,P002249,Penicillin,Medication,Lightheadedness,Mild,2021-09-05,STF1060
+ALG0001436,P002249,Aspirin,Medication,Vomiting,Severe,2012-10-26,STF8361
+ALG0001437,P002249,Contrast dye,Medication,Lightheadedness,Severe,2012-03-09,STF1597
+ALG0001438,P002250,Soy,Food,Itching,Moderate,2014-11-06,STF6703
+ALG0001439,P002250,Eggs,Food,Swelling,Severe,2022-12-09,STF1235
+ALG0001440,P002250,Shellfish,Food,Difficulty breathing,Severe,2010-05-13,STF5947
+ALG0001441,P002250,Milk,Food,Anaphylaxis,Severe,2012-10-18,STF9177
+ALG0001442,P002254,Tree nuts,Food,Hives,Severe,2020-04-16,STF8018
+ALG0001443,P002255,Morphine,Medication,Diarrhea,Mild,2016-05-23,STF8167
+ALG0001444,P002260,Ibuprofen,Medication,Hives,Moderate,2023-10-28,STF7738
+ALG0001445,P002261,Ibuprofen,Medication,Vomiting,Moderate,2010-09-25,STF5749
+ALG0001446,P002261,Tree nuts,Food,Nausea,Mild,2020-03-13,STF7243
+ALG0001447,P002262,Ibuprofen,Medication,Vomiting,Mild,2024-06-18,STF7484
+ALG0001448,P002262,Morphine,Medication,Rash,Severe,2015-01-09,STF9315
+ALG0001449,P002262,Milk,Food,Anaphylaxis,Severe,2024-10-09,STF5333
+ALG0001450,P002263,Soy,Food,Rash,Severe,2019-04-20,STF1535
+ALG0001451,P002263,Tree nuts,Food,Rash,Mild,2018-05-26,STF9502
+ALG0001452,P002263,Ibuprofen,Medication,Tachycardia,Moderate,2017-07-08,STF3792
+ALG0001453,P002266,Latex,Environmental,Rash,Moderate,2022-12-17,STF8030
+ALG0001454,P002266,Peanuts,Food,Itching,Severe,2018-10-04,STF3846
+ALG0001455,P002266,Tree nuts,Food,Nausea,Severe,2021-08-08,STF3595
+ALG0001456,P002266,Bee stings,Environmental,Nausea,Mild,2012-10-31,STF9261
+ALG0001457,P002267,Milk,Food,Lightheadedness,Severe,2022-05-27,STF3605
+ALG0001458,P002269,Soy,Food,Rash,Moderate,2023-04-23,STF3507
+ALG0001459,P002270,Aspirin,Medication,Nausea,Mild,2012-12-05,STF8433
+ALG0001460,P002270,Peanuts,Food,Lightheadedness,Moderate,2018-01-12,STF4056
+ALG0001461,P002271,Peanuts,Food,Swelling,Moderate,2018-06-25,STF5267
+ALG0001462,P002271,Ibuprofen,Medication,Lightheadedness,Mild,2011-11-11,STF3355
+ALG0001463,P002271,Shellfish,Food,Lightheadedness,Mild,2022-12-30,STF2694
+ALG0001464,P002272,Ibuprofen,Medication,Anaphylaxis,Severe,2014-01-19,STF2520
+ALG0001465,P002272,Sulfa drugs,Medication,Hives,Moderate,2018-02-08,STF4407
+ALG0001466,P002272,Aspirin,Medication,Nausea,Mild,2010-06-29,STF7778
+ALG0001467,P002273,Aspirin,Medication,Nausea,Moderate,2024-03-18,STF8387
+ALG0001468,P002273,Ibuprofen,Medication,Itching,Mild,2010-03-25,STF3927
+ALG0001469,P002273,Tree nuts,Food,Lightheadedness,Moderate,2023-08-10,STF1515
+ALG0001470,P002273,Latex,Environmental,Hives,Severe,2017-10-11,STF8928
+ALG0001471,P002276,Shellfish,Food,Hives,Mild,2010-08-31,STF9781
+ALG0001472,P002277,Codeine,Medication,Swelling,Severe,2012-07-29,STF4554
+ALG0001473,P002278,Aspirin,Medication,Tachycardia,Moderate,2012-11-02,STF5384
+ALG0001474,P002279,Aspirin,Medication,Difficulty breathing,Severe,2024-08-15,STF5822
+ALG0001475,P002285,Shellfish,Food,Nausea,Mild,2023-03-07,STF6105
+ALG0001476,P002286,Bee stings,Environmental,Nausea,Moderate,2019-07-04,STF5451
+ALG0001477,P002292,Aspirin,Medication,Itching,Moderate,2021-06-21,STF5146
+ALG0001478,P002292,Contrast dye,Medication,Dizziness,Mild,2023-07-19,STF9691
+ALG0001479,P002293,Morphine,Medication,Difficulty breathing,Severe,2014-03-04,STF6861
+ALG0001480,P002294,Eggs,Food,Difficulty breathing,Moderate,2017-01-19,STF3003
+ALG0001481,P002295,Tree nuts,Food,Vomiting,Moderate,2017-03-19,STF4811
+ALG0001482,P002295,Ibuprofen,Medication,Diarrhea,Mild,2016-05-12,STF4476
+ALG0001483,P002297,Aspirin,Medication,Dizziness,Moderate,2019-06-17,STF8130
+ALG0001484,P002298,Latex,Environmental,Rash,Moderate,2021-03-08,STF1766
+ALG0001485,P002301,Tree nuts,Food,Dizziness,Mild,2022-12-05,STF1348
+ALG0001486,P002302,Penicillin,Medication,Vomiting,Mild,2019-01-13,STF1606
+ALG0001487,P002302,Wheat,Food,Diarrhea,Severe,2010-11-17,STF6527
+ALG0001488,P002304,Soy,Food,Tachycardia,Mild,2017-02-11,STF6665
+ALG0001489,P002307,Milk,Food,Tachycardia,Severe,2021-01-24,STF2989
+ALG0001490,P002307,Codeine,Medication,Difficulty breathing,Severe,2012-04-21,STF1479
+ALG0001491,P002308,Codeine,Medication,Difficulty breathing,Severe,2019-10-10,STF4708
+ALG0001492,P002308,Sulfa drugs,Medication,Itching,Mild,2018-04-10,STF9807
+ALG0001493,P002312,Ibuprofen,Medication,Anaphylaxis,Moderate,2017-05-21,STF7218
+ALG0001494,P002312,Penicillin,Medication,Anaphylaxis,Severe,2013-02-02,STF8548
+ALG0001495,P002313,Codeine,Medication,Dizziness,Moderate,2019-04-09,STF8320
+ALG0001496,P002316,Bee stings,Environmental,Anaphylaxis,Severe,2020-10-29,STF4700
+ALG0001497,P002317,Aspirin,Medication,Diarrhea,Moderate,2015-06-09,STF4373
+ALG0001498,P002317,Morphine,Medication,Tachycardia,Mild,2021-02-03,STF1987
+ALG0001499,P002318,Wheat,Food,Nausea,Mild,2012-05-06,STF6577
+ALG0001500,P002318,Soy,Food,Swelling,Severe,2021-11-01,STF9420
+ALG0001501,P002321,Codeine,Medication,Diarrhea,Mild,2012-12-01,STF4584
+ALG0001502,P002323,Latex,Environmental,Nausea,Mild,2016-03-26,STF7931
+ALG0001503,P002324,Ibuprofen,Medication,Itching,Mild,2012-05-27,STF2805
+ALG0001504,P002325,Morphine,Medication,Vomiting,Moderate,2020-02-26,STF6766
+ALG0001505,P002325,Codeine,Medication,Anaphylaxis,Moderate,2022-05-06,STF2377
+ALG0001506,P002325,Penicillin,Medication,Difficulty breathing,Severe,2013-05-18,STF7503
+ALG0001507,P002328,Ibuprofen,Medication,Rash,Moderate,2019-06-24,STF4177
+ALG0001508,P002329,Shellfish,Food,Diarrhea,Moderate,2021-08-19,STF8103
+ALG0001509,P002330,Contrast dye,Medication,Hives,Moderate,2011-03-12,STF1584
+ALG0001510,P002332,Shellfish,Food,Swelling,Severe,2019-01-28,STF7421
+ALG0001511,P002333,Shellfish,Food,Vomiting,Mild,2014-07-26,STF6695
+ALG0001512,P002336,Morphine,Medication,Diarrhea,Severe,2023-12-15,STF8811
+ALG0001513,P002340,Morphine,Medication,Difficulty breathing,Severe,2013-03-07,STF1208
+ALG0001514,P002340,Aspirin,Medication,Lightheadedness,Mild,2017-06-29,STF1341
+ALG0001515,P002341,Aspirin,Medication,Itching,Moderate,2010-03-21,STF6769
+ALG0001516,P002345,Penicillin,Medication,Dizziness,Moderate,2016-07-09,STF4740
+ALG0001517,P002347,Ibuprofen,Medication,Hives,Moderate,2017-07-12,STF8415
+ALG0001518,P002349,Bee stings,Environmental,Anaphylaxis,Severe,2010-04-22,STF6777
+ALG0001519,P002350,Bee stings,Environmental,Hives,Moderate,2021-08-25,STF1339
+ALG0001520,P002351,Contrast dye,Medication,Lightheadedness,Severe,2018-01-05,STF9156
+ALG0001521,P002352,Soy,Food,Difficulty breathing,Moderate,2012-01-02,STF4175
+ALG0001522,P002354,Shellfish,Food,Lightheadedness,Moderate,2020-01-29,STF9632
+ALG0001523,P002355,Eggs,Food,Nausea,Moderate,2016-03-13,STF6067
+ALG0001524,P002355,Wheat,Food,Swelling,Mild,2021-08-31,STF6624
+ALG0001525,P002355,Morphine,Medication,Dizziness,Mild,2020-03-16,STF6685
+ALG0001526,P002356,Bee stings,Environmental,Vomiting,Moderate,2021-09-25,STF5747
+ALG0001527,P002356,Wheat,Food,Dizziness,Moderate,2013-08-25,STF5974
+ALG0001528,P002356,Tree nuts,Food,Vomiting,Mild,2016-08-11,STF1255
+ALG0001529,P002356,Aspirin,Medication,Vomiting,Mild,2016-05-07,STF3022
+ALG0001530,P002357,Soy,Food,Difficulty breathing,Severe,2010-01-06,STF1817
+ALG0001531,P002358,Peanuts,Food,Diarrhea,Moderate,2022-07-30,STF3540
+ALG0001532,P002361,Soy,Food,Hives,Moderate,2010-09-21,STF8752
+ALG0001533,P002361,Peanuts,Food,Difficulty breathing,Moderate,2024-04-15,STF7328
+ALG0001534,P002364,Peanuts,Food,Dizziness,Mild,2022-08-25,STF8140
+ALG0001535,P002366,Latex,Environmental,Anaphylaxis,Moderate,2022-06-07,STF4268
+ALG0001536,P002367,Wheat,Food,Diarrhea,Mild,2019-10-20,STF2573
+ALG0001537,P002368,Tree nuts,Food,Diarrhea,Severe,2018-01-08,STF8673
+ALG0001538,P002369,Soy,Food,Vomiting,Mild,2022-07-15,STF1432
+ALG0001539,P002374,Eggs,Food,Itching,Moderate,2022-09-08,STF5806
+ALG0001540,P002375,Codeine,Medication,Lightheadedness,Mild,2021-08-14,STF8540
+ALG0001541,P002375,Latex,Environmental,Rash,Mild,2016-01-23,STF2753
+ALG0001542,P002376,Peanuts,Food,Dizziness,Mild,2017-06-07,STF1997
+ALG0001543,P002377,Sulfa drugs,Medication,Tachycardia,Mild,2013-03-26,STF9115
+ALG0001544,P002378,Codeine,Medication,Anaphylaxis,Severe,2010-02-22,STF8945
+ALG0001545,P002378,Bee stings,Environmental,Dizziness,Moderate,2012-07-28,STF2100
+ALG0001546,P002378,Tree nuts,Food,Rash,Mild,2012-09-18,STF9516
+ALG0001547,P002379,Bee stings,Environmental,Rash,Moderate,2019-12-15,STF7401
+ALG0001548,P002380,Milk,Food,Vomiting,Severe,2015-04-09,STF9957
+ALG0001549,P002381,Wheat,Food,Lightheadedness,Moderate,2019-09-12,STF3396
+ALG0001550,P002381,Soy,Food,Lightheadedness,Mild,2013-03-06,STF4943
+ALG0001551,P002382,Latex,Environmental,Vomiting,Mild,2024-12-21,STF2638
+ALG0001552,P002382,Contrast dye,Medication,Dizziness,Mild,2024-12-22,STF5508
+ALG0001553,P002383,Ibuprofen,Medication,Nausea,Moderate,2013-04-28,STF1458
+ALG0001554,P002383,Contrast dye,Medication,Anaphylaxis,Severe,2022-08-28,STF7380
+ALG0001555,P002384,Wheat,Food,Rash,Severe,2017-12-15,STF3282
+ALG0001556,P002387,Eggs,Food,Swelling,Moderate,2021-10-11,STF7399
+ALG0001557,P002387,Shellfish,Food,Diarrhea,Mild,2024-09-17,STF3480
+ALG0001558,P002387,Soy,Food,Difficulty breathing,Severe,2022-08-19,STF6558
+ALG0001559,P002387,Wheat,Food,Vomiting,Moderate,2013-02-21,STF5560
+ALG0001560,P002391,Bee stings,Environmental,Vomiting,Moderate,2014-01-17,STF9306
+ALG0001561,P002391,Latex,Environmental,Lightheadedness,Moderate,2012-11-26,STF6309
+ALG0001562,P002396,Morphine,Medication,Swelling,Mild,2012-05-20,STF9182

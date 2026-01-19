@@ -1,0 +1,11 @@
+vendor_id,name,type,lead_time_days,contract_status
+VEN001,McKesson Corporation,Pharmaceutical,2,Active
+VEN002,Cardinal Health,Pharmaceutical,3,Active
+VEN003,AmerisourceBergen,Pharmaceutical,2,Active
+VEN004,Medline Industries,MedSurg,5,Active
+VEN005,Henry Schein,MedSurg,4,Active
+VEN006,Owens & Minor,Logistics,3,Active
+VEN007,Stryker,Equipment,10,Review
+VEN008,Baxter International,Medical Devices,7,Active
+VEN009,Cintas,Hotel Services,3,Active
+VEN010,US Foods,Food Services,2,Active

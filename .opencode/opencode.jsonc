@@ -19,6 +19,42 @@
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
     },
+    // Hospital Data MCP - Access to GG's Hospital digital twin data
+    // Tools provided by MCP:
+    //   - read_patient_record: Get full patient details
+    //   - get_emergency_contacts: Get emergency contacts
+    //   - list_patients: List patients with pagination
+    "hospital-mcp": {
+      "type": "local",
+      "command": [
+        "bun",
+        "/Users/gg/Documents/ShopOS/packages/hospital-mcp/src/index.ts"
+      ],
+      "enabled": true
+    },
+    // AntV Chart MCP - Professional data visualization for hospital analytics
+    // Provides 25+ chart types for visualizing clinical, operational, and financial data
+    // Tools filtered to hospital-relevant charts only (excludes Chinese maps)
+    // Tools provided by MCP:
+    //   - generate_line_chart: Time-series trends (mortality, adherence over time)
+    //   - generate_pie_chart: Category distributions (readmission risk levels)
+    //   - generate_bar_chart: Comparisons (inventory stock, bed occupancy)
+    //   - generate_column_chart: Vertical comparisons (incidents by role)
+    //   - generate_funnel_chart: Process stages (medication adherence funnel)
+    //   - generate_sankey_chart: Flow diagrams (patient journey, admit->discharge)
+    //   - generate_radar_chart: Multi-dimensional (department revenue)
+    //   - generate_boxplot_chart: Distributions (ED wait times)
+    //   - generate_scatter_chart: Correlations (risk vs outcome)
+    //   - generate_area_chart: Cumulative trends
+    //   - generate_histogram_chart: Data distributions
+    "chart-mcp": {
+      "type": "local",
+      "command": [
+        "mcp-server-chart"
+      ],
+      "enabled": true,
+      "timeout": 15000,
+    },
     // Shopify Storefront MCP - Uses Mock.shop free public API
     // No authentication required - uses Shopify's official mock product data
     // Tools provided by MCP:
