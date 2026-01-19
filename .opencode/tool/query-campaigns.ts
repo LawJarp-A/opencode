@@ -10,7 +10,13 @@ function generateCampaignData(args: {
   start_date: string
   end_date: string
   channel?: string
+  campaign_type?: "social" | "email" | "influencer" | "paid_search" | "all"
 }): CampaignData {
+  // Validate required parameters
+  if (!args.brand_id || !args.start_date) {
+    throw new Error("Missing required parameters: brand_id and start_date are required")
+  }
+
   const seedValue = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + args.start_date.length
   const seed = seedValue;
   // Generic base spend derivation
@@ -128,10 +134,15 @@ export default tool({
       .optional(),
   },
   async execute(args) {
+    // Provide sensible defaults if parameters are missing
+    const brand_id = args.brand_id || "unknown"
+    const start_date = args.start_date || new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
+    const end_date = args.end_date || new Date().toISOString().split('T')[0]
+
     const data = generateCampaignData({
-      brand_id: args.brand_id,
-      start_date: args.start_date,
-      end_date: args.end_date,
+      brand_id,
+      start_date,
+      end_date,
       channel: args.channel,
     })
 
@@ -139,7 +150,29 @@ export default tool({
       .map(c => `| ${c.channel} | ${formatCurrency(c.spend)} | ${formatCurrency(c.revenue)} | ${c.roas}x | ${formatNumber(c.impressions)} | ${c.ctr}% | ${c.conversions} | ${formatCurrency(c.cpa)} |`)
       .join("\n")
 
-    return `# Campaign Performance: ${args.brand_id.toUpperCase()}
+    const chartData = {
+      type: "bar",
+      title: "ROAS by Channel",
+      subtitle: `Blended ROAS: ${data.summary.blended_roas}x`,
+      data: data.by_channel.map(c => ({
+        label: c.channel,
+        value: c.roas,
+        meta: `${c.roas}x`,
+        color: "var(--accent-blue)"
+      })).sort((a, b) => b.value - a.value)
+    }
+
+    const modalData = {
+      type: "result_modal",
+      title: "Campaign Review",
+      chips: ["Optimize Underperforming Channels", "Increase Budget on Top Channels", "Compare vs Last Year"],
+      workflows: [
+        { id: "adjust-bids", label: "Adjust Ad Bids" },
+        { id: "pause-campaign", label: "Pause Low ROAS Ads" }
+      ]
+    }
+
+    return `# Campaign Performance: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Query Parameters
 - **Period**: ${data.query.period}
@@ -154,6 +187,10 @@ export default tool({
 | Total Conversions | ${data.summary.total_conversions.toLocaleString()} |
 | Average CPA | ${formatCurrency(data.summary.avg_cpa)} |
 
+\`\`\`chart
+${JSON.stringify(chartData)}
+\`\`\`
+
 ## Breakdown by Channel
 | Channel | Spend | Revenue | ROAS | Impressions | CTR | Conversions | CPA |
 |---------|-------|---------|------|-------------|-----|-------------|-----|
@@ -164,6 +201,10 @@ ${channelRows}
 - **Attributed Revenue**: ${formatCurrency(data.summary.total_revenue)}
 - **Net Return**: ${formatCurrency(data.summary.total_revenue - data.summary.total_spend)}
 - **ROI**: ${Math.round((data.summary.total_revenue - data.summary.total_spend) / data.summary.total_spend * 100)}%
+
+\`\`\`json result
+${JSON.stringify(modalData)}
+\`\`\`
 
 ---
 *Data source: campaigns_db | Query executed at ${new Date().toISOString()}*`

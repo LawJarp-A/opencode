@@ -63,7 +63,6 @@ export namespace Server {
   const log = Log.create({ service: "server" })
 
   let _url: URL | undefined
-  let _corsWhitelist: string[] = []
 
   export function url(): URL {
     return _url ?? new URL("http://localhost:4096")
@@ -122,23 +121,7 @@ export namespace Server {
         })
         .use(
           cors({
-            origin(input) {
-              if (!input) return
-
-              if (input.startsWith("http://localhost:")) return input
-              if (input.startsWith("http://127.0.0.1:")) return input
-              if (input === "tauri://localhost" || input === "http://tauri.localhost") return input
-
-              // *.opencode.ai (https only, adjust if needed)
-              if (/^https:\/\/([a-z0-9-]+\.)*opencode\.ai$/.test(input)) {
-                return input
-              }
-              if (_corsWhitelist.includes(input)) {
-                return input
-              }
-
-              return
-            },
+            origin: (origin) => origin,
           }),
         )
         .get(
@@ -2865,7 +2848,6 @@ export namespace Server {
   }
 
   export function listen(opts: { port: number; hostname: string; mdns?: boolean; cors?: string[] }) {
-    _corsWhitelist = opts.cors ?? []
 
     const args = {
       hostname: opts.hostname,

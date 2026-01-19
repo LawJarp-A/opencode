@@ -385,6 +385,37 @@ export const { use: useMarked, provider: MarkedProvider } = createSimpleContext(
             const titleAttr = title ? ` title="${title}"` : ""
             return `<a href="${href}"${titleAttr} target="_blank" rel="noopener noreferrer">${text}</a>`
           },
+          code({ text, lang }: { text: string; lang?: string }) {
+            if (lang === "chart" || lang === "json chart") {
+              try {
+                // Validate JSON
+                JSON.parse(text)
+                // Encode for attribute
+                const encoded = Buffer.from(text).toString('base64')
+                return `<opencode-chart data-chart="${encoded}"></opencode-chart>`
+              } catch (e) {
+                const message = e instanceof Error ? e.message : String(e)
+                return `<pre><code class="language-text">Invalid Chart Data: ${message}\n${text}</code></pre>`
+              }
+            }
+            return false // Fallback to other renderers/highlighters
+          },
+          image({ href, title, text }: { href: string; title: string | null; text: string }) {
+            try {
+              // Encode attributes to ensure HTML safety and easy parsing
+              const src = Buffer.from(href).toString('base64')
+              const alt = Buffer.from(text).toString('base64')
+              const tit = title ? Buffer.from(title).toString('base64') : undefined
+
+              let attr = `data-src="${src}" data-alt="${alt}"`
+              if (tit) attr += ` data-title="${tit}"`
+
+              return `<opencode-image ${attr}></opencode-image>`
+            } catch (e) {
+              console.error("Failed to render image token", e)
+              return `<img src="${href}" alt="${text}" />` // Fallback
+            }
+          }
         },
       },
       markedKatex({

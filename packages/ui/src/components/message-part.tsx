@@ -544,7 +544,13 @@ PART_MAPPING["tool"] = function ToolPartDisplay(props) {
       <Switch>
         <Match when={part.state.status === "error" && part.state.error}>
           {(error) => {
-            const cleaned = error().replace("Error: ", "")
+            const errStr = error() as string;
+            // Suppress validation/schema errors as requested by user
+            if (errStr.includes("Invalid input") || errStr.includes("invalid_type")) {
+              return null;
+            }
+
+            const cleaned = errStr.replace("Error: ", "")
             const [title, ...rest] = cleaned.split(": ")
             return (
               <Card variant="error">

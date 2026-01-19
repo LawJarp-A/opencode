@@ -411,7 +411,7 @@ export namespace MCP {
       const [cmd, ...args] = command
       const cwd = Instance.directory
       const transport = new StdioClientTransport({
-        stderr: "ignore",
+        stderr: "inherit",
         command: cmd,
         args,
         cwd,

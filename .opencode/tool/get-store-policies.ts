@@ -31,7 +31,7 @@ export default tool({
   },
   async execute(args) {
     // This tool provides guidance for querying store policies via Shopify MCP
-    return `# Store Policies Helper: ${args.brand_id.toUpperCase()}
+    return `# Store Policies Helper: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Requested Query
 **Topic**: ${args.query}

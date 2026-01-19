@@ -49,7 +49,6 @@ import {
   FileVisual,
   SortableTerminalTab,
   NewSessionView,
-  SessionViewTabs,
   type SessionView,
 } from "@/components/session"
 import { AgentFlowGraph } from "@opencode-ai/ui/agent-flow-graph"
@@ -153,6 +152,7 @@ function SessionReviewTab(props: SessionReviewTabProps) {
       diffStyle={props.diffStyle}
       onDiffStyleChange={props.onDiffStyleChange}
       onViewFile={props.onViewFile}
+      onClose={() => props.view().reviewPanel.close()}
     />
   )
 }
@@ -172,7 +172,6 @@ export default function Page() {
   const sdk = useSDK()
   const prompt = usePrompt()
   const permission = usePermission()
-  const [currentView, setCurrentView] = createSignal<SessionView>("chat")
   const agentFlow = useAgentFlow()
   const sessionKey = createMemo(() => `${params.dir}${params.id ? "/" + params.id : ""}`)
   const tabs = createMemo(() => layout.tabs(sessionKey()))
@@ -321,6 +320,7 @@ export default function Page() {
     mobileTab: "session" as "session" | "review",
     newSessionWorktree: "main",
     promptHeight: 0,
+    starterTile: null as string | null,
   })
 
   const renderedUserMessages = createMemo(() => {
@@ -411,6 +411,7 @@ export default function Page() {
       () => {
         setStore("messageId", undefined)
         setStore("expanded", {})
+        setStore("starterTile", null)
       },
       { defer: true },
     ),
@@ -581,7 +582,7 @@ export default function Page() {
         const sessionID = params.id
         if (!sessionID) return
         if (status()?.type !== "idle") {
-          await sdk.client.session.abort({ sessionID }).catch(() => {})
+          await sdk.client.session.abort({ sessionID }).catch(() => { })
         }
         const revert = info()?.revert?.messageID
         // Find the last user message that's not already reverted
@@ -738,7 +739,7 @@ export default function Page() {
   const mobileReview = createMemo(() => !isDesktop() && hasReview() && store.mobileTab === "review")
 
   const showTabs = createMemo(
-    () => currentView() !== "flow" && view().reviewPanel.opened() && (hasReview() || tabs().all().length > 0 || contextOpen()),
+    () => view().reviewPanel.opened() && (hasReview() || tabs().all().length > 0 || contextOpen()),
   )
 
   const activeTab = createMemo(() => {
@@ -1028,14 +1029,6 @@ export default function Page() {
   return (
     <div class="relative bg-background-base size-full overflow-hidden flex flex-col">
       <SessionHeader />
-      <Show when={params.id}>
-        <div class="px-4 md:px-6 py-2 border-b border-border-weak-base bg-background-stronger">
-          <SessionViewTabs
-            value={currentView()}
-            onChange={setCurrentView}
-          />
-        </div>
-      </Show>
       <div class="flex-1 min-h-0 flex flex-col md:flex-row">
         {/* Mobile tab bar - only shown on mobile when there are diffs */}
         <Show when={!isDesktop() && hasReview()}>
@@ -1075,12 +1068,10 @@ export default function Page() {
           <div class="flex-1 min-h-0 overflow-hidden">
             <Switch>
               <Match when={params.id}>
-                <Switch>
-                  <Match when={currentView() === "chat"}>
-                    <Show when={activeMessage()}>
-                      <Show
-                        when={!mobileReview()}
-                        fallback={
+                <Show when={activeMessage()}>
+                  <Show
+                    when={!mobileReview()}
+                    fallback={
                       <div class="relative h-full overflow-hidden">
                         <Show
                           when={diffsReady()}
@@ -1116,6 +1107,25 @@ export default function Page() {
                             class="pointer-events-auto"
                           />
                         </div>
+
+                        {/* Persistent Back to Parent Button */}
+                        <Show when={(() => {
+                          const current = sync.data.session.find((s) => s.id === params.id)
+                          return current?.parentID ? sync.data.session.find((s) => s.id === current.parentID) : undefined
+                        })()}>
+                          {(parent) => (
+                            <div class="absolute top-4 left-4 z-20 pointer-events-auto">
+                              <Tooltip value={`Back to ${parent().title}`} placement="right">
+                                <button
+                                  class="flex items-center justify-center size-10 rounded-full bg-surface-base border border-border-weak-base shadow-sm hover:bg-surface-raised-base-hover hover:scale-105 active:scale-95 transition-all"
+                                  onClick={() => navigate(`/${params.dir}/session/${parent().id}`)}
+                                >
+                                  <Icon name="arrow-left" size="normal" class="text-text-base" />
+                                </button>
+                              </Tooltip>
+                            </div>
+                          )}
+                        </Show>
                       </Show>
                       <div
                         ref={setScrollRef}
@@ -1124,7 +1134,7 @@ export default function Page() {
                           if (isDesktop()) scheduleScrollSpy(e.currentTarget)
                         }}
                         onClick={autoScroll.handleInteraction}
-                        class="relative min-w-0 w-full h-full overflow-y-auto no-scrollbar"
+                        class="flex-1 flex flex-col w-full h-full overflow-y-auto bg-white"
                       >
                         <div
                           ref={autoScroll.contentRef}
@@ -1194,6 +1204,7 @@ export default function Page() {
                                     onStepsExpandedToggle={() =>
                                       setStore("expanded", message.id, (open: boolean | undefined) => !open)
                                     }
+                                    agentNodes={() => agentFlow.nodesForMessage(message.id)}
                                     classes={{
                                       root: "min-w-0 w-full relative",
                                       content:
@@ -1216,23 +1227,12 @@ export default function Page() {
                     </div>
                   </Show>
                 </Show>
-                </Match>
-                <Match when={currentView() === "flow"}>
-                  <div class="relative w-full h-full min-w-0 overflow-hidden">
-                    <AgentFlowTimeline
-                      nodes={agentFlow.nodes()}
-                      prompt={userMessages()[0]?.summary?.title}
-                      onSelectNode={(node) => agentFlow.selectNode(node.id)}
-                      class="h-full"
-                    />
-                  </div>
-                </Match>
-              </Switch>
               </Match>
               <Match when={true}>
                 <NewSessionView
                   worktree={newSessionWorktree()}
-                  onWorktreeChange={(value) => {
+                  onTileSelect={(tile: string) => setStore("starterTile", tile)}
+                  onWorktreeChange={(value: string) => {
                     if (value === "create") {
                       setStore("newSessionWorktree", value)
                       return
@@ -1255,6 +1255,9 @@ export default function Page() {
           <div
             ref={(el) => (promptDock = el)}
             class="absolute inset-x-0 bottom-0 pt-12 pb-4 md:pb-8 flex flex-col justify-center items-center z-50 px-4 md:px-0 bg-gradient-to-t from-background-stronger via-background-stronger to-transparent pointer-events-none"
+            classList={{
+              "hidden": !params.id && !store.starterTile
+            }}
           >
             <div
               classList={{
@@ -1276,7 +1279,21 @@ export default function Page() {
                   }}
                   newSessionWorktree={newSessionWorktree()}
                   onNewSessionWorktreeReset={() => setStore("newSessionWorktree", "main")}
-                  onSubmit={() => setCurrentView("flow")}
+                  onSubmit={() => ({} as SessionView)}
+                  submitIcon={(!params.id && store.starterTile) ? "enter" : undefined}
+                  placeholder={
+                    (() => {
+                      const PLACEHOLDER_MAP: Record<string, string> = {
+                        marketing: "Describe your campaign goal (e.g., 'Boost summer sales for swimwear')...",
+                        analysis: "What would you like to analyze? (e.g., 'Review last month's retention rates')...",
+                        branding: "What branding task are we working on? (e.g., 'Create a new logo concept')...",
+                        assets: "Describe the assets you need (e.g., 'Generate product lifestyle shots')...",
+                        prep: "What's on your agenda today? (e.g., 'Summarize pending orders')...",
+                        connect: "How can I help you connect to ShopOS? (e.g., 'Sync with Shopify store')...",
+                      }
+                      return (!params.id && store.starterTile) ? PLACEHOLDER_MAP[store.starterTile!] || "How can I help you?" : undefined
+                    })()
+                  }
                 />
               </Show>
             </div>

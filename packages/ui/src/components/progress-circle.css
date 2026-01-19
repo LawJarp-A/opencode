@@ -1,12 +1,33 @@
-[data-component="progress-circle"] {
-  transform: rotate(-90deg);
+/* Smooth progress transition */
+[data-slot="progress-circle-progress"] {
+  transition: stroke-dashoffset 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  stroke-linecap: round;
+}
 
-  [data-slot="progress-circle-background"] {
-    stroke: var(--border-weak-base);
+/* Active state glow - pulsing effect */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 3px rgba(37, 99, 235, 0.3));
   }
 
-  [data-slot="progress-circle-progress"] {
-    stroke: var(--border-active);
-    transition: stroke-dashoffset 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+  50% {
+    filter: drop-shadow(0 0 6px rgba(37, 99, 235, 0.6));
+  }
+}
+
+[data-status="running"] [data-component="progress-circle"] {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+
+  [data-component="progress-circle"],
+  [data-component="progress-circle"] * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

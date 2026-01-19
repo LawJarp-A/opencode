@@ -1,0 +1,139 @@
+{
+  "goal": "Puma-like Sales Branding Campaign",
+  "brand_id": "puma",
+  "status": "ready_for_execution",
+  "spaces": [
+    {
+      "id": "copy_brand_voice",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "brand_voice_guide",
+        "tone": "bold_confident_inclusive",
+        "brand_name": "Puma",
+        "variations": 5,
+        "include_hashtags": true,
+        "include_cta": true
+      },
+      "dependencies": []
+    },
+    {
+      "id": "copy_hero_headlines",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "hero_headlines",
+        "theme": "athletic_performance",
+        "count": 10,
+        "style": "puma_inspired"
+      },
+      "dependencies": ["copy_brand_voice"]
+    },
+    {
+      "id": "copy_social_posts",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "social_posts",
+        "platform": "instagram",
+        "count": 8,
+        "theme": "athletic_lifestyle",
+        "include_emoji": true
+      },
+      "dependencies": ["copy_brand_voice"]
+    },
+    {
+      "id": "copy_email_campaign",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "email_campaign",
+        "campaign_type": "product_launch",
+        "subject_lines": 5,
+        "body_sections": 3,
+        "theme": "bold_athletic"
+      },
+      "dependencies": ["copy_brand_voice"]
+    },
+    {
+      "id": "copy_ad_copy_meta",
+      "type": "copy_generation",
+      "inputs": {
+        "content_type": "ad_copy",
+        "platform": "meta",
+        "ad_type": "carousel",
+        "variations": 3,
+        "cta_options": ["Shop Now", "Learn More", "Get Started"]
+      },
+      "dependencies": ["copy_hero_headlines", "copy_social_posts"]
+    },
+    {
+      "id": "image_hero_banner",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "hero_banner",
+        "style": "athletic_sporty",
+        "colors": ["#000000", "#BA2026", "#FFFFFF"],
+        "dimensions": { "width": 1920, "height": 1080 },
+        "mood": "bold_energetic"
+      },
+      "dependencies": ["copy_brand_voice"]
+    },
+    {
+      "id": "image_social_feed",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "social_post",
+        "count": 6,
+        "style": "athletic_lifestyle",
+        "dimensions": { "width": 1080, "height": 1080 },
+        "theme": "action_movement"
+      },
+      "dependencies": ["copy_social_posts"]
+    },
+    {
+      "id": "image_product_shots",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "product_lifestyle",
+        "count": 4,
+        "style": "premium_athletic",
+        "background": "minimal_sporty",
+        "lighting": "dynamic"
+      },
+      "dependencies": ["copy_brand_voice"]
+    },
+    {
+      "id": "image_email_header",
+      "type": "image_generation",
+      "inputs": {
+        "image_type": "email_header",
+        "style": "bold_athletic",
+        "dimensions": { "width": 600, "height": 200 },
+        "theme": "sale_announcement"
+      },
+      "dependencies": ["copy_email_campaign"]
+    },
+    {
+      "id": "ad_creation_meta_campaign",
+      "type": "ad_creation",
+      "inputs": {
+        "platform": "meta",
+        "campaign_name": "Puma_Style_Athletic_Sale",
+        "ad_format": "carousel",
+        "placements": ["facebook_feed", "instagram_feed", "instagram_stories"],
+        "target_audience": "athletic_fitness_25_45",
+        "budget_tier": "medium"
+      },
+      "dependencies": ["copy_ad_copy_meta", "image_hero_banner", "image_product_shots"]
+    },
+    {
+      "id": "ad_creation_google_display",
+      "type": "ad_creation",
+      "inputs": {
+        "platform": "google",
+        "campaign_name": "Athletic_Performance_Display",
+        "ad_format": "responsive_display",
+        "sizes": ["300x250", "728x90", "160x600"],
+        "target_audience": "sports_enthusiasts"
+      },
+      "dependencies": ["copy_hero_headlines", "image_hero_banner"]
+    }
+  ]
+}

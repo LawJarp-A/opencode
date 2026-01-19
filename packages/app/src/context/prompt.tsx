@@ -120,6 +120,7 @@ function createPromptSession(dir: string, id: string | undefined) {
       context: {
         activeTab: boolean
         items: (ContextItem & { key: string })[]
+        submit?: number
       }
     }>({
       prompt: clonePrompt(DEFAULT_PROMPT),
@@ -127,6 +128,7 @@ function createPromptSession(dir: string, id: string | undefined) {
       context: {
         activeTab: true,
         items: [],
+        submit: 0,
       },
     }),
   )
@@ -160,6 +162,10 @@ function createPromptSession(dir: string, id: string | undefined) {
       remove(key: string) {
         setStore("context", "items", (items) => items.filter((x) => x.key !== key))
       },
+      submit() {
+        setStore("context", "submit", (prev) => (prev || 0) + 1)
+      },
+      shouldSubmit: createMemo(() => store.context.submit),
     },
     set(prompt: Prompt, cursorPosition?: number) {
       const next = clonePrompt(prompt)
@@ -236,6 +242,8 @@ export const { use: usePrompt, provider: PromptProvider } = createSimpleContext(
         removeActive: () => session().context.removeActive(),
         add: (item: ContextItem) => session().context.add(item),
         remove: (key: string) => session().context.remove(key),
+        submit: () => session().context.submit(),
+        shouldSubmit: () => session().context.shouldSubmit(),
       },
       set: (prompt: Prompt, cursorPosition?: number) => session().set(prompt, cursorPosition),
       reset: () => session().reset(),

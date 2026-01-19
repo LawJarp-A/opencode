@@ -24,7 +24,9 @@ export interface AgentFlowNode {
     content: string
   }
   toolCalls?: ToolCall[]
+  messageId?: string  // Track which message triggered this agent
 }
+
 
 export interface AgentFlowGraphProps {
   nodes: AgentFlowNode[]

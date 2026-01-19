@@ -11,6 +11,7 @@ import {
   Match,
   createMemo,
   createSignal,
+  ComponentProps,
 } from "solid-js"
 import { createStore, produce } from "solid-js/store"
 import { createFocusSignal } from "@solid-primitives/active-element"
@@ -34,7 +35,8 @@ import { FileIcon } from "@opencode-ai/ui/file-icon"
 import { Button } from "@opencode-ai/ui/button"
 import { Icon } from "@opencode-ai/ui/icon"
 import { ProviderIcon } from "@opencode-ai/ui/provider-icon"
-import type { IconName } from "@opencode-ai/ui/icons/provider"
+import type { IconName as ProviderIconName } from "@opencode-ai/ui/icons/provider"
+type IconName = ComponentProps<typeof Icon>["name"]
 import { Tooltip, TooltipKeybind } from "@opencode-ai/ui/tooltip"
 import { IconButton } from "@opencode-ai/ui/icon-button"
 import { Select } from "@opencode-ai/ui/select"
@@ -44,6 +46,8 @@ import { ImagePreview } from "@opencode-ai/ui/image-preview"
 import { ModelSelectorPopover } from "@/components/dialog-select-model"
 import { DialogSelectModelUnpaid } from "@/components/dialog-select-model-unpaid"
 import { useProviders } from "@/hooks/use-providers"
+import { DropdownMenu } from "@opencode-ai/ui/dropdown-menu"
+import { DialogAttachFile } from "@/components/dialog-attach-file"
 import { useCommand } from "@/context/command"
 import { Persist, persisted } from "@/utils/persist"
 import { Identifier } from "@/utils/id"
@@ -66,6 +70,8 @@ interface PromptInputProps {
   newSessionWorktree?: string
   onNewSessionWorktreeReset?: () => void
   onSubmit?: () => SessionView
+  submitIcon?: ComponentProps<typeof Icon>["name"]
+  placeholder?: string
 }
 
 const PLACEHOLDERS = [
@@ -786,7 +792,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
       .abort({
         sessionID: params.id!,
       })
-      .catch(() => {})
+      .catch(() => { })
 
   const addToHistory = (prompt: Prompt, mode: "normal" | "shell") => {
     const text = prompt
@@ -1004,6 +1010,17 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
       if (err instanceof Error) return err.message
       return "Request failed"
     }
+
+    createEffect(
+      on(
+        () => prompt.context.shouldSubmit(),
+        (cnt) => {
+          if (!cnt) return
+          handleSubmit(new Event("submit"))
+        },
+        { defer: true },
+      ),
+    )
 
     addToHistory(currentPrompt, mode)
     setStore("historyIndex", -1)
@@ -1545,7 +1562,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
             <div class="absolute top-0 inset-x-0 px-5 py-3 pr-12 text-14-regular text-text-weak pointer-events-none whitespace-nowrap truncate">
               {store.mode === "shell"
                 ? "Enter shell command..."
-                : `Ask anything... "${PLACEHOLDERS[store.placeholder]}"`}
+                : props.placeholder ?? `Ask anything... "${PLACEHOLDERS[store.placeholder]}"`}
             </div>
           </Show>
         </div>
@@ -1575,7 +1592,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                     <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
                       <Button as="div" variant="ghost" onClick={() => dialog.show(() => <DialogSelectModelUnpaid />)}>
                         <Show when={local.model.current()?.provider?.id}>
-                          <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
+                          <ProviderIcon id={local.model.current()!.provider.id as unknown as ProviderIconName} class="size-4 shrink-0" />
                         </Show>
                         {local.model.current()?.name ?? "Select model"}
                         <Icon name="chevron-down" size="small" />
@@ -1587,7 +1604,7 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
                     <TooltipKeybind placement="top" title="Choose model" keybind={command.keybind("model.choose")}>
                       <Button as="div" variant="ghost">
                         <Show when={local.model.current()?.provider?.id}>
-                          <ProviderIcon id={local.model.current()!.provider.id as IconName} class="size-4 shrink-0" />
+                          <ProviderIcon id={local.model.current()!.provider.id as unknown as ProviderIconName} class="size-4 shrink-0" />
                         </Show>
                         {local.model.current()?.name ?? "Select model"}
                         <Icon name="chevron-down" size="small" />
@@ -1651,11 +1668,37 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
             <div class="flex items-center gap-2">
               <SessionContextUsage />
               <Show when={store.mode === "normal"}>
-                <Tooltip placement="top" value="Attach file">
-                  <Button type="button" variant="ghost" class="size-6" onClick={() => fileInputRef.click()}>
-                    <Icon name="photo" class="size-4.5" />
-                  </Button>
-                </Tooltip>
+                <DropdownMenu placement="top-start">
+                  <DropdownMenu.Trigger
+                    as={(props: any) => (
+                      <Button {...props} type="button" variant="ghost" class="size-6">
+                        <Icon name="plus" class="size-4.5" />
+                      </Button>
+                    )}
+                  />
+                  <DropdownMenu.Portal>
+                    <DropdownMenu.Content class="w-48">
+                      <DropdownMenu.Item onClick={() => fileInputRef.click()}>
+                        <Icon name="photo" class="mr-2 size-4" />
+                        Upload from computer
+                      </DropdownMenu.Item>
+                      <DropdownMenu.Item
+                        onClick={() =>
+                          dialog.show(() => (
+                            <DialogAttachFile
+                              onSelect={(path) =>
+                                addPart({ type: "file", path, content: "@" + path, start: 0, end: 0 })
+                              }
+                            />
+                          ))
+                        }
+                      >
+                        <Icon name="folder" class="mr-2 size-4" />
+                        Select from workspace
+                      </DropdownMenu.Item>
+                    </DropdownMenu.Content>
+                  </DropdownMenu.Portal>
+                </DropdownMenu>
               </Show>
             </div>
             <Tooltip
@@ -1681,8 +1724,8 @@ export const PromptInput: Component<PromptInputProps> = (props) => {
               <IconButton
                 type="submit"
                 disabled={!prompt.dirty() && !working()}
-                icon={working() ? "stop" : "arrow-up"}
-                variant="primary"
+                icon={working() ? "stop" : (props.submitIcon ?? "arrow-up")}
+                variant={props.submitIcon === "enter" ? "secondary" : "primary"}
                 class="h-6 w-4.5"
               />
             </Tooltip>

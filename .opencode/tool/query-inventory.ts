@@ -30,7 +30,7 @@ function generateInventoryData(args: {
       const daysOfStock = Math.round(stock / Math.max(dailySales, 1))
 
       return {
-        sku: `${args.brand_id.toUpperCase()}-${category.substring(0, 3).toUpperCase()}-${1000 + i}`,
+        sku: `${args.brand_id?.toUpperCase() || 'UNKNOWN'}-${category.substring(0, 3).toUpperCase()}-${1000 + i}`,
         category,
         product_name: `${category} Item ${i + 1}`,
         stock_quantity: stock,
@@ -104,6 +104,9 @@ export default tool({
       .optional(),
   },
   async execute(args) {
+    if (!args.brand_id) {
+      return "Error: brand_id argument is required.";
+    }
     const data = generateInventoryData({
       brand_id: args.brand_id,
       category: args.category,
@@ -128,7 +131,28 @@ export default tool({
       alerts += lowStockItems.map(i => `- **${i.sku}**: ${i.stock_quantity} units (${i.days_of_stock} days remaining)`).join("\n")
     }
 
-    return `# Inventory Status: ${args.brand_id.toUpperCase()}
+    const chartData = {
+      type: "donut",
+      title: "Inventory Health Status",
+      subtitle: `Total SKUs: ${data.summary.total_skus}`,
+      data: [
+        { label: "Healthy", value: data.summary.healthy_skus, color: "var(--accent-green)" },
+        { label: "Watch", value: data.summary.watch_skus, color: "var(--accent-amber)" },
+        { label: "Low Stock", value: data.summary.low_stock_skus, color: "var(--accent-red)" }
+      ].filter(d => d.value > 0)
+    }
+
+    const modalData = {
+      type: "result_modal",
+      title: "Inventory Audit Complete",
+      chips: ["Restock Low Items", "Analyze Dead Stock", "Forecast Demand"],
+      workflows: [
+        { id: "create-po", label: "Create Purchase Order" },
+        { id: "supplier-email", label: "Contact Suppliers" }
+      ]
+    }
+
+    return `# Inventory Status: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Query Parameters
 - **Category**: ${data.query.category}
@@ -143,11 +167,19 @@ export default tool({
 | 🟡 Watch | ${data.summary.watch_skus} SKUs |
 | 🔴 Low Stock | ${data.summary.low_stock_skus} SKUs |
 
+\`\`\`chart
+${JSON.stringify(chartData)}
+\`\`\`
+
 ## Inventory Details (sorted by days of stock)
 | SKU | Category | Stock | Reorder Point | Days Left | Status |
 |-----|----------|-------|---------------|-----------|--------|
 ${itemRows}
 ${alerts}
+
+\`\`\`json result
+${JSON.stringify(modalData)}
+\`\`\`
 
 ---
 *Data source: inventory_db | Query executed at ${new Date().toISOString()}*`

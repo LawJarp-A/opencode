@@ -108,12 +108,15 @@ export function AgentFlowTimeline(props: AgentFlowTimelineProps) {
           <div data-slot="line" />
 
           <For each={sortedNodes()}>
-            {(item) => (
+            {(item, index) => (
               <div
                 data-slot="timeline-item"
                 data-status={item.node.status}
                 data-depth={item.depth}
-                style={{ "--depth": item.depth }}
+                style={{
+                  "--depth": item.depth,
+                  "animation-delay": `${index() * 60}ms`
+                }}
               >
                 <div data-slot="marker">
                   <Show when={item.node.status === "running"}>

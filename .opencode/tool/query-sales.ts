@@ -5,14 +5,18 @@ const DESCRIPTION = `Query sales and revenue data from the brand's database.
 Returns sales figures, units sold, AOV, and breakdowns by region/product/time.
 Use this for ROI calculations, trend analysis, and performance reporting.
 
-NOTE: This tool currently returns MOCK/DEMO data for demonstration purposes.
-To integrate with real Shopify data:
-1. Ensure Shopify MCP server is connected (check with 'shopify_get_product_list' tool)
-2. Call 'shopify_get_product_list' to get real product data
-3. Transform Shopify data format to match this tool's output format
-4. Fall back to mock data if Shopify is unavailable
+⚠️ IMPORTANT: This tool currently returns DEMO/MOCK data for demonstration purposes.
 
-See SHOPIFY_MCP_SETUP.md for integration instructions.`
+WHY MOCK DATA?
+- Sales/order/revenue data requires Shopify Admin API access
+- Current MCP tools (shopify-mock) only provide Storefront API access (products, not orders)
+- Storefront API = product catalog, policies, cart (✅ available via MCP)
+- Admin API = orders, sales, customers (❌ not available via current MCP)
+
+TO GET REAL SALES DATA:
+You would need to set up Shopify Admin API access, which is beyond the current MCP scope.
+
+FOR NOW: Use this tool to get realistic demo data for planning/analysis purposes.`
 
 // Mock sales data generator
 function generateSalesData(args: {
@@ -22,6 +26,11 @@ function generateSalesData(args: {
   end_date: string
   category?: string
 }): SalesData {
+  // Validate required parameters
+  if (!args.brand_id || !args.start_date) {
+    throw new Error("Missing required parameters: brand_id and start_date are required")
+  }
+
   // Deterministic "random" based on inputs for consistent demo results
   const seed = args.brand_id.split("").reduce((a, b) => a + b.charCodeAt(0), 0) + (args.region?.length || 0) + args.start_date.length
 
@@ -127,11 +136,16 @@ export default tool({
       .optional(),
   },
   async execute(args) {
+    // Provide sensible defaults if parameters are missing
+    const brand_id = args.brand_id || "unknown"
+    const start_date = args.start_date || new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0] // 30 days ago
+    const end_date = args.end_date || new Date().toISOString().split('T')[0] // today
+
     const data = generateSalesData({
-      brand_id: args.brand_id,
+      brand_id,
       region: args.region,
-      start_date: args.start_date,
-      end_date: args.end_date,
+      start_date,
+      end_date,
       category: args.category,
     })
 
@@ -139,7 +153,32 @@ export default tool({
       .map(r => `| ${r.region} | ${formatCurrency(r.revenue)} | ${r.units.toLocaleString()} | ${formatCurrency(r.aov)} | ${r.growth_yoy}% |`)
       .join("\n")
 
-    return `# Sales Data: ${args.brand_id.toUpperCase()}
+    const chartData = {
+      type: "bar",
+      title: "Revenue by Region",
+      subtitle: `Total Revenue: ${formatCurrency(data.summary.total_revenue)}`,
+      data: data.by_region.map(r => ({
+        label: r.region,
+        value: r.revenue,
+        meta: formatCurrency(r.revenue),
+        color: "var(--accent-blue)" // Optional, chart component handles colors if omitted
+      })).sort((a, b) => b.value - a.value),
+      options: {
+        formatValue: "currency"
+      }
+    }
+
+    const modalData = {
+      type: "result_modal",
+      title: "Sales Analysis Complete",
+      chips: ["Analyze by Category", "Compare with last month", "Drill down into South region"],
+      workflows: [
+        { id: "generate-report", label: "Generate PDF Report" },
+        { id: "email-team", label: "Email Sales Team" }
+      ]
+    }
+
+    return `# Sales Data: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Query Parameters
 - **Period**: ${data.query.period}
@@ -154,10 +193,18 @@ export default tool({
 | Average Order Value | ${formatCurrency(data.summary.aov)} |
 | YoY Growth | ${data.summary.growth_yoy}% |
 
+\`\`\`chart
+${JSON.stringify(chartData)}
+\`\`\`
+
 ## Breakdown by Region
 | Region | Revenue | Units | AOV | YoY Growth |
 |--------|---------|-------|-----|------------|
 ${regionRows}
+
+\`\`\`json result
+${JSON.stringify(modalData)}
+\`\`\`
 
 ---
 *Data source: sales_db | Query executed at ${new Date().toISOString()}*`

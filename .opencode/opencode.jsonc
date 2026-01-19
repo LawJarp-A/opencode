@@ -1,6 +1,7 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "default_agent": "planner",
+  "model": "opencode/minimax-m2.1-free",
   // "plugin": ["opencode-openai-codex-auth"],
   // "enterprise": {
   //   "url": "https://enterprise.dev.opencode.ai",
@@ -74,7 +75,7 @@
       "type": "local",
       "command": [
         "/tmp/AmazonMCP/.venv/bin/python",
-	"-m",
+        "-m",
         "simple_amazon_mcp.server"
       ],
       "enabled": true,
@@ -95,6 +96,20 @@
       ],
       "enabled": true,
       "timeout": 15000,
+    },
+    "reddit-mcp": {
+      "type": "local",
+      "command": [
+        "/Users/gg/Documents/ShopOS/start_reddit.sh"
+      ],
+      "environment": {
+        "REDDIT_CLIENT_ID": "wwEXofDq3XsulyNYmdZRrw",
+        "REDDIT_CLIENT_SECRET": "BX_A3WJeufqrc6jltrSXH6NUQ6oNvg",
+        "REDDIT_USERNAME": "YOUR_USERNAME_HERE",
+        "REDDIT_PASSWORD": "YOUR_PASSWORD_HERE",
+        "REDDIT_USER_AGENT": "ShopOS_MCP_Agent"
+      },
+      "enabled": true
     },
   },
   "tools": {

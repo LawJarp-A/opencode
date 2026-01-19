@@ -73,7 +73,7 @@ export function SessionHeader() {
               <Select
                 options={worktrees()}
                 current={sync.project?.worktree ?? projectDirectory()}
-                label={(x) => getFilename(x)}
+                label={(x) => (getFilename(x) === "opencode" ? "Luis Vuitton" : getFilename(x))}
                 onSelect={(x) => (x ? navigateToProject(x) : undefined)}
                 class="text-14-regular text-text-base"
                 variant="ghost"
@@ -82,7 +82,7 @@ export function SessionHeader() {
                 {(i) => (
                   <div class="flex items-center gap-2">
                     <Icon name="folder" size="small" />
-                    <div class="text-text-strong">{getFilename(i)}</div>
+                    <div class="text-text-strong">{getFilename(i) === "opencode" ? "Luis Vuitton" : getFilename(i)}</div>
                   </div>
                 )}
               </Select>
@@ -123,17 +123,7 @@ export function SessionHeader() {
                   variant="ghost"
                 />
                 <div class="text-text-weaker">/</div>
-                <div class="flex items-center gap-1.5 min-w-0">
-                  <Tooltip value="Back to parent session">
-                    <button
-                      type="button"
-                      class="flex items-center justify-center gap-1 p-1 rounded hover:bg-surface-raised-base-hover active:bg-surface-raised-base-active transition-colors flex-shrink-0"
-                      onClick={() => navigateToSession(parentSession())}
-                    >
-                      <Icon name="arrow-left" size="small" class="text-icon-base" />
-                    </button>
-                  </Tooltip>
-                </div>
+
               </div>
             </Show>
           </div>

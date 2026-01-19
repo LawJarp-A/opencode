@@ -41,7 +41,7 @@ export default tool({
     const searchQuery = args.collection_query || "collection"
 
     // This tool provides guidance for querying collections via Shopify MCP
-    return `# Collection Query Helper: ${args.brand_id.toUpperCase()}
+    return `# Collection Query Helper: ${args.brand_id?.toUpperCase() || 'UNKNOWN'}
 
 ## Requested Collection Search
 - **Query**: ${searchQuery}

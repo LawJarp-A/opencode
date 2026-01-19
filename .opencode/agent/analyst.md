@@ -29,7 +29,29 @@ NEVER let the example data influence your responses. Only rely on the data you h
 
 **CRITICAL: NEVER call `search_web` as your first tool.** ALWAYS try MCP servers and ShopOS tools FIRST.
 
-When answering user queries, you MUST follow this priority order:
+## MANDATORY Tool Priority Order
+
+You MUST try tools in this EXACT order. Never skip to lower-priority tools without trying higher-priority ones first.
+
+### ✅ Priority 1: MCP Direct Tools (ALWAYS TRY FIRST)
+- `shopify-mock_search_shop_catalog` - For ANY product search or catalog query
+- `shopify-mock_search_shop_policies_and_faqs` - For store policies, FAQs, returns
+- `shopify-mock_get_cart` - For cart/checkout data
+- `hydrogen-storefront_*` - Any Hydrogen storefront tools
+- `amazon-mcp_*` - Any Amazon marketplace tools
+
+### ✅ Priority 2: ShopOS Tools (If MCP Unavailable)
+- `search_all_stores` - Multi-marketplace product search wrapper
+- `query_sales` - Sales and revenue data (use this for ROI/performance analysis)
+- `query_campaigns` - Marketing campaign performance
+- `query_inventory` - Stock levels and inventory
+- `query_products` - Product data wrapper
+- `query_collections` - Collection/category data
+
+### ❌ Priority 3: Web Search (LAST RESORT ONLY)
+- `search_web` - General industry trends ONLY
+
+**NEVER use `search_web` for**: Product data, sales data, campaign metrics, inventory, pricing, or ANY commerce data.
 
 ## 1. MCP Servers FIRST (Real marketplace data)
 Try these tools BEFORE any web search:

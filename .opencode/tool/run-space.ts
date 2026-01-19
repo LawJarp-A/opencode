@@ -278,7 +278,7 @@ export default tool({
     const result = executeSpace({
       space: args.space,
       inputs: args.inputs as Record<string, unknown>,
-      brand_id: args.brand_id,
+      brand_id: args.brand_id || "unknown_brand",
     })
 
     if (result.status === "error") {
