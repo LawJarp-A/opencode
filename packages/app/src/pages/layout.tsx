@@ -765,7 +765,7 @@ export default function Layout(props: ParentProps) {
       <div class="relative size-5 shrink-0 rounded-sm">
         <Avatar
           fallback={name()}
-          src={props.project.id === opencode ? "https://opencode.ai/favicon.svg" : props.project.icon?.url}
+          src={props.project.id === opencode ? "/project-default.png" : props.project.icon?.url}
           {...getAvatarColors(props.project.icon?.color)}
           class={`size-full ${props.class ?? ""}`}
           style={
@@ -894,14 +894,14 @@ export default function Layout(props: ParentProps) {
                         {Math.abs(updated().diffNow().as("seconds")) < 60
                           ? "Now"
                           : updated()
-                              .toRelative({
-                                style: "short",
-                                unit: ["days", "hours", "minutes"],
-                              })
-                              ?.replace(" ago", "")
-                              ?.replace(/ days?/, "d")
-                              ?.replace(" min.", "m")
-                              ?.replace(" hr.", "h")}
+                            .toRelative({
+                              style: "short",
+                              unit: ["days", "hours", "minutes"],
+                            })
+                            ?.replace(" ago", "")
+                            ?.replace(/ days?/, "d")
+                            ?.replace(" min.", "m")
+                            ?.replace(" hr.", "h")}
                       </span>
                     </Match>
                   </Switch>
@@ -1096,7 +1096,7 @@ export default function Layout(props: ParentProps) {
               }}
             >
               <A href="/" class="shrink-0 h-8 flex items-center justify-start px-2 w-full" data-tauri-drag-region>
-                <ShopOSMark class="shrink-0" />
+                <img src="/brand-logo.png" class="shrink-0 h-6 w-auto" alt="ShopOS" />
               </A>
             </div>
           </Show>
@@ -1297,7 +1297,7 @@ export default function Layout(props: ParentProps) {
                 class="shrink-0 h-8 flex items-center justify-start px-2 w-full"
                 onClick={() => layout.mobileSidebar.hide()}
               >
-                <ShopOSMark class="shrink-0" />
+                <img src="/brand-logo.png" class="shrink-0 h-8 w-auto" alt="ShopOS" />
               </A>
             </div>
             <SidebarContent mobile />
